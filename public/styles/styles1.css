@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600&display=swap');
+
+*{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: auto;
+    overflow-x: hidden;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(59, 140, 233);
+    padding: 2px;
+}
+header div a:nth-child(1){
+    border-right: 1px solid black;
+}
+header div a:hover{
+    color: white;
+    background-color: rgb(59, 140, 233);
+}
+header p{
+    font-size: 2rem;
+    background-color: rgb(59, 140, 233);
+    padding: 5px 3px 3px 3px;
+    color: white;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+    background-color: rgb(59, 140, 233);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+.navigation i{
+    font-size: 8rem;
+}
+.navigation a:hover{
+    color: #6ddac9;
+    transition: 0.4s;
+}
+.navigation a.nav-active{
+    color: #6ddac9;
+}
+.heading{
+    /*max-width: 90%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.heading i{
+    font-size: 8rem;
+    color: #218878;
+    padding: 0 1rem;
+}
+.heading h1{
+    margin-left: 2rem;
+    font-size: 5rem;
+    color: #218878;
+}
+.description p{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+.section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 6px 3px rgba(34, 60, 80, 0.2);
+}
+#section-1,#section-2,#section-3{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+.section div i{
+    font-size: 2rem;
+    color: #218878;
+    padding-right: 2rem;
+}
+.section div h3{
+    font-size: 2rem;
+    font-style: normal;
+    color: #218878;
+}
+
+#section-1:hover,#section-2:hover,#section-3:hover{
+    cursor: pointer;
+    background-color: rgb(59, 140, 233);
+    transition: 0.4s;
+}
+#section-1:hover h3,#section-1:hover i,#section-2:hover h3,#section-2:hover i,#section-3:hover h3,#section-3:hover i{
+    color: white;
+}
+.section_text{
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-right: 1rem;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.sub-section h2{
+    font-size: 4rem;
+    color: #218878;
+    padding-bottom: 2rem;
+}
+p{
+    font-size: 2rem;
+}
+.sub-section ul{
+    list-style-type: square;
+}
+.sub-section ul li{
+    color: rgb(59, 140, 233);
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.sub-section{
+    display: none;
+}
+.active{
+    display: block;
+    transition: 0.4s;
+}
+.section-active{
+    background-color: rgb(59, 140, 233);
+}
+div.section-active h3, div.section-active i{
+    color: white;
+}
+
+footer{
+    margin: 3rem 0;
+    border-top: 1px solid rgb(59, 140, 233);
+  }
+  footer p{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+
+@media(max-width:1280px){
+    .heading{
+        flex-direction: column;
+    }
+}
+
+  @media(max-width: 900px){
+    *{
+        font-size: 9px;
+    }
+    body{
+        width: 90%;
+    }
+  }
+  @media(max-width:768px) {
+    *{
+        font-family: 8px;
+    }
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .navigation a{
+        padding: 1rem;
+    }
+    main{
+        flex-direction: column;
+    }
+    .section{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .section_text{
+        width: 94%;
+
+    }
+    .heading i{
+        display: none;
+    }
+    .heading h1{
+        font-size: 3.5rem;
+    }
+    .heading{
+        display: block;
+    }
+  }
+  @media(max-width:480px){
+    *{
+        font-size: 7px;
+    }
+  }
+  @media(max-width:400px){
+    *{
+        font-size: 6px;
+    }
+  }

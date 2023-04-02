@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <script src="https://kit.fontawesome.com/d638520dfa.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">RU</a>
+            <a href="">Eng</a>
+        </div>
+        <p>From 2023</p>
+    </header>
+    <div class="top-logos">
+        <img src="./1578566221870.jpg" alt="CPRO" width="200px" height="200px">
+        <img src="./f_Gk14C4ug.jpg" alt="OECD" width="150px" height="150px">
+    </div>
+    <main>
+        <h1>Green Growth Indicators for Uzbekistan</h1>
+        <h2>Monitoring progress based on the OECD green growth indicators</h2>
+
+        <div class="groups">
+            <a class="sub-group" href="/introduction.html">
+                <i class="fa-regular fa-file-lines"></i>
+                <div class="group-text">
+                    <h3>Introduction</h3>
+                    <p>Methodology and OECD green growth indicators framework</p>
+                </div>
+            </a>
+            <a class="sub-group" href="#">
+                <i class="fa-solid fa-arrow-up-right-dots"></i>
+                <div class="group-text">
+                    <h3>Group 1</h3>
+                    <p>The socio-economic context and characteristics of growth</p>
+                </div>
+            </a>
+            <a class="sub-group" href="#">
+                <i class="fa-solid fa-seedling"></i>
+                <div class="group-text">
+                    <h3>Group 2</h3>
+                    <p>The environmental and resource productivity of the economy</p>
+                </div>
+            </a>
+            <a class="sub-group" href="#">
+                <i class="fa-brands fa-envira"></i>
+                <div class="group-text">
+                    <h3>Group 3</h3>
+                    <p>The natural asset base</p>
+                </div>
+            </a>
+            <a class="sub-group" href="#">
+                <i class="fa-solid fa-building-columns"></i>
+                <div class="group-text">
+                    <h3>Group 4</h3>
+                    <p>The environmental dimension of quality of life</p>
+                </div>
+            </a>
+            <a class="sub-group" href="#">
+                <i class="fa-solid fa-users-gear"></i>
+                <div class="group-text">
+                    <h3>Group 5</h3>
+                    <p>Economic opportunities and policy responses</p>
+                </div>
+            </a>
+        </div>
+    </main>
+    <div class="main_findings" >
+        <h3>Main Findings</h3>
+        <div class="accordion-wrapper">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <div class="explanation">
+        <em>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste facilis cum libero veniam amet necessitatibus numquam, tenetur minus molestias ipsum quos. Quidem quia, possimus nostrum itaque suscipit labore quod autem?</em>
+    </div>
+    <footer>
+        <p>© 2023. All right reserved</p>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/static/styles/styles.css')
+  script(src='https://kit.fontawesome.com/d638520dfa.js' crossorigin='anonymous')
+  title Towards Green Transformation of teh Republic of Moldova
+header
+  div
+    a(href='') RU
+    a(href='') Eng
+  p From 2023
+.top-logos
+  img(src='/static/images/1578566221870.jpg' alt='CPRO' width='200px' height='200px')
+  img(src='/static/images/f_Gk14C4ug.jpg' alt='OECD' width='150px' height='150px')
+main
+  h1 Green Growth Indicators for Uzbekistan
+  h2 Monitoring progress based on the OECD green growth indicators
+  .groups
+    a.sub-group(href='/introduction')
+      i.fa-regular.fa-file-lines
+      .group-text
+        h3 Introduction
+        p Methodology and OECD green growth indicators framework
+    a.sub-group(href='/group1')
+      i.fa-solid.fa-arrow-up-right-dots
+      .group-text
+        h3 Group 1
+        p The socio-economic context and characteristics of growth
+    a.sub-group(href='/group2')
+      i.fa-solid.fa-seedling
+      .group-text
+        h3 Group 2
+        p The environmental and resource productivity of the economy
+    a.sub-group(href='/group3')
+      i.fa-brands.fa-envira
+      .group-text
+        h3 Group 3
+        p The natural asset base
+    a.sub-group(href='/group4')
+      i.fa-solid.fa-building-columns
+      .group-text
+        h3 Group 4
+        p The environmental dimension of quality of life
+    a.sub-group(href='/group5')
+      i.fa-solid.fa-users-gear
+      .group-text
+        h3 Group 5
+        p Economic opportunities and policy responses
+.main_findings
+  h3 Main Findings
+  .accordion-wrapper
+    button.accordion Section 1
+    .panel
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    button.accordion Section 2
+    .panel
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    button.accordion Section 3
+    .panel
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+.explanation
+  em
+    | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste facilis cum libero veniam amet necessitatibus numquam, tenetur minus molestias ipsum quos. Quidem quia, possimus nostrum itaque suscipit labore quod autem?
+footer
+  p &copy; 2023. All right reserved
+script.
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+  panel.style.display = "none";
+  } else {
+  panel.style.display = "block";
+  }
+  });
+  }
