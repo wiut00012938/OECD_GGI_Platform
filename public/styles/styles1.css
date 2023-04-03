@@ -68,11 +68,12 @@ header p{
 .heading{
     /*max-width: 90%;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 3rem;
 }
 .heading i{
+    width: 13rem;
     font-size: 8rem;
     color: #218878;
     padding: 0 1rem;
@@ -144,12 +145,22 @@ main{
 p{
     font-size: 2rem;
 }
+
 .sub-section ul{
-    list-style-type: square;
+    list-style: none;
 }
-.sub-section ul li{
-    color: rgb(59, 140, 233);
-    padding-top: 1rem;
+.sub-section ul li b{
+    color: black;
+    font-size: 2.5rem;
+}
+.sub-section p i{
+    color: #218878;
+    margin: 1rem 0 1rem 1rem;
+    font-size: 2.5rem;
+}
+.sub-section li{
+    margin-top: 1rem;
+    color: black;
     font-size: 2rem;
 }
 .sub-section{
