@@ -1,6 +1,6 @@
 async function getData() {
     try {
-      const response = await fetch('http://localhost:5000/static/data/group1.json');
+      const response = await fetch('static/data/group1.json');
       const data = await response.json();
       const gdpData = data.real_gdp
       const tradeData = data.foreign_trade
