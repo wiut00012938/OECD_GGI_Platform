@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;600&display=swap');
 
 *{
     font-size: 10px;
@@ -155,8 +155,11 @@ a.sub-group:hover i, a.sub-group:hover div h3, a.sub-group:hover div p{
 }
   .explanation em{
     margin: 3rem 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
+  }
+  .explanation em b{
+    font-size: 2rem;
   }
   footer{
     margin-top: 3rem;

@@ -68,38 +68,54 @@ main
       h2 Socio-economic indicators: Key findings
       ul
         li
-          b GDP growth
-          | : because of modest gross  domestic product (GDP) growth and numerous recessions, economic growth did not  allow for a convergence with Central and Eastern Europe countries and a  significant increase in people&rsquo;s living standard.
-        li
-          b GDP structure
-              | : GDP did not change  significantly, with trade contributing the most to economic growth. The annual  volume of remittances consolidated the leading position of trade, which was  followed by industrial production and, to a lesser extent, by agriculture.
-        li
-          b Economically active population
-          | : because of  emigration, the number of  economically active people decreased during the past seven years, dropping to  about 867&nbsp;000 people in 2020. At the same time, the participation rate of  labour expressed as the ratio of economically active population to total  population aged 15+ shrank from a high of 45.9% in 2018 to 40.3%. 
-          u
-        li
-          b Unemployment:
-          |  while unemployment remained low (below 5%),  this indicator is not relevant for the Republic of Moldova (hereafter  &ldquo;Moldova&rdquo;). In addition to a high reservation wage, many people are reluctant to register with  the National Employment Agency (NEA) because they work abroad and are stuck in  the wave of seasonal migration.
-          u
-        li
-          b Population
-          | : due to emigration, Moldova registered a continuous  negative natural population growth and a rapid depopulation, mainly of rural  areas. In these conditions, during the past seven years, the population with  usual residence decreased by 225&nbsp;000 to 2.6 million in 2020.
-          u
-        li
-          b Population density:
-          |  this registers the same downward trend as the  number of people. In 2020, there was an average of 89 people per square  kilometre km2 &ndash; 8 persons fewer than in 2014.
-          u
-        li
-          b Life expectancy:
-          |  even if life expectancy at birth improved in recent years, Moldova  remains at the lowest level among European countries with an average for both  genders of only 70.9 years.
-          u
-        li
-          b Income inequality:
-          |  after some marginal improvement, the level of inequalities in Moldovan  society has being increasing again since 2018. Thus, the GINI coefficient  reached 0.33 at the end of 2020.
-          u
-        li
-          b Enrolment in education
-          | : Despite overall high enrolment, the actual number of persons enrolled  in certain levels of education is decreasing continuously and significantly. Over  the past 12 years, the number of students dropped twice, reaching about 61 000  students at its lowest point.
+          ul 
+            li
+              b Uzbekistan’s economy has been steadily growing annually by 6% on average in the last decade.
+              | The real GDP value in Uzbekistan soums was UZS 160 trillion in 2022 (1 USD= 11,000 UZS). In 2022 The service sector dominated Uzbekistan`s GDP (41.5%).
+            li
+              b Uzbekistan's real GDP per capita increased
+              |  to to UZS 4.6 million in 2022 (1 USD= 11,000 UZS), compared to UZS 2.8 million in 2010 (1USD=1700 UZS), despite double-digit inflation at an average rate of 11% in the last three years.
+          .container
+            h3
+              i Real GDP per capita, million UZS
+            canvas#real-gdp
+            h4
+              i Source: Authors` calculations using Statistics Agency data
+        li 
+          .container
+            h3
+              i Foreign Trade, million USD
+            canvas#foreign-trade
+            h4
+              i Source: Statistics Agency, 2023
+          ul 
+            li 
+              b Uzbekistan has maintained income equality with a Gini index of 0.28.
+              |  The country was on a trend of reducing the proportion of the low-income population (from 26.55 in 2002 to 11.5 in 2019); however, the proportion increased by 0.5 percentage points during the 2020 pandemic.
+            li 
+              b Uzbekistan is a net importer of goods and services as of 2016. 
+              |  The total import value was USD 25 billion in 2021, while the export value was USD 16 billion.
+            li 
+              b Uzbekistan’s population is growing at an annual rate of 1.6%.
+              |  In 2022The population was over 35 million, with 54% of the population below 30. In 2019, Life expectancy increased was 75.
+        li 
+          ul 
+            li
+              |Uzbekistan has achieved 100% gross enrolment rates in primary and secondary education; 
+              b enrollment in tertiary institutions is however only 21% in 2021.
+            li
+              b In 2021, Uzbekistan’s 70% labour force was employed.
+              |  The primary employers are the service (51%), followed by the industry (25%) and the agriculture (24%) sectors.
+            li
+              |Uzbekistan has a negative net external migration during the last three decades,
+              |  showing an excess of persons leaving the country.
+          .container
+            h3
+              i Employment by sector, % of total employment
+            canvas#employment-by-sector
+            h4
+              i Source: World Bank, 2023
+
     #sub-section-2.sub-section
       h2 Indicator 1.1. GDP growth
       p
@@ -265,3 +281,5 @@ footer
   p &copy; 2023. All right reserved
 
 script(src='/static/javascripts/script.js')
+script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')
+script(src='/static/javascripts/group1.js')

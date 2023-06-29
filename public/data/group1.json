@@ -1,0 +1,355 @@
+{"real_gdp": [
+    {
+        "year": "2010",
+        "gdp_per_cap": 2.8
+       },
+       {
+        "year": "2011",
+        "gdp_per_cap": 2.9
+       },
+       {
+        "year": "2012",
+        "gdp_per_cap": 3.1
+       },
+       {
+        "year": "2013",
+        "gdp_per_cap": 3.3
+       },
+       {
+        "year": "2014",
+        "gdp_per_cap": 3.4
+       },
+       {
+        "year": "2015",
+        "gdp_per_cap": 3.6
+       },
+       {
+        "year": "2016",
+        "gdp_per_cap": 3.75
+       },
+       {
+        "year": "2017",
+        "gdp_per_cap": 3.85
+       },
+       {
+        "year": "2018",
+        "gdp_per_cap": 4.01
+       },
+       {
+        "year": "2019",
+        "gdp_per_cap": 4.17
+       },
+       {
+        "year": "2020",
+        "gdp_per_cap": 4.17
+       },
+       {
+        "year": "2021",
+        "gdp_per_cap": 4.39
+       },
+       {
+        "year": "2022",
+        "gdp_per_cap": 4.55
+       }
+],
+"foreign_trade": [
+    {
+        "year": 2000,
+        "export": 3264.7,
+        "import": 2947.4
+       },
+       {
+        "year": 2001,
+        "export": 3170.3,
+        "import": 3136.9
+       },
+       {
+        "year": 2002,
+        "export": 2988.4,
+        "import": 2712
+       },
+       {
+        "year": 2003,
+        "export": 3725,
+        "import": 2964.2
+       },
+       {
+        "year": 2004,
+        "export": 4853,
+        "import": 3816
+       },
+       {
+        "year": 2005,
+        "export": 5408.8,
+        "import": 4091.2
+       },
+       {
+        "year": 2006,
+        "export": 6389.7,
+        "import": 4781.5
+       },
+       {
+        "year": 2007,
+        "export": 8991.5,
+        "import": 6728.1
+       },
+       {
+        "year": 2008,
+        "export": 11493,
+        "import": 9703.9
+       },
+       {
+        "year": 2009,
+        "export": 11771,
+        "import": 9438.3
+       },
+       {
+        "year": 2010,
+        "export": 13023,
+        "import": 9175.8
+       },
+       {
+        "year": 2011,
+        "export": 15021,
+        "import": 11345
+       },
+       {
+        "year": 2012,
+        "export": 13600,
+        "import": 12817
+       },
+       {
+        "year": 2013,
+        "export": 14323,
+        "import": 13947
+       },
+       {
+        "year": 2014,
+        "export": 13546,
+        "import": 13984
+       },
+       {
+        "year": 2015,
+        "export": 12508,
+        "import": 12417
+       },
+       {
+        "year": 2016,
+        "export": 12095,
+        "import": 12138
+       },
+       {
+        "year": 2017,
+        "export": 12554,
+        "import": 14012
+       },
+       {
+        "year": 2018,
+        "export": 13991,
+        "import": 19439
+       },
+       {
+        "year": 2019,
+        "export": 17459,
+        "import": 24292
+       },
+       {
+        "year": 2020,
+        "export": 15102,
+        "import": 21154
+       },
+       {
+        "year": 2021,
+        "export": 16663,
+        "import": 25508
+       }
+],
+"employment_by_sector": [
+    {
+        "year": 1991,
+        "services": 36.6,
+        "industry": 22.94,
+        "agriculture": 40.46
+       },
+       {
+        "year": 1992,
+        "services": 37.33,
+        "industry": 22.51,
+        "agriculture": 40.15
+       },
+       {
+        "year": 1993,
+        "services": 37.67,
+        "industry": 22.06,
+        "agriculture": 40.27
+       },
+       {
+        "year": 1994,
+        "services": 38.2,
+        "industry": 21.32,
+        "agriculture": 40.49
+       },
+       {
+        "year": 1995,
+        "services": 38.74,
+        "industry": 20.93,
+        "agriculture": 40.33
+       },
+       {
+        "year": 1996,
+        "services": 39.23,
+        "industry": 20.66,
+        "agriculture": 40.11
+       },
+       {
+        "year": 1997,
+        "services": 39.81,
+        "industry": 20.24,
+        "agriculture": 39.96
+       },
+       {
+        "year": 1998,
+        "services": 40.56,
+        "industry": 20.05,
+        "agriculture": 39.4
+       },
+       {
+        "year": 1999,
+        "services": 41.25,
+        "industry": 20.25,
+        "agriculture": 38.5
+       },
+       {
+        "year": 2000,
+        "services": 42.31,
+        "industry": 20.02,
+        "agriculture": 37.67
+       },
+       {
+        "year": 2001,
+        "services": 43.34,
+        "industry": 19.94,
+        "agriculture": 36.72
+       },
+       {
+        "year": 2002,
+        "services": 44.39,
+        "industry": 19.86,
+        "agriculture": 35.74
+       },
+       {
+        "year": 2003,
+        "services": 45.32,
+        "industry": 19.95,
+        "agriculture": 34.73
+       },
+       {
+        "year": 2004,
+        "services": 46.23,
+        "industry": 20.18,
+        "agriculture": 33.6
+       },
+       {
+        "year": 2005,
+        "services": 47.13,
+        "industry": 20.43,
+        "agriculture": 32.44
+       },
+       {
+        "year": 2006,
+        "services": 47.93,
+        "industry": 20.79,
+        "agriculture": 31.28
+       },
+       {
+        "year": 2007,
+        "services": 48.65,
+        "industry": 21.3,
+        "agriculture": 30.05
+       },
+       {
+        "year": 2008,
+        "services": 49.45,
+        "industry": 21.71,
+        "agriculture": 28.83
+       },
+       {
+        "year": 2009,
+        "services": 49.96,
+        "industry": 22.33,
+        "agriculture": 27.71
+       },
+       {
+        "year": 2010,
+        "services": 50.49,
+        "industry": 22.7,
+        "agriculture": 26.81
+       },
+       {
+        "year": 2011,
+        "services": 50.17,
+        "industry": 22.73,
+        "agriculture": 27.09
+       },
+       {
+        "year": 2012,
+        "services": 50.7,
+        "industry": 22.7,
+        "agriculture": 26.6
+       },
+       {
+        "year": 2013,
+        "services": 50.1,
+        "industry": 22.73,
+        "agriculture": 27.17
+       },
+       {
+        "year": 2014,
+        "services": 49.69,
+        "industry": 22.78,
+        "agriculture": 27.53
+       },
+       {
+        "year": 2015,
+        "services": 49.99,
+        "industry": 23.14,
+        "agriculture": 26.87
+       },
+       {
+        "year": 2016,
+        "services": 50.3,
+        "industry": 23.46,
+        "agriculture": 26.23
+       },
+       {
+        "year": 2017,
+        "services": 50.52,
+        "industry": 23.71,
+        "agriculture": 25.77
+       },
+       {
+        "year": 2018,
+        "services": 50.79,
+        "industry": 24.1,
+        "agriculture": 25.11
+       },
+       {
+        "year": 2019,
+        "services": 51.14,
+        "industry": 24.53,
+        "agriculture": 24.33
+       },
+       {
+        "year": 2020,
+        "services": 50.71,
+        "industry": 24.83,
+        "agriculture": 24.46
+       },
+       {
+        "year": 2021,
+        "services": 50.64,
+        "industry": 25.41,
+        "agriculture": 23.95
+       }
+]
+}
