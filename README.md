@@ -23,6 +23,7 @@ node app
 ### Web application dependencies
 - express.js
 - pug.js
+- chart.js
 
 ### external Dependencies of Web application
 - fonts Awesome
