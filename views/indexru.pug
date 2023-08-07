@@ -1,84 +1,94 @@
 doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  link(rel='stylesheet' href='/static/styles/styles.css')
-  script(src='https://kit.fontawesome.com/d638520dfa.js' crossorigin='anonymous')
-  title На пути к «зеленой трансформации» Республики Узбекистан
-header
-  div
-    a(href='/ru') RU
-    a(href='/') Eng
-  p From 2023
-.top-logos
-  img(src='/static/images/1578566221870.jpg' alt='CPRO' width='200px' height='200px')
-  img(src='/static/images/f_Gk14C4ug.jpg' alt='OECD' width='150px' height='150px')
-main
-  h1 Индикаторы зеленого роста для Узбекистана
-  h2 Мониторинг прогресса на основе индикаторов зеленого роста ОЭСР
-  .groups
-    a.sub-group(href='/introduction_ru')
-      i.fa-regular.fa-file-lines
-      .group-text
-        h3 Введение
-        p Методология и система показателей зеленого роста ОЭСР
-    a.sub-group(href='/group1_ru')
-      i.fa-solid.fa-arrow-up-right-dots
-      .group-text
-        h3 Группа 1
-        p Социально-экономический контекст и характеристики роста
-    a.sub-group(href='/group2_ru')
-      i.fa-solid.fa-seedling
-      .group-text
-        h3 Группа 2
-        p Экологическая и ресурсная продуктивность экономики
-    a.sub-group(href='/group3_ru')
-      i.fa-brands.fa-envira
-      .group-text
-        h3 Группа 3
-        p База природных активов
-    a.sub-group(href='/group4_ru')
-      i.fa-solid.fa-building-columns
-      .group-text
-        h3 Группа 4
-        p Экологический аспект качества жизни
-    a.sub-group(href='/group5_ru')
-      i.fa-solid.fa-users-gear
-      .group-text
-        h3 Группа 5
-        p Экономические возможности и меры политики
-.main_findings
-  h3 Основные результаты
-  .accordion-wrapper
-    button.accordion Глава 1
-    .panel
-      p
-        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    button.accordion Глава 2
-    .panel
-      p
-        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    button.accordion Глава 3
-    .panel
-      p
-        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-.explanation
-  em
-    | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste facilis cum libero veniam amet necessitatibus numquam, tenetur minus molestias ipsum quos. Quidem quia, possimus nostrum itaque suscipit labore quod autem?
-footer
-  p &copy; 2023. Все права защищены
-script.
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-  for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var panel = this.nextElementSibling;
-  if (panel.style.display === "block") {
-  panel.style.display = "none";
-  } else {
-  panel.style.display = "block";
-  }
-  });
-  }
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title На пути к «зеленой трансформации» Республики Узбекистан
+    link(rel='stylesheet', href='/static/styles/index.css')
+    link(rel='shortcut icon', href='/static/images/main_icon.png')
+  body
+    header
+      div
+        a.active(href='/home_ru') RU
+        a(href='/home') Eng
+      a.home_page_link(href='/ru') From 2023
+    .top-logos
+      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='200px', height='200px')
+      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px', height='150px')
+    main
+      h1 Индикаторы зеленого роста для Узбекистана
+      h2 Мониторинг прогресса на основе индикаторов зеленого роста ОЭСР
+      .groups
+        a.sub-group(href='/introduction_ru')
+          h3 Введение
+          .group-text
+            .introduction_icon
+            p Методология и система показателей зеленого роста ОЭСР
+        a.sub-group(href='/group1_ru')
+          h3 Группа 1
+          .group-text
+            .group-1_icon
+            p Социально-экономический контекст и характеристики роста
+        a.sub-group(href='/group2_ru')
+          h3 Группа 2
+          .group-text
+            .group-2_icon
+            p Экологическая и ресурсная продуктивность экономики
+        a.sub-group(href='/group3_ru')
+          h3 Группа 3
+          .group-text
+            .group-3_icon
+            p База природных активов
+        a.sub-group(href='/group4_ru')
+          h3 Группа 4
+          .group-text
+            .group-4_icon
+            p Экологический аспект качества жизни
+        a.sub-group(href='/group5_ru')
+          h3 Группа 5
+          .group-text
+            .group-5_icon
+            p Экономические возможности и меры политики
+    .accordion-wrapper
+      button.accordion
+        b Публикации и ссылки
+      .panel
+        p
+          | Официальный отчет за 2023 год -
+          a(href='/static/data/GGI_Report.pdf' target = "_blank")
+            | Greening the Economy in Uzbekistan: State of Play in 2023. Monitoring progress based on the OECD green growth indicators
+        p
+          | Документ об основных выводах -
+          a(href='/static/data/Main_Findings.pdf' target = "_blank") Main Findings on GGI study
+    footer
+      .contacts
+        p Контакты:
+        p
+          | Вестминстерский международный университет в Ташкенте, улица Истикбол, 12, Ташкент 100047
+        p Электронная почта: cpro@wiut.uz
+        p Телефон:+998 71 238 74 48
+      .rights
+        p
+          | Этот сайт создан при финансовой поддержке Европейского Союза. Мнения, выраженные в этом документе, ни в коем случае не могут рассматриваться как отражение официальных мнений Европейского Союза, его членов или правительств стран Восточного партнерства. Этот сайт, а также все его содержимое не наносят ущерба статусу или суверенитету какой-либо территории, делимитации международных границ и границ, а также наименованию любой территории, города или региона.
+        i (c) 2023 г. Все права защищены.
+    script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
+    script.
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      var currentlyOpen = null;
+      for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+      if (currentlyOpen && currentlyOpen !== this) {
+      currentlyOpen.classList.remove("active");
+      currentlyOpen.nextElementSibling.style.display = "none";
+      }
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+      panel.style.display = "none";
+      } else {
+      panel.style.display = "block";
+      }
+      currentlyOpen = this.classList.contains("active") ? this : null;
+      });
+      }

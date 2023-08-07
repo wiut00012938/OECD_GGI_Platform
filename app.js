@@ -13,6 +13,9 @@ app.use('/static', express.static(path.join(__dirname,'public')));
 
 
 app.get('/',(req,res)=>{
+    res.render('home')
+})
+app.get('/home',(req,res)=>{
     res.render('index')
 })
 app.get('/introduction',(req,res)=>{
@@ -36,6 +39,9 @@ app.get('/group5', (req,res)=>{
 
 
 app.get('/ru',(req,res)=>{
+    res.render('homeru')
+})
+app.get('/home_ru',(req,res)=>{
     res.render('indexru')
 })
 app.get('/introduction_ru',(req,res)=>{
