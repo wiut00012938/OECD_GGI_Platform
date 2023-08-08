@@ -5,7 +5,6 @@ async function getData() {
       const gdpData = data.real_gdp
       const tradeData = data.foreign_trade
       const employment_by_sectorData = data.employment_by_sector
-      console.log(tradeData.year)
   
       // Chart 1 - GDP per Capita
       const gdpCtx = document.getElementById('real-gdp').getContext('2d');
@@ -17,7 +16,7 @@ async function getData() {
             {
               label: 'Real GDP',
               data: gdpData.map(elem => elem.gdp_per_cap),
-              backgroundColor: '#218878',
+              backgroundColor: '#28666e',
               borderWidth: 1
             }
           ]
@@ -29,7 +28,9 @@ async function getData() {
               min: 2.0
             }
           }
-        }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
       });
   
       // Chart 2 - Foreign Trade
@@ -46,7 +47,7 @@ async function getData() {
                 type: 'line',
                 label: 'Import of goods and services',
                 data: tradeData.map(elem => elem.import),
-                backgroundColor: '#218878'
+                backgroundColor: '#28666e'
             }],
             labels: tradeData.map(elem => elem.year)
         },
@@ -56,7 +57,9 @@ async function getData() {
                 beginAtZero: true,
               }
             }
-          }
+          },
+          responsive: true,
+          maintainAspectRatio: false,
     });
   
       // Chart 3 - Employment by Sector
@@ -97,6 +100,7 @@ async function getData() {
             },
         },
         responsive: true,
+        maintainAspectRatio: false,
         };
 
         const myChart = new Chart(EmploymentSectorctx, {
