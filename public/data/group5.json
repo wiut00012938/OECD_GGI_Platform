@@ -1,0 +1,142 @@
+{
+    "environment_expenditures": [
+        {
+         "year": 2012,
+         "government_percentage": 0.04,
+         "gdp_percentage": 0.01
+        },
+        {
+         "year": 2013,
+         "government_percentage": 0.06,
+         "gdp_percentage": 0.02
+        },
+        {
+         "year": 2014,
+         "government_percentage": 0.06,
+         "gdp_percentage": 0.02
+        },
+        {
+         "year": 2015,
+         "government_percentage": 0.05,
+         "gdp_percentage": 0.02
+        },
+        {
+         "year": 2016,
+         "government_percentage": 0.05,
+         "gdp_percentage": 0.01
+        },
+        {
+         "year": 2017,
+         "government_percentage": 0.15,
+         "gdp_percentage": 0.04
+        },
+        {
+         "year": 2018,
+         "government_percentage": 0.05,
+         "gdp_percentage": 0.01
+        },
+        {
+         "year": 2019,
+         "government_percentage": 0.05,
+         "gdp_percentage": 0.02
+        }
+       ],
+       "environment_revenue": [
+        {
+         "year": 2015,
+         "air_emissions": 27.130000000000003,
+         "water_waste": 28.58,
+         "solid_waste": 44.28,
+         "budget_revenue": 0.01
+        },
+        {
+         "year": 2016,
+         "air_emissions": 26.7,
+         "water_waste": 29.67,
+         "solid_waste": 43.62,
+         "budget_revenue": 1
+        },
+        {
+         "year": 2017,
+         "air_emissions": 27.69,
+         "water_waste": 26.69,
+         "solid_waste": 45.62,
+         "budget_revenue": 2
+        },
+        {
+         "year": 2018,
+         "air_emissions": 12.1,
+         "water_waste": 30.480000000000004,
+         "solid_waste": 57.41,
+         "budget_revenue": 1
+        }
+       ],
+       "energy_subsidies": [
+        {
+         "year": 2010,
+         "oil": 9,
+         "electricity": 1757,
+         "gas": 7797
+        },
+        {
+         "year": 2011,
+         "oil": 440,
+         "electricity": 1764,
+         "gas": 6504
+        },
+        {
+         "year": 2012,
+         "oil": 474,
+         "electricity": 1581,
+         "gas": 5232
+        },
+        {
+         "year": 2013,
+         "oil": 502,
+         "electricity": 1266,
+         "gas": 4851
+        },
+        {
+         "year": 2014,
+         "oil": 399,
+         "electricity": 885,
+         "gas": 3913
+        },
+        {
+         "year": 2015,
+         "oil": 134,
+         "electricity": 608,
+         "gas": 2514
+        },
+        {
+         "year": 2016,
+         "oil": 155,
+         "electricity": 344,
+         "gas": 1977
+        },
+        {
+         "year": 2017,
+         "oil": 442,
+         "electricity": 1363,
+         "gas": 3810
+        },
+        {
+         "year": 2018,
+         "oil": 980,
+         "electricity": 2488,
+         "gas": 5562
+        },
+        {
+         "year": 2019,
+         "oil": 748,
+         "electricity": 1471,
+         "gas": 3024
+        },
+        {
+         "year": 2020,
+         "oil": 455,
+         "electricity": 1188,
+         "gas": 2161
+        }
+       ]
+}

@@ -1,0 +1,370 @@
+{
+    "carbon_productivity": [
+        {
+         "year": 1990,
+         "carbon_productivity": 0.66
+        },
+        {
+         "year": 1991,
+         "carbon_productivity": 0.65
+        },
+        {
+         "year": 1992,
+         "carbon_productivity": 0.62
+        },
+        {
+         "year": 1993,
+         "carbon_productivity": 0.6
+        },
+        {
+         "year": 1994,
+         "carbon_productivity": 0.61
+        },
+        {
+         "year": 1995,
+         "carbon_productivity": 0.67
+        },
+        {
+         "year": 1996,
+         "carbon_productivity": 0.67
+        },
+        {
+         "year": 1997,
+         "carbon_productivity": 0.7
+        },
+        {
+         "year": 1998,
+         "carbon_productivity": 0.63
+        },
+        {
+         "year": 1999,
+         "carbon_productivity": 0.65
+        },
+        {
+         "year": 2000,
+         "carbon_productivity": 0.64
+        },
+        {
+         "year": 2001,
+         "carbon_productivity": 0.66
+        },
+        {
+         "year": 2002,
+         "carbon_productivity": 0.67
+        },
+        {
+         "year": 2003,
+         "carbon_productivity": 0.74
+        },
+        {
+         "year": 2004,
+         "carbon_productivity": 0.78
+        },
+        {
+         "year": 2005,
+         "carbon_productivity": 0.88
+        },
+        {
+         "year": 2006,
+         "carbon_productivity": 0.89
+        },
+        {
+         "year": 2007,
+         "carbon_productivity": 1
+        },
+        {
+         "year": 2008,
+         "carbon_productivity": 1.05
+        },
+        {
+         "year": 2009,
+         "carbon_productivity": 1.24
+        },
+        {
+         "year": 2010,
+         "carbon_productivity": 1.23
+        },
+        {
+         "year": 2011,
+         "carbon_productivity": 1.29
+        },
+        {
+         "year": 2012,
+         "carbon_productivity": 1.59
+        },
+        {
+         "year": 2013,
+         "carbon_productivity": 1.72
+        },
+        {
+         "year": 2014,
+         "carbon_productivity": 1.96
+        },
+        {
+         "year": 2015,
+         "carbon_productivity": 2.23
+        },
+        {
+         "year": 2016,
+         "carbon_productivity": 2.22
+        },
+        {
+         "year": 2017,
+         "carbon_productivity": 2.21
+        },
+        {
+         "year": 2018,
+         "carbon_productivity": 2.26
+        },
+        {
+         "year": 2019,
+         "carbon_productivity": 2.3
+        },
+        {
+         "year": 2020,
+         "carbon_productivity": 2.39
+        }
+       ],
+       "energy_intensity": [
+        {
+         "year": 2000,
+         "energy_intensity": 1.03
+        },
+        {
+         "year": 2001,
+         "energy_intensity": 0.98
+        },
+        {
+         "year": 2002,
+         "energy_intensity": 0.96
+        },
+        {
+         "year": 2003,
+         "energy_intensity": 0.86
+        },
+        {
+         "year": 2004,
+         "energy_intensity": 0.77
+        },
+        {
+         "year": 2005,
+         "energy_intensity": 0.68
+        },
+        {
+         "year": 2006,
+         "energy_intensity": 0.6
+        },
+        {
+         "year": 2007,
+         "energy_intensity": 0.56
+        },
+        {
+         "year": 2008,
+         "energy_intensity": 0.52
+        },
+        {
+         "year": 2009,
+         "energy_intensity": 0.45
+        },
+        {
+         "year": 2010,
+         "energy_intensity": 0.43
+        },
+        {
+         "year": 2011,
+         "energy_intensity": 0.38
+        },
+        {
+         "year": 2012,
+         "energy_intensity": 0.3
+        },
+        {
+         "year": 2013,
+         "energy_intensity": 0.28
+        },
+        {
+         "year": 2014,
+         "energy_intensity": 0.24
+        },
+        {
+         "year": 2015,
+         "energy_intensity": 0.22
+        },
+        {
+         "year": 2016,
+         "energy_intensity": 0.2
+        },
+        {
+         "year": 2017,
+         "energy_intensity": 0.2
+        },
+        {
+         "year": 2018,
+         "energy_intensity": 0.2
+        },
+        {
+         "year": 2019,
+         "energy_intensity": 0.19
+        },
+        {
+         "year": 2020,
+         "energy_intensity": 0.17
+        },
+        {
+         "year": 2021,
+         "energy_intensity": 0.16
+        },
+        {
+         "year": 2022,
+         "energy_intensity": 0.14
+        }
+       ],
+       "share_of_renewables": [
+        {
+         "year": 2013,
+         "share_of_renewables": 10.4
+        },
+        {
+         "year": 2014,
+         "share_of_renewables": 10.9
+        },
+        {
+         "year": 2015,
+         "share_of_renewables": 11.8
+        },
+        {
+         "year": 2016,
+         "share_of_renewables": 11.6
+        },
+        {
+         "year": 2017,
+         "share_of_renewables": 13
+        },
+        {
+         "year": 2018,
+         "share_of_renewables": 9.4
+        },
+        {
+         "year": 2019,
+         "share_of_renewables": 10.2
+        },
+        {
+         "year": 2020,
+         "share_of_renewables": 7.52
+        },
+        {
+         "year": 2021,
+         "share_of_renewables": 7
+        },
+        {
+         "year": 2022,
+         "share_of_renewables": 8.8
+        }
+       ],
+       "water_productivity": [
+        {
+         "year": 1994,
+         "water_productivity": 0.3748
+        },
+        {
+         "year": 1995,
+         "water_productivity": 0.485
+        },
+        {
+         "year": 1996,
+         "water_productivity": 0.4938
+        },
+        {
+         "year": 1997,
+         "water_productivity": 0.5201
+        },
+        {
+         "year": 1998,
+         "water_productivity": 0.5431
+        },
+        {
+         "year": 1999,
+         "water_productivity": 0.5672
+        },
+        {
+         "year": 2000,
+         "water_productivity": 0.5896
+        },
+        {
+         "year": 2001,
+         "water_productivity": 0.61
+        },
+        {
+         "year": 2002,
+         "water_productivity": 0.6481
+        },
+        {
+         "year": 2003,
+         "water_productivity": 0.6905
+        },
+        {
+         "year": 2004,
+         "water_productivity": 0.7589
+        },
+        {
+         "year": 2005,
+         "water_productivity": 0.8305
+        },
+        {
+         "year": 2006,
+         "water_productivity": 0.8898
+        },
+        {
+         "year": 2007,
+         "water_productivity": 0.9712
+        },
+        {
+         "year": 2008,
+         "water_productivity": 1.056
+        },
+        {
+         "year": 2009,
+         "water_productivity": 1.138
+        },
+        {
+         "year": 2010,
+         "water_productivity": 1.22
+        },
+        {
+         "year": 2011,
+         "water_productivity": 1.308
+        },
+        {
+         "year": 2012,
+         "water_productivity": 1.397
+        },
+        {
+         "year": 2013,
+         "water_productivity": 1.495
+        },
+        {
+         "year": 2014,
+         "water_productivity": 1.593
+        },
+        {
+         "year": 2015,
+         "water_productivity": 1.563
+        },
+        {
+         "year": 2016,
+         "water_productivity": 1.674
+        },
+        {
+         "year": 2017,
+         "water_productivity": 1.618
+        },
+        {
+         "year": 2018,
+         "water_productivity": 1.705
+        },
+        {
+         "year": 2019,
+         "water_productivity": 1.802
+        }
+       ]
+}

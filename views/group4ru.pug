@@ -1,147 +1,174 @@
 doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  script(src='https://kit.fontawesome.com/d638520dfa.js' crossorigin='anonymous')
-  link(rel='stylesheet' href='/static/styles/styles1.css')
-  title Группа 4. Экологическое измерение качества жизни
-header
-  div
-    a(href='group4_ru') RU
-    a(href='/group4') Eng
-  p From 2023
-.navigation
-  a(href='/ru')
-    i.fa-solid.fa-house-flag
-  a(href='/introduction_ru')
-    i.fa-regular.fa-file-lines
-  a(href='/group1_ru')
-    i.fa-solid.fa-arrow-up-right-dots
-  a(href='/group2_ru')
-    i.fa-solid.fa-seedling
-  a(href='/group3_ru')
-    i.fa-brands.fa-envira
-  a.nav-active(href='/group4_ru')
-    i.fa-solid.fa-building-columns
-  a(href='/group5_ru')
-    i.fa-solid.fa-users-gear
-.heading
-  i.fa-solid.fa-building-columns
-  h1 Группа 4. Экологическое измерение качества жизни
-.description
-  p Эта группа индикаторов исследует, приносит ли экологический рост пользу людям в Молдове. Четыре индикатора измеряют загрязнение воздуха, воздействие на население мелкодисперсных частиц.
-    |вопрос, а также доступ к безопасной питьевой воде и канализации. Используя эти измерения, в главе размышляется о том, как условия окружающей среды и экологические риски взаимодействуют с качеством жизни и благополучием людей. Они также указывают, как благоустройство природного капитала поддерживает благополучие. Кроме того, они показывают, в какой степени рост доходов сопровождается (или не сопровождается) ростом общего благосостояния.
-main
-  .section
-    #section-1.section-active
-      i.fa-solid.fa-file-circle-check
-      h3 Экологические показатели качества жизни: основные выводы
-    #section-2
-      i.fa-solid.fa-smog
-      h3 4.1 Загрязнение воздуха
-    #section-3
-      i.fa-solid.fa-person-arrow-up-from-line
-      h3 4.2 Воздействие на население мелкодисперсных частиц (PM 2,5)
-    #section-4
-      i.fa-solid.fa-faucet-drip
-      h3 4.3 Доступ к безопасным источникам питьевой воды
-    #section-5
-      i.fa-solid.fa-arrow-up-from-water-pump
-      h3 4.4 Население, подключенное к канализации
-  .section_text
-    #sub-section-1.sub-section.active
-        h2 Экологические показатели качества жизни: основные выводы
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Группа 4. Экологическое измерение качества жизни
+    link(rel='stylesheet', href='/static/styles/styles1.css')
+    link(rel='shortcut icon', href='/static/images/main_icon.png')
+  body
+    header
+      div
+        a(href='/group4_ru') RU
+        a.active_language(href='/group4') Eng
+      p From 2023
+    .navigation
+      div
+        a(href='/home_ru')
+          i.fa-solid.fa-house-flag
+        p Главная страница
+      div
+        a(href='/introduction_ru')
+          i.fa-regular.fa-file-lines
+        p Введение
+      div
+        a(href='/group1_ru')
+          i.fa-solid.fa-arrow-up-right-dots
+        p Группа 1
+      div
+        a(href='/group2_ru')
+          i.fa-solid.fa-seedling
+        p Группа 2
+      div
+        a(href='/group3_ru')
+          i.fa-brands.fa-envira
+        p Группа 3
+      div
+        a.nav-active(href='/group4_ru')
+          i.fa-solid.fa-building-columns
+        p.nav-active Группа 4
+      div
+        a(href='/group5_ru')
+          i.fa-solid.fa-users-gear
+        p Группа 5
+    .heading
+      i.fa-solid.fa-building-columns
+      h1 Группа 4. Экологическое измерение качества жизни
+    .description
+      p
+        | This group of indicators explores whether greening growth generates benefits for people in Moldova. The four indicators measure air pollution, population exposure to fine particulate 
+        |  matter, and access to safe drinking water and sewerage. Using these measurements, the chapter reflects on how environmental conditions and environmental risks interact with the quality of life and well-being of people. They also point out how the amenity services of natural capital support well-being. Further, they show the extent to which income growth is accompanied (or not) by a rise in overall well-being.
+    main
+      .section
+        #section-1.section-active
+          i.fa-solid.fa-file-circle-check
+          h3 Экологические показатели качества жизни: основные выводы
+        #section-2
+          i.fa-solid.fa-smog
+          h3 4.1 Загрязнение воздуха
+        #section-3
+          i.fa-solid.fa-person-arrow-up-from-line
+          h3 4.2 Воздействие на население мелкодисперсных частиц (PM 2,5)
+        #section-4
+          i.fa-solid.fa-faucet-drip
+          h3 4.3 Доступ к безопасным источникам питьевой воды
+        #section-5
+          i.fa-solid.fa-arrow-up-from-water-pump
+          h3 4.4 Население, подключенное к канализации
+      .section_text
+        #sub-section-1.sub-section.active
+          h2 Environmental quality of life indicators: Key findings
+          .sub-section_content
+            .sub-section_text
+              p
+                b
+                  | Uzbekistan has been facing increasing air pollution and had 909 thousand tonnes of pollutants in the air in 2021. 
+                | Over half of the Uzbekistan population is daily exposed to particulate matters (PM2.5) concentrations above 35µg/m3.  
+              p
+                b In 2021, Tashkent city had the 10th worst air quality of any city globally in terms of average annual PM2.5 concentrations, while Uzbekistan was ranked 12th worst. 
+                |  Uzbekistan was the second most polluted Central Asian country in 2019, next to Tajikistan.
+            .sub-section_figure
+              h3
+                i Air pollutants, thousand tonnes
+              canvas#air_pollutants(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Death due to respiratory disease, % of death 
+              canvas#respiratory_death(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+            .sub-section_text
+              p
+                |  Over 750 people die in 1 million inhabitants annually in Uzbekistan due to exposure to PM2.5. Almost 10% of deaths in Uzbekistan in 2022 were caused by respiratory diseases. 
+                b  Premature death and other health problems due to exposure to PM cost 8.7% of GDP equivalent annually.
+              p
+                b By 2021, only 68% of Uzbekistan households had access to safe drinking water. The proportion declined from 82.5% in 2010. 
+                |  Uzbekistan's outdated water supply infrastructure has stagnated or declined water services. Access to safe drinking water is worse in rural areas.  
+          .sub-section_content
+            .sub-section_text
+              p
+                b Uzbekistan has achieved the 2030 SDG towards universal access to sanitation. 
+                |  As early as 2014, all (100%) of Uzbekistan's population had access to improved sanitation. This is a progress from 93% in 2000. 
+            .sub-section_figure
+              h3
+                i Access to safe drinking water, % of houses 
+              canvas#water_access(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Access to sewerage, % of houses
+              canvas#sewerage_access(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+            .sub-section_text
+              p
+                b Only 44% of the houses have access to sewerage systems in Uzbekistan.  
+                |  Most households in rural areas have self-built on-site sanitation - dry pit latrines or septic tanks with onsite disposal. Wastewater is not treated according to international standards. 
+        #sub-section-2.sub-section
+          h2 Indicator 4.1 Air pollution
+          i Key message
+          p
+            | In recent years, the economy grew at a modest pace, but this was not  enough to significantly improve living standards for most people.  The national economy is still  affected by systemic problems such as low competition, corruption and a limited labour  force. These are accompanied by an increasing number of shocks  generated by extreme weather events such as floods, drought or frosts. Frequent  political unrest also affected the capacity of state institutions to respond to  crises. In 2020, for example, the state provided only limited social and  economic support in response to the COVID-19 pandemic.
+          i Indicator trend
+          p
+            | The economy  has registered some improvements over the past decade. Except for 2012  (drought), 2015 (bank fraud) and 2020 (COVID-19 pandemic), the country had  economic growth of at least 3-4% (Figure 1). This is confirmed by the GDP trend,  which in 2020 doubled in nominal terms and increased by about 30% in real terms  (compared to 2010). Nonetheless, the level of registered economic growth is  still too modest to approach the growth of countries from Central and Eastern  Europe or to significantly increase people&rsquo;s living standards. There are  multiple causes &ndash; from extreme weather events and the increasingly frequent  migration of labour to commercial divergences with key foreign partners (diminished exports to the Russian Federation after signing the  Association Agreement with the European Union). These are accompanied by shocks  generated by events such as banking fraud or political crises that have  weakened governance in state institutions and undermined capacity to respond to crises such as the COVID-19 pandemic.
+          p
+            | Although the national economy has generally grown, the quality of growth is fragile, raising questions about its sustainability. An economic growth model based on consumption is limited given that migration trends are changing from periodic migration for employment to definitive migration based on factors that are not necessarily economic. These vulnerabilities have emerged in the context of the COVID-19 pandemic. The crisis hit the country at a moment of low competitiveness and economic freedom, coupled with the escalation of systemic vulnerabilities related to corruption, competition or access to funding (Expert-Grup, 2020a). As a result, the state offered a modest response towards the pandemic of 0.4% of GDP, while other countries were allocating up to 5% of GDP. In this context, the pandemic had a major impact on GDP, generating a 7% downturn in 2020. Despite GDP growth, the per capita ratio is only USD 12 300, the lowest among European countries (Figure 2).
+        #sub-section-3.sub-section
+          h2 Indicator 4.2 Population exposure to fine particulate (PM 2.5)
+          i Key message
+          p
+            | The structure of the national economy has not changed significantly over the past decade. The economic growth model based on consumption and financed by remittances brings the trade sector to the forefront. This model also stimulates construction activity, a sector that is growing steadily and seems poised to continue. On the other side, traditional sectors such as agriculture or industry have registered only modest gains as they remain vulnerable to shocks outside the realm of decision makers. These include climate conditions for agriculture or the export potential of many other industries.
+          i Indicator trend
+          p
+            | The  economic structure of Moldova has not changed significantly since 2010. Trade  contributes most to GDP due to the annual volumes of remittances. Trade is  followed by the processing industry, which has surpassed agriculture in recent  years as a result of foreign investments and higher export capacities. On the  other side, agriculture depends greatly on climate conditions and generates  only modest results during years affected by drought. Despite efforts to  modernise the agricultural sector, systemic problems are not solved and some  have worsened. Thus, irrigation and access to water sources is still a major  problem given the increased frequency of droughts. Also, various agricultural  products (e.g. apples and other fruits) still depend on export markets  influenced by political decisions. The agro-industrial sector also faces certain  problems as livestock products have a hard time finding external markets. With many  economic sectors affected by problems, sectors like construction, transport or  services (particularly IT) are better positioned to succeed. Construction  registered important growth given the strong demand for apartments,  particularly in Chisinau, which motivated the developers to launch many  residential projects. This demand is fuelled both by remittances and by access  to real estate loans. These loans became more accessible following  implementation of the state&apos;s &ldquo;Prima Casa&rdquo; programme and financial system  reforms (Figure 3).
+        #sub-section-4.sub-section
+          h2 Indicator 4.3 Access to safe drinking water sources
+          i Key message 
+          p
+            | The 2014 Population and Housing Census revealed a much clearer picture of the labour force situation, especially the impact of emigration. All relevant indicators were adjusted significantly, reflecting a negative macroeconomic outlook. Moreover, the outlook has worsened since the Census, with no prospects in sight to reverse the trend. Indicators such as &ldquo;economically active population&rdquo; or &ldquo;participation rate&rdquo; continue to show a decrease and extremely low levels compared with European countries.
+          i Indicator trend 
+          p
+            | Over the past two decades, emigration has been one of the primary factors that characterised the macroeconomic evolution of the country. The declining population has a direct impact on the volume and quality of labour available to the national economy. Once the &ldquo;usual resident population&rdquo; was introduced after the 2014 Census, labour force indicators underwent significant changes as well. Thus, the number of economically active people in 2014 (employed population plus unemployed) was lower than 1 million, decreasing steadily over the past seven years to about 867 000 in 2020. At the same time, the participation rate of labour force expressed as the ratio of economically active population to total population aged 15+ also shrank from a high of almost 45.9% in 2018 to 40.3% (Figure 4).
+          p
+            | The seriousness of the labour force situation is also confirmed by comparison at the European level (Figure 5). Moldova ranks last among European countries in terms of labour force participation. It has a participation rate of under 45%; two other countries are between 45-50%, while most have a rate above 55%. Moreover, Moldova has one of the fastest decreases, starting already from a low level (compared with 2014), while other countries either register a decrease from a high level or an improvement.
+        #sub-section-5.sub-section
+          h2 Indicator 4.4 Population connected to sewerage
+          i Key message 
+          p
+            | The 2014 Population and Housing Census revealed a much clearer picture of the labour force situation, including for unemployment. Although the unemployment level is low (under 5%), it does not count unemployed people who are not actively seeking work. Many people are reluctant to register with the National Employment Agency (NEA) because they migrate periodically abroad and are stuck in a pattern of seasonal migration.
+          i Indicator trend
+          p
+            | The unemployment rate has not changed much since 2014. The introduction in 2018 of a 12% flat personal income tax, as part of the tax reform, reduced both the population engaged in informal employment and the number of unemployed by tens of thousands of people. As a result, the unemployment rate hit in 2018 a historic low &ndash; slightly less than 3% (Figure 6).
+          p
+            | The level of unemployment in Moldova is among the lowest in European countries (Figure 2.7). Nonetheless, these results occur in the context of high levels of informal employment throughout the entire economy &ndash; about 16% of employed persons. Sectors such as construction or agriculture are at the top of the list when it comes to informally employed persons with more than half of the total. In addition, a high number of citizens do not have a job but are not searching for one; hence, they do not meet the requirements to be called &ldquo;unemployed persons&rdquo;. The term refers to persons with a temporary job abroad and who alternate between staying at home and working.
+    footer
+      .contacts
+        p Contacts:
         p
-            i Ключевое сообщение 
-            br
-            | Перепись населения и жилого фонда 2014 года выявила гораздо более четкую картину ситуации с рабочей силой, особенно влияния эмиграции. Все соответствующие показатели были значительно скорректированы, что отражает негативный макроэкономический прогноз. Кроме того, перспективы ухудшились после переписи, и не видно никаких перспектив переломить эту тенденцию. Такие показатели, как &ldquo;экономически активное население&rdquo; или &ldquo;коэффициент участия&rdquo; продолжают демонстрировать снижение и крайне низкие уровни по сравнению с европейскими странами.
+          | Westminster International University in Tashkent, 12 Istiqbol street, Tashkent 100047
+        p Email: cpro@wiut.uz
+        p Phone:+998 71 238 74 48
+      .rights
         p
-            i Тренд индикатора
-            br
-            | За последние два десятилетия эмиграция была одним из основных факторов, характеризующих макроэкономическую эволюцию страны. Сокращение населения оказывает прямое влияние на объем и качество рабочей силы, доступной для национальной экономики. Как только &ldquo;обычное постоянное население&rdquo; была введена после переписи 2014 г., показатели рабочей силы также претерпели значительные изменения. Так, численность экономически активного населения в 2014 г. (занятое население плюс безработные) составляла менее 1 млн человек, неуклонно снижаясь в течение последних семи лет до примерно 867 000 человек в 2020 г. В то же время коэффициент участия в рабочей силе, выраженный как Отношение экономически активного населения к общей численности населения в возрасте 15+ также сократилось с почти 45,9% в 2018 году до 40,3% (Рисунок 4).
-        p
-            i Рисунок 4. Экономически активное население и уровень участия 
-        p
-            | Серьезность ситуации с рабочей силой также подтверждается сравнением на европейском уровне (Рисунок 5). Молдова занимает последнее место среди европейских стран по уровню участия в рабочей силе. Он имеет уровень участия менее 45%; две другие страны составляют от 45 до 50%, в то время как в большинстве из них этот показатель превышает 55%. Причем в Молдове наблюдается одно из самых быстрых снижений, начиная уже с низкого уровня (по сравнению с 2014 г.), в то время как в других странах регистрируется либо снижение с высокого уровня, либо улучшение.
-        p
-            i Рисунок 5. Уровень участия в рабочей силе на международном уровне
-
-    #sub-section-2.sub-section
-        h2 Индикатор 4.1 Загрязнение воздуха
-        p
-            i Ключевое сообщение 
-            br
-            | Перепись населения и жилого фонда 2014 года выявила гораздо более четкую картину ситуации с рабочей силой, особенно влияния эмиграции. Все соответствующие показатели были значительно скорректированы, что отражает негативный макроэкономический прогноз. Кроме того, перспективы ухудшились после переписи, и не видно никаких перспектив переломить эту тенденцию. Такие показатели, как &ldquo;экономически активное население&rdquo; или &ldquo;коэффициент участия&rdquo; продолжают демонстрировать снижение и крайне низкие уровни по сравнению с европейскими странами.
-        p
-            i Тренд индикатора
-            br
-            | За последние два десятилетия эмиграция была одним из основных факторов, характеризующих макроэкономическую эволюцию страны. Сокращение населения оказывает прямое влияние на объем и качество рабочей силы, доступной для национальной экономики. Как только &ldquo;обычное постоянное население&rdquo; была введена после переписи 2014 г., показатели рабочей силы также претерпели значительные изменения. Так, численность экономически активного населения в 2014 г. (занятое население плюс безработные) составляла менее 1 млн человек, неуклонно снижаясь в течение последних семи лет до примерно 867 000 человек в 2020 г. В то же время коэффициент участия в рабочей силе, выраженный как Отношение экономически активного населения к общей численности населения в возрасте 15+ также сократилось с почти 45,9% в 2018 году до 40,3% (Рисунок 4).
-        p
-            i Рисунок 4. Экономически активное население и уровень участия 
-        p
-            | Серьезность ситуации с рабочей силой также подтверждается сравнением на европейском уровне (Рисунок 5). Молдова занимает последнее место среди европейских стран по уровню участия в рабочей силе. Он имеет уровень участия менее 45%; две другие страны составляют от 45 до 50%, в то время как в большинстве из них этот показатель превышает 55%. Причем в Молдове наблюдается одно из самых быстрых снижений, начиная уже с низкого уровня (по сравнению с 2014 г.), в то время как в других странах регистрируется либо снижение с высокого уровня, либо улучшение.
-        p
-            i Рисунок 5. Уровень участия в рабочей силе на международном уровне
-
-
-
-    #sub-section-3.sub-section
-        h2 Индикатор 4.2 Воздействие на население мелкодисперсных частиц (PM 2,5)
-        p
-            i Ключевое сообщение 
-            br
-            | Перепись населения и жилого фонда 2014 года выявила гораздо более четкую картину ситуации с рабочей силой, особенно влияния эмиграции. Все соответствующие показатели были значительно скорректированы, что отражает негативный макроэкономический прогноз. Кроме того, перспективы ухудшились после переписи, и не видно никаких перспектив переломить эту тенденцию. Такие показатели, как &ldquo;экономически активное население&rdquo; или &ldquo;коэффициент участия&rdquo; продолжают демонстрировать снижение и крайне низкие уровни по сравнению с европейскими странами.
-        p
-            i Тренд индикатора
-            br
-            | За последние два десятилетия эмиграция была одним из основных факторов, характеризующих макроэкономическую эволюцию страны. Сокращение населения оказывает прямое влияние на объем и качество рабочей силы, доступной для национальной экономики. Как только &ldquo;обычное постоянное население&rdquo; была введена после переписи 2014 г., показатели рабочей силы также претерпели значительные изменения. Так, численность экономически активного населения в 2014 г. (занятое население плюс безработные) составляла менее 1 млн человек, неуклонно снижаясь в течение последних семи лет до примерно 867 000 человек в 2020 г. В то же время коэффициент участия в рабочей силе, выраженный как Отношение экономически активного населения к общей численности населения в возрасте 15+ также сократилось с почти 45,9% в 2018 году до 40,3% (Рисунок 4).
-        p
-            i Рисунок 4. Экономически активное население и уровень участия 
-        p
-            | Серьезность ситуации с рабочей силой также подтверждается сравнением на европейском уровне (Рисунок 5). Молдова занимает последнее место среди европейских стран по уровню участия в рабочей силе. Он имеет уровень участия менее 45%; две другие страны составляют от 45 до 50%, в то время как в большинстве из них этот показатель превышает 55%. Причем в Молдове наблюдается одно из самых быстрых снижений, начиная уже с низкого уровня (по сравнению с 2014 г.), в то время как в других странах регистрируется либо снижение с высокого уровня, либо улучшение.
-        p
-            i Рисунок 5. Уровень участия в рабочей силе на международном уровне
-
-
-
-    #sub-section-4.sub-section 
-        h2 Индикатор 4.3 Доступ к безопасным источникам питьевой воды
-        p
-            i Ключевое сообщение 
-            br
-            | Перепись населения и жилого фонда 2014 года выявила гораздо более четкую картину ситуации с рабочей силой, особенно влияния эмиграции. Все соответствующие показатели были значительно скорректированы, что отражает негативный макроэкономический прогноз. Кроме того, перспективы ухудшились после переписи, и не видно никаких перспектив переломить эту тенденцию. Такие показатели, как &ldquo;экономически активное население&rdquo; или &ldquo;коэффициент участия&rdquo; продолжают демонстрировать снижение и крайне низкие уровни по сравнению с европейскими странами.
-        p
-            i Тренд индикатора
-            br
-            | За последние два десятилетия эмиграция была одним из основных факторов, характеризующих макроэкономическую эволюцию страны. Сокращение населения оказывает прямое влияние на объем и качество рабочей силы, доступной для национальной экономики. Как только &ldquo;обычное постоянное население&rdquo; была введена после переписи 2014 г., показатели рабочей силы также претерпели значительные изменения. Так, численность экономически активного населения в 2014 г. (занятое население плюс безработные) составляла менее 1 млн человек, неуклонно снижаясь в течение последних семи лет до примерно 867 000 человек в 2020 г. В то же время коэффициент участия в рабочей силе, выраженный как Отношение экономически активного населения к общей численности населения в возрасте 15+ также сократилось с почти 45,9% в 2018 году до 40,3% (Рисунок 4).
-        p
-            i Рисунок 4. Экономически активное население и уровень участия 
-        p
-            | Серьезность ситуации с рабочей силой также подтверждается сравнением на европейском уровне (Рисунок 5). Молдова занимает последнее место среди европейских стран по уровню участия в рабочей силе. Он имеет уровень участия менее 45%; две другие страны составляют от 45 до 50%, в то время как в большинстве из них этот показатель превышает 55%. Причем в Молдове наблюдается одно из самых быстрых снижений, начиная уже с низкого уровня (по сравнению с 2014 г.), в то время как в других странах регистрируется либо снижение с высокого уровня, либо улучшение.
-        p
-            i Рисунок 5. Уровень участия в рабочей силе на международном уровне
-
-            
-
-    #sub-section-5.sub-section 
-        h2 Индикатор 4.4 Население, подключенное к канализации
-        p
-            i Ключевое сообщение 
-            br
-            | Перепись населения и жилого фонда 2014 года выявила гораздо более четкую картину ситуации с рабочей силой, особенно влияния эмиграции. Все соответствующие показатели были значительно скорректированы, что отражает негативный макроэкономический прогноз. Кроме того, перспективы ухудшились после переписи, и не видно никаких перспектив переломить эту тенденцию. Такие показатели, как &ldquo;экономически активное население&rdquo; или &ldquo;коэффициент участия&rdquo; продолжают демонстрировать снижение и крайне низкие уровни по сравнению с европейскими странами.
-        p
-            i Тренд индикатора
-            br
-            | За последние два десятилетия эмиграция была одним из основных факторов, характеризующих макроэкономическую эволюцию страны. Сокращение населения оказывает прямое влияние на объем и качество рабочей силы, доступной для национальной экономики. Как только &ldquo;обычное постоянное население&rdquo; была введена после переписи 2014 г., показатели рабочей силы также претерпели значительные изменения. Так, численность экономически активного населения в 2014 г. (занятое население плюс безработные) составляла менее 1 млн человек, неуклонно снижаясь в течение последних семи лет до примерно 867 000 человек в 2020 г. В то же время коэффициент участия в рабочей силе, выраженный как Отношение экономически активного населения к общей численности населения в возрасте 15+ также сократилось с почти 45,9% в 2018 году до 40,3% (Рисунок 4).
-        p
-            i Рисунок 4. Экономически активное население и уровень участия 
-        p
-            | Серьезность ситуации с рабочей силой также подтверждается сравнением на европейском уровне (Рисунок 5). Молдова занимает последнее место среди европейских стран по уровню участия в рабочей силе. Он имеет уровень участия менее 45%; две другие страны составляют от 45 до 50%, в то время как в большинстве из них этот показатель превышает 55%. Причем в Молдове наблюдается одно из самых быстрых снижений, начиная уже с низкого уровня (по сравнению с 2014 г.), в то время как в других странах регистрируется либо снижение с высокого уровня, либо улучшение.
-        p
-            i Рисунок 5. Уровень участия в рабочей силе на международном уровне
-
-footer
-  p &copy; 2023. Все права защищены
-
-script(src='/static/javascripts/script.js')
+          | This site was created with the financial support of the European Union. The opinions expressed in this document may in no case be considered as a reflection of the official opinions of the European Union, its members or the governments of the Eastern Partnership countries. This site, as well as all content contained therein, is without prejudice to the status or sovereignty of any territory, the delimitation of international borders and frontiers, and the name of any territory, city or region.
+        i (c) 2023. All rights reserved.
+    script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
+    script(src='/static/javascripts/script.js')
+    script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')
+    script(src='/static/javascripts/group4.js')

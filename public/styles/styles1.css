@@ -297,12 +297,25 @@ footer div.rights p, footer div.rights i{
 
 
 
-@media(max-width: 900px){
+@media(max-width: 1025px){
     *{
         font-size: 9px;
     }
     body{
         width: 96%;
+    }
+    .sub-section_content{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .sub-section_content .sub-section_text{
+        width: 96%;
+        margin: 0 auto;
+    }
+    .sub-section_content .sub-section_figure{
+        padding: 0rem;
+        width: 96%;
+        margin: 0 auto;
     }
 }
 @media(max-width:768px) {
@@ -331,19 +344,6 @@ footer div.rights p, footer div.rights i{
         margin: 0 auto;
         padding: 0;
         margin-bottom: 2rem;
-    }
-    .sub-section_content{
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .sub-section_content .sub-section_text{
-        width: 96%;
-        margin: 0 auto;
-    }
-    .sub-section_content .sub-section_figure{
-        padding: 0rem;
-        width: 96%;
-        margin: 0 auto;
     }
 }
 @media(max-width:480px){

@@ -1,0 +1,178 @@
+{
+    "air_pollutants": [
+        {
+         "year": "2010",
+         "air_pollutants": 729
+        },
+        {
+         "year": "2011",
+         "air_pollutants": 788.2
+        },
+        {
+         "year": "2012",
+         "air_pollutants": 817.6
+        },
+        {
+         "year": "2013",
+         "air_pollutants": 855.2
+        },
+        {
+         "year": "2014",
+         "air_pollutants": 1162.1
+        },
+        {
+         "year": "2015",
+         "air_pollutants": 975.1
+        },
+        {
+         "year": "2016",
+         "air_pollutants": 1008.2
+        },
+        {
+         "year": "2017",
+         "air_pollutants": 853.5
+        },
+        {
+         "year": "2018",
+         "air_pollutants": 883.7
+        },
+        {
+         "year": "2019",
+         "air_pollutants": 952.8
+        },
+        {
+         "year": "2020",
+         "air_pollutants": 924.4
+        },
+        {
+         "year": "2021",
+         "air_pollutants": 908.7
+        }
+       ],
+       "respiratory_death": [
+        {
+         "year": 2017,
+         "respiratory_death": 4.8
+        },
+        {
+         "year": 2018,
+         "respiratory_death": 4
+        },
+        {
+         "year": 2019,
+         "respiratory_death": 4.2
+        },
+        {
+         "year": 2020,
+         "respiratory_death": 7.2
+        },
+        {
+         "year": 2021,
+         "respiratory_death": 6.7
+        },
+        {
+         "year": 2022,
+         "respiratory_death": 9.6
+        }
+       ],
+       "water_access": [
+        {
+         "year": "2010",
+         "water_access": 82.5
+        },
+        {
+         "year": "2011",
+         "water_access": 82.7
+        },
+        {
+         "year": "2012",
+         "water_access": 82.7
+        },
+        {
+         "year": "2013",
+         "water_access": 82.6
+        },
+        {
+         "year": "2014",
+         "water_access": 82.3
+        },
+        {
+         "year": "2015",
+         "water_access": 81.4
+        },
+        {
+         "year": "2016",
+         "water_access": 76.4
+        },
+        {
+         "year": "2017",
+         "water_access": 75.6
+        },
+        {
+         "year": "2018",
+         "water_access": 75.3
+        },
+        {
+         "year": "2019",
+         "water_access": 76.6
+        },
+        {
+         "year": "2020",
+         "water_access": 67.4
+        },
+        {
+         "year": "2021",
+         "water_access": 68.3
+        }
+       ],
+       "sewerage_access": [
+        {
+         "year": "2010",
+         "sewerage_access": 36.9
+        },
+        {
+         "year": "2011",
+         "sewerage_access": 37.8
+        },
+        {
+         "year": "2012",
+         "sewerage_access": 37.6
+        },
+        {
+         "year": "2013",
+         "sewerage_access": 37.8
+        },
+        {
+         "year": "2014",
+         "sewerage_access": 37.8
+        },
+        {
+         "year": "2015",
+         "sewerage_access": 36.5
+        },
+        {
+         "year": "2016",
+         "sewerage_access": 35.9
+        },
+        {
+         "year": "2017",
+         "sewerage_access": 35.8
+        },
+        {
+         "year": "2018",
+         "sewerage_access": 35.7
+        },
+        {
+         "year": "2019",
+         "sewerage_access": 36.3
+        },
+        {
+         "year": "2020",
+         "sewerage_access": 37.3
+        },
+        {
+         "year": "2021",
+         "sewerage_access": 43.6
+        }
+       ]
+}

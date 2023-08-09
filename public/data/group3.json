@@ -1,0 +1,333 @@
+{
+    "forest_area": [
+        {
+         "year": "2014",
+         "forest_area": 9.017,
+         "percent_of_land": 8.053071555271014
+        },
+        {
+         "year": "2015",
+         "forest_area": 9.141,
+         "percent_of_land": 8.05583295506128
+        },
+        {
+         "year": "2016",
+         "forest_area": 9.146,
+         "percent_of_land": 8.139748655782801
+        },
+        {
+         "year": "2017",
+         "forest_area": 10.566,
+         "percent_of_land": 8.198443897700345
+        },
+        {
+         "year": "2018",
+         "forest_area": 11.267,
+         "percent_of_land": 8.257120614089839
+        },
+        {
+         "year": "2019",
+         "forest_area": 11.573,
+         "percent_of_land": 8.316373665036148
+        },
+        {
+         "year": "2020",
+         "forest_area": 11.975,
+         "percent_of_land": 8.373221377510495
+        }
+       ],
+    "freshwater_by_sector": [
+        {
+         "year": "1994",
+         "agriculture_use": 93.652570838,
+         "domestic_use": 4.4475066747,
+         "industry_use": 1.8999224873
+        },
+        {
+         "year": "1995",
+         "agriculture_use": 93.1745371842,
+         "domestic_use": 4.6323151794,
+         "industry_use": 2.1931476364
+        },
+        {
+         "year": "1996",
+         "agriculture_use": 92.7023709699,
+         "domestic_use": 4.8148553234,
+         "industry_use": 2.4827737067
+        },
+        {
+         "year": "1997",
+         "agriculture_use": 92.2359648275,
+         "domestic_use": 4.9951686153,
+         "industry_use": 2.7688665572
+        },
+        {
+         "year": "1998",
+         "agriculture_use": 91.7752139933,
+         "domestic_use": 5.1732955569,
+         "industry_use": 3.0514904498
+        },
+        {
+         "year": "1999",
+         "agriculture_use": 91.3200162287,
+         "domestic_use": 5.3492756736,
+         "industry_use": 3.3307080977
+        },
+        {
+         "year": "2000",
+         "agriculture_use": 90.8702717449,
+         "domestic_use": 5.5231475441,
+         "industry_use": 3.606580711
+        },
+        {
+         "year": "2001",
+         "agriculture_use": 90.4258831297,
+         "domestic_use": 5.694948828,
+         "industry_use": 3.8791680423
+        },
+        {
+         "year": "2002",
+         "agriculture_use": 90.3255657441,
+         "domestic_use": 6.0780684782,
+         "industry_use": 3.5963657777
+        },
+        {
+         "year": "2003",
+         "agriculture_use": 90.2213072568,
+         "domestic_use": 6.4762394922,
+         "industry_use": 3.302453251
+        },
+        {
+         "year": "2004",
+         "agriculture_use": 90.1128707673,
+         "domestic_use": 6.8903666113,
+         "industry_use": 2.9967626214
+        },
+        {
+         "year": "2005",
+         "agriculture_use": 90,
+         "domestic_use": 7.3214285714,
+         "industry_use": 2.6785714286
+        },
+        {
+         "year": "2006",
+         "agriculture_use": 90.1609659961,
+         "domestic_use": 7.0298822517,
+         "industry_use": 2.8091517522
+        },
+        {
+         "year": "2007",
+         "agriculture_use": 90.3246635324,
+         "domestic_use": 6.7333884865,
+         "industry_use": 2.9419479812
+        },
+        {
+         "year": "2008",
+         "agriculture_use": 90.4911627339,
+         "domestic_use": 6.4318202631,
+         "industry_use": 3.077017003
+        },
+        {
+         "year": "2009",
+         "agriculture_use": 90.6605361468,
+         "domestic_use": 6.1250461842,
+         "industry_use": 3.214417669
+        },
+        {
+         "year": "2010",
+         "agriculture_use": 90.8328588436,
+         "domestic_use": 5.8129302759,
+         "industry_use": 3.3542108805
+        },
+        {
+         "year": "2011",
+         "agriculture_use": 91.0082085344,
+         "domestic_use": 5.4953317877,
+         "industry_use": 3.4964596779
+        },
+        {
+         "year": "2012",
+         "agriculture_use": 91.1866656833,
+         "domestic_use": 5.1721049804,
+         "industry_use": 3.6412293363
+        },
+        {
+         "year": "2013",
+         "agriculture_use": 91.3683136321,
+         "domestic_use": 4.843098903,
+         "industry_use": 3.7885874649
+        },
+        {
+         "year": "2014",
+         "agriculture_use": 91.5532387296,
+         "domestic_use": 4.508157158,
+         "industry_use": 3.9386041124
+        },
+        {
+         "year": "2015",
+         "agriculture_use": 92.0813987232,
+         "domestic_use": 4.3655687754,
+         "industry_use": 3.5530325015
+        },
+        {
+         "year": "2016",
+         "agriculture_use": 91.6605571848,
+         "domestic_use": 4.4648093842,
+         "industry_use": 3.8746334311
+        },
+        {
+         "year": "2017",
+         "agriculture_use": 92.2920203735,
+         "domestic_use": 4.0916808149,
+         "industry_use": 3.6162988115
+        },
+        {
+         "year": "2018",
+         "agriculture_use": 92.2920203735,
+         "domestic_use": 4.0916808149,
+         "industry_use": 3.6162988115
+        },
+        {
+         "year": "2019",
+         "agriculture_use": 92.2920203735,
+         "domestic_use": 4.0916808149,
+         "industry_use": 3.6162988115
+        }
+       ],
+    "cultivated_area": [
+        {
+         "year": 2000,
+         "cultivated_area": 3778.3
+        },
+        {
+         "year": 2001,
+         "cultivated_area": 3444.5
+        },
+        {
+         "year": 2002,
+         "cultivated_area": 3540.8
+        },
+        {
+         "year": 2003,
+         "cultivated_area": 3790.1
+        },
+        {
+         "year": 2004,
+         "cultivated_area": 3695.7
+        },
+        {
+         "year": 2005,
+         "cultivated_area": 3647.5
+        },
+        {
+         "year": 2006,
+         "cultivated_area": 3637.4
+        },
+        {
+         "year": 2007,
+         "cultivated_area": 3560.3
+        },
+        {
+         "year": 2008,
+         "cultivated_area": 3609.7
+        },
+        {
+         "year": 2009,
+         "cultivated_area": 3608.6
+        },
+        {
+         "year": 2010,
+         "cultivated_area": 3708.4
+        },
+        {
+         "year": 2011,
+         "cultivated_area": 3601.6
+        },
+        {
+         "year": 2012,
+         "cultivated_area": 3628.1
+        },
+        {
+         "year": 2013,
+         "cultivated_area": 3658.6
+        },
+        {
+         "year": 2014,
+         "cultivated_area": 3678.2
+        },
+        {
+         "year": 2015,
+         "cultivated_area": 3694.5
+        },
+        {
+         "year": 2016,
+         "cultivated_area": 3706.7
+        },
+        {
+         "year": 2017,
+         "cultivated_area": 3474.5
+        },
+        {
+         "year": 2018,
+         "cultivated_area": 3396
+        },
+        {
+         "year": 2019,
+         "cultivated_area": 3309.4
+        },
+        {
+         "year": 2020,
+         "cultivated_area": 3396.1
+        },
+        {
+         "year": 2021,
+         "cultivated_area": 3260.7
+        }
+       ],
+    "protected_area": [
+        {
+         "year": 2011,
+         "protected_area": 823.2
+        },
+        {
+         "year": 2012,
+         "protected_area": 885.3999999999999
+        },
+        {
+         "year": 2013,
+         "protected_area": 885.3999999999999
+        },
+        {
+         "year": 2014,
+         "protected_area": 885.5
+        },
+        {
+         "year": 2015,
+         "protected_area": 885.5
+        },
+        {
+         "year": 2016,
+         "protected_area": 885.5
+        },
+        {
+         "year": 2017,
+         "protected_area": 874.5
+        },
+        {
+         "year": 2018,
+         "protected_area": 1545.6999999999998
+        },
+        {
+         "year": 2019,
+         "protected_area": 1545.9
+        },
+        {
+         "year": 2020,
+         "protected_area": 1570.6
+        },
+        {
+         "year": 2021,
+         "protected_area": 3457.8
+        }
+       ]
+}

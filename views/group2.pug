@@ -1,294 +1,237 @@
 doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  script(src='https://kit.fontawesome.com/d638520dfa.js' crossorigin='anonymous')
-  link(rel='stylesheet' href='/static/styles/styles1.css')
-  title Group 2. The environmental and resource productivity of the economy
-header
-  div
-    a(href='/group2_ru') RU
-    a(href='/group2') Eng
-  p From 2023
-.navigation
-  a(href='/')
-    i.fa-solid.fa-house-flag
-  a(href='/introduction')
-    i.fa-regular.fa-file-lines
-  a(href='/group1')
-    i.fa-solid.fa-arrow-up-right-dots
-  a.nav-active(href='/group2')
-    i.fa-solid.fa-seedling
-  a(href='/group3')
-    i.fa-brands.fa-envira
-  a(href='/group4')
-    i.fa-solid.fa-building-columns
-  a(href='/group5')
-    i.fa-solid.fa-users-gear
-.heading
-  i.fa-solid.fa-seedling
-  h1 Group 2. The environmental and resource productivity of the economy
-.description
-  p This group of indicators explores whether Moldova is becoming more efficient in its use of natural resources and environmental services. It measures nine indicators of environmental and resource productivity: greenhouse gases, carbon productivity, final consumption of energy, energy intensity, 
-    |share of renewable energy in the final consumption of energy, waste generation and recycling, and use of fertilisers and water. In this way, the indicators capture the efficiency with which economic activities – both production and consumption – use energy, other natural resources and environmental services. They reflect key aspects of the transition to a low-carbon, resource-efficient economy: carbon and energy productivity, resource productivity and multifactor productivity
-main
-  .section
-    #section-1.section-active
-      i.fa-solid.fa-file-circle-check
-      h3 Environmental and resource productivity indicators: Key findings
-    #section-2
-      i.fa-solid.fa-smog
-      h3 2.1 Greenhouse gases
-    #section-3
-      i.fa-solid.fa-chart-pie
-      h3 2.2 Carbon productivity
-    #section-4
-      i.fa-solid.fa-cloud-arrow-up
-      h3 2.3 Final consumption of energy
-    #section-5
-      i.fa-solid.fa-lightbulb
-      h3 2.4 Energy intensity
-    #section-6
-      i.fa-solid.fa-solar-panel
-      h3 2.5 Share of renewable energy in the final consumption of energy
-    #section-7
-      i.fa-solid.fa-trash
-      h3 2.6 Waste generation
-    #section-8
-      i.fa-solid.fa-recycle
-      h3 2.7 Waste recycling
-    #section-9
-      i.fa-solid.fa-spray-can-sparkles
-      h3 2.8 Use of fertilisers
-    #section-10
-      i.fa-solid.fa-hand-holding-droplet
-      h3 2.9 Use of water
-  .section_text
-    #sub-section-1.sub-section.active
-      h2 Environmental and resource productivity indicators: Key findings
-      ul
-        li
-            b Greenhouse gases:
-            |  greenhouse gas (GHG)  emissions, including carbon dioxide (CO2) &ndash; which accounts for  two-thirds of emissions &ndash; have been relatively stable since 2010.
-        li
-            b Carbon productivity:
-            |  since 2010, the relative  stability of GHG emissions, including CO2, was accompanied by growth  in gross domestic product (GDP). As a result, carbon productivity increased and  economic growth decoupled from CO2 emissions.
-        li
-            b Final consumption of energy:
-            |  after 2010, the supply of  primary energy and final consumption of energy increased. Energy supply grew at  a lower rate than GDP. As a result, energy productivity increased. Nonetheless,  this growth did not allow the Republic of Moldova (hereafter &ldquo;Moldova&rdquo;) to  improve its position in relation to other European countries.
-        li
-            b Energy intensity:
-            |  productivity grew and energy  intensity decreased after 2010. Nonetheless, energy intensity did not diminish in  all economic sectors.
-        li
-            b Share of renewable energy in  the final consumption of energy:
-            |  the supply of renewable energy increased generally (although it  decreased in 2019). As a result, the share of renewable energy in the supply of  primary energy and in the final consumption of energy increased.
-        li
-            b Waste generation:
-            |  waste from enterprises has  decreased, particularly after 2015. At the same time, the volume of household  waste has been increasing.
-        li
-            b Waste recycling:
-            |  there is no clear trend for  waste utilisation. The largest waste utilisation occurred in 2010 (1.4 million  tonnes). Between 2011 and 2019, the quantity of utilised waste varied between  300&nbsp;000-700&nbsp;000 tonnes.
-        li
-            b Use of fertilisers:
-            |  more use of mineral  fertilisers was not accompanied by an increase in vegetal production.
-        li
-            b Use of water:
-            |  water consumption has been  stable since 2010, but GDP increased. As a result, water productivity  increased. Nonetheless, this growth did not allow Moldova to improve its  position in relation to other European countries.
-
-    #sub-section-2.sub-section
-      h2 Indicator 2.1 Greenhouse gases
-        p
-            i Key message
-            br
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Group 2
+    link(rel='stylesheet', href='/static/styles/styles1.css')
+    link(rel='shortcut icon', href='/static/images/main_icon.png')
+  body
+    header
+      div
+        a(href='/group2_ru') RU
+        a.active_language(href='/group2') Eng
+      p From 2023
+    .navigation
+      div
+        a(href='/home')
+          i.fa-solid.fa-house-flag
+        p Home Page
+      div
+        a(href='/introduction')
+          i.fa-regular.fa-file-lines
+        p Introduction
+      div
+        a(href='/group1')
+          i.fa-solid.fa-arrow-up-right-dots
+        p Group 1
+      div
+        a.nav-active(href='/group2')
+          i.fa-solid.fa-seedling
+        p.nav-active Group 2
+      div
+        a(href='/group3')
+          i.fa-brands.fa-envira
+        p Group 3
+      div
+        a(href='/group4')
+          i.fa-solid.fa-building-columns
+        p Group 4
+      div
+        a(href='/group5')
+          i.fa-solid.fa-users-gear
+        p Group 5
+    .heading
+      i.fa-solid.fa-arrow-up-right-dots
+      h1 Group 2. The environmental and resource productivity of the economy
+    .description
+      p
+        | This group of indicators explores whether Moldova is becoming more efficient in its use of natural resources and environmental services. It measures nine indicators of environmental and resource productivity: greenhouse gases, carbon productivity, final consumption of energy, energy intensity, share of renewable energy in the final consumption of energy, waste generation and recycling, and use of fertilisers and water. In this way, the indicators capture the efficiency with which economic activities – both production and consumption – use energy, other natural resources and environmental services. They reflect key aspects of the transition to a low-carbon, resource-efficient economy: carbon and energy productivity, resource productivity and multifactor productivity
+    main
+      .section
+        #section-1.section-active
+            i.fa-solid.fa-file-circle-check
+            h3 Environmental and resource productivity indicators: Key findings
+        #section-2
+            i.fa-solid.fa-smog
+            h3 2.1 Greenhouse gases
+        #section-3
+            i.fa-solid.fa-chart-pie
+            h3 2.2 Carbon productivity
+        #section-4
+            i.fa-solid.fa-cloud-arrow-up
+            h3 2.3 Final consumption of energy
+        #section-5
+            i.fa-solid.fa-lightbulb
+            h3 2.4 Energy intensity
+        #section-6
+            i.fa-solid.fa-solar-panel
+            h3 2.5 Share of renewable energy in the final consumption of energy
+        #section-7
+            i.fa-solid.fa-trash
+            h3 2.6 Waste generation
+        #section-8
+            i.fa-solid.fa-recycle
+            h3 2.7 Waste recycling
+        #section-9
+            i.fa-solid.fa-spray-can-sparkles
+            h3 2.8 Use of fertilisers
+        #section-10
+            i.fa-solid.fa-hand-holding-droplet
+            h3 2.9 Use of water
+      .section_text
+        #sub-section-1.sub-section.active
+          h2 Environmental and resource productivity indicators: Key findings
+          .sub-section_content
+            .sub-section_text
+              p
+                b
+                  | Uzbekistan emits 109 million tonnes CO2 each year on average, 
+                | contributing 0.3% of the global emissions. Nearly 80% of emissions come from burning natural gas fuel.  The energy sector is the major CO2 emitter in the country.
+              p
+                b In Uzbekistan, the carbon productivity of the economy has increased over the past three decades generating more economic benefits. 
+                |  In 2020, carbon productivity was USD 2.5 per unit of CO2 emitted; four times greater than the 1990 value.
+            .sub-section_figure
+              h3
+                i Carbon productivity, USD/kg of CO2 (2015)
+              canvas#carbon_productivity(style='max-height: 300px;')
+              h4
+                i Source: OECD, 2023
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Energy intensity of GDP, koe/USD (2015)
+              canvas#energy_intensity(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+            .sub-section_text
+              p
+                b Uzbekistan’s Energy productivity is growing.  
+                |  In 2020, Uzbekistan’s energy productivity was USD 5,798 (PPP 2015) per toe primary energy; 3.5 times more compared to 1990. The energy intensity of the GDP is on a declining trend, despite being one of the highest in the world. In 2021 it was 0.14 koe (1.6 kWh) per USD.
+              p
+                b Renewables play a minor role (below 2%) in the energy mix of Uzbekistan. 
+                |  In 2022, only 9% of the electricity was generated from renewable sources.
+          .sub-section_content
+            .sub-section_text
+              p
+                | Water productivity in Uzbekistan increased four times in 2019, compared to 25 years before and was 1.8 USD per m3 of freshwater withdrawn.
+              p
+                | Around six million tonnes of municipal solid waste (MSW) is produced in Uzbekistan annually. 
+                b  Only a quarter of the MSW is recycled in 2021.
+                |  Regular waste collection services cover only half of the population (2018). 
+            .sub-section_figure
+              h3
+                i Share of renewables in electric generation (%)
+              canvas#share_of_renewables(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Water productivity, USD (2015)
+              canvas#water_productivity(style='max-height: 300px;')
+              h4
+                i Source: World Bank, 2023
+            .sub-section_text
+              p
+                b Uzbekistan has excess fertilizer use;
+                |  75% higher than the world average (146 Kg per hectare (ha) of cropland. 
+        #sub-section-2.sub-section
+          h2 Indicator 2.1 Greenhouse gases
+          i Key message
+          p
             | The increase in GHG emissions has major implications for the environment and increases vulnerability to climate change. The increase in GHG emissions led to temperature rise, degradation of climatic conditions and more frequent and intense extreme weather events. In Moldova, GHG emissions, including CO2 &ndash; which accounted for two-thirds of emissions &ndash; have been relatively stable since 2010.
-        p
-            i Indicator trend
-            br
+          i Indicator trend
+          p
             | Between 2010 and 2019, the rate of GHG emissions was relatively stable (figure 15). During this period, there were annual emissions of about 13.4 million tonnes of CO2-equivalent (CO2-eq). Annual trends have fluctuated around this value, ranging between 13-13.8 million tonnes of CO2-eq. CO2 represents two-thirds of emissions. Between 2010 and 2019, CO2 emissions have fluctuated between 8.8 9.5 million tonnes with an annual average value of about 9.1 million tonnes.
-        p
-            i
-                | Figure 15. Greenhouse gas emissions, including CO2 (thousand tonnes of CO2-equivalent)
-        p
+          p
             | Between 2010 and 2019, the structure of GHG emissions, depending on the sector, did not change significantly (figure 16). The share of emissions generated by the energy sector, for example, decreased from 70% to 67.5%. Meanwhile, the agricultural sector produced about 14.5% of emissions and waste produced at least 11%. The share of emissions from industrial processes and use of products increased from 4.2% to 7.2%.
+        #sub-section-3.sub-section
+          h2 Indicator 2.2 Carbon productivity
+          i Key message
+          p
+            | The structure of the national economy has not changed significantly over the past decade. The economic growth model based on consumption and financed by remittances brings the trade sector to the forefront. This model also stimulates construction activity, a sector that is growing steadily and seems poised to continue. On the other side, traditional sectors such as agriculture or industry have registered only modest gains as they remain vulnerable to shocks outside the realm of decision makers. These include climate conditions for agriculture or the export potential of many other industries.
+          i Indicator trend
+          p
+            | The  economic structure of Moldova has not changed significantly since 2010. Trade  contributes most to GDP due to the annual volumes of remittances. Trade is  followed by the processing industry, which has surpassed agriculture in recent  years as a result of foreign investments and higher export capacities. On the  other side, agriculture depends greatly on climate conditions and generates  only modest results during years affected by drought. Despite efforts to  modernise the agricultural sector, systemic problems are not solved and some  have worsened. Thus, irrigation and access to water sources is still a major  problem given the increased frequency of droughts. Also, various agricultural  products (e.g. apples and other fruits) still depend on export markets  influenced by political decisions. The agro-industrial sector also faces certain  problems as livestock products have a hard time finding external markets. With many  economic sectors affected by problems, sectors like construction, transport or  services (particularly IT) are better positioned to succeed. Construction  registered important growth given the strong demand for apartments,  particularly in Chisinau, which motivated the developers to launch many  residential projects. This demand is fuelled both by remittances and by access  to real estate loans. These loans became more accessible following  implementation of the state&apos;s &ldquo;Prima Casa&rdquo; programme and financial system  reforms (Figure 3).
+        #sub-section-4.sub-section
+          h2 Indicator 2.3 Final consumption of energy 
+          i Key message 
+          p
+            | The 2014 Population and Housing Census revealed a much clearer picture of the labour force situation, especially the impact of emigration. All relevant indicators were adjusted significantly, reflecting a negative macroeconomic outlook. Moreover, the outlook has worsened since the Census, with no prospects in sight to reverse the trend. Indicators such as &ldquo;economically active population&rdquo; or &ldquo;participation rate&rdquo; continue to show a decrease and extremely low levels compared with European countries.
+          i Indicator trend 
+          p
+            | Over the past two decades, emigration has been one of the primary factors that characterised the macroeconomic evolution of the country. The declining population has a direct impact on the volume and quality of labour available to the national economy. Once the &ldquo;usual resident population&rdquo; was introduced after the 2014 Census, labour force indicators underwent significant changes as well. Thus, the number of economically active people in 2014 (employed population plus unemployed) was lower than 1 million, decreasing steadily over the past seven years to about 867 000 in 2020. At the same time, the participation rate of labour force expressed as the ratio of economically active population to total population aged 15+ also shrank from a high of almost 45.9% in 2018 to 40.3% (Figure 4).
+          p
+            | The seriousness of the labour force situation is also confirmed by comparison at the European level (Figure 5). Moldova ranks last among European countries in terms of labour force participation. It has a participation rate of under 45%; two other countries are between 45-50%, while most have a rate above 55%. Moreover, Moldova has one of the fastest decreases, starting already from a low level (compared with 2014), while other countries either register a decrease from a high level or an improvement.
+        #sub-section-5.sub-section
+          h2 Indicator 2.4 Energy intensity
+          i Key message 
+          p
+            | The 2014 Population and Housing Census revealed a much clearer picture of the labour force situation, including for unemployment. Although the unemployment level is low (under 5%), it does not count unemployed people who are not actively seeking work. Many people are reluctant to register with the National Employment Agency (NEA) because they migrate periodically abroad and are stuck in a pattern of seasonal migration.
+          i Indicator trend
+          p
+            | The unemployment rate has not changed much since 2014. The introduction in 2018 of a 12% flat personal income tax, as part of the tax reform, reduced both the population engaged in informal employment and the number of unemployed by tens of thousands of people. As a result, the unemployment rate hit in 2018 a historic low &ndash; slightly less than 3% (Figure 6).
+          p
+            | The level of unemployment in Moldova is among the lowest in European countries (Figure 2.7). Nonetheless, these results occur in the context of high levels of informal employment throughout the entire economy &ndash; about 16% of employed persons. Sectors such as construction or agriculture are at the top of the list when it comes to informally employed persons with more than half of the total. In addition, a high number of citizens do not have a job but are not searching for one; hence, they do not meet the requirements to be called &ldquo;unemployed persons&rdquo;. The term refers to persons with a temporary job abroad and who alternate between staying at home and working.
+        #sub-section-6.sub-section
+          h2 Indicator 2.5 Share of renewable energy in the final consumption of energy
+          i Key message 
+          p
+            | Moldova is in a period of demographic transition that will generate significant effects in the long run. Emigration remains a central feature of society, both for short periods (for work), and for long periods or even permanently. The characteristics of emigration are even more significant; it is no longer temporary and for employment. Rather, people emigrate to live abroad. Moldova also registers a continuous negative natural population growth and a rapid depopulation of rural areas. Given these conditions, the population with &ldquo;usual residence&rdquo; in Moldova over the past seven years decreased by 225 000, leaving the total population at 2.6 million.
+          i Indicator trend 
+          p
+            | Massive emigration over the past two decades significantly affected national demographics. Because many people with Moldovan citizenship do not live in the country, certain measures were needed to describe the actual demographics. Thus, in 2014, the National Bureau of Statistics introduced the usual resident population indicator. This refers to the number of people who lived predominantly in the country over the past 12 months, regardless of temporary absences. The population with usual residence is based on the 2014 Population and Housing Census, then adjusted with natural population growth (births minus deaths) plus net migration. Besides migration, negative natural population growth has been registered for many years, as well as a rapid and persistent depopulation of rural areas, which puts more pressure on demographic indicators. This change of focus resulted in a sharp drop in population. Using the new indicator, 3.5 million people held residence in the country, including those temporarily absent who left to live abroad (stable population). At the same time, an increasingly higher number of public authorities make decisions based on other figures, such as population with a usual residence that amounts to 2.6 million people (Figure 8). This report uses this figure predominantly to analyse different per capita indicators because it best captures the real number of people on the territory of the country.
+        #sub-section-7.sub-section
+          h2 Indicator 2.6 Waste generation
+          i Key message 
+          p
+            | Population density registers the same downward trend as the number of people. In 2020, Moldova had an average of 89 persons per square kilometre &ndash; 8 persons fewer than in 2014. At the same time, significant changes took place at the regional level following a rapid depopulation of rural areas and concentration of population in urban areas, particularly in Chisinau municipality.
+          i Indicator trend
+          p
+            | Demographic trends characterised by emigration and negative natural population growth have an impact on population density. Based on population with usual residence (i.e. how many people live in the country), population density reaches only 89 persons per square kilometre. This level represents the situation in Moldova only for 2020, without the Transnistrian region, and projects a continuous decrease of one person on average annually. Figure 9 compares Moldova with European countries in 2018, showing the country ranks below the EU average of 118 persons per square kilometre.
+        #sub-section-8.sub-section
+          h2 Indicator 2.7 Waste recycling
+          i Key message
+          p
+            | Even if life expectancy at birth has improved in recent years, Moldova ranks at the lowest level among European countries with an average for both genders of only 70.9 years. Disaggregated by genders, women live on average eight more years than men &ndash; a high gap compared with other countries. At the same time, the COVID-19 pandemic significantly affected the general level of the indicator in 2020, translating into a higher number of deaths and a lower number of births. Thus, in 2020, life expectancy at birth decreased by about 1 year, reaching 65.9 years for men and 75.1 years for women.
+          i Indicator Trend
+          p
+            | Life expectancy at birth in Moldova has improved marginally over the past few years, but the COVID-19 pandemic had a strong impact in 2020. Until 2019, life expectancy had continued to increase and reached 70.9 years for both genders (69.3 years in 2014). In 2020, Moldova registered a decrease of about one year due to a higher number of deaths from COVID-19 and a lower number of births (probably for the same reason). Women still surpass men in terms of life expectancy at birth, reaching 73.9 years compared with 75.1 years in 2019. For their part, men live on average 8 years less than women in 2020: their life expectancy is 65.9 years, 1.1 years less than in 2019. Apart from 2020, life expectancy has increased in recent years due to a reduced overall mortality rate and infant mortality rate. The improved health of the population is essential in this regard, achieved through greater access to health care services rather than through improvements to the environment. Thus, the morbidity rate did not change significantly. However, Moldova has made important technological progress in health care services and better access to medicines and treatment.
+          p
+            | For comparison, Moldova is still at the bottom of the list among European countries with respect to life expectancy at birth (Figure 2.11). Western European countries are at the top of this ranking with a life expectancy of over 80 years, while Eastern countries, including Romania and Ukraine, register a level under 75 years. This is due to different factors, including access to health care goods and services, sanitation, quality of life and overall living standards.
+          p
+            | Another indicator for human capital is related to the Human Development Index (HDI), which comprises indexes on life expectancy, education level and living standards. According to the 2019 ranking, Moldova ranks 107th among world countries with HDI equal to 0.711 (i.e. among countries with high human development). Moldova jumped into the second group of countries after being included among countries with a medium level of human development for many years. Neighbouring countries, Romania and Ukraine, rank 52nd (HDI &ndash; 0.816) and 88th (HDI &ndash; 0.750), respectively, while Georgia ranks 70 (HDI &ndash; 0.786). EU countries belong to the group with a high level of human development.
+        #sub-section-9.sub-section
+          h2 Indicator 2.8 Use of fertilisers
+          i Key message 
+          p
+            | Socio-economic inequalities in Moldova tend to decrease following an increase in people&rsquo;s income. This is due largely to labour migration, which brings a significant volume of remittances into the national economy every year. Thus, on the one hand, the income of the population from the most vulnerable group increased and, on the other, the number of households with precarious economic situations decreased. Nonetheless, the COVID-19 pandemic revealed that economic precarity continues for groups that lost part of their income or even their jobs due to lockdown.
+          i Indicator trend 
+          p
+            | After a period of marginal improvement, the level of inequalities in Moldovan society has being increasing since 2018. Thus, the GINI coefficient reached 0.33 (0 &ndash; perfect equality, 1 &ndash; maximum inequality) at the end of 2020 (Figure 12). Increasing external migration of the low-income population contributed to diminishing inequalities until 2018. As a result, the share of remittances by households from quintile I (20% of the population with the lowest income) has doubled up to 18% of their total disposable income. This level is comparable with that of households from quintile V (20% of the population with the highest income). This also results from coefficient values that decreased both for total available income of the population and overall consumer spending. Basically, the number of households with unfavourable socio-economic status diminished, particularly the number of those employed in the agricultural sector where salaries are among the lowest.
+          p
+            | Despite the somewhat positive trends in diminishing inequalities, their level is most likely underestimated because households struggle to obtain a higher level of income. In addition, during the household survey, people tend to underestimate income compared with consumption expenses. The level of inequalities was clearly visible during the COVID-19 pandemic. During the lockdown, for example, people with low income and without savings were the ones most affected by the inability to carry out certain economic activities. Over the past ten years, the level of inequality has been essentially unchanged in most of Central and Eastern European countries. Moldova was the only country in the region that registered a significant positive performance on this front. Even so, the values of the GINI coefficient are among the lowest in Moldova, surpassed only by countries such as the Czech Republic, Poland and Slovenia. However, these comparisons should be analysed carefully given that national income cannot be compared.
+        #sub-section-10.sub-section
+          h2 Indicator 2.9 Use of water
+          i Key message 
+          p
+            | The enrolment rate in education differs depending on educational level. All children are enrolled in mandatory education, and to a lesser extent in preschool education. Education reforms of recent years have led to increased registration in secondary or tertiary education and efforts to correlate the educational offer with labour market requirements.
+          i Indicator trend 
+          p
+            | The enrolment rate in education continues to be high, although it differs depending on educational level. During the academic year 2019/20, about 435 000 persons were enrolled in the education system, or 16% of the population with a usual residence. The highest level of enrolment is registered at the level of primary and secondary education. The rate for mandatory education is still relatively constant and even exceeds 100% given children are enrolled in the first grade before the age of seven. The next highest rate is for preschool education (90.3%). This rate has stayed constant in recent years and shows the interest of parents for their children to attend kindergarten. On the other side, gross enrolment grew significantly in secondary (high school and technical vocational education) and tertiary education (university). Thus, enrolment in secondary education grew by about 16 percentage points up to 82.5%, while enrolment in tertiary education grew by about 12 percentage points. These figures confirm the increasing interest of students in high school, vocational or even university education. These trends are also determined by a better correlation between the labour market and the education system to reach a higher impact on economic growth. A good example in this regard is vocational education that allows certain individuals to adapt easier to the labour market requirement. Despite the above-mentioned figures, the actual number of persons enrolled in certain levels of education is decreasing continuously and significantly. The number of students has dropped twice over the past 12 years to about 61 000. The number of students enrolled in primary and general secondary education also decreased by about 28% down to about 334 000 students during the 2018/19 academic year. There are multiple reasons for these trends related to emigration &ndash; from families moving abroad together with their children to better conditions for studies and opportunities abroad.
+    footer
+      .contacts
+        p Contacts:
         p
-            i Figure 16. Structure of greenhouse gas emissions by sector (percentage)
-
-
-    #sub-section-3.sub-section
-        h2 Indicator 2.2 Carbon productivity
+          | Westminster International University in Tashkent, 12 Istiqbol street, Tashkent 100047
+        p Email: cpro@wiut.uz
+        p Phone:+998 71 238 74 48
+      .rights
         p
-            i Key message
-            br
-            | Carbon productivity reflects the correlation between CO2 emissions and economic dynamics. Productivity is determined by the value of economic output (MDL or USD of GDP) per a certain quantity of CO2. For example, higher productivity means production of 1 MDL or USD of GDP is accompanied by a reduction of CO2 emissions.
-            | In Moldova, a relatively constant volume of GHG emissions, including CO2, has been accompanied by GDP growth since 2010. As a result, carbon productivity increased and economic growth decoupled from CO2 emissions. Despite this increase, carbon productivity in Moldova is still low compared with other European countries.
-        p
-            i Indicator trend
-            br
-            | Between 2010 and 2019, the economy of Moldova began to rise, although GDP decreased in 2012 and 2015. As a result, GDP grew by about 42% between 2010-19. The constant volume of CO2 emissions combined with GDP growth resulted in higher carbon productivity (figure 17). Productivity grew from 7.3 to 9.5 MDL/kg. At the same time, the ratio between GDP and GHG emissions increased from 10.7 to 14.0 MDL/kg CO2-eq. Higher carbon productivity shows that economic growth decoupled from CO2 emissions.
-        p
-            i  Figure 17. GHGs and carbon productivity in Moldova 
-        p
-            br
-            | Carbon productivity expressed in USD at purchasing power parity (PPP) in constant 2017 prices grew from USD 3.0 to 4.0 PPP/kg between 2010 and 2019, an increase of 30.8%. Although this is positive, productivity in Moldova grew at a lower rate than in the European Union (35.5%). Hence, although productivity in Moldova grew by over 30%, it is still low compared with other European countries (figure 18). Moreover, Moldova ranks at the bottom of European countries in terms of carbon productivity. Thus, in 2016, productivity in Moldova accounted for 58.4% of the EU level.
-        p
-            i  Figure 18. Carbon productivity, USD PPP (2017=1)/kg
-
-
-    #sub-section-4.sub-section 
-        h2 Indicator 2.3 Final consumption of energy 
-        p
-            i Key message
-            br
-            |                                     The way energy is used has an impact on the development of the green economy. Producing energy with less fuel generates fewer CO2 emissions and helps maintain a clean environment. Energy productivity reflects the relationship between the use of energy and economic growth. Productivity is determined by the value of economic output (1 MDL or USD of GDP) per a certain quantity of energy. For example, growth in productivity reveals that production of 1 MDL or USD of GDP was accompanied by a decrease in energy consumption. In Moldova, the supply of primary energy and final consumption of energy increased after 2020. Energy supply grew at a lower rate than GDP. As a result, energy productivity increased. Nonetheless, this growth did not allow Moldova to improve its position in relation to other European countries.
-        p
-            i Indicator trend
-            br
-            |                                 After 2010, the supply of primary energy increased (except for a decrease in 2019). Between 2010 and 2019, the supply of primary energy grew from 2.6 to 2.9 million tonnes of oil equivalent (toe), an increase of 11.5%. The increasing supply of energy was determined by the growth in consumption. Thus, in 2019, compared with 2010, final consumption of energy grew by 16.8%, from 2.3 to 2.7 million toe.
-            br
-            |                                 During 2010 and 2019, non-energy consumption triggered the fastest growth in energy use, from 32 000 to 67 000 toe. Energy consumption in agriculture also grew quickly: from 71 000 to 123 000 toe (73.2%). Meanwhile, energy use in the transport sector grew from 597 to 769 million toe (28.8%). The residential sector grew at a slower pace: from 1.1 to about 1.3 million toe (11.6%). Energy consumption in industry and construction, as well as in the trade and public service sector, remained generally stable. The use of energy in industry and constructions varied around the level of 230 000 toe. Meanwhile, in the trade and public service sector, consumption oscillated around the level of 270 000 toe.
-            br
-        p
-            i
-                | Figure 19. Supply of primary energy and final consumption of energy by sectors (thousand tonnes oil equivalent)
-        p
-            i
-                img(src='images/engraf19.png' alt='')
-                br
-        p
-            | Between 2010 and 2019, the structure of final consumption of energy underwent minor changes. The share of the residential sector in energy consumption decreased from 48.6% to 46.5%, while the share of transport increased from 25.5% to 28.1%. The share of energy consumption also decreased in industry and construction (from 9.7% to 8.5%) and in trade and public services (11.8% to 9.9%). The share of energy use increased in agriculture (from 3.0% to 4.5%) as did the share of non-energy consumption (from 1.4% to 2.4%). However, the sector still accounts for a small share of energy consumption.
-        p
-            i  Figure 20. Structure of final consumption of energy (percentage)  
-        p
-            | Between 2010 and 2019, the supply of primary energy increased by 11.5%, and GDP grew by about 42%. As a result, energy productivity increased and economic growth decoupled from energy use. In terms of economic output at PPP, the level of productivity grew by 27.2% &ndash; from 9.2 to 11.8 USD/kg.
-            br
-            |                                     Energy productivity grew much faster in Moldova compared with other European countries. For example, between 2010 and 2019, productivity in the European Union grew by 24.4% and was 2.7 percentage points lower than growth in Moldova. Despite this progress, productivity in Moldova is still low compared with other European countries. Among European countries, Moldova ranks near the bottom in terms of energy productivity (figure 21).
-        p
-            i Figure 21. Energy productivity, USD PPP (2017=1)/g oil equivalent  
-
-            
-
-    #sub-section-5.sub-section 
-        h2 Indicator 2.4 Energy intensity
-        p
-            i
-                | Key  message 
-                br
-            | Energy intensity is the opposite of energy productivity. Energy intensity is determined by the quantity of consumed energy per one value unit of economic output (1 MDL or USD of GDP or GVA). A lower intensity shows that reduction in energy use was accompanied by production of the same level of GDP or even output growth.
-            |                                     A lower intensity or higher energy productivity shows that economic growth is accompanied by a more efficient use of energy resources. In Moldova, productivity grew and energy intensity decreased after 2010. Nonetheless, energy intensity did not diminish in all economic sectors.
-            br
-            i  Indicator trend
-        p
-            | Between 2010 and 2019, GDP growth exceeded growth of final consumption of energy. These trends resulted in the growth of energy productivity and a decrease in energy intensity at the level of the entire economy (figure 22). Over 2010-19, energy intensity declined by 17.7% &ndash; from 27.2 to 22.4 grammes oil equivalent/MDL. Energy intensity registered a more pronounced decrease in the industry and construction sectors. In this sector, GVA &ndash; an indicator that reflects the production process &ndash; increased by 54.1%, while energy consumption increased by only 3.1%. As a result, energy intensity in industry and construction decreased by 33.1% &ndash; from 13.3 to 8.9 grammes of oil equivalent/MDL. At the same time, energy intensity increased in agriculture. GVA in agriculture increased by 51.3% and energy use increased by 73.2%. As a result, energy intensity in the agricultural sector increased by 14.5% from 7.4 to 8.4 grammes of oil equivalent/MDL.
-        p
-            i  Figure 22. Energy intensity, MDL (2010=1)/g oil equivalent
-
-
-    #sub-section-6.sub-section 
-        h2 Indicator 2.5 Share of renewable energy in the final consumption of energy
-        p
-            i Key message
-            br
-            |                                     Renewable sources of energy are alternatives to fossil fuels and help reduce GHG emissions, diversify energy supply and decrease dependence on volatile oil and gas markets. In Moldova, the supply of renewable energy increased after 2010 (although it decreased in 2019). As a result, the share of renewable energy in primary energy supply and in final consumption of energy increased. Nonetheless, the supply of renewable energy in Moldova consists mainly of biofuels and waste. This shows efforts to develop a modern sector for generating renewable energy are still at an embryonic stage.
-        p
-            i Indicator trend
-            br
-            |                                 In general, the supply of renewable energy increased after 2010 (decreasing only in 2019). Between 2010 and 2018, renewable energy supply grew from 519 million to 793 million toe, an increase of 52.8%. In 2019, the supply of renewable energy dropped to 660 000 toe. Following this trend, the supply of renewable energy increased by 27.2% over 2010-19. As a result, the share of renewable energy in the supply of primary energy and in the final consumption of energy increased (figure 23). Renewable energy represented 19.7% of primary energy supply in 2010, increasing to 22.5% in 2019. During the same period, the share of renewable energy in final energy consumption increased from 22.1% to 24.1%. 
-            br
-        p
-            i
-                | Figure 23. Supply of renewable energy (thousand tonnes oil equivalent) and share of renewable energy in primary energy supply and in final consumption of energy (percentage)
-        p
-            i
-                img(src='images/engraf23.png' alt='')
-                br
-        p
-            | Compared with other European countries, Moldova is well positioned for renewable energy supply (figure 24). Over 2010-19, the share of renewable energy in primary energy supply in Moldova grew from 19.7% to 22.5%. The average value of this indicator in the European Union grew at a much slower rate &ndash; from 11.4% to 16.0%.
-        p
-            i
-                | Figure 24. Share of renewable energy in primary energy supply in European countries (percentage)
-        p
-            i
-                img(src='images/engraf24.png' alt='')
-                br
-        p
-            | Nonetheless, the share of biofuels and waste in the primary supply of renewable energy is extremely high in Moldova compared with other European countries. Biofuels and waste account for 98-99% of the primary supply of renewable energy. For its part, firewood represents over 80% of biofuels and waste. This shows that Moldova obtains most of its renewable energy from cutting trees, and that renewable energy production is at an early stage of development.
-            br(clear='all')
-
-
-    #sub-section-7.sub-section 
-        h2 Indicator 2.6 Waste generation
-        p
-            i Key message
-            br
-            |                                     Waste represents processed products or substances that cannot be used in human activities (production or consumption). Due to prolonged decomposition and the emissions generated during the decomposition, waste is an important source of environmental pollution. Two trends are registered in the Republic of Moldova (hereafter &ldquo;Moldova&rdquo;). Waste from enterprises has decreased, particularly after 2015. At the same time, the volume of household waste is increasing.
-        p
-            i Indicator trend
-            br
-            |                                 Since 2015, a clear trend is visible with respect to waste reduction from enterprises (figure 25). Between 2015-19, the amount of waste dropped by 70% (from about 4.0 million tonnes to 1.2 million tonnes). At the same time, household waste increased, especially in 2018. Between 2014 and 2018, the volume of household waste fluctuated around 2 million cubic metres (m3) before growing more intensely between 2019 and 2020. As a result, Moldova generated about 2.4 million m3 in household waste in 2020.
-        p
-            i Figure 25. Waste generated by enterprises and households  
-        p
-            | Between 2010 and 2019, enterprises decreased their waste by more than one-third (34.3%). During the same period, GVA increased by 42.1%. Consequently, enterprises decoupled production from their waste generation. Within households, waste and consumption levels were generally the same between 2014 and 2017. Beginning in 2018, household waste grew faster than consumption (figure 26). Between 2014 and 2020, household waste grew by 20.9%, while household consumption increased by only 5.4%. Thus, Moldova continues to favour a model where waste levels surpass consumption levels.
-        p
-            i
-                | Figure 26. Waste generated by enterprises, household waste, GVA and household consumption (percentage)
-
-
-    #sub-section-8.sub-section 
-        h2 Indicator 2.7 Waste recycling
-        p
-            i Key message
-            br
-            |Waste utilisation means reintroducing waste in the economic circuit in the form of secondary raw materials or using them after processing as unfinished goods. Waste utilisation, including its recycling, has an important role in ensuring a healthy environment. Recycling reduces pressure on the environment because reintroducing waste in the economic circuit diminishes consumption of natural resources. Moldova uses the term &ldquo;utilised waste&rdquo; that comprises both recycling of waste and use of waste to produce energy. No clear trend is identified in Moldova in terms of waste utilisation.
-        p
-            i Indicator trend
-            br
-            |Moldova registered its biggest quantity of waste utilisation in 2010 (1.4 million tonnes). Later, between 2011 and 2019, the quantity of utilised waste varied between 300 000 and 700 000 tonnes (figure 27). At the same time, the ratio between recycled waste and waste produced by enterprises had the highest value &ndash; 77.1% in 2010. Between 2011 and 2019, this ratio varied between 19% and 44%.
-        p
-            i
-                | Figure 27. Recycled waste, and the ratio between recycled waste and waste generated by enterprises
-        p
-            | In the &quot;National Waste  Management Program for 2022-2027&quot; are presented some information about the  recycling rate of some categories of municipal waste. However, this information  is not official data and represent only estimations of program&rsquo;s authors. Thus, it was estimated that in 2018 the recycling rate of  plastic waste was 4.1%, and the recycling rate was paper waste was 7.7%. A  higher recycling rate is in the case of glass waste, which increased from 35.1%  in 2018 to 41.5% in 2019.
-
-    #sub-section-9.sub-section 
-        h2 Indicator 2.8 Use of fertilisers
-        p
-            i Key message
-            br
-            | The sustainability of agricultural systems is an important element of the green economy. In this context, progress towards green growth can be assessed by analysing the intensity of mineral fertiliser use; intense use of nitrates and phosphates can pollute the environment. In international practice, nutrient balances are calculated to estimate the pollution potential of mineral fertilisers. Moldova does not estimate nutrient balances; other information can help analyse intensity of fertiliser use. Using these indicators, Moldova has accelerated use of mineral fertilisers. However, this was not accompanied by a rapid increase in vegetal production.
-        p
-            i Indicator trend
-            br
-            | In general, use of mineral and organic fertilisers in Moldova increased after 2010 (figure 28). Between 2010-20, use of mineral fertilisers to treat land increased from 20 100 tonnes to more than 100 000 tonnes. While the trend was more erratic for organic fertilisers, there was still an increase. Between 2010-20, use of organic fertilisers on agricultural land increased from 15 100 tonnes to more than 105 000 tonnes.
-        p
-            i Figure 28. Mineral and organic fertilisers (thousand tonnes) 
-        p
-            | Most mineral fertilisers are nitrates followed by phosphates and then potassium. Between 2010 and 2020, use of all types of fertilisers increased rapidly. During the same period, the quantity of nitrates used quadrupled &ndash; from just over 16 000 to 66 000 tonnes. At the same time, the quantity of phosphates increased almost ten-fold &ndash; from about 2 400 tonnes to 24 000 tonnes. The use of potassium fertilisers also increased almost 8.5 times &ndash; from 1 300 to over 11 000 tonnes.
-        p
-            i Figure 29. Minerals in fertilisers (nitrogen, phosphate and potassium)
-
-
-    #sub-section-10.sub-section 
-        h2 Indicator 2.9 Use of water
-        p
-            i Key message
-            br
-            |Availability of water resources is a basic condition for sustainable socio-economic development. Water is vital for agricultural development and for maintaining people&rsquo;s health at a satisfactory level. In addition, efficient use of limited water resources is necessary for green economic development. Water productivity can be calculated to assess the relationship between water use and economic dynamics. This indicator reveals the value of economic output (1 MDL or USD of GDP) per a certain volume of water used. For example, the growth of productivity reveals that production of 1 MDL or USD from the GDP was accompanied by less water consumption. In Moldova, water consumption has been stable since 2010, but GDP has increased. As a result, water productivity increased. Nonetheless, this growth did not allow Moldova to improve its position in relation to other European countries.
-        p
-            i Indicator trend
-            br
-            |Between 2010 and 2020, water use was stable. During that period, water use remained essentially unchanged, increasing 785 million m3 to 787 million m3. Indeed, in most sectors, water use and household consumption was stable, decreasing only slightly. During this same period, Moldova used about 580 million m3 of water for production, which represents about three-quarters of water use. Meanwhile, it used 38-40 million m3 of water for agriculture and 40-50 million m3 for irrigation. Household water consumption decreased slightly, from 118 million m3 to 112 million m3.
-        p
-            i  Figure 30. Use of water by sectors (million m3)
-        p
-            | Between 2010-20, while water use was stable, GDP increased by about 32%. As a result, water productivity increased and economic growth decoupled from water consumption. Productivity grew from USD 35.2 to 45.5 per m3 between 2010-18, an increase of 31% (with economic output expressed as PPP). Despite this progress, productivity levels in Moldova remain one of the lowest in relation to other European countries.
-        p
-            i Figure 31. Water productivity (USD PPP (2017=1)/m3)
-
-
-
-footer
-  p &copy; 2023. All right reserved
-
-script(src='/static/javascripts/script.js')
+          | This site was created with the financial support of the European Union. The opinions expressed in this document may in no case be considered as a reflection of the official opinions of the European Union, its members or the governments of the Eastern Partnership countries. This site, as well as all content contained therein, is without prejudice to the status or sovereignty of any territory, the delimitation of international borders and frontiers, and the name of any territory, city or region.
+        i (c) 2023. All rights reserved.
+    script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
+    script(src='/static/javascripts/script.js')
+    script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')
+    script(src='/static/javascripts/group2.js')
