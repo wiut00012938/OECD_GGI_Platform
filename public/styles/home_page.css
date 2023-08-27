@@ -36,6 +36,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid white;
+    padding: 10px;
+    box-shadow: 6px 4px white;
 }
 .one nav div a{
     font-size: 4rem;
@@ -43,7 +46,7 @@ section{
     color: #fff;
     padding: 2px;
 }
-.one nav div a:nth-child(1){
+.one nav div a:nth-child(1), .one nav div a:nth-child(2){
     border-right: 1px solid black;
 }
 .one nav div a:hover{
@@ -56,9 +59,9 @@ section{
 }
 .one nav p{
     font-size: 3rem;
-    background-color: rgb(59, 140, 233);
     padding: 5px 3px 3px 3px;
     color: white;
+    border: 1px solid white;
 }
 .one .poster{
     display: flex;

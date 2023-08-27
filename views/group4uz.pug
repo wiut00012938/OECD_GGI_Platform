@@ -1,125 +1,127 @@
 doctype html
-html(lang='ru')
+html(lang='en')
   head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Группа 5. Экономические возможности и меры политики
+    title Group 4
     link(rel='stylesheet', href='/static/styles/styles1.css')
     link(rel='shortcut icon', href='/static/images/main_icon.png')
   body
     header
       div
-        a.active_language(href='/group5_ru') RU
-        a(href='/group5') Eng
-        a(href='/group5_uz') UZB
-      a.home_page_link(href='/ru' title = 'Home Page') 
+        a(href='/group4_ru') RU
+        a(href='/group4') Eng
+        a.active_language(href='/group4_uz') UZB
+      a.home_page_link(href='/uz' title = 'Home Page') 
     .navigation
       div
-        a(href='/home_ru')
+        a(href='/home_uz')
           i.fa-solid.fa-house-flag
-        p Главная страница
+        p Home Page
       div
-        a(href='/introduction_ru')
+        a(href='/introduction_uz')
           i.fa-regular.fa-file-lines
-        p Введение
+        p Introduction
       div
-        a(href='/group1_ru')
+        a(href='/group1_uz')
           i.fa-solid.fa-arrow-up-right-dots
-        p Группа 1
+        p Group 1
       div
-        a(href='/group2_ru')
+        a(href='/group2_uz')
           i.fa-solid.fa-seedling
-        p Группа 2
+        p Group 2
       div
-        a(href='/group3_ru')
+        a(href='/group3_uz')
           i.fa-brands.fa-envira
-        p Группа 3
+        p Group 3
       div
-        a(href='/group4_ru')
+        a.nav-active(href='/group4_uz')
           i.fa-solid.fa-building-columns
-        p Группа 4
+        p.nav-active Group 4
       div
-        a.nav-active(href='/group5_ru')
+        a(href='/group5_uz')
           i.fa-solid.fa-users-gear
-        p.nav-active Group 5
+        p Group 5
     .heading
-      i.fa-solid.fa-users-gear
-      h1 Группа 5. Экономические возможности и меры политики
+      i.fa-solid.fa-building-columns
+      h1 Group 4. The environmental dimension of quality of life
     .description
       p
-        | This group of indicators explores how progress towards green growth is generating economic opportunities in Moldova. The indicators measure innovation in the green economy/environment, public and private expenditures for environmental 
-        |  protection, and subsidies for energy and organic agriculture. In so doing, they capture the economic opportunities associated with green growth, assessing the effectiveness of policy in areas such as technology and innovation, environmental goods and services, investment and financing, prices, taxes and transfers. 
+        | This group of indicators explores whether greening growth generates benefits for people in Moldova. The four indicators measure air pollution, population exposure to fine particulate 
+        |  matter, and access to safe drinking water and sewerage. Using these measurements, the chapter reflects on how environmental conditions and environmental risks interact with the quality of life and well-being of people. They also point out how the amenity services of natural capital support well-being. Further, they show the extent to which income growth is accompanied (or not) by a rise in overall well-being.
     main
       .section
         #section-1.section-active
           i.fa-solid.fa-file-circle-check
-          h3 оказатели ответных мер политики: основные выводы
+          h3 Environmental quality of life indicators: Key findings
         #section-2
-          i.fa-solid.fa-seedling
-          h3 5.1 Инновации в зеленой экономике/окружающей среде
+          i.fa-solid.fa-smog
+          h3 4.1 Air pollution
         #section-3
-          i.fa-solid.fa-hand-holding-hand
-          h3 5.2 Государственные расходы на охрану окружающей среды
+          i.fa-solid.fa-person-arrow-up-from-line
+          h3 4.2 Population exposure to fine particulate (PM 2.5)
         #section-4
-          i.fa-solid.fa-plug-circle-bolt
-          h3 5.3 Энергетические субсидии
+          i.fa-solid.fa-faucet-drip
+          h3 4.3 Access to safe drinking water sources
         #section-5
-          i.fa-solid.fa-hand-holding-dollar
-          h3 5.4 Частные расходы на охрану окружающей среды
-        #section-6
-          i.fa-solid.fa-money-bill-wheat
-          h3 5.5 Субсидии для органического сельского хозяйства
+          i.fa-solid.fa-arrow-up-from-water-pump
+          h3 4.4 Population connected to sewerage
       .section_text
         #sub-section-1.sub-section.active
-          h2 Policy responses indicators: Key findings
+          h2 Environmental quality of life indicators: Key findings
           .sub-section_content
             ul.sub-section_text
               li 
                 b
-                  | Share of environment- related innovations in Uzbekistan is growing. 
-                |  Over 15% of the innovations in Uzbekistan in 2018 were environment related; this was 0.02 technologies per capita.
+                  | Uzbekistan has been facing increasing air pollution and had 909 thousand tonnes of pollutants in the air in 2021. 
+                | Over half of the Uzbekistan population is daily exposed to particulate matters (PM2.5) concentrations above 35µg/m3.  
               li 
-                b Public expenditures in environmental protection (including SDG 13, Climate Change) are relatively low, but growing. 
-                |  On average, environmental expenditure accounted for 0.06% of total government expenditures in 2012–2019. The proportion of environmental protection expenditures relative to GDP was 0.02% In 2019.
+                b In 2021, Tashkent city had the 10th worst air quality of any city globally in terms of average annual PM2.5 concentrations, while Uzbekistan was ranked 12th worst. 
+                |  Uzbekistan was the second most polluted Central Asian country in 2019, next to Tajikistan.
             .sub-section_figure
               h3
-                i Public expenditures in environment protection
-              canvas#environment_expenditures(style='max-height: 300px;')
+                i Air pollutants, thousand tonnes
+              canvas#air_pollutants(style='max-height: 300px;')
               h4
-                i Source: State Committee for Ecology and Environmental Protection, 2023
+                i Source: Statistics Agency, 2023
           .sub-section_content
             .sub-section_figure
               h3
-                i Revenues from environmental tax, % share 
-              canvas#environment_revenue(style='max-height: 300px;')
+                i Death due to respiratory disease, % of death 
+              canvas#respiratory_death(style='max-height: 300px;')
               h4
-                i Source: State Committee for Ecology and Environmental Protection, 2023
+                i Source: Statistics Agency, 2023
             ul.sub-section_text
               li 
-                b Increase in economic activity led to increase in environmental revenues  in Uzbekistan. 
-                |  The aggregate annual volume of tax revenues from pollutant pays averaged about 0.01% of the state budget for 2015-2018, mostly from solid waste management. 
-                b Uzbekistan however does not yet systematically track all ‘green’ revenues from taxes, charges, and fees; thus, the amount of environmental revenue is underestimated.
+                |  Over 750 people die in 1 million inhabitants annually in Uzbekistan due to exposure to PM2.5. Almost 10% of deaths in Uzbekistan in 2022 were caused by respiratory diseases. 
+                b  Premature death and other health problems due to exposure to PM cost 8.7% of GDP equivalent annually.
               li 
-                b Uzbekistan’s energy sector aims to phase out the fossil fuel subsidies gradually.
-                |  In 2020, Uzbekistan’s subsidies for fossil fuels amounted to 6.6% of the GDP and were reduced by 60% of the 2010 level.  Over half of the fossil fuel subsidy goes to the natural gas sector. 
+                b By 2021, only 68% of Uzbekistan households had access to safe drinking water. The proportion declined from 82.5% in 2010. 
+                |  Uzbekistan's outdated water supply infrastructure has stagnated or declined water services. Access to safe drinking water is worse in rural areas.  
           .sub-section_content
             ul.sub-section_text
               li 
-                b Price for energy is growing 
-                |  to reach its market value. Until 2017 there was a single tariff in Uzbekistan for all consumer categories, then Uzbekistan set different tariffs for different categories of consumers. The tariff for commercial consumers was 30% to 50% more than residential use tariffs. 
-                b Price for water is also growing.
-                |  The tariffs vary by region and have been revised several times. Though water tariff levels and collection rates have increased, it does not cover operational costs.
-              li 
-                b International financial flows in support of Uzbekistan’s green growth strategy are evolving. 
-                |  In 2023, loans and grants for green investments is USD 840 mln and USD 66 mln, respectively. 
+                b Uzbekistan has achieved the 2030 SDG towards universal access to sanitation. 
+                |  As early as 2014, all (100%) of Uzbekistan's population had access to improved sanitation. This is a progress from 93% in 2000. 
             .sub-section_figure
               h3
-                i Energy subsidies (USD real 2019, million)
-              canvas#energy_subsidies(style='max-height: 300px;')
+                i Access to safe drinking water, % of houses 
+              canvas#water_access(style='max-height: 300px;')
               h4
-                i Source: International Energy Agency (2021)
+                i Source: Statistics Agency, 2023
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Access to sewerage, % of houses
+              canvas#sewerage_access(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+            ul.sub-section_text
+              li
+                b Only 44% of the houses have access to sewerage systems in Uzbekistan.  
+                |  Most households in rural areas have self-built on-site sanitation - dry pit latrines or septic tanks with onsite disposal. Wastewater is not treated according to international standards. 
         #sub-section-2.sub-section
-          h2 Indicator 5.1 Innovations in the green economy/environment
+          h2 Indicator 4.1 Air pollution
           i Key message
           ul 
             li
@@ -131,17 +133,17 @@ html(lang='ru')
             li
               | Although the national economy has generally grown, the quality of growth is fragile, raising questions about its sustainability. An economic growth model based on consumption is limited given that migration trends are changing from periodic migration for employment to definitive migration based on factors that are not necessarily economic. These vulnerabilities have emerged in the context of the COVID-19 pandemic. The crisis hit the country at a moment of low competitiveness and economic freedom, coupled with the escalation of systemic vulnerabilities related to corruption, competition or access to funding (Expert-Grup, 2020a). As a result, the state offered a modest response towards the pandemic of 0.4% of GDP, while other countries were allocating up to 5% of GDP. In this context, the pandemic had a major impact on GDP, generating a 7% downturn in 2020. Despite GDP growth, the per capita ratio is only USD 12 300, the lowest among European countries (Figure 2).
         #sub-section-3.sub-section
-          h2 Indicator 5.2 Public expenditures on environmental protection
+          h2 Indicator 4.2 Population exposure to fine particulate (PM 2.5)
           i Key message
-          ul 
+          ul
             li
               | The structure of the national economy has not changed significantly over the past decade. The economic growth model based on consumption and financed by remittances brings the trade sector to the forefront. This model also stimulates construction activity, a sector that is growing steadily and seems poised to continue. On the other side, traditional sectors such as agriculture or industry have registered only modest gains as they remain vulnerable to shocks outside the realm of decision makers. These include climate conditions for agriculture or the export potential of many other industries.
           i Indicator trend
-          ul 
+          ul  
             li
               | The  economic structure of Moldova has not changed significantly since 2010. Trade  contributes most to GDP due to the annual volumes of remittances. Trade is  followed by the processing industry, which has surpassed agriculture in recent  years as a result of foreign investments and higher export capacities. On the  other side, agriculture depends greatly on climate conditions and generates  only modest results during years affected by drought. Despite efforts to  modernise the agricultural sector, systemic problems are not solved and some  have worsened. Thus, irrigation and access to water sources is still a major  problem given the increased frequency of droughts. Also, various agricultural  products (e.g. apples and other fruits) still depend on export markets  influenced by political decisions. The agro-industrial sector also faces certain  problems as livestock products have a hard time finding external markets. With many  economic sectors affected by problems, sectors like construction, transport or  services (particularly IT) are better positioned to succeed. Construction  registered important growth given the strong demand for apartments,  particularly in Chisinau, which motivated the developers to launch many  residential projects. This demand is fuelled both by remittances and by access  to real estate loans. These loans became more accessible following  implementation of the state&apos;s &ldquo;Prima Casa&rdquo; programme and financial system  reforms (Figure 3).
         #sub-section-4.sub-section
-          h2 Indicator 5.3 Energy subsidies
+          h2 Indicator 4.3 Access to safe drinking water sources
           i Key message 
           ul 
             li
@@ -153,7 +155,7 @@ html(lang='ru')
             li
               | The seriousness of the labour force situation is also confirmed by comparison at the European level (Figure 5). Moldova ranks last among European countries in terms of labour force participation. It has a participation rate of under 45%; two other countries are between 45-50%, while most have a rate above 55%. Moreover, Moldova has one of the fastest decreases, starting already from a low level (compared with 2014), while other countries either register a decrease from a high level or an improvement.
         #sub-section-5.sub-section
-          h2 Indicator 5.4 Private expenditures for environmental protection
+          h2 Indicator 4.4 Population connected to sewerage
           i Key message 
           ul 
             li
@@ -164,18 +166,8 @@ html(lang='ru')
               | The unemployment rate has not changed much since 2014. The introduction in 2018 of a 12% flat personal income tax, as part of the tax reform, reduced both the population engaged in informal employment and the number of unemployed by tens of thousands of people. As a result, the unemployment rate hit in 2018 a historic low &ndash; slightly less than 3% (Figure 6).
             li
               | The level of unemployment in Moldova is among the lowest in European countries (Figure 2.7). Nonetheless, these results occur in the context of high levels of informal employment throughout the entire economy &ndash; about 16% of employed persons. Sectors such as construction or agriculture are at the top of the list when it comes to informally employed persons with more than half of the total. In addition, a high number of citizens do not have a job but are not searching for one; hence, they do not meet the requirements to be called &ldquo;unemployed persons&rdquo;. The term refers to persons with a temporary job abroad and who alternate between staying at home and working.
-        #sub-section-6.sub-section
-          h2 Indicator 5.5 Subsidies for organic agriculture
-          i Key message 
-          ul 
-            li
-              | Moldova is in a period of demographic transition that will generate significant effects in the long run. Emigration remains a central feature of society, both for short periods (for work), and for long periods or even permanently. The characteristics of emigration are even more significant; it is no longer temporary and for employment. Rather, people emigrate to live abroad. Moldova also registers a continuous negative natural population growth and a rapid depopulation of rural areas. Given these conditions, the population with &ldquo;usual residence&rdquo; in Moldova over the past seven years decreased by 225 000, leaving the total population at 2.6 million.
-          i Indicator trend 
-          ul 
-            li
-              | Massive emigration over the past two decades significantly affected national demographics. Because many people with Moldovan citizenship do not live in the country, certain measures were needed to describe the actual demographics. Thus, in 2014, the National Bureau of Statistics introduced the usual resident population indicator. This refers to the number of people who lived predominantly in the country over the past 12 months, regardless of temporary absences. The population with usual residence is based on the 2014 Population and Housing Census, then adjusted with natural population growth (births minus deaths) plus net migration. Besides migration, negative natural population growth has been registered for many years, as well as a rapid and persistent depopulation of rural areas, which puts more pressure on demographic indicators. This change of focus resulted in a sharp drop in population. Using the new indicator, 3.5 million people held residence in the country, including those temporarily absent who left to live abroad (stable population). At the same time, an increasingly higher number of public authorities make decisions based on other figures, such as population with a usual residence that amounts to 2.6 million people (Figure 8). This report uses this figure predominantly to analyse different per capita indicators because it best captures the real number of people on the territory of the country.
     p.disclaimer 
-      | Данная платформа, а также любые данные и карты, включенные в нее, не затрагивают статус или суверенитет какой-либо территории, делимитацию международных границ и рубежей, а также название какой-либо территории, города или района.
+      | This platform, as well as any data and map included herein, are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
     footer
       .contacts
         p Contacts:
@@ -185,9 +177,9 @@ html(lang='ru')
         p Phone:+998 71 238 74 48
       .rights
         p
-          | Платформа подготовлена при финансовой поддержке Федерального министерства окружающей среды, охраны природы, ядерной безопасности и защиты прав потребителей Германии (BMUV), оказанной в рамках Международной климатической инициативы.
+          | The platform was prepared with the financial support of Germany’s Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV), provided through its International Climate Initiative. 
         i (c) 2023. All rights reserved.
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='/static/javascripts/script.js')
     script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')
-    script(src='/static/javascripts/group5.js')
+    script(src='/static/javascripts/group4.js')

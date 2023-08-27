@@ -63,6 +63,32 @@ app.get('/group5_ru', (req,res)=>{
     res.render('group5ru')
 })
 
+app.get('/uz',(req,res)=>{
+    res.render('homeuz')
+})
+app.get('/home_uz',(req,res)=>{
+    res.render('indexuz')
+})
+app.get('/introduction_uz',(req,res)=>{
+    res.render('introductionuz')
+})
+app.get('/group1_uz', (req,res)=>{
+    res.render('group1uz')
+})
+app.get('/group2_uz', (req,res)=>{
+    res.render('group2uz')
+})
+app.get('/group3_uz', (req,res)=>{
+    res.render('group3uz')
+})
+app.get('/group4_uz', (req,res)=>{
+    res.render('group4uz')
+})
+app.get('/group5_uz', (req,res)=>{
+    res.render('group5uz')
+})
+
+
 app.listen(PORT, error => {
     if (error) throw error
     console.log(`App is available via http://localhost:${ PORT }`)

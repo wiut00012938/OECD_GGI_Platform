@@ -1,0 +1,95 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Green Growth Indicators for Uzbekistan
+    link(rel='stylesheet', href='/static/styles/index.css')
+    link(rel='shortcut icon', href='/static/images/main_icon.png')
+  body
+    header
+      div
+        a(href='/home_ru') RU
+        a(href='/home') Eng
+        a.active(href='/home_uz') UZB
+      a.home_page_link(href='/uz' title = 'Home Page') 
+    .top-logos
+      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='200px', height='200px')
+      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px', height='150px')
+    main
+      h1 Green Growth Indicators for Uzbekistan
+      h2 Monitoring progress based on the OECD green growth indicators
+      .groups
+        a.sub-group(href='/introduction_uz')
+          h3 Introduction
+          .group-text
+            .introduction_icon
+            p Methodology and OECD green growth indicators framework
+        a.sub-group(href='/group1_uz')
+          h3 Group 1
+          .group-text
+            .group-1_icon
+            p The socio-economic context and characteristics of growth
+        a.sub-group(href='/group2_uz')
+          h3 Group 2
+          .group-text
+            .group-2_icon
+            p The environmental and resource productivity of the economy
+        a.sub-group(href='/group3_uz')
+          h3 Group 3
+          .group-text
+            .group-3_icon
+            p The natural asset base
+        a.sub-group(href='/group4_uz')
+          h3 Group 4
+          .group-text
+            .group-4_icon
+            p The environmental dimension of quality of life
+        a.sub-group(href='/group5_uz')
+          h3 Group 5
+          .group-text
+            .group-5_icon
+            p Economic opportunities and policy responses
+    .accordion-wrapper
+      button.accordion Publications and References
+      .panel
+        p
+          | 2023 official report - 
+          a(href='/static/data/GGI_Report.pdf' target = "_blank")
+            | Greening the Economy in Uzbekistan: State of Play in 2023. Monitoring progress based on the OECD green growth indicators
+        p 
+          a(href='https://www.oecd.org/greengrowth/green-growth-indicators/') OECD Green Growth Indicators Framework
+        p 
+          a(href='https://www.oecd.org/environment/outreach/green-action-task-force/') GREEN Action Task Force: Greening the Economy in Eastern Europe, Caucasus and Central Asia
+    footer
+      .contacts
+        p Contacts:
+        p
+          | Westminster International University in Tashkent, 12 Istiqbol street, Tashkent 100047
+        p Email: cpro@wiut.uz
+        p Phone:+998 71 238 74 48
+      .rights
+        p
+          | The platform was prepared with the financial support of Germany’s Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV), provided through its International Climate Initiative. 
+        i (c) 2023. All rights reserved.
+    script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
+    script.
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      var currentlyOpen = null;
+      for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+      if (currentlyOpen && currentlyOpen !== this) {
+      currentlyOpen.classList.remove("active");
+      currentlyOpen.nextElementSibling.style.display = "none";
+      }
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+      panel.style.display = "none";
+      } else {
+      panel.style.display = "block";
+      }
+      currentlyOpen = this.classList.contains("active") ? this : null;
+      });
+      }
