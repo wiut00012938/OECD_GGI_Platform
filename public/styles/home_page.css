@@ -20,7 +20,11 @@ section{
 
 
 
-
+.one{
+    background-image: url(/static/images/first_background_picture.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 .one nav{
     width: 80%;
     margin-left: 10%;
@@ -97,12 +101,6 @@ section{
     background: rgb(59, 140, 233);
     transition: 1s;
 }
-.back-video{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
 
 
 
@@ -147,10 +145,23 @@ section{
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
+    line-height: 1.6;
 }
-
-
-
+.card{
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.card ul li{
+    text-align: left;
+}
+.card h2{
+    padding: 1rem;
+}
+.card p{
+    text-align: left;
+    font-size: 2.2rem;
+}
 
 
 
@@ -184,6 +195,7 @@ section{
     color: white;
     font-size: 2rem;
     padding: 1rem;
+    line-height: 1.6;
 }
 .key_findings h2{
     margin-top: 1rem;
@@ -194,10 +206,10 @@ section{
     overflow: hidden;
     overflow-y: scroll;
 }
-.key_findings::-webkit-scrollbar{
+.key_findings::-webkit-scrollbar, .card::-webkit-scrollbar{
     width: 10px;
 }
-.key_findings::-webkit-scrollbar-thumb{
+.key_findings::-webkit-scrollbar-thumb, .card::-webkit-scrollbar-thumb{
     background: rgb(38, 58, 38);
     border-radius: 12px;
 }
@@ -270,18 +282,7 @@ footer div.rights p, footer div.rights i{
 
 
 
-@media (min-aspect-ratio: 16/9){
-    .back-video{
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-aspect-ratio: 16/9){
-    .back-video{
-        width: auto;
-        height: 100%;
-    }
-}
+
 @media (max-width:1025px) {
     *{
         font-size: 9px;
@@ -292,15 +293,34 @@ footer div.rights p, footer div.rights i{
         font-size: 7px;
     }
 }
+@media (max-width:560px) {
+    .mySwiper{
+        width: 100%;
+    }
+}
 @media (max-width:480px) {
     *{
         font-size: 6px;
     }
-    .mySwiper{
-        width: 100%;
-    }
     .swiper-slide h2{
         text-align: center;
         padding: 0;
+    }
+}
+@media (max-width:300px){
+    .partners ul li img{
+        width: 20rem;
+    }
+    footer .contacts p{
+        font-size: 2rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .contacts{
+        width: 100%;
+    }
+    footer div.rights{
+        width: 100%;
     }
 }

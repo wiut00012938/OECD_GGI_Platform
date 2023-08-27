@@ -29,6 +29,10 @@ node app
 - fonts Awesome
 - Google Fonts
 
+### external Sources that was used for building the Web application
+- pictures from freepik.com
+- animated icons from flaticon.com
+
 ### Web application repository on github
 [link to the github repository](https://github.com/wiut00012938/OECD_GGI_Platform.git)
 

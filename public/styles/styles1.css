@@ -126,6 +126,7 @@ header p{
 .description p{
     font-size: 2rem;
     font-weight: 400;
+    line-height: 1.6;
 }
 main{
     display: flex;
@@ -198,6 +199,7 @@ div.section-active h3, div.section-active i{
     flex-direction: column;
     align-items: center;
     width: 65%;
+    background-color: white;
 }
 
 
@@ -220,6 +222,7 @@ div.section-active h3, div.section-active i{
     height: fit-content;
 }
 .sub-section_text p{
+    line-height: 1.6;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -227,7 +230,7 @@ div.section-active h3, div.section-active i{
     font-size: 2rem;
 }
 .sub-section p, .sub-section i{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 .sub-section i{
@@ -242,8 +245,30 @@ div.section-active h3, div.section-active i{
     font-size: 1.5rem;
     margin-bottom: 1rem 0rem;
 }
-
-
+.sub-section ul{
+    display: block;
+    list-style: none;
+    margin-left: 1rem;
+}
+.sub-section ul li{
+    line-height: 1.6;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    display: block;
+    position: relative;
+    padding-left: 3rem;
+}
+.sub-section ul li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #28666e;
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+  }
 
 
 
