@@ -69,11 +69,16 @@ a.home_page_link:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
 }
 .top-logos img{
     margin: 0 3rem;
 }
-
+#small-screen{
+  margin-top: 1rem;
+  display: none;
+}
 
 main h1{
     font-size: 5rem;
@@ -328,6 +333,12 @@ footer div.rights p, footer div.rights i{
     .groups{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(6,1fr);
+    }
+    #large-screen{
+      display: none;
+    }
+    #small-screen{
+      display: block;
     }
   }
 @media (max-width:480px) {

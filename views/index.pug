@@ -13,9 +13,12 @@ html(lang='en')
         a.active(href='/home') Eng
         a(href='/home_uz') UZB
       a.home_page_link(href='/' title = 'Home Page') 
-    .top-logos
-      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='200px', height='200px')
-      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px', height='150px')
+    .top-logos#large-screen
+      img(src='/static/images/German_Bundestag.png', alt='german bundestag' width = '150px')
+      img(src='/static/images/IKI_logo_GB_rgb.png', alt='international climate initiative' width = '150px')
+      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='150px')
+      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px')
+      img(src="/static/images/imv.png", alt="imv" width = '150px')
     main
       h1 Green Growth Indicators for Uzbekistan
       h2 Monitoring progress based on the OECD green growth indicators
@@ -29,27 +32,27 @@ html(lang='en')
           h3 Group 1
           .group-text
             .group-1_icon
-            p The socio-economic context and characteristics of growth
+            p Socioeconomic Context
         a.sub-group(href='/group2')
           h3 Group 2
           .group-text
             .group-2_icon
-            p The environmental and resource productivity of the economy
+            p Environmental and Resource Productivity of the Economy
         a.sub-group(href='/group3')
           h3 Group 3
           .group-text
             .group-3_icon
-            p The natural asset base
+            p The Natural Asset Base
         a.sub-group(href='/group4')
           h3 Group 4
           .group-text
             .group-4_icon
-            p The environmental dimension of quality of life
+            p The Environmental Dimension of Quality of Life
         a.sub-group(href='/group5')
           h3 Group 5
           .group-text
             .group-5_icon
-            p Economic opportunities and policy responses
+            p Economic Opportunities and Policy Responses
     .accordion-wrapper
       button.accordion Publications and References
       .panel
@@ -61,6 +64,12 @@ html(lang='en')
           a(href='https://www.oecd.org/greengrowth/green-growth-indicators/') OECD Green Growth Indicators Framework
         p 
           a(href='https://www.oecd.org/environment/outreach/green-action-task-force/') GREEN Action Task Force: Greening the Economy in Eastern Europe, Caucasus and Central Asia
+    .top-logos#small-screen
+      img(src='/static/images/German_Bundestag.png', alt='german bundestag' width = '150px')
+      img(src='/static/images/IKI_logo_GB_rgb.png', alt='international climate initiative' width = '150px')
+      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='150px')
+      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px')
+      img(src="/static/images/imv.png", alt="imv" width = '150px')
     footer
       .contacts
         p Contacts:

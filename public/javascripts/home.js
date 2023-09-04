@@ -1,5 +1,5 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
@@ -14,10 +14,10 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
         },
         560: {
-            slidesPerView: 2,
+            slidesPerView: 1,
         },
         1025: {
-            slidesPerView: 3,
+            slidesPerView: 2,
         },
     },
   });
