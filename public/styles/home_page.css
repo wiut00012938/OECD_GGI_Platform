@@ -300,6 +300,9 @@ footer div.rights p, footer div.rights i{
     .mySwiper{
         width: 100%;
     }
+    .partners ul li img{
+        width: 22rem;
+    }
 }
 @media (max-width:480px) {
     *{
