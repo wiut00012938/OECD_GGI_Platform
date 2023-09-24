@@ -142,7 +142,7 @@ a.home_page_link:hover{
 }
 .description p{
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.6;
 }
 main{
@@ -248,7 +248,7 @@ div.section-active h3, div.section-active i{
 }
 .sub-section p, .sub-section i{
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
 }
 .sub-section i{
     font-weight: 500;
@@ -265,7 +265,7 @@ div.section-active h3, div.section-active i{
 .sub-section ul{
     display: block;
     list-style: none;
-    margin-left: 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 .sub-section ul li{
     line-height: 1.6;
@@ -274,6 +274,9 @@ div.section-active h3, div.section-active i{
     display: block;
     position: relative;
     padding-left: 3rem;
+}
+.sub-section ul li p{
+    padding-left: 2rem;
 }
 .sub-section ul li:before {
     content: "";

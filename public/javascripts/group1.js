@@ -17,7 +17,8 @@ async function getData() {
               label: 'Real GDP',
               data: gdpData.map(elem => elem.gdp_per_cap),
               backgroundColor: '#28666e',
-              borderWidth: 1
+              borderWidth: 1,
+              pointRadius: 6
             }
           ]
         },
@@ -42,12 +43,14 @@ async function getData() {
                 label: 'Export of goods and services',
                 data: tradeData.map(elem => elem.export),
                 borderDash: [5, 5],
-                backgroundColor: "rgb(59, 140, 233)"
+                backgroundColor: "rgb(59, 140, 233)",
+                pointRadius: 5
             }, {
                 type: 'line',
                 label: 'Import of goods and services',
                 data: tradeData.map(elem => elem.import),
-                backgroundColor: '#28666e'
+                backgroundColor: '#28666e',
+                pointRadius: 5
             }],
             labels: tradeData.map(elem => elem.year)
         },

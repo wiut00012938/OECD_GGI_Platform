@@ -13,9 +13,12 @@ html(lang='ru')
         a(href='/home') Eng
         a(href='/home_uz') UZB
       a.home_page_link(href='/ru' title = 'Home Page')
-    .top-logos
-      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='200px', height='200px')
-      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px', height='150px')
+    .top-logos#large-screen
+      img(src='/static/images/German_Bundestag.png', alt='german bundestag' width = '150px')
+      img(src='/static/images/IKI_logo_GB_rgb.png', alt='international climate initiative' width = '150px')
+      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='150px')
+      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px')
+      img(src="/static/images/imv.png", alt="imv" width = '150px')
     main
       h1 Индикаторы зеленого роста для Узбекистана
       h2 Мониторинг прогресса на основе индикаторов зеленого роста ОЭСР
@@ -24,7 +27,7 @@ html(lang='ru')
           h3 Введение
           .group-text
             .introduction_icon
-            p Методология и система показателей зеленого роста ОЭСР
+            p Методология и система индикаторов "зеленого" роста ОЭСР
         a.sub-group(href='/group1_ru')
           h3 Группа 1
           .group-text
@@ -51,8 +54,7 @@ html(lang='ru')
             .group-5_icon
             p Экономические возможности и меры политики
     .accordion-wrapper
-      button.accordion
-        b Публикации и ссылки
+      button.accordion Публикации и ссылки
       .panel
         p
           | Официальный отчет за 2023 год -
@@ -61,6 +63,12 @@ html(lang='ru')
         p
           | Документ об основных выводах -
           a(href='/static/data/Main_Findings.pdf' target = "_blank") Main Findings on GGI study
+    .top-logos#small-screen
+      img(src='/static/images/German_Bundestag.png', alt='german bundestag' width = '150px')
+      img(src='/static/images/IKI_logo_GB_rgb.png', alt='international climate initiative' width = '150px')
+      img(src='/static/images/1578566221870.jpg', alt='CPRO', width='150px')
+      img(src='/static/images/f_Gk14C4ug.jpg', alt='OECD', width='150px')
+      img(src="/static/images/imv.png", alt="imv" width = '150px')
     footer
       .contacts
         p Контакты:
