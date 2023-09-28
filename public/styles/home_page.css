@@ -109,7 +109,7 @@ section{
 
 
 .two{
-    background-image: url(/static/images/josefin-3TFvE51aVqA-unsplash.jpg);
+    background-image: url(/static/images/second_background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -172,7 +172,7 @@ section{
 
 
 .three{
-    background-image: url(/static/images/geranimo-WJkc3xZjSXw-unsplash.jpg);
+    background-image: url(/static/images/third_background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
