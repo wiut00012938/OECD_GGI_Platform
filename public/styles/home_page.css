@@ -328,3 +328,13 @@ footer div.rights p, footer div.rights i{
         width: 100%;
     }
 }
+@media (max-height: 950px) and (max-width: 1280px) {
+    .partners ul li img {
+        width: 17rem;
+    }
+}
+@media (min-height: 650px) and (max-height: 950px) and (min-width: 375px) and (max-width: 500px) {
+    .partners ul li img {
+        width: 22rem;
+    }
+}
