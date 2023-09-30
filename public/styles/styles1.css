@@ -275,13 +275,19 @@ div.section-active h3, div.section-active i{
     position: relative;
     padding-left: 3rem;
 }
+.sub-section ul i{
+    line-height: 1.6;
+    display: block;
+    position: relative;
+    padding-left: 3rem;
+}
 .sub-section ul li p{
     padding-left: 2rem;
 }
 .sub-section ul li:before {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 2rem;
     left: 0;
     transform: translateY(-50%);
     background: #28666e;
@@ -344,6 +350,7 @@ p.disclaimer{
     text-align: center;
     line-height: 1.6;
     font-weight: 500;
+    margin-bottom: 2rem;
 }
 
 

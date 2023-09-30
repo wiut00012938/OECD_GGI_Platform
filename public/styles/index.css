@@ -278,10 +278,68 @@ a.sub-group{
     color: rgb(59, 140, 233);
     font-weight: 700;
   }
-  .panel p a:hover{
+  .panel p a:hover, .sub-panel ul li a:hover{
     color: rgb(38, 58, 38);
     transition: 0.4s;
   }
+  .panel.show {
+    display: block;
+  }
+  .sub_accordion {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 2rem;
+    color: rgb(38, 58, 38);
+    font-weight: bold;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.14);
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .sub_accordion.active {
+    background-color: rgb(59, 140, 233); 
+    color: white;
+    transition: 0.4s;
+  }
+  .sub_accordion:hover{
+    background-color: rgb(59, 140, 233); 
+    color: white;
+    transition: 0.4s;
+  }
+.sub-panel{
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.14);
+  box-shadow: 0px 0px 20px 5px rgba(34, 60, 80, 0.14);
+  display: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.sub-panel.show{
+  display: block;
+}
+.sub-panel ul{
+  margin-left: 2rem;
+  padding: 1rem;
+}
+.sub-panel li{
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.sub-panel li a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(59, 140, 233);
+  font-weight: 700;
+}
 footer{
     margin-top: 3rem;
     background-color: rgb(59, 140, 233); 
@@ -339,6 +397,11 @@ footer div.rights p, footer div.rights i{
     }
     #small-screen{
       display: block;
+      text-align: center;
+    }
+    #small-screen img{
+      display: block;
+      margin: 0 auto;
     }
   }
 @media (max-width:480px) {

@@ -23,10 +23,13 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
-              min: 2.0
+              min: 2.0,
+              stepSize: 0.5,
             }
           }
         },
@@ -55,14 +58,21 @@ async function getData() {
             labels: tradeData.map(elem => elem.year)
         },
         options: {
-            scales: {
-              y: {
-                beginAtZero: true,
-              }
-            }
-          },
           responsive: true,
           maintainAspectRatio: false,
+            scales: {
+              x: {
+                stacked: true,
+                },
+              y: {
+                beginAtZero: true,
+                max: 30000,
+                ticks: {
+                    stepSize: 5000,
+                },
+              },
+            }
+          },
     });
   
       // Chart 3 - Employment by Sector
