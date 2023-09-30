@@ -12,27 +12,27 @@ async function getData() {
         data: {
             datasets: [{
                 type: 'bar',
-                label: 'Export of goods and services',
+                label: '% of total public expenditure',
                 data: EnvironmentExpendituresData.map(elem => elem.government_percentage),
                 borderDash: [5, 5],
                 backgroundColor: "rgb(59, 140, 233)"
             }, {
                 type: 'bar',
-                label: 'Import of goods and services',
+                label: '% of GDP',
                 data: EnvironmentExpendituresData.map(elem => elem.gdp_percentage),
                 backgroundColor: '#28666e'
             }],
             labels: EnvironmentExpendituresData.map(elem => elem.year)
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: false,
             scales: {
               y: {
                 beginAtZero: true,
               }
             }
           },
-          responsive: true,
-          maintainAspectRatio: false,
     });
 
     // Chart 2 - Revenues from environmental tax, % share 
@@ -42,17 +42,17 @@ async function getData() {
       labels: EnvironmentRevenueData.map(elem => elem.year),
       datasets: [
         {
-          label: 'Emissions of pollutants into air',
+          label: 'Emissions of pollutants into the air-tax',
           data: EnvironmentRevenueData.map(elem => elem.air_emissions),
           backgroundColor: 'rgba(255, 99, 132, 0.5)',
         },
         {
-          label: 'Waste Water Collection',
+          label: 'Waste Water Collection fee',
           data: EnvironmentRevenueData.map(elem => elem.water_waste),
           backgroundColor: 'rgba(54, 162, 235, 0.5)',
         },
         {
-          label: 'Solid Waste',
+          label: 'Solid Waste Collectio fee',
           data: EnvironmentRevenueData.map(elem => elem.solid_waste),
           backgroundColor: 'rgba(75, 192, 192, 0.5)',
         },
@@ -62,7 +62,7 @@ async function getData() {
     var lineData = {
       labels: EnvironmentRevenueData.map(elem => elem.year),
       datasets: [{
-        label: '% of general budget revenues',
+        label: 'Share of environmental revenues in total budget',
         borderColor: '#28666e',
         type: 'line',
         borderWidth: 3,
@@ -94,17 +94,17 @@ async function getData() {
             max: 100,
             title: {
               display: true,
-              text: 'revenues',
+              text: 'Share in total environemntal revenue',
             },
           },
           y2: {
             position: 'right',
             beginAtZero: false,
             min: 0,
-            max: 3, // Adjust the max value for percentage
+            max: 0.025, // Adjust the max value for percentage
             title: {
               display: true,
-              text: '% of budget revenue',
+              text: '% of total revenues',
             },
           },
         },
@@ -119,17 +119,17 @@ async function getData() {
         labels: EnergySubsidiesData.map(elem => elem.year),
         datasets: [
             {
-            label: 'Employment in services',
+            label: 'Oil',
             data: EnergySubsidiesData.map(elem => elem.oil),
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
             },
             {
-            label: 'Employment in industry',
+            label: 'Electricity',
             data: EnergySubsidiesData.map(elem => elem.electricity),
             backgroundColor: 'rgba(54, 162, 235, 0.5)',
             },
             {
-            label: 'Employment in agriculture',
+            label: 'Gas',
             data: EnergySubsidiesData.map(elem => elem.gas),
             backgroundColor: 'rgba(75, 192, 192, 0.5)',
             },
@@ -144,9 +144,6 @@ async function getData() {
             y: {
             stacked: true,
             beginAtZero: true,
-            ticks: {
-                stepSize: 20,
-            },
             },
         },
         responsive: true,

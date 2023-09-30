@@ -3,9 +3,9 @@ async function getData() {
       const response = await fetch('static/data/group4.json');
       const data = await response.json();
       const AirPollutantsData = data.air_pollutants
-      const WaterAccessData = data.water_access
+      const WaterSewerageAccessData = data.water_sewerage_access
       const RespiratoryDeathData = data.respiratory_death
-      const SewerageAccessData = data.sewerage_access
+      const SanitationAccessData = data.sanitation_access
   
       // Chart 1 - Air Pollutants
       const AirPollutantsCtx = document.getElementById('air_pollutants').getContext('2d');
@@ -23,6 +23,8 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
@@ -30,8 +32,6 @@ async function getData() {
             }
           }
         },
-        responsive: true,
-        maintainAspectRatio: false,
       });
       // Chart 2 - Respiratory Deaths
       const RespiratoryDeathCtx = document.getElementById('respiratory_death').getContext('2d');
@@ -49,6 +49,8 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
@@ -56,60 +58,66 @@ async function getData() {
             }
           }
         },
-        responsive: true,
-        maintainAspectRatio: false,
       });
       // Chart 3 - Water Access
-      const WaterAccessCtx = document.getElementById('water_access').getContext('2d');
-      const WaterAccessChart = new Chart(WaterAccessCtx, {
-        type: 'line',
+      const WaterSewerageAccessCtx = document.getElementById('water_sewerage_access').getContext('2d');
+      const WaterSewerageAccessChart = new Chart(WaterSewerageAccessCtx, {
         data: {
-          labels: WaterAccessData.map(elem => elem.year),
-          datasets: [
-            {
-              label: 'Water Access',
-              data: WaterAccessData.map(elem => elem.water_access),
+          datasets: [{
+              type: 'line',
+              label: 'Access to safe drinking water',
+              data: WaterSewerageAccessData.map(elem => elem.water_access),
+              borderDash: [5, 5],
+              backgroundColor: "rgb(59, 140, 233)",
+              pointRadius: 5
+          }, {
+              type: 'line',
+              label: 'Access to sewerage services',
+              data: WaterSewerageAccessData.map(elem => elem.sewerage_access),
               backgroundColor: '#28666e',
-              borderWidth: 3
-            }
-          ]
-        },
-        options: {
-          scales: {
-            y: {
-              beginAtZero: false,
-              min: 60
-            }
-          }
-        },
+              pointRadius: 5
+          }],
+          labels: WaterSewerageAccessData.map(elem => elem.year)
+      },
+      options: {
         responsive: true,
         maintainAspectRatio: false,
-      });
+          scales: {
+            x: {
+              stacked: true,
+              },
+            y: {
+              beginAtZero: false,
+              min: 30
+            },
+          }
+        },
+  });
       // Chart 4 - Sewerage Access
-      const SewerageAccessCtx = document.getElementById('sewerage_access').getContext('2d');
-      const SewerageAccessChart = new Chart(SewerageAccessCtx, {
+      const SanitationAccessCtx = document.getElementById('sanitation_access').getContext('2d');
+      const SanitationAccessChart = new Chart(SanitationAccessCtx, {
         type: 'line',
         data: {
-          labels: SewerageAccessData.map(elem => elem.year),
+          labels: SanitationAccessData.map(elem => elem.year),
           datasets: [
             {
-              label: 'Sewerage Access',
-              data: SewerageAccessData.map(elem => elem.sewerage_access),
+              label: 'Sanitation Access',
+              data: SanitationAccessData.map(elem => elem.sanitation_access),
               backgroundColor: '#28666e',
               borderWidth: 3
             }
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
-              min: 34
+              min: 88
             }
           }
         },
-        responsive: true,
-        maintainAspectRatio: false,
       });
 
     } catch (error) {

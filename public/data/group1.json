@@ -1,55 +1,51 @@
 {"real_gdp": [
     {
-        "year": "2010",
-        "gdp_per_cap": 2.8
-       },
-       {
         "year": "2011",
         "gdp_per_cap": 2.9
        },
        {
         "year": "2012",
-        "gdp_per_cap": 3.1
+        "gdp_per_cap": 3.7
        },
        {
         "year": "2013",
-        "gdp_per_cap": 3.3
+        "gdp_per_cap": 4.6
        },
        {
         "year": "2014",
-        "gdp_per_cap": 3.4
+        "gdp_per_cap": 5.4
        },
        {
         "year": "2015",
-        "gdp_per_cap": 3.6
+        "gdp_per_cap": 6.5
        },
        {
         "year": "2016",
-        "gdp_per_cap": 3.75
+        "gdp_per_cap": 7.4
        },
        {
         "year": "2017",
-        "gdp_per_cap": 3.85
+        "gdp_per_cap": 8.3
        },
        {
         "year": "2018",
-        "gdp_per_cap": 4.01
+        "gdp_per_cap": 10.3
        },
        {
         "year": "2019",
-        "gdp_per_cap": 4.17
+        "gdp_per_cap": 13.6
        },
        {
         "year": "2020",
-        "gdp_per_cap": 4.17
+        "gdp_per_cap": 16
        },
        {
         "year": "2021",
-        "gdp_per_cap": 4.39
+        "gdp_per_cap": 18.8
        },
        {
         "year": "2022",
-        "gdp_per_cap": 4.55
+        "gdp_per_cap": 22.1
        }
 ],
 "foreign_trade": [

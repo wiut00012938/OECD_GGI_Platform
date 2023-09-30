@@ -40,6 +40,8 @@ async function getData() {
           datasets: [barData.datasets[0], lineData.datasets[0]],
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
@@ -91,6 +93,8 @@ async function getData() {
         };
 
         const options = {
+          responsive: true,
+        maintainAspectRatio: false,
         scales: {
             x: {
             stacked: true,
@@ -105,8 +109,6 @@ async function getData() {
             },
             },
         },
-        responsive: true,
-        maintainAspectRatio: false,
         };
 
         const myChart = new Chart(FreshWaterctx, {
@@ -132,6 +134,8 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
@@ -139,8 +143,6 @@ async function getData() {
             }
           }
         },
-        responsive: true,
-        maintainAspectRatio: false,
       });
 
 
@@ -160,14 +162,14 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+          maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: true,
             }
           }
         },
-        responsive: true,
-        maintainAspectRatio: false,
       });
 
 

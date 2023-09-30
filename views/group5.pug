@@ -64,35 +64,12 @@ html(lang='en')
       .section_text
         #sub-section-1.sub-section.active
           h2 Economic opportunities and policy responses: Key findings
-          .sub-section_content
-            ul.sub-section_text
-              li Green technologies development and patent needs to be further encouraged. Uzbekistan has invested in environmental technologies since the early 1990s based on patent application data. Over 15% of the innovations in Uzbekistan in 2018 were environment-related, higher than the world’s average of 10%. However, the environmental technologies per capita remains low (0.02 technologies per capita) compared to the OECD average (10 technologies per capita).
-              li More green investments should be unlocked together with green budget tagging methods. Environmental expenditures are generally showing an upward trend but remain small. On average, they accounted for only 0.06% of total government expenditures or 0.02% of GDP over more than the past ten years. The value can be underestimated as Uzbekistan lacks systematic budget tagging for “green” expenditures, which makes it hard to track all green investments. 
-            .sub-section_figure
-              h3
-                i Public expenditures in environment protection
-              canvas#environment_expenditures(style='max-height: 300px;')
-              h4
-                i Source: State Committee for Ecology and Environmental Protection, 2023
-          .sub-section_content
-            .sub-section_figure
-              h3
-                i Revenues from environmental tax, % share 
-              canvas#environment_revenue(style='max-height: 300px;')
-              h4
-                i Source: State Committee for Ecology and Environmental Protection, 2023
-            ul.sub-section_text
-              li Green revenues from taxes, charges, and fees should be better tracked.The share of environmental revenues in the state budget remained constant at a 0.01% average for 2015-18. Solid waste collection fees dominate and make up 57% of environmental revenues. Despite the lack of systematic accounting of all environment-related taxes, environmental revenues from pollution fees, including solid waste and wastewater collection fees, in general have increased. 
-              li Fossil fuel subsidies in the energy sector should be further reduced. Energy subsidies are gradually declining but remain high. In 2020, fossil fuel subsidies were 60% lower than in 2010 but amounted to almost USD 4 billion (USD 1 = UZS 10 065), making up the equivalent of 6.6% of GDP.
-          .sub-section_content
-            ul.sub-section_text
-              li Tariffs for energy and water use should  gradually reflect the market value to cover operational costs. Tariffs (end-user prices) for energy resource and water use has increased and various tariff schemes are set for different categories of consumers to protect low income population. However, tariffs do not represent the production cost. 
-            .sub-section_figure
-              h3
-                i Energy subsidies (USD real 2019, million)
-              canvas#energy_subsidies(style='max-height: 300px;')
-              h4
-                i Source: International Energy Agency (2021)
+          ul 
+            li Green technologies development and patent needs to be further encouraged. Uzbekistan has invested in environmental technologies since the early 1990s based on patent application data. Over 15% of the innovations in Uzbekistan in 2018 were environment-related, higher than the world’s average of 10%. However, the environmental technologies per capita remains low (0.02 technologies per capita) compared to the OECD average (10 technologies per capita).
+            li More green investments should be unlocked together with green budget tagging methods. Environmental expenditures are generally showing an upward trend but remain small. On average, they accounted for only 0.06% of total government expenditures or 0.02% of GDP over more than the past ten years. The value can be underestimated as Uzbekistan lacks systematic budget tagging for “green” expenditures, which makes it hard to track all green investments. 
+            li Green revenues from taxes, charges, and fees should be better tracked.The share of environmental revenues in the state budget remained constant at a 0.01% average for 2015-18. Solid waste collection fees dominate and make up 57% of environmental revenues. Despite the lack of systematic accounting of all environment-related taxes, environmental revenues from pollution fees, including solid waste and wastewater collection fees, in general have increased. 
+            li Fossil fuel subsidies in the energy sector should be further reduced. Energy subsidies are gradually declining but remain high. In 2020, fossil fuel subsidies were 60% lower than in 2010 but amounted to almost USD 4 billion (USD 1 = UZS 10 065), making up the equivalent of 6.6% of GDP.
+            li Tariffs for energy and water use should  gradually reflect the market value to cover operational costs. Tariffs (end-user prices) for energy resource and water use has increased and various tariff schemes are set for different categories of consumers to protect low income population. However, tariffs do not represent the production cost. 
         #sub-section-2.sub-section
           h2 5.1 Technology and innovations
           i The share of environment-related innovations in total innovations and its per capita fluctuated during 1993-2018
@@ -102,10 +79,18 @@ html(lang='en')
             li Uzbekistan contributed to 0.01% of world environment-related technologies in 2018. Given lack of available data since then, the report does not describe the current situation.
         #sub-section-3.sub-section
           h2 5.2 Financial flows
-          i Environmental protection expenditures between 2012-19 are underfunded by the government
-          ul
-            li
-              | Public environmental expenditures are generally increasing, but the value remains small. On average, environmental expenditure accounted for only 0.06% of total government expenditures, or 0.02% of gross domestic product (GDP), in 2012-19. This value may be underestimated as Uzbekistan lacks systematic budget tagging/marking for “green” expenditures. It is thus hard to assess all the investments in the transition to a green economy. 
+          .sub-section_content
+            ul.sub-section_text
+              i Environmental protection expenditures between 2012-19 are underfunded by the government
+              li
+                | Public environmental expenditures are generally increasing, but the value remains small. On average, environmental expenditure accounted for only 0.06% of total government expenditures, or 0.02% of gross domestic product (GDP), in 2012-19. This value may be underestimated as Uzbekistan lacks systematic budget tagging/marking for “green” expenditures. It is thus hard to assess all the investments in the transition to a green economy. 
+            .sub-section_figure
+              h3
+                i Public expenditures in environment protection
+              canvas#environment_expenditures(style='max-height: 300px;')
+              h4
+                i Source: State Committee for Ecology and Environmental Protection, 2023
+          
           i International financial flows to green growth are modest
           ul 
             li
@@ -114,17 +99,31 @@ html(lang='en')
               | As part of the national Green Economy Transition Strategy to 2030, Uzbekistan has started implementing blended finance to establish special funds and green bonds to unlock green investments, both from public and private sources. The country also mobilises investment in renewable power generation in the framework of public-private collaboration. However, it does not participate in a competitive carbon trading market. 
         #sub-section-4.sub-section
           h2 5.3 Prices and transfers
-          i The share of revenues from pollution taxes in  total revenue was constant at 0.01% during 2015-18, except in 2017 when it increased to 0.02%
-          ul
-            li Solid waste collection fees made up 57% of the environmental tax revenues in 2018. Environmental revenues from pollution fees in general have increased with economic growth. These revenues were almost four times higher in 2018 (the latest year for which data are available) than in 2010, amounting to around USD 1.7 million (1 USD = 8 069 UZS). The 56% spike in the share of environmental revenues between 2016-17 reflects the effect of fast-paced economic activity. This led to increased emissions and discharges of pollutants, doubling pollution fees. The report cannot assess recent trends due to lack of access to data.
-            li
-              | Except for data on the pollution fees recorded by the State Committee for Ecology (now the Ministry of Ecology, Environment Protection and Climate Change), Uzbekistan does not classify all classical green tax revenues like energy tax, resource tax and transport tax in the total revenue. Moreover, there are no data on non-tax revenues generated from green licence fees and administrative charges. Hence, measuring revenues from all environmental taxes and fees is difficult. Moreover, since the environmental revenues are channelled to the general government budget, it is difficult to track if they are spent explicitly for environmental protection. Thus, it is impossible to correlate environmental tax/fee revenues with environmental expenditure.
-          i Uzbekistan provides high, but declining, subsidies for fossil fuel energy 
-          ul 
-            li
-              | Fossil fuel subsidies for oil, gas and fossil fuel electricity generation gradually declined between 2010-20. In 2020, Uzbekistan’s subsidies for fossil fuel energy were reduced by 60% from the 2010 level. However, they still amounted to USD 3.8 billion, making up 6.6% of the GDP equivalent. The most significant subsidy reduction was observed in 2016, when total subsidies declined by 75% from 2010. The subsidy value, however, roughly doubled in 2019 before declining again in 2020.
-            li
-              | Uzbekistan’s energy sector aims to phase out fossil fuel subsidies gradually to protect the low-income population during the transition to a green economy by 2030. In addition, the government introduced an energy transition “tax credit mechanism” to stimulate consumer investments in green energy [2]. The investment incentive is expected to encourage use of renewable energy and energy-efficient technologies. 
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Revenues from environmental tax, % share 
+              canvas#environment_revenue(style='max-height: 300px;')
+              h4
+                i Source: State Committee for Ecology and Environmental Protection, 2023
+            ul.sub-section_text
+              i The share of revenues from pollution taxes in  total revenue was constant at 0.01% during 2015-18, except in 2017 when it increased to 0.02%
+              li Solid waste collection fees made up 57% of the environmental tax revenues in 2018. Environmental revenues from pollution fees in general have increased with economic growth. These revenues were almost four times higher in 2018 (the latest year for which data are available) than in 2010, amounting to around USD 1.7 million (1 USD = 8 069 UZS). The 56% spike in the share of environmental revenues between 2016-17 reflects the effect of fast-paced economic activity. This led to increased emissions and discharges of pollutants, doubling pollution fees. The report cannot assess recent trends due to lack of access to data.
+              li
+                | Except for data on the pollution fees recorded by the State Committee for Ecology (now the Ministry of Ecology, Environment Protection and Climate Change), Uzbekistan does not classify all classical green tax revenues like energy tax, resource tax and transport tax in the total revenue. Moreover, there are no data on non-tax revenues generated from green licence fees and administrative charges. Hence, measuring revenues from all environmental taxes and fees is difficult. Moreover, since the environmental revenues are channelled to the general government budget, it is difficult to track if they are spent explicitly for environmental protection. Thus, it is impossible to correlate environmental tax/fee revenues with environmental expenditure.
+          .sub-section_content
+            ul.sub-section_text
+              i Uzbekistan provides high, but declining, subsidies for fossil fuel energy 
+              li
+                | Fossil fuel subsidies for oil, gas and fossil fuel electricity generation gradually declined between 2010-20. In 2020, Uzbekistan’s subsidies for fossil fuel energy were reduced by 60% from the 2010 level. However, they still amounted to USD 3.8 billion, making up 6.6% of the GDP equivalent. The most significant subsidy reduction was observed in 2016, when total subsidies declined by 75% from 2010. The subsidy value, however, roughly doubled in 2019 before declining again in 2020.
+              li
+                | Uzbekistan’s energy sector aims to phase out fossil fuel subsidies gradually to protect the low-income population during the transition to a green economy by 2030. In addition, the government introduced an energy transition “tax credit mechanism” to stimulate consumer investments in green energy [2]. The investment incentive is expected to encourage use of renewable energy and energy-efficient technologies. 
+            .sub-section_figure
+              h3
+                i Energy subsidies (USD real 2019, million)
+              canvas#energy_subsidies(style='max-height: 300px;')
+              h4
+                i Source: International Energy Agency (2021)
           i Energy prices for electricity and fossil fuels are increasing but do not represent the cost of production 
           ul 
             li Tariffs for energy resource use do not represent production cost, yet energy price reform is debated due to social protection policies for the low-income population (IEA; World Bank). Accordingly, various tariff schemes are set as of 2019 for different categories of consumers rather than a single tariff for all consumer categories. Thus, the tariff for commercial consumers is 30- 50% more than for residential use. 
@@ -134,17 +133,6 @@ html(lang='en')
             li In 2019-22, the price of water use in Tashkent City increased by 33% on average. Water tariffs vary by region, residence type (individual house or apartment) and by availability of water meters. For instance, water prices are higher in regions than in Tashkent City, and apartments than houses. The Uzsuvtaminot joint stock company revises the water tariffs several times. Although water tariff levels and collection rates have increased, they do not cover operational costs, which are still subsidised (World Bank, 2022). Historical data on water prices are not shown as directory books (Golden book of Uzbekistan) used in the report only published prices for 2019-22.
     p.disclaimer 
       | This platform, as well as any data and map included herein, are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
-    footer
-      .contacts
-        p Contacts:
-        p
-          | Westminster International University in Tashkent, 12 Istiqbol street, Tashkent 100047
-        p Email: cpro@wiut.uz
-        p Phone:+998 71 238 74 48
-      .rights
-        p
-          | The platform was prepared with the financial support of Germany’s Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV), provided through its International Climate Initiative. 
-        i (c) 2023. All rights reserved.
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='/static/javascripts/script.js')
     script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')

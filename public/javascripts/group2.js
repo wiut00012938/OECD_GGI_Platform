@@ -15,7 +15,7 @@ async function getData() {
           labels: carbon_productivity_data.map(elem => elem.year),
           datasets: [
             {
-              label: 'Carbon Productivity',
+              label: 'CO2 productivity',
               data: carbon_productivity_data.map(elem => elem.carbon_productivity),
               backgroundColor: '#28666e',
               borderWidth: 1
@@ -23,15 +23,15 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
               min: 0
             }
           }
-        },
-        responsive: true,
-        maintainAspectRatio: false,
+        }
       });
       // Chart 2 - Energy Intensity
       const EnergyCtx = document.getElementById('energy_intensity').getContext('2d');
@@ -49,15 +49,15 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
               min: 0
             }
           }
-        },
-        responsive: true,
-        maintainAspectRatio: false,
+        }
       });
       // Chart 3 - Share of Renewables
       const RenewablesCtx = document.getElementById('share_of_renewables').getContext('2d');
@@ -67,7 +67,7 @@ async function getData() {
           labels: share_of_renewables_data.map(elem => elem.year),
           datasets: [
             {
-              label: 'Share of Renewables',
+              label: 'Share of renewable electricity',
               data: share_of_renewables_data.map(elem => elem.share_of_renewables),
               backgroundColor: '#28666e',
               borderWidth: 1
@@ -75,15 +75,15 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
               min: 6
             }
           }
-        },
-        responsive: true,
-        maintainAspectRatio: false,
+        }
       });
       // Chart 4 - Water Productivity
       const WaterCtx = document.getElementById('water_productivity').getContext('2d');
@@ -101,15 +101,15 @@ async function getData() {
           ]
         },
         options: {
+          responsive: true,
+        maintainAspectRatio: false,
           scales: {
             y: {
               beginAtZero: false,
               min: 0
             }
           }
-        },
-        responsive: true,
-        maintainAspectRatio: false,
+        }
       });
 
     } catch (error) {

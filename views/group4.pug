@@ -61,16 +61,30 @@ html(lang='en')
       .section_text
         #sub-section-1.sub-section.active
           h2 Environmental quality of life indicators: Key findings
+          ul 
+            li Uzbekistan is 20th most air polluted country in the world. Major sources of pollutants are dust particles, vehicle emissions and industrial emissions. Particulate matter (PM2.5) concentration in the air has consistently been above the 35 µg/m3 level considered unhealthy by the World Health Organization (WHO) over the past ten years. 
+            li The share of the population exposed to unhealthy concentration levels of PM2.5 declined from around 80% to 56% over the past ten years. Nonetheless, population exposure level is more than five times higher than the world average of 10%. 
+            li Mortality and welfare costs due to air pollution are increasing. Annually, over 750 people per million inhabitants are estimated to die prematurely due to exposure to outdoor air pollution, positioning the country above the world average of 645 people in 2019. Deaths related to outdoor air pollution are the third highest globally. Their welfare costs are estimated at almost 9% of GDP equivalent compared to around 6.5% in the EECCA region. 
+            li The share of households with access to safe public drinking water supply declined by 10% to around 70% over the past ten years due to outdated water supply infrastructure, increased population and construction of houses, adding burden to the supply. Moreso, there is high inequality in access to drinking water between cities and rural areas. Although over 97% of Tashkent houses have access to safe drinking water, access is still a challenge in rural areas.
+            li Uzbekistan made some progress in expanding public sewerage systems. Nevertheless, less than half (48%) of households were connected to a sewerage system in 2022, and there is inequality between regions. For instance, while all residences in Tashkent City are connected to a sewerage system, only 16% of households are connected in the Karakalpakstan region.           
+        #sub-section-2.sub-section
+          h2 4.1 Environmental health risks and costs
           .sub-section_content
             ul.sub-section_text
-              li Uzbekistan is 20th most air polluted country in the world. Major sources of pollutants are dust particles, vehicle emissions and industrial emissions. Particulate matter (PM2.5) concentration in the air has consistently been above the 35 µg/m3 level considered unhealthy by the World Health Organization (WHO) over the past ten years. 
-              li The share of the population exposed to unhealthy concentration levels of PM2.5 declined from around 80% to 56% over the past ten years. Nonetheless, population exposure level is more than five times higher than the world average of 10%. 
+              i Air pollution is increasing in Uzbekistan, making it one of the “most air polluted countries in the world”
+              li
+                | Air pollution, in terms of the volume of pollutants emitted in the atmosphere, has spiked since 2010. The major components of pollutants are sulphates, nitrates, ammonia, sodium chloride, black carbon, mineral dust and water. The concentration of fine particulate matter of 2.5 micrometres in dimension (PM2.5) in the air is generally high. Over the past decade, it exceeded the 35 microgrammes per cubic metre (µg/m3) level considered unhealthy by the World Health Organization (WHO)
+              li Most air pollution issues in the country are attributed to the Aral Sea desertification and dust storms carrying iron oxide and other toxic PM. Meanwhile, pollution in Tashkent City is primarily due to vehicle use, which constituted around 60% of the source in 2021. 
             .sub-section_figure
               h3
                 i Air pollutants, thousand tonnes
               canvas#air_pollutants(style='max-height: 300px;')
               h4
                 i Source: Statistics Agency, 2023
+          i Over half of the Uzbekistan population has been exposed to unhealthy levels of air pollution since 2010
+          ul 
+            li
+              | The share of the population exposed to unhealthy concentration levels of PM2.5 declined from around 80% to 56% over the past ten years. However, more than half of the Uzbekistan population has been exposed daily to unhealthy PM2.5 concentrations of above 35µg/m3 since 2010. This population exposure level is more than five times higher than the world average of 10%.
           .sub-section_content
             .sub-section_figure
               h3
@@ -79,68 +93,40 @@ html(lang='en')
               h4
                 i Source: Statistics Agency, 2023
             ul.sub-section_text
-              li Mortality and welfare costs due to air pollution are increasing. Annually, over 750 people per million inhabitants are estimated to die prematurely due to exposure to outdoor air pollution, positioning the country above the world average of 645 people in 2019. Deaths related to outdoor air pollution are the third highest globally. Their welfare costs are estimated at almost 9% of GDP equivalent compared to around 6.5% in the EECCA region. 
-          .sub-section_content
-            ul.sub-section_text
-              li The share of households with access to safe public drinking water supply declined by 10% to around 70% over the past ten years due to outdated water supply infrastructure, increased population and construction of houses, adding burden to the supply. Moreso, there is high inequality in access to drinking water between cities and rural areas. Although over 97% of Tashkent houses have access to safe drinking water, access is still a challenge in rural areas.
-            .sub-section_figure
-              h3
-                i Access to safe drinking water, % of houses 
-              canvas#water_access(style='max-height: 300px;')
-              h4
-                i Source: Statistics Agency, 2023
-          .sub-section_content
-            .sub-section_figure
-              h3
-                i Access to sewerage, % of houses
-              canvas#sewerage_access(style='max-height: 300px;')
-              h4
-                i Source: Statistics Agency, 2023
-            ul.sub-section_text
-              li Uzbekistan made some progress in expanding public sewerage systems. Nevertheless, less than half (48%) of households were connected to a sewerage system in 2022, and there is inequality between regions. For instance, while all residences in Tashkent City are connected to a sewerage system, only 16% of households are connected in the Karakalpakstan region. 
-        #sub-section-2.sub-section
-          h2 4.1 Environmental health risks and costs
-          i Air pollution is increasing in Uzbekistan, making it one of the “most air polluted countries in the world”
-          ul
-            li
-              | Air pollution, in terms of the volume of pollutants emitted in the atmosphere, has spiked since 2010. The major components of pollutants are sulphates, nitrates, ammonia, sodium chloride, black carbon, mineral dust and water. The concentration of fine particulate matter of 2.5 micrometres in dimension (PM2.5) in the air is generally high. Over the past decade, it exceeded the 35 microgrammes per cubic metre (µg/m3) level considered unhealthy by the World Health Organization (WHO)
-            li Most air pollution issues in the country are attributed to the Aral Sea desertification and dust storms carrying iron oxide and other toxic PM. Meanwhile, pollution in Tashkent City is primarily due to vehicle use, which constituted around 60% of the source in 2021. 
-          i Over half of the Uzbekistan population has been exposed to unhealthy levels of air pollution since 2010
-          ul 
-            li
-              | The share of the population exposed to unhealthy concentration levels of PM2.5 declined from around 80% to 56% over the past ten years. However, more than half of the Uzbekistan population has been exposed daily to unhealthy PM2.5 concentrations of above 35µg/m3 since 2010. This population exposure level is more than five times higher than the world average of 10%.
-          i Mortality due to air pollution and the cost of premature death is high and increasing above the world average
-          ul
-            li In 2022, respiratory diseases caused almost 10% of deaths. Instances of chronic bronchitis in the arid area of the Karakalpakstan region are 2.5-3.0 times higher than in the rest of the country (IQAIR, 2021). Deaths related to outdoor air pollution in Uzbekistan are the third highest globally (US Embassy in Uzbekistan, 2019). Specifically, over 750 people in 1 million inhabitants died annually in Uzbekistan over the last 30 years from exposure to PM2.5, higher than the world average of 645 people in 2019. 
+              i Mortality due to air pollution and the cost of premature death is high and increasing above the world average
+              li In 2022, respiratory diseases caused almost 10% of deaths. Instances of chronic bronchitis in the arid area of the Karakalpakstan region are 2.5-3.0 times higher than in the rest of the country (IQAIR, 2021). Deaths related to outdoor air pollution in Uzbekistan are the third highest globally (US Embassy in Uzbekistan, 2019). Specifically, over 750 people in 1 million inhabitants died annually in Uzbekistan over the last 30 years from exposure to PM2.5, higher than the world average of 645 people in 2019. 
           i Mortality and welfare costs due to exposure to ozone and lead gases decreased
           ul
             li Mortality due to exposure to ozone gas pollution decreased during 1990-2019. Exposure to ozone caused 7 deaths per million inhabitants in 2019 compared to 21 deaths in 1990. The annual welfare cost due to ozone exposure decreased from 0.26% to 0.09% of the GDP (PPP) equivalent during the same period (Figure 5.5). Similarly, on average, during 1990-2019, 100 people per million inhabitants died annually due to lead poisoning. The economic loss due to lead poisoning was, on average, equivalent to 1.2% of the GDP (PPP).
         #sub-section-3.sub-section
           h2 4.2 Environmental services
-          i The share of households with access to safe drinking water supply has fallen since 2015, and access is still a challenge in rural areas.
-          ul
-            li
-              | The share of households’ access to drinking water from an improved and safe source on-premises, when needed, declined by 10% over the past ten years. In 2022, 72% of Uzbekistan households had access to safe drinking water, a decline from 82.5% in 2010. The proportion declined and stagnated mainly due to outdated water supply infrastructure and water services despite increased population and housing. The proportion is less than the world average, and there is high inequality between cities and rural areas. While over 97% of houses in Tashkent City have access to drinking water, the Kashkadarya region has the lowest access rate.
+          .sub-section_content
+            ul.sub-section_text
+              i The share of households with access to safe drinking water supply has fallen since 2015, and access is still a challenge in rural areas.
+              li
+                | The share of households’ access to drinking water from an improved and safe source on-premises, when needed, declined by 10% over the past ten years. In 2022, 72% of Uzbekistan households had access to safe drinking water, a decline from 82.5% in 2010. The proportion declined and stagnated mainly due to outdated water supply infrastructure and water services despite increased population and housing. The proportion is less than the world average, and there is high inequality between cities and rural areas. While over 97% of houses in Tashkent City have access to drinking water, the Kashkadarya region has the lowest access rate.
+            .sub-section_figure
+              h3
+                i Access to safe drinking water and sewerage services, % of houses 
+              canvas#water_sewerage_access(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
           i The share of households with access to a sewerage system has grown in the last three years
           ul 
             li
               | Uzbekistan made some progress in expanding public sewerage systems moderately and steadily since 2020. Nevertheless, in 2022 less than half (48%) of households are connected to a sewerage system with inequality between cities and regions. For instance, all households in Tashkent City are connected to a sewerage treatment system. However, in Karakalpakstan, only 16% of households are connected. The World Bank (2022) indicates that most households in rural areas only have self-built onsite sanitation-dry pit latrines or septic tanks with onsite disposal. Moreover, collected wastewater is not treated according to international standards.
-          i Uzbekistan has achieved 100% population access to improved sanitation
-          ul 
-            li All of Uzbekistan’s population had access to improved sanitation as early as 2014, showing progress from 93% in 2000. Thus, the country has achieved the 2030 SDG towards goal six of universal access to sanitation. 
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Access to sanitation, % of houses
+              canvas#sanitation_access(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
+            ul.sub-section_text
+              i Uzbekistan has achieved 100% population access to improved sanitation
+              li All of Uzbekistan’s population had access to improved sanitation as early as 2014, showing progress from 93% in 2000. Thus, the country has achieved the 2030 SDG towards goal six of universal access to sanitation. 
     p.disclaimer 
       | This platform, as well as any data and map included herein, are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
-    footer
-      .contacts
-        p Contacts:
-        p
-          | Westminster International University in Tashkent, 12 Istiqbol street, Tashkent 100047
-        p Email: cpro@wiut.uz
-        p Phone:+998 71 238 74 48
-      .rights
-        p
-          | The platform was prepared with the financial support of Germany’s Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV), provided through its International Climate Initiative. 
-        i (c) 2023. All rights reserved.
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='/static/javascripts/script.js')
     script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')

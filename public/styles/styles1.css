@@ -253,6 +253,9 @@ div.section-active h3, div.section-active i{
 .sub-section i{
     font-weight: 500;
     color: #28666e;
+    display: block;
+    position: relative;
+    padding-left: 3rem;
 }
 .sub-section_figure h3 i{
     font-size: 1.5rem;

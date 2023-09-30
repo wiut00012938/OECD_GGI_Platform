@@ -62,16 +62,49 @@ html(lang='en')
       .section_text
         #sub-section-1.sub-section.active
           h2 Environmental and Resource Productivity Indicators: Key findings
+          ul 
+            li Uzbekistan’s economy is becoming more efficient in using natural resources. Carbon, energy, material and water productivity have increased in the last 30 years. However, they remain well below average in Central Asia (CA) and the Eastern Europe, Caucasus and Central Asia (EECCA) region. Although progress is encouraging, environmental resource use is high, which implies pressures on natural capital. 
+            li Uzbekistan’s total greenhouse gas (GHG) emissions are the second largest in CA after Kazakhstan, and its emissions per unit of gross domestic product (GDP) are the fifth largest in the world. At the same time, it managed to decrease its carbon emissions per unit of GDP by around 75% in the last 20 years. Thus, the trend is encouraging. 
+            li The energy intensity of GDP has been declining in recent years but remains one of the world’s highest. Uzbekistan was the eighth most energy-intense country in the world in 2022. Buildings (residential and commercial) consume about 45% of its energy, while industry consumes 21% and transport 18%.
+            li Renewable energy sources such as wind and solar energy play a minor role (below 2%) in Uzbekistan’s energy mix and their share is significantly lower than the CA average (15%). The share of renewable energy sources (RES) in electricity generation increased to 9% in 2022. Over 90% of RES is hydropower. The development of renewables is slow, despite the high potential for solar energy. 
+            li Water productivity in the economy increased fourfold to USD 2 per cubic metre (m3) of water used in the past 30 years. Despite this progress, productivity remains one of the lowest compared to the European and Central Asia region average of USD 43/m3 and the world average of USD 21/m3.
+            li Material productivity in the economy (output generated from using a given amount of metal, non-metal and biomass material) more than doubled over the last 30 years. The value is the third highest in CA. 
+            li In 2021, Uzbekistan produced ten times more solid waste than five years ago. It generated around 6 million tonnes of household solid waste or 165 kg per capita in 2021. Although waste generation is increasing, current levels are only half of the world’s average. However, regular waste collection services covered only half of the population in 2018. Only one-fourth of solid waste is recycled in 2021, although recycling is increasing. 
+            li Mineral fertiliser used per hectare (ha) of cropland increased in Uzbekistan, leading to a rise in excess fertiliser per ha of cropland. It has increased by more than 50% in the past 30 years and was 75% higher than the world average in 2020.
+        #sub-section-2.sub-section
+          h2 2.1 Carbon and energy productivity of the economy
+          i Carbon emissions in Uzbekistan fluctuated with a general increasing trend
+          ul
+            li
+              | Emissions surged in the early 2000s, with a subsequent drop between 2012-16. The emissions resumed an upward trajectory post-2016, with a noticeable drop in 2020. In 2021, the CO₂ emissions per capita in Uzbekistan which shows the contribution of the average citizen to the total emission was 3.6 t. This was much less than the Central Asia (CA) average of 6.7 t per person
+            li Despite increased emissions, Uzbekistan is a minor contributor to global carbon emissions. In 2020, its emissions were 20 times less than the average of Eastern Europe, Caucasus and Central Asia (EECCA), contributing 5% of the region’s emissions. Uzbekistan’s global emissions share has been 0.33% over the last three decades. The energy (power) sector is the major CO₂ emitter, with 79% of emissions from the burning of natural gas fuel to generate electricity and heat. 
           .sub-section_content
             ul.sub-section_text
-              li Uzbekistan’s economy is becoming more efficient in using natural resources. Carbon, energy, material and water productivity have increased in the last 30 years. However, they remain well below average in Central Asia (CA) and the Eastern Europe, Caucasus and Central Asia (EECCA) region. Although progress is encouraging, environmental resource use is high, which implies pressures on natural capital. 
-              li Uzbekistan’s total greenhouse gas (GHG) emissions are the second largest in CA after Kazakhstan, and its emissions per unit of gross domestic product (GDP) are the fifth largest in the world. At the same time, it managed to decrease its carbon emissions per unit of GDP by around 75% in the last 20 years. Thus, the trend is encouraging. 
+              i The carbon productivity of the economy increased over 1991-2020
+              li
+                | Despite increasing emissions, CO2 productivity has gradually and steadily increased, indicating an increase in output produced per unit of CO2 emitted. By 2020, USD 2.39 was produced per kg of CO2 emitted versus USD 0.6 in 1990, showing a fourfold increase in the carbon productivity in the economy. However, this value is still less than the EECCA regional average of USD 2.46. The increase in carbon productivity results from the consumption of natural gas fuel with lower carbon content. At the same time, CO2 emissions are increasing against the background of relatively steady GDP growth during the period. These factors helped decouple CO2 emissions from GDP and were especially evident between 2012-15 when the GDP grew steadily against the background of declining CO2 emissions.
             .sub-section_figure
               h3
-                i Carbon productivity, USD/kg of CO2 (2015)
+                i CO2 productivity in GDP (2015 price) per unit of CO2, USD/kg CO2 
               canvas#carbon_productivity(style='max-height: 300px;')
               h4
                 i Source: OECD, 2023
+          i Total primary energy supply (TPES) showed a generally increasing trend in the last five years
+          i The share of renewable energy sources (RES) in the TPES and electric generation is low and has declined over the last five years
+          ul  
+            li Uzbekistan’s TPES, consisting of non-renewables and RES, increased modestly to 49.2 million tonnes of oil equivalent (toe) in 2021, despite a drop in 2020. Although the energy supply is higher than average for CA, it is 280 times less than the world average and 20 times less than the EECCA regional average in 2020. IRENA (2022) indicates that Uzbekistan was energy self-sufficient by 114% in 2019. In the same year, the country exported 20% of its produced energy, while importing 5% of the energy supply. 
+          .sub-section_content
+            ul.sub-section_text
+              i The share of renewable energy sources in the TPES and electric generation is low and has declined over the last five years 
+              li The share of RES in the primary energy mix is generally decreasing and is small, under 1% in 2020. Almost all (99%) of the renewable energy supply comes from hydropower, followed by solar energy, a relatively recent but growing energy source as of 2015 [3]. Despite the high potential, the contribution of RES to the energy mix remains low, and its production takes slow paths.
+              li Uzbekistan heavily relies on non-renewable sources like natural gas, oil, and coal for its primary energy supply. In 2021, of the total non-renewable fossil fuels, 85% was from natural gas, 9% from oil and 4% from coal (OWD, 2023).
+              li The outdated infrastructure, power plants and grid systems have been predominantly designed to accommodate the conventional energy sources. This creates a barrier to the fast integration of additional and RES (IEA, 2022). For instance, there were no industrial-scale solar power plants or wind farms in 2019.
+            .sub-section_figure
+              h3
+                i Share of renawable electricity, % of electricity source
+              canvas#share_of_renewables(style='max-height: 300px;')
+              h4
+                i Source: Statistics Agency, 2023
           .sub-section_content
             .sub-section_figure
               h3
@@ -80,52 +113,9 @@ html(lang='en')
               h4
                 i Source: Statistics Agency, 2023
             ul.sub-section_text
-              li The energy intensity of GDP has been declining in recent years but remains one of the world’s highest. Uzbekistan was the eighth most energy-intense country in the world in 2022. Buildings (residential and commercial) consume about 45% of its energy, while industry consumes 21% and transport 18%.
-              li Renewable energy sources such as wind and solar energy play a minor role (below 2%) in Uzbekistan’s energy mix and their share is significantly lower than the CA average (15%). The share of renewable energy sources (RES) in electricity generation increased to 9% in 2022. Over 90% of RES is hydropower. The development of renewables is slow, despite the high potential for solar energy. 
-          .sub-section_content
-            ul.sub-section_text
-              li Water productivity in the economy increased fourfold to USD 2 per cubic metre (m3) of water used in the past 30 years. Despite this progress, productivity remains one of the lowest compared to the European and Central Asia region average of USD 43/m3 and the world average of USD 21/m3.
-              li Material productivity in the economy (output generated from using a given amount of metal, non-metal and biomass material) more than doubled over the last 30 years. The value is the third highest in CA. 
-            .sub-section_figure
-              h3
-                i Share of renewables in electric generation (%)
-              canvas#share_of_renewables(style='max-height: 300px;')
-              h4
-                i Source: Statistics Agency, 2023
-          .sub-section_content
-            .sub-section_figure
-              h3
-                i Water productivity, USD (2015)
-              canvas#water_productivity(style='max-height: 300px;')
-              h4
-                i Source: World Bank, 2023
-            ul.sub-section_text
-              li In 2021, Uzbekistan produced ten times more solid waste than five years ago. It generated around 6 million tonnes of household solid waste or 165 kg per capita in 2021. Although waste generation is increasing, current levels are only half of the world’s average. However, regular waste collection services covered only half of the population in 2018. Only one-fourth of solid waste is recycled in 2021, although recycling is increasing. 
-              li Mineral fertiliser used per hectare (ha) of cropland increased in Uzbekistan, leading to a rise in excess fertiliser per ha of cropland. It has increased by more than 50% in the past 30 years and was 75% higher than the world average in 2020.
-        #sub-section-2.sub-section
-          h2 2.1 Carbon and energy productivity of the economy
-          i Carbon emissions in Uzbekistan fluctuated with a general increasing trend
-          ul
-            li
-              | Emissions surged in the early 2000s, with a subsequent drop between 2012-16. The emissions resumed an upward trajectory post-2016, with a noticeable drop in 2020. In 2021, the CO₂ emissions per capita in Uzbekistan which shows the contribution of the average citizen to the total emission was 3.6 t. This was much less than the Central Asia (CA) average of 6.7 t per person
-            li Despite increased emissions, Uzbekistan is a minor contributor to global carbon emissions. In 2020, its emissions were 20 times less than the average of Eastern Europe, Caucasus and Central Asia (EECCA), contributing 5% of the region’s emissions. Uzbekistan’s global emissions share has been 0.33% over the last three decades. The energy (power) sector is the major CO₂ emitter, with 79% of emissions from the burning of natural gas fuel to generate electricity and heat. 
-          i The carbon productivity of the economy increased over 1991-2020
-          ul 
-            li
-              | Despite increasing emissions, CO2 productivity has gradually and steadily increased, indicating an increase in output produced per unit of CO2 emitted. By 2020, USD 2.39 was produced per kg of CO2 emitted versus USD 0.6 in 1990, showing a fourfold increase in the carbon productivity in the economy. However, this value is still less than the EECCA regional average of USD 2.46. The increase in carbon productivity results from the consumption of natural gas fuel with lower carbon content. At the same time, CO2 emissions are increasing against the background of relatively steady GDP growth during the period. These factors helped decouple CO2 emissions from GDP and were especially evident between 2012-15 when the GDP grew steadily against the background of declining CO2 emissions.
-          i Total primary energy supply (TPES) showed a generally increasing trend in the last five years
-          i The share of renewable energy sources (RES) in the TPES and electric generation is low and has declined over the last five years
-          ul  
-            li Uzbekistan’s TPES, consisting of non-renewables and RES, increased modestly to 49.2 million tonnes of oil equivalent (toe) in 2021, despite a drop in 2020. Although the energy supply is higher than average for CA, it is 280 times less than the world average and 20 times less than the EECCA regional average in 2020. IRENA (2022) indicates that Uzbekistan was energy self-sufficient by 114% in 2019. In the same year, the country exported 20% of its produced energy, while importing 5% of the energy supply. 
-          i The share of renewable energy sources in the TPES and electric generation is low and has declined over the last five years
-          ul 
-            li The share of RES in the primary energy mix is generally decreasing and is small, under 1% in 2020. Almost all (99%) of the renewable energy supply comes from hydropower, followed by solar energy, a relatively recent but growing energy source as of 2015 [3]. Despite the high potential, the contribution of RES to the energy mix remains low, and its production takes slow paths.
-            li Uzbekistan heavily relies on non-renewable sources like natural gas, oil, and coal for its primary energy supply. In 2021, of the total non-renewable fossil fuels, 85% was from natural gas, 9% from oil and 4% from coal (OWD, 2023).
-            li The outdated infrastructure, power plants and grid systems have been predominantly designed to accommodate the conventional energy sources. This creates a barrier to the fast integration of additional and RES (IEA, 2022). For instance, there were no industrial-scale solar power plants or wind farms in 2019.
-          i Energy productivity in Uzbekistan has increased over 2000-20 and thus the energy intensity of the economy declined in the last two decades
-          ul
-            li Uzbekistan is becoming more efficient in using energy, evidenced by a gradual increase in energy productivity, which tripled from 2005-20. The increased productivity is driven by state policies that prioritise, promote and invest in improved, energy-efficient technologies in the main economic sectors, particularly industry.
-            li Uzbekistan was the eighth most energy-intensive country in 2022 [4]. It has been implementing reforms in recent years to reduce energy intensity. However, challenges remain associated with outdated infrastructure and slow-paced updates (IEA, 2022).
+              i Energy productivity in Uzbekistan has increased over 2000-20 and thus the energy intensity of the economy declined in the last two decades
+              li Uzbekistan is becoming more efficient in using energy, evidenced by a gradual increase in energy productivity, which tripled from 2005-20. The increased productivity is driven by state policies that prioritise, promote and invest in improved, energy-efficient technologies in the main economic sectors, particularly industry.
+              li Uzbekistan was the eighth most energy-intensive country in 2022 [4]. It has been implementing reforms in recent years to reduce energy intensity. However, challenges remain associated with outdated infrastructure and slow-paced updates (IEA, 2022).
         #sub-section-3.sub-section
           h2 2.2 Resource productivity of the economy 
           i Material productivity increased moderately between 1992-2019
@@ -139,22 +129,18 @@ html(lang='en')
             li By 2021, Uzbekistan witnessed an annual household solid waste generation of 5.7 million t or 165 kg per capita. Government projections indicate this could reach 7.0 million t by 2030, with another 1.4 million t emanating from commercial and government sectors. The growing waste generation is not decoupled from economic growth. The waste composition includes 25% food, 10% paper and 50% polymers.
             li National solid waste management (SWM) systems are rudimentary. As a result, most waste ends up in open landfills without substantial processing. 
             li Waste collection and recycling is improving. Although the total population covered by collection services was only 48% in 2018, it was a significant increase from the 6% covered in 2016. Solid waste recycling increased from 1.4 million t in 2019 (9%) to 1.7 million t (26%) by 2021.
-          i Water productivity increased since 2000
-          ul
-            li Uzbekistan's water productivity indicator – output per cubic metre of water – nearly quadrupled between 1994-2019, moving from USD 0.48 to USD 1.8. This increase is attributed to recent policy interventions promoting water-saving technologies and efficient irrigation systems combined with GDP growth. Nevertheless, the water productivity level was ten times less than the world average (USD 20) and 23 times less than the ECA region average in 2020.
+          .sub-section_content
+            .sub-section_figure
+              h3
+                i Water productivity, USD (2015)
+              canvas#water_productivity(style='max-height: 300px;')
+              h4
+                i Source: World Bank, 2023
+            ul.sub-section_text
+              i Water productivity increased since 2000
+              li Uzbekistan's water productivity indicator – output per cubic metre of water – nearly quadrupled between 1994-2019, moving from USD 0.48 to USD 1.8. This increase is attributed to recent policy interventions promoting water-saving technologies and efficient irrigation systems combined with GDP growth. Nevertheless, the water productivity level was ten times less than the world average (USD 20) and 23 times less than the ECA region average in 2020.
     p.disclaimer 
       | This platform, as well as any data and map included herein, are without prejudice to the status of or sovereignty over any territory, to the delimitation of international frontiers and boundaries and to the name of any territory, city or area.
-    footer
-      .contacts
-        p Contacts:
-        p
-          | Westminster International University in Tashkent, 12 Istiqbol street, Tashkent 100047
-        p Email: cpro@wiut.uz
-        p Phone:+998 71 238 74 48
-      .rights
-        p
-          | The platform was prepared with the financial support of Germany’s Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV), provided through its International Climate Initiative. 
-        i (c) 2023. All rights reserved.
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='/static/javascripts/script.js')
     script(src='https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js')

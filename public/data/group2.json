@@ -128,75 +128,75 @@
        "energy_intensity": [
         {
          "year": 2000,
-         "energy_intensity": 1.03
+         "energy_intensity": 1.029
         },
         {
          "year": 2001,
-         "energy_intensity": 0.98
+         "energy_intensity": 0.978
         },
         {
          "year": 2002,
-         "energy_intensity": 0.96
+         "energy_intensity": 0.957
         },
         {
          "year": 2003,
-         "energy_intensity": 0.86
+         "energy_intensity": 0.863
         },
         {
          "year": 2004,
-         "energy_intensity": 0.77
+         "energy_intensity": 0.771
         },
         {
          "year": 2005,
-         "energy_intensity": 0.68
+         "energy_intensity": 0.677
         },
         {
          "year": 2006,
-         "energy_intensity": 0.6
+         "energy_intensity": 0.604
         },
         {
          "year": 2007,
-         "energy_intensity": 0.56
+         "energy_intensity": 0.556
         },
         {
          "year": 2008,
-         "energy_intensity": 0.52
+         "energy_intensity": 0.521
         },
         {
          "year": 2009,
-         "energy_intensity": 0.45
+         "energy_intensity": 0.447
         },
         {
          "year": 2010,
-         "energy_intensity": 0.43
+         "energy_intensity": 0.426
         },
         {
          "year": 2011,
-         "energy_intensity": 0.38
+         "energy_intensity": 0.384
         },
         {
          "year": 2012,
-         "energy_intensity": 0.3
+         "energy_intensity": 0.299
         },
         {
          "year": 2013,
-         "energy_intensity": 0.28
+         "energy_intensity": 0.275
         },
         {
          "year": 2014,
-         "energy_intensity": 0.24
+         "energy_intensity": 0.237
         },
         {
          "year": 2015,
-         "energy_intensity": 0.22
+         "energy_intensity": 0.218
         },
         {
          "year": 2016,
-         "energy_intensity": 0.2
+         "energy_intensity": 0.204
         },
         {
          "year": 2017,
-         "energy_intensity": 0.2
+         "energy_intensity": 0.202
         },
         {
          "year": 2018,
@@ -204,19 +204,19 @@
         },
         {
          "year": 2019,
-         "energy_intensity": 0.19
+         "energy_intensity": 0.193
         },
         {
          "year": 2020,
-         "energy_intensity": 0.17
+         "energy_intensity": 0.168
         },
         {
          "year": 2021,
-         "energy_intensity": 0.16
+         "energy_intensity": 0.159
         },
         {
          "year": 2022,
-         "energy_intensity": 0.14
+         "energy_intensity": 0.139
         }
        ],
        "share_of_renewables": [
@@ -264,107 +264,111 @@
        "water_productivity": [
         {
          "year": 1994,
-         "water_productivity": 0.3748
+         "water_productivity": 0.4887954086955178
         },
         {
          "year": 1995,
-         "water_productivity": 0.485
+         "water_productivity": 0.4849731371934908
         },
         {
          "year": 1996,
-         "water_productivity": 0.4938
+         "water_productivity": 0.4938057739333625
         },
         {
          "year": 1997,
-         "water_productivity": 0.5201
+         "water_productivity": 0.5201038255378027
         },
         {
          "year": 1998,
-         "water_productivity": 0.5431
+         "water_productivity": 0.5431166540867524
         },
         {
          "year": 1999,
-         "water_productivity": 0.5672
+         "water_productivity": 0.5671485323751768
         },
         {
          "year": 2000,
-         "water_productivity": 0.5896
+         "water_productivity": 0.5896042232969847
         },
         {
          "year": 2001,
-         "water_productivity": 0.61
+         "water_productivity": 0.6100320548607502
         },
         {
          "year": 2002,
-         "water_productivity": 0.6481
+         "water_productivity": 0.6480797820122033
         },
         {
          "year": 2003,
-         "water_productivity": 0.6905
+         "water_productivity": 0.6905438130670921
         },
         {
          "year": 2004,
-         "water_productivity": 0.7589
+         "water_productivity": 0.7588708043254317
         },
         {
          "year": 2005,
-         "water_productivity": 0.8305
+         "water_productivity": 0.8305158821774228
         },
         {
          "year": 2006,
-         "water_productivity": 0.8898
+         "water_productivity": 0.8897866790100812
         },
         {
          "year": 2007,
-         "water_productivity": 0.9712
+         "water_productivity": 0.971230858157808
         },
         {
          "year": 2008,
-         "water_productivity": 1.056
+         "water_productivity": 1.05584065510403
         },
         {
          "year": 2009,
-         "water_productivity": 1.138
+         "water_productivity": 1.1375325302406525
         },
         {
          "year": 2010,
-         "water_productivity": 1.22
+         "water_productivity": 1.2204085749773714
         },
         {
          "year": 2011,
-         "water_productivity": 1.308
+         "water_productivity": 1.308457115308914
         },
         {
          "year": 2012,
-         "water_productivity": 1.397
+         "water_productivity": 1.3973549095379199
         },
         {
          "year": 2013,
-         "water_productivity": 1.495
+         "water_productivity": 1.495009428109501
         },
         {
          "year": 2014,
-         "water_productivity": 1.593
+         "water_productivity": 1.593200247593983
         },
         {
          "year": 2015,
-         "water_productivity": 1.563
+         "water_productivity": 1.563225693542661
         },
         {
          "year": 2016,
-         "water_productivity": 1.674
+         "water_productivity": 1.6738690586678986
         },
         {
          "year": 2017,
-         "water_productivity": 1.618
+         "water_productivity": 1.618384770011621
         },
         {
          "year": 2018,
-         "water_productivity": 1.705
+         "water_productivity": 1.713425271532962
         },
         {
          "year": 2019,
-         "water_productivity": 1.802
+         "water_productivity": 1.815914865506629
+        },
+        {
+         "year": 2020,
+         "water_productivity": 1.8521529915983095
         }
-       ]
+    ]
 }

@@ -75,104 +75,157 @@
          "respiratory_death": 9.6
         }
        ],
-       "water_access": [
+       "water_sewerage_access": [
         {
          "year": "2010",
-         "water_access": 82.5
-        },
-        {
-         "year": "2011",
-         "water_access": 82.7
-        },
-        {
-         "year": "2012",
-         "water_access": 82.7
-        },
-        {
-         "year": "2013",
-         "water_access": 82.6
-        },
-        {
-         "year": "2014",
-         "water_access": 82.3
-        },
-        {
-         "year": "2015",
-         "water_access": 81.4
-        },
-        {
-         "year": "2016",
-         "water_access": 76.4
-        },
-        {
-         "year": "2017",
-         "water_access": 75.6
-        },
-        {
-         "year": "2018",
-         "water_access": 75.3
-        },
-        {
-         "year": "2019",
-         "water_access": 76.6
-        },
-        {
-         "year": "2020",
-         "water_access": 67.4
-        },
-        {
-         "year": "2021",
-         "water_access": 68.3
-        }
-       ],
-       "sewerage_access": [
-        {
-         "year": "2010",
+         "water_access": 82.5,
          "sewerage_access": 36.9
         },
         {
          "year": "2011",
+         "water_access": 82.7,
          "sewerage_access": 37.8
         },
         {
          "year": "2012",
+         "water_access": 82.7,
          "sewerage_access": 37.6
         },
         {
          "year": "2013",
+         "water_access": 82.6,
          "sewerage_access": 37.8
         },
         {
          "year": "2014",
+         "water_access": 82.3,
          "sewerage_access": 37.8
         },
         {
          "year": "2015",
+         "water_access": 81.4,
          "sewerage_access": 36.5
         },
         {
          "year": "2016",
+         "water_access": 76.4,
          "sewerage_access": 35.9
         },
         {
          "year": "2017",
+         "water_access": 75.6,
          "sewerage_access": 35.8
         },
         {
          "year": "2018",
+         "water_access": 75.3,
          "sewerage_access": 35.7
         },
         {
          "year": "2019",
+         "water_access": 76.6,
          "sewerage_access": 36.3
         },
         {
          "year": "2020",
+         "water_access": 67.4,
          "sewerage_access": 37.3
         },
         {
          "year": "2021",
+         "water_access": 68.3,
          "sewerage_access": 43.6
+        },
+        {
+         "year": "2022",
+         "water_access": 72,
+         "sewerage_access": 48
         }
-       ]
+       ],
+       "sanitation_access": [
+        {
+         "year": 2000,
+         "sanitation_access": 92.67819923
+        },
+        {
+         "year": 2001,
+         "sanitation_access": 93.29388374
+        },
+        {
+         "year": 2002,
+         "sanitation_access": 93.90266262
+        },
+        {
+         "year": 2003,
+         "sanitation_access": 94.50442252
+        },
+        {
+         "year": 2004,
+         "sanitation_access": 95.09907877
+        },
+        {
+         "year": 2005,
+         "sanitation_access": 95.68663122
+        },
+        {
+         "year": 2006,
+         "sanitation_access": 96.26712791
+        },
+        {
+         "year": 2007,
+         "sanitation_access": 96.84050639
+        },
+        {
+         "year": 2008,
+         "sanitation_access": 97.40676642
+        },
+        {
+         "year": 2009,
+         "sanitation_access": 97.96588246
+        },
+        {
+         "year": 2010,
+         "sanitation_access": 98.51791332
+        },
+        {
+         "year": 2011,
+         "sanitation_access": 99.05966172
+        },
+        {
+         "year": 2012,
+         "sanitation_access": 99.59751111
+        },
+        {
+         "year": 2013,
+         "sanitation_access": 99.97483641
+        },
+        {
+         "year": 2014,
+         "sanitation_access": 100
+        },
+        {
+         "year": 2015,
+         "sanitation_access": 100
+        },
+        {
+         "year": 2016,
+         "sanitation_access": 100
+        },
+        {
+         "year": 2017,
+         "sanitation_access": 100
+        },
+        {
+         "year": 2018,
+         "sanitation_access": 99.99999699
+        },
+        {
+         "year": 2019,
+         "sanitation_access": 100
+        },
+        {
+         "year": 2020,
+         "sanitation_access": 100
+        }
+    ]
 }
