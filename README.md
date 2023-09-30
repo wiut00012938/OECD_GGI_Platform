@@ -24,6 +24,7 @@ node app
 - express.js
 - pug.js
 - chart.js
+- swiper.js
 
 ### external Dependencies of Web application
 - fonts Awesome
