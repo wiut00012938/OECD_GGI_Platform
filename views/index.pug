@@ -161,25 +161,6 @@ html(lang='en')
         i (c) 2023. All rights reserved.
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script.
-      /*var acc = document.getElementsByClassName("accordion");
-      var i;
-      var currentlyOpen = null;
-      for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-      if (currentlyOpen && currentlyOpen !== this) {
-      currentlyOpen.classList.remove("active");
-      currentlyOpen.nextElementSibling.style.display = "none";
-      }
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-      panel.style.display = "none";
-      } else {
-      panel.style.display = "block";
-      }
-      currentlyOpen = this.classList.contains("active") ? this : null;
-      });
-      }*/
       function toggleAccordion(event) {
       const panel = event.target.nextElementSibling;
       const isActive = event.target.classList.contains('active');

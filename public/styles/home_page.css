@@ -252,7 +252,7 @@ footer .contacts{
 footer .contacts p{
     padding: 1rem;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 footer div.rights{
     width: 60%;
@@ -330,7 +330,7 @@ footer div.rights p, footer div.rights i{
 }
 @media (max-height: 950px) and (max-width: 1280px) {
     .partners ul li img {
-        width: 17rem;
+        width: 20rem;
     }
 }
 @media (min-height: 650px) and (max-height: 950px) and (min-width: 375px) and (max-width: 500px) {
