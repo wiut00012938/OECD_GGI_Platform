@@ -37,3 +37,6 @@ node app
 ### Web application repository on github
 [link to the github repository](https://github.com/wiut00012938/OECD_GGI_Platform.git)
 
+### Web application hosted by free host
+[hosted web platform](https://ggi-uzbekistan.onrender.com/)
+
