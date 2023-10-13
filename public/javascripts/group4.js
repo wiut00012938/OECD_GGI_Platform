@@ -30,6 +30,11 @@ async function getData() {
               beginAtZero: false,
               min: 700
             }
+          },
+          interaction: {
+            mode: 'nearest',
+            axis: 'x',
+            intersect: false
           }
         },
       });
@@ -90,6 +95,11 @@ async function getData() {
               beginAtZero: false,
               min: 30
             },
+          },
+          interaction: {
+            mode: 'nearest',
+            axis: 'x',
+            intersect: false
           }
         },
   });
@@ -116,6 +126,11 @@ async function getData() {
               beginAtZero: false,
               min: 88
             }
+          },
+          interaction: {
+            mode: 'nearest',
+            axis: 'x',
+            intersect: false
           }
         },
       });
