@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0074d9; /* color of the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0056b3; /* color of the thumb on hover */
+  }
+*{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    overflow-x: hidden;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/static/images/5570863.jpg);
+    background-size: cover;
+}
+.main-part{
+    display: flex;
+    height: 87%;
+}
+.head-part{
+    height: 12%;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(59, 140, 233);
+    padding: 0 5rem;
+}
+.head-part h1{
+    font-size: 4rem;
+    color: #28666e;
+}
+.head-part div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(59, 140, 233);
+    padding: 10px;
+    box-shadow: 6px 4px rgb(59, 140, 233);
+}
+.head-part div a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(59, 140, 233);
+    padding: 2px;
+}
+.head-part div a:nth-child(1), header div a:nth-child(2){
+    border-right: 1px solid black;
+}
+.head-part div a:hover{
+    color: white;
+    background-color: rgb(59, 140, 233);
+}
+.head-part div a.active_language{
+    color: white;
+    background-color: rgb(59,140,233);
+}
+a.home_page_link{
+    height: 8rem;
+    background-position: center;
+    display: block;
+    padding: 1rem;
+    margin: 2rem 1rem 2rem 2rem;
+    width: 8rem;
+    background-image: url(/static/images/home_page_icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+  }
+  a.home_page_link:hover{
+    background-image: url(/static/images/home_page_icon_animated.gif);
+    background-size: cover;
+  }
+
+
+.arrow{
+    background-color: #28666e;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: -10px;
+    border-bottom-left-radius: -10px;
+    height: 10rem;
+    width: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+.arrow-information{
+    background-color: #28666e;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 10rem;
+    width: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+.arrow i, .arrow-information i{
+    font-size: 2rem;
+    color: white;
+}
+.arrow:hover, .arrow-information:hover{
+    background-color: rgb(59, 140, 233);
+}
+.navigation {
+    transition: all 0.3s ease;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;*/
+    border-right: 1px solid rgb(59,140,233);
+    padding: 0 1rem;
+}
+.navigation h2{
+    font-size: 2rem;
+    color: #28666e;
+    padding-right: 3rem;
+}
+.navigation a{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+.navigation a i{
+    font-size: 2rem;
+    color: #28666e;
+    padding-right: 2rem;
+}
+.navigation a h3{
+    font-size: 2rem;
+    font-style: normal;
+    color: #28666e;
+}
+.navigation a:hover{
+    cursor: pointer;
+    background-color: rgb(59, 140, 233);
+    transition: 0.4s;
+}
+.navigation a:hover i, .navigation  a:hover h3{
+    color: white;
+}
+.active_navigation{
+    background-color: rgb(59, 140, 233);
+}
+a.active_navigation h3, a.active_navigation i{
+    color:white;
+}
+
+
+
+
+
+.information {
+    transition: all 0.3s ease;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;*/
+    border-left: 1px solid rgb(59,140,233);
+    padding: 0 1rem;
+}
+.information .group-info h3{
+    font-size: 2rem;
+    font-style: normal;
+    color: #28666e;
+    margin-bottom: 2rem;
+}
+.information .group-info p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.group-info{
+    display: none;
+}
+.active_information_group{
+    display: block;
+}
+
+
+
+
+
+.container-main {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    flex: 0.96;
+    height: 95%;
+}
+table {
+    width: 100%;
+    font-size: 1.5rem;
+    height: 80%;
+}
+td div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+td div:hover button{
+    cursor: pointer;
+    background-color: rgb(59, 140, 233);
+}
+td div:hover{
+    cursor:pointer;
+}
+td,th,td div span, label{
+    font-size: 1.5rem;
+}
+tr td div button{
+    background-color: #28666e;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #28666e;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+tr.group,
+tr.group:hover {
+    background-color: #ddd !important;
+}
+.export{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 0 1rem 1rem;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(34, 60, 80, 0.08) inset;
+    -moz-box-shadow: 0px 0px 3px 2px rgba(34, 60, 80, 0.08) inset;
+    box-shadow: 0px 0px 3px 2px rgba(34, 60, 80, 0.08) inset;
+    margin-bottom: 1rem;
+}
+.export-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3rem;
+}
+.export-message h2{
+    font-size: 2.5rem;
+    color:#28666e;
+    margin-right: 1rem;
+}
+.export a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    transition: 0.4s;
+    margin-right: 2rem;
+    padding: 0px 0.5rem; /* Green border */
+    background-color: #28666e; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+}
+.export a p{
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+}
+.export-message i{
+    font-size: 2rem;
+    color: #28666e;
+}
+.export a i{
+    font-size: 2rem;
+    color: white;
+}
+.export a:hover{
+    background-color: rgb(59, 140, 233);
+}

@@ -1,0 +1,86 @@
+{
+    "data": [
+      {
+        "id": "1",
+        "group": "Group A",
+        "subgroup": "Subgroup 1",
+        "value1": "Data 1",
+        "value2": "Data 2",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "2",
+        "group": "Group A",
+        "subgroup": "Subgroup 1",
+        "value1": "Data 3",
+        "value2": "Data 4",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "3",
+        "group": "Group A",
+        "subgroup": "Subgroup 2",
+        "value1": "Data 5",
+        "value2": "Data 6",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "4",
+        "group": "Group B",
+        "subgroup": "Subgroup 1",
+        "value1": "Data 7",
+        "value2": "Data 8",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "5",
+        "group": "Group B",
+        "subgroup": "Subgroup 2",
+        "value1": "Data 9",
+        "value2": "Data 10",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "6",
+        "group": "Group C",
+        "subgroup": "Subgroup 1",
+        "value1": "Data 7",
+        "value2": "Data 8",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "1",
+        "group": "Group C",
+        "subgroup": "Subgroup 2",
+        "value1": "Data 9",
+        "value2": "Data 10",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "7",
+        "group": "Group C",
+        "subgroup": "Subgroup 1",
+        "value1": "Data 7",
+        "value2": "Data 8",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      },
+      {
+        "id": "8",
+        "group": "Group C",
+        "subgroup": "Subgroup 2",
+        "value1": "Data 9",
+        "value2": "Data 10",
+        "value3": "Data 3",
+        "value4": "Data 4"
+      }
+    ]
+  }
+  

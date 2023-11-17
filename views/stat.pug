@@ -1,0 +1,148 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Statistics
+    link(rel='stylesheet', href='https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css')
+    link(rel='stylesheet', href='/static/styles/stat.css')
+    link(rel='shortcut icon', href='/static/images/main_icon.png')
+  body
+    .head-part
+      div
+        a(href='/stat_ru') RU
+        a.active_language(href='/stat') Eng
+        a(href='/stat_uz') UZB
+      h1 OECD.STAT Uzbekistan
+      a.home_page_link(href='/', title='Home Page')  
+    .main-part
+      .navigation
+        h2 Green Growth Indicators
+        a.active_navigation(href='stat/stat-all')
+          i.fa-solid.fa-file-circle-check
+          h3 All indictors
+        a(href='/stat/stat-group1')
+          i.fa-solid.fa-arrow-up-right-dots
+          h3 Group 1
+        a(href='/stat/stat-group2')
+          i.fa-solid.fa-seedling
+          h3 Group 2
+        a(href='/stat/stat-group3')
+          i.fa-brands.fa-envira
+          h3 Group 3
+        a(href='/stat/stat-group4')
+          i.fa-solid.fa-building-columns
+          h3 Group 4
+        a(href='/stat/stat-group5')
+          i.fa-solid.fa-users-gear
+          h3 Group 5
+      .container-main
+        .arrow#arrow
+            i.fa-solid.fa-arrow-right
+        .container
+            .export 
+              .export-message
+                h2 Export 
+                i.fa-solid.fa-arrow-right
+              a(href='/static/data/tables-all.xlsx')
+                p Excel
+                i.fa-solid.fa-file-excel
+              a(href='/static/data/tables-all.csv')
+                p Text File
+                i.fa-solid.fa-file-csv
+              a(href='/static/data/tables-all.pdf')
+                p PDF File
+                i.fa-solid.fa-file-pdf
+            table#example.display(style='width:100%')
+                thead
+                    tr
+                    th Name
+                    th Position
+                    th Office
+                    th Extn.
+                    th Start date
+                    th Salary
+                tfoot
+                    tr
+                    th Name
+                    th Position
+                    th Office
+                    th Extn.
+                    th Start date
+                    th Salary
+        .arrow-information#arrow-information
+            i.fa-solid.fa-arrow-left
+      .information
+        .group-info(data-group='0').active_information_group
+          h3 Database documentation
+          p
+            | The OECD Green Growth database contains selected indicators for monitoring progress towards green growth to support policy making and inform the public at large. The database synthesises data and indicators across a wide range of domains
+            | including a range of OECD databases as well as external data sources. The database covers OECD member and accession countries, key partners (including Brazil, China, India, Indonesia and South Africa) and other selected non-OECD countries.
+          p
+            | The indicators have been selected according to well-specified criteria and embedded in a conceptual framework, which is structured around four groups to capture the main features of green growth:
+          p
+            | Environmental and resource productivity: indicate whether economic growth is becoming greener with more efficient use of natural capital and to capture aspects of production which are rarely quantified in economic models and accounting
+            | frameworks;
+          p
+            | The natural asset base: indicate the risks to growth from a declining natural asset base;
+          p
+            | Environmental dimension of quality of life: indicate how environmental conditions affect the quality of life and wellbeing of people;
+          p
+            | Economic opportunities and policy responses: indicate the effectiveness of policies in delivering green growth and describe the societal responses needed to secure business and employment opportunities.
+        .group-info(data-group='1')
+          h3 Row-1 information 
+          p some sample text
+        .group-info(data-group='2')
+          h3 Row-2 information 
+          p some sample text
+        .group-info(data-group='3')
+          h3 Row-3 information 
+          p some sample text
+        .group-info(data-group='4')
+          h3 Row-4 information 
+          p some sample text
+        .group-info(data-group='5') 
+          h3 Row-5 information 
+          p some sample text
+    script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
+    script(src='https://code.jquery.com/jquery-3.7.0.js')
+    script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')
+    script(src='/static/javascripts/stat.js')
+//
+   script.
+      var xmlhtpp = new XMLHttpRequest();
+      var url = "/static/data/sample.json";
+      xmlhtpp.open("GET", url, true);
+      xmlhtpp.send();
+      xmlhtpp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+      var data = JSON.parse(this.responseText);
+      $('#example').DataTable({
+      "data": data.data,
+      "columns": [{ "data": "name",
+          "render": function (data, type, row) {
+              return '<div class="button" data-group=' + row.id + '><span>' + data + '</span><button>+</button></div>';
+          }
+        },
+      {
+      "data": "position"
+      },
+      {
+      "data": "office"
+      },
+      {
+      "data": "extn"
+      },
+      {
+      "data": "start_date"
+      },
+      {
+      "data": "salary"
+      }
+      ],
+      "scrollX": true,
+      scrollCollapse: true,
+      scrollY: '50vh'
+      });
+      }
+      };

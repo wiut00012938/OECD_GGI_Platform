@@ -4,6 +4,12 @@ const path = require('path')
 const app = express();
 
 let PORT = process.env.PORT || 5000;
+const bodyParser = require('body-parser');
+
+const jsonData = require('./public/data/sample.json');
+
+
+
 
 app.set('view engine','pug');
 app.set('views',path.join(__dirname, 'views'));
@@ -88,6 +94,9 @@ app.get('/group5_uz', (req,res)=>{
     res.render('group5uz')
 })
 
+app.get('/stat',(req,res)=>{
+    res.render('stat',{jsonData})
+})
 
 app.listen(PORT, error => {
     if (error) throw error
