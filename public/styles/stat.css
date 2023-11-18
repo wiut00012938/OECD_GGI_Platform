@@ -235,7 +235,7 @@ td div{
 }
 td div:hover button{
     cursor: pointer;
-    background-color: rgb(59, 140, 233);
+    background-color: rgb(59, 140, 233);;
 }
 td div:hover{
     cursor:pointer;
@@ -250,10 +250,20 @@ tr td div button{
     border: 1px solid #28666e;
     border-radius: 50%;
     transition: 0.4s;
+    margin-left: 1rem;
+}
+tr td div span{
+    width: 8rem;
 }
 tr.group,
 tr.group:hover {
     background-color: #ddd !important;
+}
+input, select{
+    background-color: #fff !important;
+}
+#example{
+    table-layout: fixed;
 }
 .export{
     display: flex;

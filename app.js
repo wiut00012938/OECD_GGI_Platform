@@ -6,7 +6,7 @@ const app = express();
 let PORT = process.env.PORT || 5000;
 const bodyParser = require('body-parser');
 
-const jsonData = require('./public/data/sample.json');
+const jsonData = require('./public/data/Information.json');
 
 
 

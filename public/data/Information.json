@@ -1,0 +1,40 @@
+{
+    "data": [
+      {
+        "Id": 1,
+        "Name": "Sample1",
+        "Definition": "This is the definition of Sample1",
+        "Source": "Source1",
+        "Link": "http://example.com/sample1"
+      },
+      {
+        "Id": 2,
+        "Name": "Sample2",
+        "Definition": "This is the definition of Sample2",
+        "Source": "Source2",
+        "Link": "http://example.com/sample2"
+      },
+      {
+        "Id": 3,
+        "Name": "Sample3",
+        "Definition": "This is the definition of Sample3",
+        "Source": "Source3",
+        "Link": "http://example.com/sample3"
+      },
+      {
+        "Id": 4,
+        "Name": "Sample4",
+        "Definition": "This is the definition of Sample4",
+        "Source": "Source4",
+        "Link": "http://example.com/sample4"
+      },
+      {
+        "Id": 5,
+        "Name": "Sample5",
+        "Definition": "This is the definition of Sample5",
+        "Source": "Source5",
+        "Link": "http://example.com/sample5"
+      }
+    ]
+  }
+  

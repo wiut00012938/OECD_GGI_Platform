@@ -13,11 +13,11 @@ html(lang='en')
         a(href='/stat_ru') RU
         a.active_language(href='/stat') Eng
         a(href='/stat_uz') UZB
-      h1 OECD.STAT Uzbekistan
+      h1 Green Growth Indicators | Uzbekistan
       a.home_page_link(href='/', title='Home Page')  
     .main-part
       .navigation
-        h2 Green Growth Indicators
+        h2 Navigation
         a.active_navigation(href='stat/stat-all')
           i.fa-solid.fa-file-circle-check
           h3 All indictors
@@ -55,21 +55,84 @@ html(lang='en')
                 i.fa-solid.fa-file-pdf
             table#example.display(style='width:100%')
                 thead
-                    tr
-                    th Name
-                    th Position
-                    th Office
-                    th Extn.
-                    th Start date
-                    th Salary
+                  tr
+                    th Group 
+                    th Subgroup
+                    th Definition
+                    th Unit
+                    th 1990
+                    th 1991
+                    th 1992
+                    th 1993
+                    th 1994
+                    th 1995
+                    th 1996
+                    th 1997
+                    th 1998
+                    th 1999
+                    th 2000
+                    th 2001
+                    th 2002
+                    th 2003
+                    th 2004
+                    th 2005
+                    th 2006
+                    th 2007
+                    th 2008
+                    th 2009
+                    th 2010
+                    th 2011
+                    th 2012
+                    th 2013
+                    th 2014
+                    th 2015
+                    th 2016
+                    th 2017
+                    th 2018
+                    th 2019
+                    th 2020
+                    th 2021
+                    th 2022
+
                 tfoot
-                    tr
-                    th Name
-                    th Position
-                    th Office
-                    th Extn.
-                    th Start date
-                    th Salary
+                  tr
+                    th Group 
+                    th Subgroup
+                    th Definition
+                    th Unit
+                    th 1990
+                    th 1991
+                    th 1992
+                    th 1993
+                    th 1994
+                    th 1995
+                    th 1996
+                    th 1997
+                    th 1998
+                    th 1999
+                    th 2000
+                    th 2001
+                    th 2002
+                    th 2003
+                    th 2004
+                    th 2005
+                    th 2006
+                    th 2007
+                    th 2008
+                    th 2009
+                    th 2010
+                    th 2011
+                    th 2012
+                    th 2013
+                    th 2014
+                    th 2015
+                    th 2016
+                    th 2017
+                    th 2018
+                    th 2019
+                    th 2020
+                    th 2021
+                    th 2022
         .arrow-information#arrow-information
             i.fa-solid.fa-arrow-left
       .information
@@ -89,6 +152,15 @@ html(lang='en')
             | Environmental dimension of quality of life: indicate how environmental conditions affect the quality of life and wellbeing of people;
           p
             | Economic opportunities and policy responses: indicate the effectiveness of policies in delivering green growth and describe the societal responses needed to secure business and employment opportunities.
+        each item in jsonData.data
+          .group-info(data-group= item.Id)
+            h3= item.Name
+            ul
+              p Definition
+              p= item.Definition
+              p Source
+              p= item.Source
+              a(href=item.Link)= item.Link
         .group-info(data-group='1')
           h3 Row-1 information 
           p some sample text
@@ -108,41 +180,3 @@ html(lang='en')
     script(src='https://code.jquery.com/jquery-3.7.0.js')
     script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')
     script(src='/static/javascripts/stat.js')
-//
-   script.
-      var xmlhtpp = new XMLHttpRequest();
-      var url = "/static/data/sample.json";
-      xmlhtpp.open("GET", url, true);
-      xmlhtpp.send();
-      xmlhtpp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-      var data = JSON.parse(this.responseText);
-      $('#example').DataTable({
-      "data": data.data,
-      "columns": [{ "data": "name",
-          "render": function (data, type, row) {
-              return '<div class="button" data-group=' + row.id + '><span>' + data + '</span><button>+</button></div>';
-          }
-        },
-      {
-      "data": "position"
-      },
-      {
-      "data": "office"
-      },
-      {
-      "data": "extn"
-      },
-      {
-      "data": "start_date"
-      },
-      {
-      "data": "salary"
-      }
-      ],
-      "scrollX": true,
-      scrollCollapse: true,
-      scrollY: '50vh'
-      });
-      }
-      };
