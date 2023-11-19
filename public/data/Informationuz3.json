@@ -1,0 +1,166 @@
+{
+    "data":[
+        {
+            "Id": 18,
+            "Name": "Qayta tiklanadigan chuchuk suv resurslari oqimi",
+            "Definition": "mamlakatdagi yog'ingarchilikdan ichki daryo oqimlari va er usti suvlari. Bu oqim ham doimiy, ham mavsumiy er usti suvlari, shu jumladan qo'shni davlatlardan oqib tushadigan suvlardir. O'zbekiston har yili turli maqsadlarda tortib oladigan chuchuk suv miqdori milliard m3.",
+            "Source": "Jahon banki",
+            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 19,
+            "Name": "Suv stressi",
+            "Definition": "suvni tortib olish intensivligi. Suv ta'sirining darajasi mamlakatning suvga bo'lgan ehtiyojini qondirish uchun suv resurslaridan qay darajada foydalanishini ko'rsatishi mumkin. Bu mavjud suv resurslarining foizi sifatida suvni tortib olishni o'lchaydi. SA, shuningdek, toza suv maqsadining bir qismi sifatida ushbu ko'rsatkich haqida xabar beradi.",
+            "Source": "SA va Jahon banki, 1994-2019",
+            "Link": "https://nsdg.stat.uz/en/goal/9\\.",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 20,
+            "Name": "Suv iste'moli",
+            "Definition": "mavjud chuchuk suv resurslarining ulushi sifatida barcha asosiy tarmoqlar (qishloq xo'jaligi, maishiy foydalanish va sanoat) tomonidan chuchuk suvni tortib olish darajasi. Bu asosiy tarmoqlar bo'yicha jami chuchuk suv olish foizini o'lchaydi. Ko'rsatkich iqtisodiyotning qaysi tarmoqlari chuchuk suvni ko'proq iste'mol qilishini ko'rsatadi.",
+            "Source": "Jahon banki, 1994-2019 yillar",
+            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 21,
+            "Name": "Suv iste'moli",
+            "Definition": "mavjud chuchuk suv resurslarining ulushi sifatida barcha asosiy tarmoqlar (qishloq xo'jaligi, maishiy foydalanish va sanoat) tomonidan chuchuk suvni tortib olish darajasi. Bu asosiy tarmoqlar bo'yicha jami chuchuk suv olish foizini o'lchaydi. Ko'rsatkich iqtisodiyotning qaysi tarmoqlari chuchuk suvni ko'proq iste'mol qilishini ko'rsatadi.",
+            "Source": "Jahon banki, 1994-2019 yillar",
+            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 22,
+            "Name": "Suv iste'moli",
+            "Definition": "mavjud chuchuk suv resurslarining ulushi sifatida barcha asosiy tarmoqlar (qishloq xo'jaligi, maishiy foydalanish va sanoat) tomonidan chuchuk suvni tortib olish darajasi. Bu asosiy tarmoqlar bo'yicha jami chuchuk suv olish foizini o'lchaydi. Ko'rsatkich iqtisodiyotning qaysi tarmoqlari chuchuk suvni ko'proq iste'mol qilishini ko'rsatadi.",
+            "Source": "Jahon banki, 1994-2019 yillar",
+            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 23,
+            "Name": "O'rmon maydoni",
+            "Definition": "o'rmon bilan qoplangan umumiy yer maydonining ulushi. O'rmon resurslari iqlimni tartibga solish, biologik xilma-xillikni muhofaza qilish va ekotizim xizmatlarini ko'rsatishda muhim ahamiyatga ega. O'rmon maydoni (million gektar) foiz o'rmon maydoni umumiy yer maydonining ulushi sifatida. Bu ko‘rsatkich O‘zbekistonda yillar davomida o‘rmonzorlar o‘stirilganmi yoki katta o‘rmonlar kesilganmi yoki yo‘qligini ko‘rsatadi.",
+            "Source": "Statistika agentligi (SA).2014-20",
+            "Link": "https://stat.uz/en/official-statistics/environment",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 24,
+            "Name": "O'rmon maydoni",
+            "Definition": "o'rmon bilan qoplangan umumiy yer maydonining ulushi. O'rmon resurslari iqlimni tartibga solish, biologik xilma-xillikni muhofaza qilish va ekotizim xizmatlarini ko'rsatishda muhim ahamiyatga ega. O'rmon maydoni (million gektar) foiz o'rmon maydoni umumiy yer maydonining ulushi sifatida. Bu ko‘rsatkich O‘zbekistonda yillar davomida o‘rmonzorlar o‘stirilganmi yoki katta o‘rmonlar kesilganmi yoki yo‘qligini ko‘rsatadi.",
+            "Source": "Statistika agentligi (SA).2014-20",
+            "Link": "https://stat.uz/en/official-statistics/environment",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 25,
+            "Name": "O'rmon zaxirasi",
+            "Definition": "kub metr (FAO) bilan o'lchangan ko'krak balandligida ma'lum diametrli o'rmon maydonlarida tik turgan daraxtlar zaxirasi. Bu ko'krak balandligida kamida 10 sm diametrli barcha tirik daraxtlarning qobig'i ustidagi hajm, shu jumladan er sathidan yuqori diametri 0 sm gacha (novdalar bundan mustasno) (OECD). Ko'rsatkich millionlab kub metr (m3) bilan o'lchanadigan yog'och resurslari haqida ma'lumot beradi. Shuningdek, u o'rmon tarkibidagi CO2 miqdorini hisoblash uchun asos bo'lib xizmat qiladi.",
+            "Source": "SA 2010-22",
+            "Link": "https://nsdg.stat.uz/en/goal/17",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 26,
+            "Name": "Yer maydoni",
+            "Definition": "FAO va Jahon banki ma'lumotlar bazalari er maydonini ichki suv havzalari (daryolar va ko'llar) ostidagi maydonlardan tashqari mamlakat hududi sifatida belgilaydi. O‘zbekiston ham xuddi shunday ta’rifga amal qiladi. Yer resurslari oziq-ovqat ishlab chiqarish, biologik xilma-xillikni saqlash va uglerod sekvestri uchun juda muhimdir. Yerga tabiiy va yarim tabiiy oʻsimlikli yerlar, boʻsh yerlar, ekin maydonlari va sunʼiy (qurilgan) yuzalar kiradi. Ko'rsatkich mamlakatning yashashga yaroqli maydonini (km2), shu jumladan qishloq xo'jaligi va o'rmon maydonini o'lchaydi.",
+            "Source": "SA, 1991-2019",
+            "Link": "https://stat.uz/uz/rasmiy-statistika/demography-2.",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 27,
+            "Name": "Qishloq xo'jaligi erlari",
+            "Definition": "haydaladigan (vaqtinchalik ekinlar), doimiy ekinlar va doimiy yaylovlar (Jahon banki) er maydonining ulushi. Bu km2 da qishloq xo'jaligiga (ekinlar, bog'lar va yaylovlar) ega bo'lgan er maydonining foizini o'lchaydi.",
+            "Source": "Jahon banki va FAO, 1990-2020",
+            "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 28,
+            "Name": "Qishloq xo'jaligi erlari",
+            "Definition": "haydaladigan (vaqtinchalik ekinlar), doimiy ekinlar va doimiy yaylovlar (Jahon banki) er maydonining ulushi. Bu km2 da qishloq xo'jaligiga (ekinlar, bog'lar va yaylovlar) ega bo'lgan er maydonining foizini o'lchaydi.",
+            "Source": "Jahon banki va FAO, 1990-2020",
+            "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 29,
+            "Name": "Ekiladigan (haydaladigan) yerlar",
+            "Definition": "oziq-ovqat va ozuqa yetishtirish uchun har yili ekiladigan qishloq xoʻjaligi erlarining bir qismi (haydaladigan yerlar). Bir yillik ekinlar uchun ekiladigan qishloq xoʻjaligi erlarining ulushi.",
+            "Source": "SA, 2000-20",
+            "Link": "https://stat.uz/uz/rasmiy-statistika/agriculture-2",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 30,
+            "Name": "Tabiiy gaz ishlab chiqarish va iste'mol qilish",
+            "Definition": "Har yili ishlab chiqarilgan va iste'mol qilinadigan tabiiy gaz hajmi (milliard m3).",
+            "Source": "SA, 2000-20",
+            "Link": "https://stat.uz/en/official-statistics/industry",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 31,
+            "Name": "Tabiiy gaz ishlab chiqarish va iste'mol qilish",
+            "Definition": "Har yili ishlab chiqarilgan va iste'mol qilinadigan tabiiy gaz hajmi (milliard m3).",
+            "Source": "SA, 2000-20",
+            "Link": "https://stat.uz/en/official-statistics/industry",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 32,
+            "Name": "Himoya qilinadigan hududlar",
+            "Definition": "milliy bog'lar, qo'riqxonalar va yovvoyi tabiat qo'riqxonalari davlat hokimiyati organlari tomonidan jamoat kirishi cheklangan ilmiy qo'riqxonalar sifatida belgilangan. Maydoni (ga) va inson faoliyatining ochiq kirishidan himoyalangan er maydonining foizi.",
+            "Source": "SA 2011-21",
+            "Link": "https://stat.uz/en/official-statistics/ecology",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 33,
+            "Name": "Xavf ostidagi turlar",
+            "Definition": "yo'qolib ketish xavfi ostida turgan va himoyasiz turlar, ya'ni yo'q bo'lib ketish xavfi ostida bo'lgan yoki tez orada bo'lishi mumkin bo'lgan o'simliklar va hayvonlar. Baholangan yoki maʼlum turlar orasida yoʻqolib ketish xavfi ostida turgan turlar (hayvon va oʻsimlik) soni. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi tomonidan vaqti-vaqti bilan inventarizatsiya qilinadi va \"Qizil kitob\"ga e'lon qilinadi. 5-nashri 2019 yilda nashr etilgan.",
+            "Source": "O‘zbekiston Qizil kitobi, 2019",
+            "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 34,
+            "Name": "Xavf ostidagi turlar",
+            "Definition": "yo'qolib ketish xavfi ostida turgan va himoyasiz turlar, ya'ni yo'q bo'lib ketish xavfi ostida bo'lgan yoki tez orada bo'lishi mumkin bo'lgan o'simliklar va hayvonlar. Baholangan yoki maʼlum turlar orasida yoʻqolib ketish xavfi ostida turgan turlar (hayvon va oʻsimlik) soni. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi tomonidan vaqti-vaqti bilan inventarizatsiya qilinadi va \"Qizil kitob\"ga e'lon qilinadi. 5-nashri 2019 yilda nashr etilgan.",
+            "Source": "O‘zbekiston Qizil kitobi, 2019",
+            "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 35,
+            "Name": "Yillik o'rtacha harorat",
+            "Definition": "yillik o'rtacha sirt harorati Selsiy (°C) da ifodalangan.",
+            "Source": "OECD 1901-2021",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           }
+    ]
+}

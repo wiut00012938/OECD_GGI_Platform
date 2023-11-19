@@ -1,0 +1,121 @@
+{
+    "data":[
+        {
+            "Id": 36,
+            "Name": "Havoning ifloslanishi",
+            "Definition": "Statistika agentligi (SA) atmosferaga chiqariladigan ifloslantiruvchi moddalar miqdorini yiliga ming tonna ifloslantiruvchi moddalar bilan ta'minlaydi.",
+            "Source": "SA 2010-21",
+            "Link": "https://stat.uz/en/official-statistics/ecology",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 37,
+            "Name": "PM tomonidan aholining havo ifloslanishiga ta'siri:",
+            "Definition": "Oddiy aholi bir yil davomida ta'sir qiladigan tashqi havo ifloslanishining o'rtacha PM2,5 kontsentratsiyasiga duchor bo'lgan aholining ulushi (sun'iy yo'ldosh kuzatuvi yoki yer monitoringi natijasida olingan va mkg/m³ da o'lchangan). Ushbu hisobot yillik kontsentratsiyasi 35 mkg/m³ dan ortiq bo'lgan hududlarda yashovchi aholining ulushini ko'rsatadi. Atmosfera ifloslanishining o'rtacha kontsentratsiyasi 35µg/m3 dan yuqori bo'lgan havo ifloslanishiga duchor bo'lgan aholi ulushi.",
+            "Source": "OECD, 2010-19",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 38,
+            "Name": "Aholining PM tomonidan havo ifloslanishiga ta'siri",
+            "Definition": "Oddiy aholi bir yil davomida ta'sir qiladigan tashqi havo ifloslanishining o'rtacha PM2,5 kontsentratsiyasiga duchor bo'lgan aholining ulushi (sun'iy yo'ldosh kuzatuvi yoki yer monitoringi natijasida olingan va mkg/m³ da o'lchangan). Ushbu hisobot yillik kontsentratsiyasi 35 mkg/m³ dan ortiq bo'lgan hududlarda yashovchi aholining ulushini ko'rsatadi. Atmosfera ifloslanishining o'rtacha kontsentratsiyasi 35µg/m3 dan yuqori bo'lgan havo ifloslanishiga duchor bo'lgan aholi ulushi.",
+            "Source": "OECD, 2010-19",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 39,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "PM2.5 taʼsiridan oʻlim darajasi million aholiga toʻgʻri keladi.",
+            "Source": "OECD, 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 40,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "Ko'rsatkich o'pka bilan bog'liq muammolarga va erta o'limga olib keladigan ozon gazining ifloslanishi ta'siridan kelib chiqqan o'limni nazorat qiladi. Ozon darajasi yuqori bo'lgan joylarda ochiq havoda ishlaydiganlar eng ko'p xavf ostida.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 41,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "YaIM ekvivalent punktlarida ozon ta'siridan kelib chiqqan farovonlik xarajatlari.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 42,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "YaIM ekvivalent punktlarida ozon ta'siridan kelib chiqqan farovonlik xarajatlari.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 43,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "YaIM ekvivalent foiz punktlarida qo'rg'oshin ta'siridan kelib chiqqan o'limdan kelib chiqadigan farovonlik xarajatlari.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 44,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "Ko'rsatkich o'pka bilan bog'liq muammolarga va erta o'limga olib keladigan ozon gazining ifloslanishi ta'siridan kelib chiqqan o'limni nazorat qiladi. Ozon darajasi yuqori bo'lgan joylarda ochiq havoda ishlaydiganlar eng ko'p xavf ostida.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 45,
+            "Name": "Nafas olish kasalliklari tufayli o'lim",
+            "Definition": "Barcha o'limlarning foizida. SA ushbu ko'rsatkichni 2017 yildan beri e'lon qiladi.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 46,
+            "Name": "Xavfsiz ichimlik suvi bilan ta'minlangan uy xo'jaliklarining ulushi",
+            "Definition": "uy-joylarga, hovlilarga yoki er uchastkalariga suv quvurlari, umumiy foydalanish uchun mo'ljallangan kranlar yoki suv quvurlari, quduqlar yoki quvurli quduqlar, himoyalangan qazilgan quduqlar, himoyalangan buloqlar, qadoqlangan suv, etkazib beriladigan suv va yomg'ir suvi kabi yaxshilangan ichimlik suvi manbalaridan foydalanuvchi uy xo'jaliklari. Yaxshilangan suv manbalari binolarda joylashgan bo'lishi kerak, kerak bo'lganda mavjud va ifloslanishsiz. Ko'rsatkich hayotning ekologik sifatini o'lchashda asosiy komponent hisoblanadi (OECD, 2017). U boshqa uylar bilan birgalikda foydalanilmaydigan toza ichimlik suvi manbalariga ega bo'lgan uy xo'jaliklarining ulushini (foizini) o'lchaydi. SA SDG-6 monitoringi doirasida xavfsiz ichimlik suvi bilan ta'minlangan uylar foizi haqida ma'lumot to'playdi.",
+            "Source": "SA, 2010-22",
+            "Link": "Environment (stat.uz)",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 47,
+            "Name": "Kanalizatsiya tozalash tizimiga ega bo'lgan uy xo'jaliklarining ulushi",
+            "Definition": "Umumiy kanalizatsiya tizimiga ulangan uy xo'jaliklarining ulushi. Umumiy kanalizatsiya tarmog'i orqali shahar oqava suvlarini yig'ish tizimiga ulangan uy xo'jaliklari. Septik tanklar kabi individual xususiy tozalash inshootlari qamrab olinmaydi. SA ushbu ko'rsatkich bo'yicha ma'lumotlarni to'playdi.",
+            "Source": "SA, 2010-22.",
+            "Link": "https://w3.unece.org/SDG/en/Indicator?id=52. & https://stat.uz/en/official-statistics/environment.",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 48,
+            "Name": "Yaxshilangan sanitariya sharoitlaridan foydalanayotgan aholi",
+            "Definition": "Asosiy qo'l yuvish vositalari va hojatxonalar, shu jumladan kanalizatsiya tizimlariga, fosseptiklarga yoki chuqur hojatxonalarga, ventilyatsiya qilingan yaxshilangan chuqur hojatxonalarga, plita va kompostli hojatxonalarga o'rnatilgan yaxshilangan sanitariya inshootlaridan foydalanadigan aholi ulushi. Bu ko'rsatkich asosiy sanitariya xizmatlaridan (masalan, qo'l yuvish) foydalanish imkoniyatiga ega bo'lgan aholi ulushini o'lchaydi.",
+            "Source": "Jahon banki, 2000-20",
+            "Link": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           }
+    ]
+}

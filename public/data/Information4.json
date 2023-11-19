@@ -1,0 +1,121 @@
+{
+    "data":[
+        {
+            "Id": 36,
+            "Name": "Air pollution ",
+            "Definition": "The Statistics Agency (SA) provides the amount of pollutants emitted into the atmosphere in thousand tonnes of pollutants per year. ",
+            "Source": "SA 2010-21  ",
+            "Link": "https://stat.uz/en/official-statistics/ecology",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 37,
+            "Name": "Population exposure to air pollution by PM: ",
+            "Definition": "the proportion of the population exposed to outdoor air pollution concentration of average PM2.5 to which a typical resident is exposed throughout a year (derived from satellite observation or ground monitoring and measured in μg/m³). This report shows the proportion of the population living in areas with annual concentrations exceeding the value of 35μg/m³. Percentage of the population exposed to air pollution    above the average concentration of 35µg/m3 of air pollution. ",
+            "Source": "OECD, 2010-19",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 38,
+            "Name": "Population exposure to air pollution by PM",
+            "Definition": "the proportion of the population exposed to outdoor air pollution concentration of average PM2.5 to which a typical resident is exposed throughout a year (derived from satellite observation or ground monitoring and measured in μg/m³). This report shows the proportion of the population living in areas with annual concentrations exceeding the value of 35μg/m³. Percentage of the population exposed to air pollution    above the average concentration of 35µg/m3 of air pollution.",
+            "Source": "OECD, 2010-19",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 39,
+            "Name": "Death due to respiratory disease",
+            "Definition": "Mortality from exposure to PM2.5 in deaths per million inhabitants. ",
+            "Source": "OECD, 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 40,
+            "Name": "Death due to respiratory disease",
+            "Definition": "The indicator monitors the mortality induced by exposure to ozone gas pollution, which causes lung problems and premature death. Outdoor workers in areas with high ozone levels are at the most risk. ",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 41,
+            "Name": "Death due to respiratory disease",
+            "Definition": "Welfare costs due to exposure to ozone in  GDP equivalent percentage points.",
+            "Source": "OECD 1990-2019 ",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 42,
+            "Name": "Death due to respiratory disease",
+            "Definition": "Welfare costs due to exposure to ozone in  GDP equivalent percentage points.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 43,
+            "Name": "Death due to respiratory disease",
+            "Definition": "Welfare costs from mortality due to exposure to lead in GDP equivalent percentage points.",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 44,
+            "Name": "Death due to respiratory disease",
+            "Definition": "The indicator monitors the mortality induced by exposure to ozone gas pollution, which causes lung problems and premature death. Outdoor workers in areas with high ozone levels are at the most risk. ",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 45,
+            "Name": "Death due to respiratory disease",
+            "Definition": "In percentage of all deaths. The SA has published this indicator since 2017. ",
+            "Source": "OECD 1990-2019",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 46,
+            "Name": "Share of households with access to safe drinking water",
+            "Definition": "households using improved drinking water sources, which include piped water into dwellings, yards or plots, public taps or standpipes, boreholes, or tube wells, protected dug wells, protected springs, packaged water, delivered water and rainwater. Improved water sources should be located on the premises, available when needed and contamination-free. The indicator constitutes a key component in measuring the environmental quality of life (OECD, 2017). It measures the proportion (percentage) of households with access to safe drinking water sources not shared with other houses. The SA collects data on percentage of houses with access to safe drinking water as part of SDG-6 monitoring.",
+            "Source": "SA, 2010-22",
+            "Link": "Environment (stat.uz)",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 47,
+            "Name": "Share of households with access to sewerage treatment",
+            "Definition": "Percentage of households connected to public sewerage treatment.  Households connected to an urban wastewater collecting system through public sewerage network. Individual private treatment facilities such as septic tanks are not covered. The SA collects data on this indicator. ",
+            "Source": "SA, 2010-22. ",
+            "Link": "https://w3.unece.org/SDG/en/Indicator?id=52. & https://stat.uz/en/official-statistics/environment.",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 48,
+            "Name": "Population using improved sanitation",
+            "Definition": "Percentage of the population using improved sanitation facilities with basic handwashing facilities and toilets, including flush or pour-flush toilets to sewerage systems, septic tanks, or pit latrines, ventilated improved pit latrines, pit latrines with a slab and composting toilets. This indicator measures the proportion of the population with access to basic sanitation services (e.g., hand washing).",
+            "Source": "World Bank, 2000-20 ",
+            "Link": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           }
+    ]
+}

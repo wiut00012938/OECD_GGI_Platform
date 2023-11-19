@@ -1,7 +1,7 @@
 var groupColumn = 0; // Assuming "Group" is the first column
 var subgroupColumn = 1; // Assuming "Subgroup" is the second column
     var xmlhttp = new XMLHttpRequest();
-    var url = "/static/data/sample1.json";
+    var url = "/static/data/stat5.json";
     xmlhttp.open("GET",url,true);
     xmlhttp.send();
     xmlhttp.onreadystatechange = function(){

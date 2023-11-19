@@ -3,64 +3,64 @@ html(lang='en')
   head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title GGI Uzbekistan Data
+    title Данные GGI Узбекистан
     link(rel='stylesheet', href='https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css')
     link(rel='stylesheet', href='/static/styles/stat.css')
     link(rel='shortcut icon', href='/static/images/main_icon.png')
   body
     .head-part
       div
-        a(href='/stat_ru') RU
-        a.active_language(href='/stat_all') Eng
+        a.active_language(href='/stat_ru') RU
+        a(href='/stat_all') Eng
         a(href='/stat_uz') UZB
-      h1.desktop-version Green Growth Indicators | Uzbekistan
-      a.home_page_link(href='/', title='Home Page')  
-      h1.mobile Green Growth Indicators | Uzbekistan
+      h1.desktop-version Индикаторы зеленого роста | Узбекистан
+      a.home_page_link(href='/ru', title='Home Page')  
+      h1.mobile Индикаторы зеленого роста | Узбекистан
     .main-part
       .navigation
-        h2 Navigation
-        a.active_navigation(href='/stat_all')
+        h2 Навигация
+        a(href='stat_ru')
           i.fa-solid.fa-file-circle-check
-          h3 All indicators
-        a(href='/stat-group1')
+          h3 Все показатели
+        a(href='/stat-group1_ru')
           i.fa-solid.fa-arrow-up-right-dots
-          h3 Group 1
-        a(href='/stat-group2')
+          h3 Группа 1
+        a(href='/stat-group2_ru')
           i.fa-solid.fa-seedling
-          h3 Group 2
-        a(href='/stat-group3')
+          h3 Группа 2
+        a.active_navigation(href='/stat-group3_ru')
           i.fa-brands.fa-envira
-          h3 Group 3
-        a(href='/stat-group4')
+          h3 Группа 3
+        a(href='/stat-group4_ru')
           i.fa-solid.fa-building-columns
-          h3 Group 4
-        a(href='/stat-group5')
+          h3 Группа 4
+        a(href='/stat-group5_ru')
           i.fa-solid.fa-users-gear
-          h3 Group 5
+          h3 Группа 5
       .container-main
         .arrow#arrow
             i.fa-solid.fa-arrow-right
         .container
             .export 
               .export-message
-                h2 Export 
+                h2 Экспорт 
                 i.fa-solid.fa-arrow-right
-              a(href='/static/data/tables-all.xlsx')
+              a(href='/static/data/all_tables_rus.xlsx')
                 p Excel
                 i.fa-solid.fa-file-excel
-              a(href='/static/data/tables-all.csv')
-                p CSV File
+              a(href='/static/data/all_tables_rus.csv')
+                p CSV файл
                 i.fa-solid.fa-file-csv
-              a(href='/static/data/tables-all.pdf')
-                p PDF File
+              a(href='/static/data/all_tables_rus.pdf')
+                p Файл PDF
                 i.fa-solid.fa-file-pdf
             table#example.display(style='width:100%')
                 thead
                   tr
-                    th Group 
-                    th Subgroup
-                    th Definition
-                    th Unit
+                    th Группа 
+                    th Подгруппа
+                    th Определение
+                    th Единица измерения
                     th 1990
                     th 1991
                     th 1992
@@ -97,10 +97,10 @@ html(lang='en')
 
                 tfoot
                   tr
-                    th Group 
-                    th Subgroup
-                    th Definition
-                    th Unit
+                    th Группа 
+                    th Подгруппа
+                    th Определение
+                    th Единица измерения
                     th 1990
                     th 1991
                     th 1992
@@ -138,21 +138,21 @@ html(lang='en')
             i.fa-solid.fa-arrow-left
       .information
         .group-info(data-group='0').active_information_group
-          h3 Database documentation
+          h3 Документация по базам данных
           p
-            | The following table presents the existing data relevant to the report indicators. This data serves as the foundation for the analysis and insights outlined in the subsequent sections of the report. Detailed Clarifiction of Definition as long as data source is provided.
-        each item in jsonData.data
+            | В следующей таблице представлены существующие данные, относящиеся к показателям отчета. Эти данные служат основой для анализа и выводов, изложенных в последующих разделах отчета. Подробное уточнение определения при условии указания источника данных.
+        each item in jsonDataRu3.data
           .group-info(data-group= item.Id)
             h3= item.Name
             h4 Definition:
             p= item.Definition
-            h4 Source:
+            h4 Источник:
             p= item.Source
-            h4 Link:
+            h4 Ссылка:
             a(href=item.Link)= item.Link
             a(href=item.Link2)= item.Link2
             a(href=item.Link3)= item.Link3
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='https://code.jquery.com/jquery-3.7.0.js')
     script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')
-    script(src='/static/javascripts/stat.js')
+    script(src='/static/javascripts/statrus3.js')

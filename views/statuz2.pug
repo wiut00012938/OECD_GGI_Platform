@@ -3,7 +3,7 @@ html(lang='en')
   head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title GGI Uzbekistan Data
+    title GGI O'zbekiston ma'lumotlari
     link(rel='stylesheet', href='https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css')
     link(rel='stylesheet', href='/static/styles/stat.css')
     link(rel='shortcut icon', href='/static/images/main_icon.png')
@@ -11,56 +11,56 @@ html(lang='en')
     .head-part
       div
         a(href='/stat_ru') RU
-        a.active_language(href='/stat_all') Eng
-        a(href='/stat_uz') UZB
+        a(href='/stat_all') Eng
+        a.active_language(href='/stat_uz') UZB
       h1.desktop-version Green Growth Indicators | Uzbekistan
-      a.home_page_link(href='/', title='Home Page')  
-      h1.mobile Green Growth Indicators | Uzbekistan
+      a.home_page_link(href='/uz', title='Home Page')  
+      h1.mobile Yashil O'sish Ko'rsatkichlari / O'zbekiston
     .main-part
       .navigation
-        h2 Navigation
-        a.active_navigation(href='/stat_all')
+        h2 Navigatsiya
+        a(href='stat_uz')
           i.fa-solid.fa-file-circle-check
-          h3 All indicators
-        a(href='/stat-group1')
+          h3 Barcha ko'rsatkichlar
+        a(href='/stat-group1_uz')
           i.fa-solid.fa-arrow-up-right-dots
-          h3 Group 1
-        a(href='/stat-group2')
+          h3 Guruh 1
+        a.active_navigation(href='/stat-group2_uz')
           i.fa-solid.fa-seedling
-          h3 Group 2
-        a(href='/stat-group3')
+          h3 Guruh 2
+        a(href='/stat-group3_uz')
           i.fa-brands.fa-envira
-          h3 Group 3
-        a(href='/stat-group4')
+          h3 Guruh 3
+        a(href='/stat-group4_uz')
           i.fa-solid.fa-building-columns
-          h3 Group 4
-        a(href='/stat-group5')
+          h3 Guruh 4
+        a(href='/stat-group5_uz')
           i.fa-solid.fa-users-gear
-          h3 Group 5
+          h3 Guruh 5
       .container-main
         .arrow#arrow
             i.fa-solid.fa-arrow-right
         .container
             .export 
               .export-message
-                h2 Export 
+                h2 Eksport qilish
                 i.fa-solid.fa-arrow-right
-              a(href='/static/data/tables-all.xlsx')
+              a(href='/static/data/all_tables_uzb.xlsx')
                 p Excel
                 i.fa-solid.fa-file-excel
-              a(href='/static/data/tables-all.csv')
-                p CSV File
+              a(href='/static/data/all_tables_uzb.csv')
+                p CSV fayli
                 i.fa-solid.fa-file-csv
-              a(href='/static/data/tables-all.pdf')
-                p PDF File
+              a(href='/static/data/all_tables_uzb.pdf')
+                p PDF fayli
                 i.fa-solid.fa-file-pdf
             table#example.display(style='width:100%')
                 thead
                   tr
-                    th Group 
-                    th Subgroup
-                    th Definition
-                    th Unit
+                    th Guruh 
+                    th Subguruh
+                    th Ta'rifi
+                    th o'lchov birligi
                     th 1990
                     th 1991
                     th 1992
@@ -97,10 +97,10 @@ html(lang='en')
 
                 tfoot
                   tr
-                    th Group 
-                    th Subgroup
-                    th Definition
-                    th Unit
+                    th Guruh 
+                    th Subguruh
+                    th Ta'rifi
+                    th o'lchov birligi
                     th 1990
                     th 1991
                     th 1992
@@ -138,21 +138,21 @@ html(lang='en')
             i.fa-solid.fa-arrow-left
       .information
         .group-info(data-group='0').active_information_group
-          h3 Database documentation
+          h3 Ma'lumotlar bazasi hujjatlari
           p
-            | The following table presents the existing data relevant to the report indicators. This data serves as the foundation for the analysis and insights outlined in the subsequent sections of the report. Detailed Clarifiction of Definition as long as data source is provided.
-        each item in jsonData.data
+            | Quyidagi jadvalda hisobot ko'rsatkichlariga tegishli mavjud ma'lumotlar keltirilgan. Ushbu ma'lumotlar hisobotning keyingi bo'limlarida keltirilgan tahlil va tushunchalar uchun asos bo'lib xizmat qiladi. Ma'lumotlar manbai taqdim etilgan ekan, ta'rifni batafsil aniqlashtirish.
+        each item in jsonDataUz2.data
           .group-info(data-group= item.Id)
             h3= item.Name
-            h4 Definition:
+            h4 Ta'rifi:
             p= item.Definition
-            h4 Source:
+            h4 Manba:
             p= item.Source
-            h4 Link:
+            h4 Havola:
             a(href=item.Link)= item.Link
             a(href=item.Link2)= item.Link2
             a(href=item.Link3)= item.Link3
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='https://code.jquery.com/jquery-3.7.0.js')
     script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')
-    script(src='/static/javascripts/stat.js')
+    script(src='/static/javascripts/statuz2.js')

@@ -1,0 +1,220 @@
+{
+    "data":[
+        {
+            "Id": 64,
+            "Name": "Haqiqiy YaIM",
+            "Definition": "O'zbekiston yalpi ichki mahsuloti o'zgarmas narxlarda hisoblangan",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 65,
+            "Name": "Aholi jon boshiga YaIM",
+            "Definition": "O'zbekiston aholisining o'rtacha yillik daromadi (yillik real YaIMning yillik aholi soniga bo'lingan). Aholiga to‘g‘ri keladigan real YaIM so‘mda – real YaIMning yillik doimiy aholi soniga nisbati, so‘m/ kishi. 2011-22 SA ma'lumotlaridan foydalangan holda mualliflarning hisob-kitobi.",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 66,
+            "Name": "Haqiqiy YaIM",
+            "Definition": "O'zbekiston yalpi ichki mahsuloti o'zgarmas narxlarda hisoblangan",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 67,
+            "Name": "YaIM tarkibi",
+            "Definition": "Oʻzbekistonda iqtisodiyotning asosiy tarmoqlari: qishloq xoʻjaligi, sanoat va xizmatlar toifalari boʻyicha yalpi ichki mahsulotdagi qoʻshilgan qiymatning foizli ulushi",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 68,
+            "Name": "YaIM tarkibi",
+            "Definition": "Oʻzbekistonda iqtisodiyotning asosiy tarmoqlari: qishloq xoʻjaligi, sanoat va xizmatlar toifalari boʻyicha yalpi ichki mahsulotdagi qoʻshilgan qiymatning foizli ulushi",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 69,
+            "Name": "YaIM tarkibi",
+            "Definition": "Oʻzbekistonda iqtisodiyotning asosiy tarmoqlari: qishloq xoʻjaligi, sanoat va xizmatlar toifalari boʻyicha yalpi ichki mahsulotdagi qoʻshilgan qiymatning foizli ulushi",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 70,
+            "Name": "CPI",
+            "Definition": "O'zbekistonda aholi tomonidan iste'mol qilinadigan vaqt davomida tovarlar va xizmatlar narxlarining o'zgarishini ko'rsatadigan ko'rsatkich. U iste'mol tovarlari va xizmatlarining qat'iy to'plami uchun iqtisodiyotdagi inflyatsiya qiymatining o'zgarishini ko'rsatadi. Bu iste'mol bozoridagi narx ma'lumotlarining SA hisob-kitobiga asoslangan tovarlar savati narxining yillik foiz o'zgarishi. Ushbu hisobot o'tgan yilning dekabr oyidagi foiz o'zgarishidan foydalanadi.",
+            "Source": "Statistika agentligi",
+            "Link": "https://stat.uz/en/official-statistics/prices-and-indexes.",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 71,
+            "Name": "Tovar va xizmatlarning eksport va import qiymati million AQSh dollarida. Eksport:",
+            "Definition": "O'zbekistondan xorijiy davlatga pul qiymatida tovarlar va xizmatlarni o'tkazish.",
+            "Source": "SA 2000-22",
+            "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 72,
+            "Name": "Tovar va xizmatlarning eksport va import qiymati million AQSh dollarida. Import:",
+            "Definition": "xorijiy davlatdan O‘zbekistonga pul qiymatidagi tovarlar va xizmatlar muomalasi.",
+            "Source": "SA 2000-22",
+            "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 73,
+            "Name": "Kam ta'minlangan aholi ulushi",
+            "Definition": "Jahon banki tavsiyasiga ko'ra, daromaddan past bo'lgan aholi ulushi kuniga 2 100 kilokaloriya hisoblanadi. U ma'lum miqdordan kam daromadli aholining foizini ko'rsatadi. SA uy xo'jaliklari so'rovlari orqali ko'rsatkich bo'yicha ma'lumotlarni to'playdi. Biroq, u turli o'lchov usullaridan foydalangan holda 2021 yildagi qashshoqlik darajasini hisoblab chiqadi",
+            "Source": "Statistika agentligi",
+            "Link": "https://stat.uz/en/official-statistics/living-standards",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 74,
+            "Name": "Jini koeffitsienti",
+            "Definition": "aholining jami nisbatlarini ular oladigan daromadlarning umumiy nisbatlarini solishtirishga asoslangan 0 dan 1 gacha bo'lgan indeks. Indeks raqami. Koeffitsient daromadlarning mukammal tengligida 0 ga, daromadlar tengsizligida esa 1 ga teng.",
+            "Source": "SA 2017-2021",
+            "Link": "",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 75,
+            "Name": "Ishchi kuchi",
+            "Definition": "15 va undan katta yoshdagi aholining ma'lum bir davrda iqtisodiy faol bo'lgan ulushi.",
+            "Source": "SA 2010-21",
+            "Link": "https://stat.uz/en/official-statistics/labor-market",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 76,
+            "Name": "Bandlik",
+            "Definition": "mehnatga layoqatli yoshdagi shaxslar, ish vaqtida yoki ish vaqtida vaqtincha yo'qligi sababli ish joyida bo'lishidan qat'i nazar, to'lov yoki foyda olish uchun mahsulot ishlab chiqarish yoki xizmatlar ko'rsatish bo'yicha har qanday faoliyat bilan shug'ullanadigan shaxslar. Hisobotda bu erda bandlik darajasi band bo'lgan ishchi kuchining nisbati (foiz) hisoblanadi.",
+            "Source": "SA 2010-21",
+            "Link": "https://stat.uz/en/official-statistics/labor-market",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 77,
+            "Name": "Tarmoqlar bo'yicha bandlik",
+            "Definition": "Iqtisodiyotning asosiy tarmoqlari bo‘yicha jami bandlik ulushi.",
+            "Source": "Jahon banki 1991-2021 yillar",
+            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 78,
+            "Name": "Tarmoqlar bo'yicha bandlik",
+            "Definition": "Iqtisodiyotning asosiy tarmoqlari bo‘yicha jami bandlik ulushi.",
+            "Source": "Jahon banki 1991-2021 yillar",
+            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 79,
+            "Name": "Tarmoqlar bo'yicha bandlik",
+            "Definition": "Iqtisodiyotning asosiy tarmoqlari bo‘yicha jami bandlik ulushi.",
+            "Source": "Jahon banki 1991-2021 yillar",
+            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 80,
+            "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+            "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholiga nisbati. Boshlang'ich o'rta va oliy o'quv yurtlarida o'qiyotgan jami nomzodlarning ulushi.",
+            "Source": "Jahon banki 2005-21",
+            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 81,
+            "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+            "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholiga nisbati. Boshlang'ich o'rta va oliy o'quv yurtlarida o'qiyotgan jami nomzodlarning ulushi.",
+            "Source": "Jahon banki 2005-21",
+            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 82,
+            "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+            "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholiga nisbati. Boshlang'ich o'rta va oliy o'quv yurtlarida o'qiyotgan jami nomzodlarning ulushi.",
+            "Source": "Jahon banki 2005-21",
+            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 83,
+            "Name": "Jami aholi",
+            "Definition": "huquqiy maqomi va fuqaroligidan qat'i nazar, yil boshida mamlakatda doimiy yashovchi odamlar soni. Yil boshiga O‘zbekistonda doimiy yashovchi aholi soni.",
+            "Source": "SA 1991-2022",
+            "Link": "https://stat.uz/en/official-statistics/demography",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 84,
+            "Name": "O'rtacha umr ko'rish",
+            "Definition": "Yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar uning tug'ilish paytidagi o'lim ko'rsatkichlari butun hayoti davomida bir xil bo'lsa. O'rtacha yillar soni, erta o'limni ko'rsatadi.",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/demography",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 85,
+            "Name": "O'rtacha umr ko'rish",
+            "Definition": "Yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar uning tug'ilish paytidagi o'lim ko'rsatkichlari butun hayoti davomida bir xil bo'lsa. O'rtacha yillar soni, erta o'limni ko'rsatadi.",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/demography",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 86,
+            "Name": "O'rtacha umr ko'rish",
+            "Definition": "Yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar uning tug'ilish paytidagi o'lim ko'rsatkichlari butun hayoti davomida bir xil bo'lsa. O'rtacha yillar soni, erta o'limni ko'rsatadi.",
+            "Source": "SA 2000-21",
+            "Link": "https://stat.uz/en/official-statistics/demography",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 87,
+            "Name": "Sof tashqi migratsiya",
+            "Definition": "davrdagi muhojirlarning sof jami (ya'ni immigrantlar soni minus emigrantlar soni, shu jumladan fuqarolar va fuqaroligi bo'lmaganlar). Sof migratsiya - bu davrdagi muhojirlarning sof jami, ya'ni immigrantlar sonidan, shu jumladan, fuqarolar va fuqaroligi bo'lmaganlar sonini ayirib tashlagan holda.",
+            "Source": "Jahon banki",
+            "Link": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           }
+    ]
+}

@@ -1,0 +1,788 @@
+{
+    "data": [
+      {
+        "Id": 1,
+        "Name": "Ishlab chiqarishga asoslangan uglerod chiqindilari",
+        "Definition": "iqtisodiyotdagi ishlab chiqarish jarayoni bilan bog'liq emissiyalar. Bu ko'mir va neft kabi qazib olinadigan yoqilg'ilarni yoqish natijasida chiqariladigan uglerod va energiya ishlab chiqarish va materiallarni sanoat ishlab chiqarish uchun gaz (masalan, tsement, po'lat va mamlakatdagi boshqa sanoat jarayonlari).",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 2,
+        "Name": "Iqtisodiyotning uglerod unumdorligi",
+        "Definition": "ishlab chiqarish hajmi (mamlakat ishlab chiqarish jarayonida chiqariladigan CO2 birligiga ishlab chiqarilgan YaIMda). USD/kg CO2 emissiyasi. Ko‘rsatkich O‘zbekiston ishlab chiqarishdan chiqadigan uglerod chiqindilarini kamaytirish borasida qanday yutuqlarga erishayotgani haqida umumiy ma’lumot beradi va u kam uglerodli iqtisodiyotga o‘tish tendensiyalarini aks ettiradi. Ushbu ko'rsatkich bo'yicha mualliflar uchun milliy ma'lumotlar mavjud emas edi; hisobot OECD ma'lumotlar to'plamidan foydalanadi.",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 3,
+        "Name": "TPES",
+        "Definition": "yakuniy foydalanish uchun energiyaning yakuniy shakllariga (masalan, transport uchun elektr yoki benzin) aylantirilgunga qadar tabiatda topilgan energiya. U qayta tiklanmaydigan (ko'mir, neft, tabiiy gaz), minerallar va qayta tiklanadigan manbalarni (OWD, 2023) o'z ichiga oladi. Mamlakatda etkazib beriladigan energiya miqdori tonna neft ekvivalentida (toe).",
+        "Source": "SA 2018-21",
+        "Link": "https://stat.uz/en/official-statistics/industry",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 4,
+        "Name": "Energiya samaradorligi",
+        "Definition": "Ishlab chiqarish jarayonida TPES birligiga to'g'ri keladigan daromad (YaIMda). YaIM (2015 yil AQSH dollarida). Ko'rsatkich birlamchi energiya birligidan foydalanishning iqtisodiy foydasini o'lchaydi. Bu O'zbekiston energiya tejamkorligi va energiya iste'moli birligidan ko'proq mahsulot ishlab chiqarayotganligini ko'rsatadi.",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 5,
+        "Name": "Energiya intensivligi",
+        "Definition": "doimiy AQSh dollarida o'lchanadigan asosiy energiya iste'molining YaIMga nisbati. Energiya intensivligi mamlakatning ma'lum miqdordagi iqtisodiy foyda olish uchun energiyadan qanchalik samarali foydalanishini aniqlash uchun YaIM birligiga sarflangan energiya miqdorini o'lchaydi. YaIM birligiga sarflangan jami energiya. Bu energiya unumdorligining teskari ko'rsatkichidir va energiyadan samarali foydalanish tezligini ko'rsatadi.",
+        "Source": "SA 2020-22",
+        "Link": "https://stat.uz/en/official-statistics/industry",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 6,
+        "Name": "Qayta tiklanadigan energiya ta'minoti ulushi",
+        "Definition": "gidroenergetika, quyosh, shamol, biomassa, chiqindilar, geotermal, to'lqin va suv toshqini manbalaridan hosil bo'ladigan birlamchi energiya ulushi. Ushbu ko'rsatkich qayta tiklanadigan energiya texnologiyalari, ularning energiya ta'minotidagi ulushi va nisbati qanchalik tez o'zgarishi haqidagi ma'lumotlarni ko'rib chiqadi. TPES umumiy birlamchi energiyaning qayta tiklanadigan energiya ulushi (oyoq barmoqlarida), mln. Koʻrsatkich Oʻzbekistonda yetkazib beriladigan/isteʼmol qilinadigan umumiy energiya majmuasida kam uglerodli qayta tiklanadigan energiya manbalarining ulushini oʻlchashga yordam beradi.",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 7,
+        "Name": "Elektr energiyasi ishlab chiqarishda qayta tiklanadigan manbalarning ulushi",
+        "Definition": "qayta tiklanadigan energiya manbalaridan, jumladan, gidroenergetika, quyosh, shamol, biomassa va geotermal manbalardan ishlab chiqarilgan elektr energiyasi ulushi. Qayta tiklanadigan manbalarning umumiy elektr energiyasi ishlab chiqarishdagi ulushi. Bu O‘zbekiston kam uglerodli elektr tizimiga o‘tayotganini ko‘rsatishga yordam beradi.",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 8,
+        "Name": "Tarmoqlar bo'yicha energiya iste'moli",
+        "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
+        "Source": "OECD, 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 9,
+        "Name": "Tarmoqlar bo'yicha energiya iste'moli",
+        "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
+        "Source": "OECD, 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 10,
+        "Name": "Tarmoqlar bo'yicha energiya iste'moli",
+        "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
+        "Source": "OECD, 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 11,
+        "Name": "Tarmoqlar bo'yicha energiya iste'moli",
+        "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
+        "Source": "OECD, 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 12,
+        "Name": "Tarmoqlar bo'yicha energiya iste'moli",
+        "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
+        "Source": "OECD, 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 13,
+        "Name": "Qayta tiklanadigan energiya ta'minoti ulushi",
+        "Definition": "gidroenergetika, quyosh, shamol, biomassa, chiqindilar, geotermal, to'lqin va suv toshqini manbalaridan hosil bo'ladigan birlamchi energiya ulushi. Ushbu ko'rsatkich qayta tiklanadigan energiya texnologiyalari, ularning energiya ta'minotidagi ulushi va nisbati qanchalik tez o'zgarishi haqidagi ma'lumotlarni ko'rib chiqadi. TPES umumiy birlamchi energiyaning qayta tiklanadigan energiya ulushi (oyoq barmoqlarida), mln. Koʻrsatkich Oʻzbekistonda yetkazib beriladigan/isteʼmol qilinadigan umumiy energiya majmuasida kam uglerodli qayta tiklanadigan energiya manbalarining ulushini oʻlchashga yordam beradi.",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 14,
+        "Name": "Mahalliy materiallar iste'moli (DMC) unumdorligi",
+        "Definition": "Iqtisodiyotda moddiy materiallarning biomassa, metall bo'lmagan va metall moddiy resurslari (og'irligi bo'yicha) birligidan foydalanish natijasida iqtisodiyotda ishlab chiqarilgan mahsulot (ya'ni, mamlakatda qazib olinadigan yoki yig'ilgan materiallar, shuningdek, import qilinadigan materiallar va mahsulotlar, minus materiallar) va eksport qilinadigan mahsulotlar (OECD 2017). Bu iqtisodiyotda ishlatiladigan material miqdorini o'lchaydi.. DMC birligi uchun YaIM. Ko'rsatkich DMC (biomasa, metall va metall bo'lmagan materiallar) birligiga qancha daromad keltirilishini o'lchaydi. O'zbekistonda bu ko'rsatkich bo'yicha ma'lumotlar jamlanmagan.",
+        "Source": "OECD 1990-2020",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 15,
+        "Name": "Suv unumdorligi",
+        "Definition": "olinadigan chuchuk suv birligiga pul ko'rinishida qancha mahsulot ishlab chiqarilganligini o'lchaydi. Qabul qilingan suvning bir kubometri uchun YaIMdagi qo'shilgan qiymat (2015 yil AQSH dollari). Bu mamlakat suv resurslaridan unumli foydalanayaptimi yoki yo‘qligini ko‘rsatadi.",
+        "Source": "Jahon banki 1994-2019 yillar",
+        "Link": "https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 16,
+        "Name": "O'g'itlardan foydalanish",
+        "Definition": "ekin maydonlari birligiga sarflanadigan o'simlik ozuqa moddalarining miqdori. O'g'it mahsulotlari azotli, kaliyli va fosforli o'g'itlarni o'z ichiga oladi. Bir ga qishloq xo'jaligi eriga qo'llaniladigan o'g'it miqdori (kg/ga). Ushbu GGI fermer xo'jaliklarida qo'llaniladigan ikkita asosiy o'g'it - azot (N) va fosfor (P) uchun qishloq xo'jaligidagi ozuqa moddalarining muvozanatini o'lchaydi. Biroq, qiymatni hisoblash uchun ma'lumotlar yo'qligi sababli O'zbekiston uchun yillik ozuqa balansini xaritalash mumkin emas. Ushbu hisobot navbatma-navbat O‘zbekistonda o‘g‘itlardan foydalanishning umumiy hajmini jahon o‘rtacha ko‘rsatkichiga nisbatan ko‘rsatadi. Bundan tashqari, \"ortiqcha azot\" - atrof-muhitga yo'qolgan azotni ham ko'rsatadi.",
+        "Source": "Jahon banki 1992-2020 yillar",
+        "Link": "https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 17,
+        "Name": "Qattiq maishiy chiqindilar",
+        "Definition": "uy xo'jaliklaridan kelib chiqadigan va munitsipalitetlar tomonidan to'plangan chiqindilar. Bir yilda uy xo'jaliklarida hosil bo'lgan jami qattiq chiqindilar. SA 2016 yildan boshlab SDG monitoringi doirasida yaratilgan va qayta ishlangan SW bo'yicha bunday ma'lumotlarni to'plashni boshladi. Qattiq maishiy chiqindilardan qayta ishlangan foiz.",
+        "Source": "SA 2015-21",
+        "Link": "ЦУР (stat.uz)",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 18,
+        "Name": "Qayta tiklanadigan chuchuk suv resurslari oqimi",
+        "Definition": "mamlakatdagi yog'ingarchilikdan ichki daryo oqimlari va er usti suvlari. Bu oqim ham doimiy, ham mavsumiy er usti suvlari, shu jumladan qo'shni davlatlardan oqib tushadigan suvlardir. O'zbekiston har yili turli maqsadlarda tortib oladigan chuchuk suv miqdori milliard m3.",
+        "Source": "Jahon banki",
+        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 19,
+        "Name": "Suv stressi",
+        "Definition": "suvni tortib olish intensivligi. Suv ta'sirining darajasi mamlakatning suvga bo'lgan ehtiyojini qondirish uchun suv resurslaridan qay darajada foydalanishini ko'rsatishi mumkin. Bu mavjud suv resurslarining foizi sifatida suvni tortib olishni o'lchaydi. SA, shuningdek, toza suv maqsadining bir qismi sifatida ushbu ko'rsatkich haqida xabar beradi.",
+        "Source": "SA va Jahon banki, 1994-2019",
+        "Link": "https://nsdg.stat.uz/en/goal/9\\.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 20,
+        "Name": "Suv iste'moli",
+        "Definition": "mavjud chuchuk suv resurslarining ulushi sifatida barcha asosiy tarmoqlar (qishloq xo'jaligi, maishiy foydalanish va sanoat) tomonidan chuchuk suvni tortib olish darajasi. Bu asosiy tarmoqlar bo'yicha jami chuchuk suv olish foizini o'lchaydi. Ko'rsatkich iqtisodiyotning qaysi tarmoqlari chuchuk suvni ko'proq iste'mol qilishini ko'rsatadi.",
+        "Source": "Jahon banki, 1994-2019 yillar",
+        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 21,
+        "Name": "Suv iste'moli",
+        "Definition": "mavjud chuchuk suv resurslarining ulushi sifatida barcha asosiy tarmoqlar (qishloq xo'jaligi, maishiy foydalanish va sanoat) tomonidan chuchuk suvni tortib olish darajasi. Bu asosiy tarmoqlar bo'yicha jami chuchuk suv olish foizini o'lchaydi. Ko'rsatkich iqtisodiyotning qaysi tarmoqlari chuchuk suvni ko'proq iste'mol qilishini ko'rsatadi.",
+        "Source": "Jahon banki, 1994-2019 yillar",
+        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 22,
+        "Name": "Suv iste'moli",
+        "Definition": "mavjud chuchuk suv resurslarining ulushi sifatida barcha asosiy tarmoqlar (qishloq xo'jaligi, maishiy foydalanish va sanoat) tomonidan chuchuk suvni tortib olish darajasi. Bu asosiy tarmoqlar bo'yicha jami chuchuk suv olish foizini o'lchaydi. Ko'rsatkich iqtisodiyotning qaysi tarmoqlari chuchuk suvni ko'proq iste'mol qilishini ko'rsatadi.",
+        "Source": "Jahon banki, 1994-2019 yillar",
+        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 23,
+        "Name": "O'rmon maydoni",
+        "Definition": "o'rmon bilan qoplangan umumiy yer maydonining ulushi. O'rmon resurslari iqlimni tartibga solish, biologik xilma-xillikni muhofaza qilish va ekotizim xizmatlarini ko'rsatishda muhim ahamiyatga ega. O'rmon maydoni (million gektar) foiz o'rmon maydoni umumiy yer maydonining ulushi sifatida. Bu ko‘rsatkich O‘zbekistonda yillar davomida o‘rmonzorlar o‘stirilganmi yoki katta o‘rmonlar kesilganmi yoki yo‘qligini ko‘rsatadi.",
+        "Source": "Statistika agentligi (SA).2014-20",
+        "Link": "https://stat.uz/en/official-statistics/environment",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 24,
+        "Name": "O'rmon maydoni",
+        "Definition": "o'rmon bilan qoplangan umumiy yer maydonining ulushi. O'rmon resurslari iqlimni tartibga solish, biologik xilma-xillikni muhofaza qilish va ekotizim xizmatlarini ko'rsatishda muhim ahamiyatga ega. O'rmon maydoni (million gektar) foiz o'rmon maydoni umumiy yer maydonining ulushi sifatida. Bu ko‘rsatkich O‘zbekistonda yillar davomida o‘rmonzorlar o‘stirilganmi yoki katta o‘rmonlar kesilganmi yoki yo‘qligini ko‘rsatadi.",
+        "Source": "Statistika agentligi (SA).2014-20",
+        "Link": "https://stat.uz/en/official-statistics/environment",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 25,
+        "Name": "O'rmon zaxirasi",
+        "Definition": "kub metr (FAO) bilan o'lchangan ko'krak balandligida ma'lum diametrli o'rmon maydonlarida tik turgan daraxtlar zaxirasi. Bu ko'krak balandligida kamida 10 sm diametrli barcha tirik daraxtlarning qobig'i ustidagi hajm, shu jumladan er sathidan yuqori diametri 0 sm gacha (novdalar bundan mustasno) (OECD). Ko'rsatkich millionlab kub metr (m3) bilan o'lchanadigan yog'och resurslari haqida ma'lumot beradi. Shuningdek, u o'rmon tarkibidagi CO2 miqdorini hisoblash uchun asos bo'lib xizmat qiladi.",
+        "Source": "SA 2010-22",
+        "Link": "https://nsdg.stat.uz/en/goal/17",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 26,
+        "Name": "Yer maydoni",
+        "Definition": "FAO va Jahon banki ma'lumotlar bazalari er maydonini ichki suv havzalari (daryolar va ko'llar) ostidagi maydonlardan tashqari mamlakat hududi sifatida belgilaydi. O‘zbekiston ham xuddi shunday ta’rifga amal qiladi. Yer resurslari oziq-ovqat ishlab chiqarish, biologik xilma-xillikni saqlash va uglerod sekvestri uchun juda muhimdir. Yerga tabiiy va yarim tabiiy oʻsimlikli yerlar, boʻsh yerlar, ekin maydonlari va sunʼiy (qurilgan) yuzalar kiradi. Ko'rsatkich mamlakatning yashashga yaroqli maydonini (km2), shu jumladan qishloq xo'jaligi va o'rmon maydonini o'lchaydi.",
+        "Source": "SA, 1991-2019",
+        "Link": "https://stat.uz/uz/rasmiy-statistika/demography-2.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 27,
+        "Name": "Qishloq xo'jaligi erlari",
+        "Definition": "haydaladigan (vaqtinchalik ekinlar), doimiy ekinlar va doimiy yaylovlar (Jahon banki) er maydonining ulushi. Bu km2 da qishloq xo'jaligiga (ekinlar, bog'lar va yaylovlar) ega bo'lgan er maydonining foizini o'lchaydi.",
+        "Source": "Jahon banki va FAO, 1990-2020",
+        "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 28,
+        "Name": "Qishloq xo'jaligi erlari",
+        "Definition": "haydaladigan (vaqtinchalik ekinlar), doimiy ekinlar va doimiy yaylovlar (Jahon banki) er maydonining ulushi. Bu km2 da qishloq xo'jaligiga (ekinlar, bog'lar va yaylovlar) ega bo'lgan er maydonining foizini o'lchaydi.",
+        "Source": "Jahon banki va FAO, 1990-2020",
+        "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 29,
+        "Name": "Ekiladigan (haydaladigan) yerlar",
+        "Definition": "oziq-ovqat va ozuqa yetishtirish uchun har yili ekiladigan qishloq xoʻjaligi erlarining bir qismi (haydaladigan yerlar). Bir yillik ekinlar uchun ekiladigan qishloq xoʻjaligi erlarining ulushi.",
+        "Source": "SA, 2000-20",
+        "Link": "https://stat.uz/uz/rasmiy-statistika/agriculture-2",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 30,
+        "Name": "Tabiiy gaz ishlab chiqarish va iste'mol qilish",
+        "Definition": "Har yili ishlab chiqarilgan va iste'mol qilinadigan tabiiy gaz hajmi (milliard m3).",
+        "Source": "SA, 2000-20",
+        "Link": "https://stat.uz/en/official-statistics/industry",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 31,
+        "Name": "Tabiiy gaz ishlab chiqarish va iste'mol qilish",
+        "Definition": "Har yili ishlab chiqarilgan va iste'mol qilinadigan tabiiy gaz hajmi (milliard m3).",
+        "Source": "SA, 2000-20",
+        "Link": "https://stat.uz/en/official-statistics/industry",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 32,
+        "Name": "Himoya qilinadigan hududlar",
+        "Definition": "milliy bog'lar, qo'riqxonalar va yovvoyi tabiat qo'riqxonalari davlat hokimiyati organlari tomonidan jamoat kirishi cheklangan ilmiy qo'riqxonalar sifatida belgilangan. Maydoni (ga) va inson faoliyatining ochiq kirishidan himoyalangan er maydonining foizi.",
+        "Source": "SA 2011-21",
+        "Link": "https://stat.uz/en/official-statistics/ecology",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 33,
+        "Name": "Xavf ostidagi turlar",
+        "Definition": "yo'qolib ketish xavfi ostida turgan va himoyasiz turlar, ya'ni yo'q bo'lib ketish xavfi ostida bo'lgan yoki tez orada bo'lishi mumkin bo'lgan o'simliklar va hayvonlar. Baholangan yoki maʼlum turlar orasida yoʻqolib ketish xavfi ostida turgan turlar (hayvon va oʻsimlik) soni. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi tomonidan vaqti-vaqti bilan inventarizatsiya qilinadi va \"Qizil kitob\"ga e'lon qilinadi. 5-nashri 2019 yilda nashr etilgan.",
+        "Source": "O‘zbekiston Qizil kitobi, 2019",
+        "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 34,
+        "Name": "Xavf ostidagi turlar",
+        "Definition": "yo'qolib ketish xavfi ostida turgan va himoyasiz turlar, ya'ni yo'q bo'lib ketish xavfi ostida bo'lgan yoki tez orada bo'lishi mumkin bo'lgan o'simliklar va hayvonlar. Baholangan yoki maʼlum turlar orasida yoʻqolib ketish xavfi ostida turgan turlar (hayvon va oʻsimlik) soni. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi tomonidan vaqti-vaqti bilan inventarizatsiya qilinadi va \"Qizil kitob\"ga e'lon qilinadi. 5-nashri 2019 yilda nashr etilgan.",
+        "Source": "O‘zbekiston Qizil kitobi, 2019",
+        "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 35,
+        "Name": "Yillik o'rtacha harorat",
+        "Definition": "yillik o'rtacha sirt harorati Selsiy (°C) da ifodalangan.",
+        "Source": "OECD 1901-2021",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 36,
+        "Name": "Havoning ifloslanishi",
+        "Definition": "Statistika agentligi (SA) atmosferaga chiqariladigan ifloslantiruvchi moddalar miqdorini yiliga ming tonna ifloslantiruvchi moddalar bilan ta'minlaydi.",
+        "Source": "SA 2010-21",
+        "Link": "https://stat.uz/en/official-statistics/ecology",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 37,
+        "Name": "PM tomonidan aholining havo ifloslanishiga ta'siri:",
+        "Definition": "Oddiy aholi bir yil davomida ta'sir qiladigan tashqi havo ifloslanishining o'rtacha PM2,5 kontsentratsiyasiga duchor bo'lgan aholining ulushi (sun'iy yo'ldosh kuzatuvi yoki yer monitoringi natijasida olingan va mkg/m³ da o'lchangan). Ushbu hisobot yillik kontsentratsiyasi 35 mkg/m³ dan ortiq bo'lgan hududlarda yashovchi aholining ulushini ko'rsatadi. Atmosfera ifloslanishining o'rtacha kontsentratsiyasi 35µg/m3 dan yuqori bo'lgan havo ifloslanishiga duchor bo'lgan aholi ulushi.",
+        "Source": "OECD, 2010-19",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 38,
+        "Name": "Aholining PM tomonidan havo ifloslanishiga ta'siri",
+        "Definition": "Oddiy aholi bir yil davomida ta'sir qiladigan tashqi havo ifloslanishining o'rtacha PM2,5 kontsentratsiyasiga duchor bo'lgan aholining ulushi (sun'iy yo'ldosh kuzatuvi yoki yer monitoringi natijasida olingan va mkg/m³ da o'lchangan). Ushbu hisobot yillik kontsentratsiyasi 35 mkg/m³ dan ortiq bo'lgan hududlarda yashovchi aholining ulushini ko'rsatadi. Atmosfera ifloslanishining o'rtacha kontsentratsiyasi 35µg/m3 dan yuqori bo'lgan havo ifloslanishiga duchor bo'lgan aholi ulushi.",
+        "Source": "OECD, 2010-19",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 39,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "PM2.5 taʼsiridan oʻlim darajasi million aholiga toʻgʻri keladi.",
+        "Source": "OECD, 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 40,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "Ko'rsatkich o'pka bilan bog'liq muammolarga va erta o'limga olib keladigan ozon gazining ifloslanishi ta'siridan kelib chiqqan o'limni nazorat qiladi. Ozon darajasi yuqori bo'lgan joylarda ochiq havoda ishlaydiganlar eng ko'p xavf ostida.",
+        "Source": "OECD 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 41,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "YaIM ekvivalent punktlarida ozon ta'siridan kelib chiqqan farovonlik xarajatlari.",
+        "Source": "OECD 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 42,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "YaIM ekvivalent punktlarida ozon ta'siridan kelib chiqqan farovonlik xarajatlari.",
+        "Source": "OECD 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 43,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "YaIM ekvivalent foiz punktlarida qo'rg'oshin ta'siridan kelib chiqqan o'limdan kelib chiqadigan farovonlik xarajatlari.",
+        "Source": "OECD 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 44,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "Ko'rsatkich o'pka bilan bog'liq muammolarga va erta o'limga olib keladigan ozon gazining ifloslanishi ta'siridan kelib chiqqan o'limni nazorat qiladi. Ozon darajasi yuqori bo'lgan joylarda ochiq havoda ishlaydiganlar eng ko'p xavf ostida.",
+        "Source": "OECD 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 45,
+        "Name": "Nafas olish kasalliklari tufayli o'lim",
+        "Definition": "Barcha o'limlarning foizida. SA ushbu ko'rsatkichni 2017 yildan beri e'lon qiladi.",
+        "Source": "OECD 1990-2019",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 46,
+        "Name": "Xavfsiz ichimlik suvi bilan ta'minlangan uy xo'jaliklarining ulushi",
+        "Definition": "uy-joylarga, hovlilarga yoki er uchastkalariga suv quvurlari, umumiy foydalanish uchun mo'ljallangan kranlar yoki suv quvurlari, quduqlar yoki quvurli quduqlar, himoyalangan qazilgan quduqlar, himoyalangan buloqlar, qadoqlangan suv, etkazib beriladigan suv va yomg'ir suvi kabi yaxshilangan ichimlik suvi manbalaridan foydalanuvchi uy xo'jaliklari. Yaxshilangan suv manbalari binolarda joylashgan bo'lishi kerak, kerak bo'lganda mavjud va ifloslanishsiz. Ko'rsatkich hayotning ekologik sifatini o'lchashda asosiy komponent hisoblanadi (OECD, 2017). U boshqa uylar bilan birgalikda foydalanilmaydigan toza ichimlik suvi manbalariga ega bo'lgan uy xo'jaliklarining ulushini (foizini) o'lchaydi. SA SDG-6 monitoringi doirasida xavfsiz ichimlik suvi bilan ta'minlangan uylar foizi haqida ma'lumot to'playdi.",
+        "Source": "SA, 2010-22",
+        "Link": "Environment (stat.uz)",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 47,
+        "Name": "Kanalizatsiya tozalash tizimiga ega bo'lgan uy xo'jaliklarining ulushi",
+        "Definition": "Umumiy kanalizatsiya tizimiga ulangan uy xo'jaliklarining ulushi. Umumiy kanalizatsiya tarmog'i orqali shahar oqava suvlarini yig'ish tizimiga ulangan uy xo'jaliklari. Septik tanklar kabi individual xususiy tozalash inshootlari qamrab olinmaydi. SA ushbu ko'rsatkich bo'yicha ma'lumotlarni to'playdi.",
+        "Source": "SA, 2010-22.",
+        "Link": "https://w3.unece.org/SDG/en/Indicator?id=52. & https://stat.uz/en/official-statistics/environment.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 48,
+        "Name": "Yaxshilangan sanitariya sharoitlaridan foydalanayotgan aholi",
+        "Definition": "Asosiy qo'l yuvish vositalari va hojatxonalar, shu jumladan kanalizatsiya tizimlariga, fosseptiklarga yoki chuqur hojatxonalarga, ventilyatsiya qilingan yaxshilangan chuqur hojatxonalarga, plita va kompostli hojatxonalarga o'rnatilgan yaxshilangan sanitariya inshootlaridan foydalanadigan aholi ulushi. Bu ko'rsatkich asosiy sanitariya xizmatlaridan (masalan, qo'l yuvish) foydalanish imkoniyatiga ega bo'lgan aholi ulushini o'lchaydi.",
+        "Source": "Jahon banki, 2000-20",
+        "Link": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 49,
+        "Name": "Atrof-muhit bilan bog'liq innovatsiyalar",
+        "Definition": "atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun atrof-muhit bilan bog'liq ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulotlar va texnologiyalar sonini o'lchaydi (OECD, 2017: 153).",
+        "Source": "OECD, 1992-2018",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 50,
+        "Name": "Atrof-muhit bilan bog'liq innovatsiyalar",
+        "Definition": "atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun atrof-muhit bilan bog'liq ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulotlar va texnologiyalar sonini o'lchaydi (OECD, 2017: 153).",
+        "Source": "OECD, 1992-2018",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 51,
+        "Name": "Atrof-muhit bilan bog'liq innovatsiyalar:",
+        "Definition": "atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun atrof-muhit bilan bog'liq ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulotlar va texnologiyalar sonini o'lchaydi (OECD, 2017: 153).",
+        "Source": "OECD, 1992-2018",
+        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 52,
+        "Name": "Atrof-muhitni muhofaza qilishga davlat xarajatlari",
+        "Definition": "atrof-muhitni muhofaza qilish uchun davlat byudjeti. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar. Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh, 2012-19 Iqtisodiyot va moliya vazirligi",
+        "Source": "MoEF (SDG 13) 2019-22.",
+        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 53,
+        "Name": "Atrof-muhitni muhofaza qilishga davlat xarajatlari",
+        "Definition": "atrof-muhitni muhofaza qilish uchun davlat byudjeti. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar. Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh, 2012-19 Iqtisodiyot va moliya vazirligi",
+        "Source": "MoEF (SDG 13) 2019-22.",
+        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 54,
+        "Name": "Atrof-muhitni muhofaza qilishga davlat xarajatlari",
+        "Definition": "atrof-muhitni muhofaza qilish uchun davlat byudjeti. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar. Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh, 2012-19 Iqtisodiyot va moliya vazirligi",
+        "Source": "MoEF (SDG 13) 2019-22.",
+        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 55,
+        "Name": "Atrof-muhit bilan bog'liq soliq tushumlari",
+        "Definition": "atrof-muhit bilan bog'liq soliqlar orqali hukumat tomonidan yig'iladigan daromad. Soliqlar quyidagilarni o'z ichiga olishi mumkin: (i) transport maqsadlarida ishlatiladigan energiya mahsulotlari (benzin va dizel); (ii) avtomototransport vositalari va transport (bir martalik import yoki sotish soliqlari, ro'yxatga olish yoki yo'ldan foydalanish uchun takroriy soliqlar va boshqa transport soliqlari); (iii) chiqindilarni boshqarish); (iv) ifloslantiruvchi moddalar emissiyasi va (v) boshqa. Ushbu hisobotda faqat ifloslanish solig'i va chiqindilarni boshqarish kuzatiladi. Jami soliq tushumlarining ulushi. Ko'rsatkich atrof-muhitga, masalan, energiya yoki transport bilan bog'liq bo'lgan ifloslantiruvchi moddalar miqdoriga asoslangan to'lovni o'lchaydi.",
+        "Source": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi (yangi nom) MEEPCCh, 2015-18",
+        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 56,
+        "Name": "Atrof-muhit bilan bog'liq subsidiyalar",
+        "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Masalan, ko'mir, gaz va elektr energiyasi. Bu hukumat qazib olinadigan yoqilg'ilarni qanchalik subsidiyalashini va qayta tiklanadigan energiyani qo'llab-quvvatlash darajasini o'lchaydi. Jami subsidiyalar foizi (ko'mir, gaz, elektr uchun). Ko'rsatkich energiya ishlab chiqarish tarmoqlariga berilgan imtiyoz va imtiyozlarni o'lchaydi. IEA, 2010-20",
+        "Source": "IEA, 2010-20",
+        "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf. ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 57,
+        "Name": "Atrof-muhit bilan bog'liq subsidiyalar",
+        "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Masalan, ko'mir, gaz va elektr energiyasi. Bu hukumat qazib olinadigan yoqilg'ilarni qanchalik subsidiyalashini va qayta tiklanadigan energiyani qo'llab-quvvatlash darajasini o'lchaydi. Jami subsidiyalar foizi (ko'mir, gaz, elektr uchun). Ko'rsatkich energiya ishlab chiqarish tarmoqlariga berilgan imtiyoz va imtiyozlarni o'lchaydi. IEA, 2010-20",
+        "Source": "IEA, 2010-20",
+        "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 58,
+        "Name": "Atrof-muhit bilan bog'liq subsidiyalar",
+        "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Masalan, ko'mir, gaz va elektr energiyasi. Bu hukumat qazib olinadigan yoqilg'ilarni qanchalik subsidiyalashini va qayta tiklanadigan energiyani qo'llab-quvvatlash darajasini o'lchaydi. Jami subsidiyalar foizi (ko'mir, gaz, elektr uchun). Ko'rsatkich energiya ishlab chiqarish tarmoqlariga berilgan imtiyoz va imtiyozlarni o'lchaydi.",
+        "Source": "IEA, 2010-20",
+        "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 59,
+        "Name": "Yoqilg'i narxi",
+        "Definition": "Dizel va benzinning litriga real narx (2015-yilda AQSh dollarida) xarid qobiliyati pariteti (PPP) OECD, 2012-21",
+        "Source": "2008-21",
+        "Link": "",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 60,
+        "Name": "Yoqilg'i narxi",
+        "Definition": "O'zbekiston tijorat bankining kursidan foydalangan holda benzinning AQSh dollaridagi nominal narxi.",
+        "Source": "Oltin sahifalar 2009-2022",
+        "Link": "",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 61,
+        "Name": "Yoqilg'i narxi",
+        "Definition": "O'zbekiston tijorat bankining kursidan foydalangan holda benzinning AQSh dollaridagi nominal narxi.",
+        "Source": "Oltin sahifalar 2009-2022",
+        "Link": "",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 62,
+        "Name": "KVt/soat elektr energiyasi narxi",
+        "Definition": "Ko'rsatkich elektr energiyasi (turar-joy va sanoatda foydalanish) uchun oxirgi foydalanuvchi narxining o'zgarishini o'lchaydi, bunda 2015 yil narxi bazaviy yil sifatida. Vaqt o'tishi bilan energiya tariflarining dinamikasi energiya manbalarini baholash bo'yicha siyosat islohotlarini ko'rsatadi.",
+        "Source": "Oltin sahifalar 2009-2022",
+        "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
+        "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
+        "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+       },
+       {
+        "Id": 63,
+        "Name": "KVt/soat elektr energiyasi narxi",
+        "Definition": "Ko'rsatkich elektr energiyasi (turar-joy va sanoatda foydalanish) uchun oxirgi foydalanuvchi narxining o'zgarishini o'lchaydi, bunda 2015 yil narxi bazaviy yil sifatida. Vaqt o'tishi bilan energiya tariflarining dinamikasi energiya manbalarini baholash bo'yicha siyosat islohotlarini ko'rsatadi.",
+        "Source": "Oltin sahifalar 2009-2022",
+        "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
+        "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
+        "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+       },
+       {
+        "Id": 64,
+        "Name": "Haqiqiy YaIM",
+        "Definition": "O'zbekiston yalpi ichki mahsuloti o'zgarmas narxlarda hisoblangan",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 65,
+        "Name": "Aholi jon boshiga YaIM",
+        "Definition": "O'zbekiston aholisining o'rtacha yillik daromadi (yillik real YaIMning yillik aholi soniga bo'lingan). Aholiga to‘g‘ri keladigan real YaIM so‘mda – real YaIMning yillik doimiy aholi soniga nisbati, so‘m/ kishi. 2011-22 SA ma'lumotlaridan foydalangan holda mualliflarning hisob-kitobi.",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 66,
+        "Name": "Haqiqiy YaIM",
+        "Definition": "O'zbekiston yalpi ichki mahsuloti o'zgarmas narxlarda hisoblangan",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 67,
+        "Name": "YaIM tarkibi",
+        "Definition": "Oʻzbekistonda iqtisodiyotning asosiy tarmoqlari: qishloq xoʻjaligi, sanoat va xizmatlar toifalari boʻyicha yalpi ichki mahsulotdagi qoʻshilgan qiymatning foizli ulushi",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 68,
+        "Name": "YaIM tarkibi",
+        "Definition": "Oʻzbekistonda iqtisodiyotning asosiy tarmoqlari: qishloq xoʻjaligi, sanoat va xizmatlar toifalari boʻyicha yalpi ichki mahsulotdagi qoʻshilgan qiymatning foizli ulushi",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 69,
+        "Name": "YaIM tarkibi",
+        "Definition": "Oʻzbekistonda iqtisodiyotning asosiy tarmoqlari: qishloq xoʻjaligi, sanoat va xizmatlar toifalari boʻyicha yalpi ichki mahsulotdagi qoʻshilgan qiymatning foizli ulushi",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 70,
+        "Name": "CPI",
+        "Definition": "O'zbekistonda aholi tomonidan iste'mol qilinadigan vaqt davomida tovarlar va xizmatlar narxlarining o'zgarishini ko'rsatadigan ko'rsatkich. U iste'mol tovarlari va xizmatlarining qat'iy to'plami uchun iqtisodiyotdagi inflyatsiya qiymatining o'zgarishini ko'rsatadi. Bu iste'mol bozoridagi narx ma'lumotlarining SA hisob-kitobiga asoslangan tovarlar savati narxining yillik foiz o'zgarishi. Ushbu hisobot o'tgan yilning dekabr oyidagi foiz o'zgarishidan foydalanadi.",
+        "Source": "Statistika agentligi",
+        "Link": "https://stat.uz/en/official-statistics/prices-and-indexes.",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 71,
+        "Name": "Tovar va xizmatlarning eksport va import qiymati million AQSh dollarida. Eksport:",
+        "Definition": "O'zbekistondan xorijiy davlatga pul qiymatida tovarlar va xizmatlarni o'tkazish.",
+        "Source": "SA 2000-22",
+        "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 72,
+        "Name": "Tovar va xizmatlarning eksport va import qiymati million AQSh dollarida. Import:",
+        "Definition": "xorijiy davlatdan O‘zbekistonga pul qiymatidagi tovarlar va xizmatlar muomalasi.",
+        "Source": "SA 2000-22",
+        "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 73,
+        "Name": "Kam ta'minlangan aholi ulushi",
+        "Definition": "Jahon banki tavsiyasiga ko'ra, daromaddan past bo'lgan aholi ulushi kuniga 2 100 kilokaloriya hisoblanadi. U ma'lum miqdordan kam daromadli aholining foizini ko'rsatadi. SA uy xo'jaliklari so'rovlari orqali ko'rsatkich bo'yicha ma'lumotlarni to'playdi. Biroq, u turli o'lchov usullaridan foydalangan holda 2021 yildagi qashshoqlik darajasini hisoblab chiqadi",
+        "Source": "Statistika agentligi",
+        "Link": "https://stat.uz/en/official-statistics/living-standards",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 74,
+        "Name": "Jini koeffitsienti",
+        "Definition": "aholining jami nisbatlarini ular oladigan daromadlarning umumiy nisbatlarini solishtirishga asoslangan 0 dan 1 gacha bo'lgan indeks. Indeks raqami. Koeffitsient daromadlarning mukammal tengligida 0 ga, daromadlar tengsizligida esa 1 ga teng.",
+        "Source": "SA 2017-2021",
+        "Link": "",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 75,
+        "Name": "Ishchi kuchi",
+        "Definition": "15 va undan katta yoshdagi aholining ma'lum bir davrda iqtisodiy faol bo'lgan ulushi.",
+        "Source": "SA 2010-21",
+        "Link": "https://stat.uz/en/official-statistics/labor-market",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 76,
+        "Name": "Bandlik",
+        "Definition": "mehnatga layoqatli yoshdagi shaxslar, ish vaqtida yoki ish vaqtida vaqtincha yo'qligi sababli ish joyida bo'lishidan qat'i nazar, to'lov yoki foyda olish uchun mahsulot ishlab chiqarish yoki xizmatlar ko'rsatish bo'yicha har qanday faoliyat bilan shug'ullanadigan shaxslar. Hisobotda bu erda bandlik darajasi band bo'lgan ishchi kuchining nisbati (foiz) hisoblanadi.",
+        "Source": "SA 2010-21",
+        "Link": "https://stat.uz/en/official-statistics/labor-market",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 77,
+        "Name": "Tarmoqlar bo'yicha bandlik",
+        "Definition": "Iqtisodiyotning asosiy tarmoqlari bo‘yicha jami bandlik ulushi.",
+        "Source": "Jahon banki 1991-2021 yillar",
+        "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 78,
+        "Name": "Tarmoqlar bo'yicha bandlik",
+        "Definition": "Iqtisodiyotning asosiy tarmoqlari bo‘yicha jami bandlik ulushi.",
+        "Source": "Jahon banki 1991-2021 yillar",
+        "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 79,
+        "Name": "Tarmoqlar bo'yicha bandlik",
+        "Definition": "Iqtisodiyotning asosiy tarmoqlari bo‘yicha jami bandlik ulushi.",
+        "Source": "Jahon banki 1991-2021 yillar",
+        "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 80,
+        "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+        "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholiga nisbati. Boshlang'ich o'rta va oliy o'quv yurtlarida o'qiyotgan jami nomzodlarning ulushi.",
+        "Source": "Jahon banki 2005-21",
+        "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 81,
+        "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+        "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholiga nisbati. Boshlang'ich o'rta va oliy o'quv yurtlarida o'qiyotgan jami nomzodlarning ulushi.",
+        "Source": "Jahon banki 2005-21",
+        "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 82,
+        "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+        "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholiga nisbati. Boshlang'ich o'rta va oliy o'quv yurtlarida o'qiyotgan jami nomzodlarning ulushi.",
+        "Source": "Jahon banki 2005-21",
+        "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 83,
+        "Name": "Jami aholi",
+        "Definition": "huquqiy maqomi va fuqaroligidan qat'i nazar, yil boshida mamlakatda doimiy yashovchi odamlar soni. Yil boshiga O‘zbekistonda doimiy yashovchi aholi soni.",
+        "Source": "SA 1991-2022",
+        "Link": "https://stat.uz/en/official-statistics/demography",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 84,
+        "Name": "O'rtacha umr ko'rish",
+        "Definition": "Yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar uning tug'ilish paytidagi o'lim ko'rsatkichlari butun hayoti davomida bir xil bo'lsa. O'rtacha yillar soni, erta o'limni ko'rsatadi.",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/demography",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 85,
+        "Name": "O'rtacha umr ko'rish",
+        "Definition": "Yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar uning tug'ilish paytidagi o'lim ko'rsatkichlari butun hayoti davomida bir xil bo'lsa. O'rtacha yillar soni, erta o'limni ko'rsatadi.",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/demography",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 86,
+        "Name": "O'rtacha umr ko'rish",
+        "Definition": "Yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar uning tug'ilish paytidagi o'lim ko'rsatkichlari butun hayoti davomida bir xil bo'lsa. O'rtacha yillar soni, erta o'limni ko'rsatadi.",
+        "Source": "SA 2000-21",
+        "Link": "https://stat.uz/en/official-statistics/demography",
+        "Link2": "",
+        "Link3": ""
+       },
+       {
+        "Id": 87,
+        "Name": "Sof tashqi migratsiya",
+        "Definition": "davrdagi muhojirlarning sof jami (ya'ni immigrantlar soni minus emigrantlar soni, shu jumladan fuqarolar va fuqaroligi bo'lmaganlar). Sof migratsiya - bu davrdagi muhojirlarning sof jami, ya'ni immigrantlar sonidan, shu jumladan, fuqarolar va fuqaroligi bo'lmaganlar sonini ayirib tashlagan holda.",
+        "Source": "Jahon banki",
+        "Link": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
+        "Link2": "",
+        "Link3": ""
+       }
+    ]
+  }
+  

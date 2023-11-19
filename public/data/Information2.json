@@ -1,0 +1,157 @@
+{
+    "data":[
+        {
+            "Id": 1,
+            "Name": "Production-based carbon emissions",
+            "Definition": "emissions related to the production process in the economy. This is carbon emitted from the burning of fossil fuels like coal and oil, and gas for energy production and industrial production of materials (such as cement, steel and other industrial processes in the country).",
+            "Source": "OECD 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 2,
+            "Name": "Carbon productivity of the economy",
+            "Definition": "amount of output (in GDP produced per unit of CO2 emitted in the production process of the country). USD/kg of CO2 emissions. The indicator provides an overview of how Uzbekistan is progressing in reducing carbon emissions from production, and it reflects the trends in the transition to a low-carbon economy. National data were not available to the authors on this indicator; the report uses OECD datasets. ",
+            "Source": "OECD 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 3,
+            "Name": "TPES",
+            "Definition": "energy input found in nature before transformation to final forms of energy for end-use (such as electricity or petrol for transport). It   includes non-renewables (coal, oil, natural gas), minerals and renewables (OWD, 2023).\nAmount of energy supplied in the country in tonnes of oil equivalent (toe).",
+            "Source": " SA 2018-21",
+            "Link": "https://stat.uz/en/official-statistics/industry",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 4,
+            "Name": "Energy productivity",
+            "Definition": "Income (in GDP) generated per unit of TPES in the process of production. GDP (in USD 2015) per toe energy use. The indicator measures the economic benefit of using a unit of primary energy. It indicates whether Uzbekistan is becoming more energy efficient and generating more output from a unit of energy consumption.",
+            "Source": "OECD 1990-2020 ",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 5,
+            "Name": "Energy intensity",
+            "Definition": "the ratio of primary energy consumption over GDP measured in constant US dollars. Energy intensity measures the amount of energy consumed per unit of GDP to identify how efficiently a country uses energy to produce a given amount of economic benefit. Total energy consumed per unit of GDP. This is the inverse of energy productivity and shows the rate of efficient energy use. ",
+            "Source": "SA 2020-22 ",
+            "Link": "https://stat.uz/en/official-statistics/industry",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 6,
+            "Name": "Share of renewable energy supply",
+            "Definition": "the proportion of primary energy generated from hydropower, solar, wind, biomass, waste, geothermal, wave and tidal sources. This indicator looks at the data on renewable energy technologies, their share of energy supply and how quickly the proportion changes. Percentage of renewable energy of total primary energy supplied TPES (in toe), million. The indicator helps measure the share of low-carbon   renewable energy sources in the total energy mix supplied/consumed in Uzbekistan.",
+            "Source": "OECD 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 7,
+            "Name": "Share of renewables in electricity generation",
+            "Definition": "the share of electricity generated from renewable sources of energy, including hydropower, solar, wind, biomass and geothermal sources. Percentage of renewable sources in total electricity generation. It helps show if Uzbekistan is progressing towards a low-carbon electric system.",
+            "Source": "OECD 1990-2020 ",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 8,
+            "Name": "Energy consumption by sector",
+            "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
+            "Source": "OECD, 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 9,
+            "Name": "Energy consumption by sector",
+            "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
+            "Source": "OECD, 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 10,
+            "Name": "Energy consumption by sector",
+            "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
+            "Source": "OECD, 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 11,
+            "Name": "Energy consumption by sector",
+            "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
+            "Source": "OECD, 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 12,
+            "Name": "Energy consumption by sector",
+            "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
+            "Source": "OECD, 1990-2020",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 13,
+            "Name": "Share of renewable energy supply",
+            "Definition": "the proportion of primary energy generated from hydropower, solar, wind, biomass, waste, geothermal, wave and tidal sources. This indicator looks at the data on renewable energy technologies, their share of energy supply and how quickly the proportion changes. Percentage of renewable energy of total primary energy supplied TPES (in toe), million. The indicator helps measure the share of low-carbon   renewable energy sources in the total energy mix supplied/consumed in Uzbekistan.",
+            "Source": "OECD 1990-2020 ",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 14,
+            "Name": "Domestic Material Consumption (DMC) productivity",
+            "Definition": "output in the economy generated from using a unit of material materials biomass, non-metal and metal material resources (in terms of weight) used in an economy (i.e., materials extracted or harvested in the country, plus materials and products imported, minus material and products exported (OECD 2017). It measures the amount of material used in an economy.. GDP per unit of DMC. The indicator measures how much income is generated per unit of DMC (biomass, metal and non-metal materials) in the economy. Uzbekistan does not consolidate data on this indicator. ",
+            "Source": "OECD 1990-2020 ",
+            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 15,
+            "Name": "Water productivity",
+            "Definition": "measures how much output is produced in monetary terms per unit of freshwater withdrawn. Value-added in GDP (2015 USD) per cubic metre of abstracted water. It shows whether the country is using its water resources efficiently.",
+            "Source": "World Bank 1994-2019",
+            "Link": "https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD?locations=UZ",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 16,
+            "Name": "Fertiliser use",
+            "Definition": "the quantity of plant nutrients used per unit of arable land. Fertiliser products cover nitrogenous, potash and phosphate fertilisers. Amount of fertiliser applied per ha of agricultural land (kg/ha). This GGI measures the nutrient balances in agriculture for the two main fertilisers applied on farms – nitrogen (N) and phosphorus (P). However, mapping the annual nutrient balance for Uzbekistan is not possible due   to the absence of data to calculate the value. This report alternately shows the total fertiliser use in Uzbekistan compared to the world average. It also shows “excess nitrogen” – nitrogen lost to the environment.",
+            "Source": "World Bank \n1992-2020",
+            "Link": "https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS",
+            "Link2": "",
+            "Link3": ""
+           },
+           {
+            "Id": 17,
+            "Name": "Household solid waste",
+            "Definition": "waste originating from households and collected by municipalities. Total solid waste generated by households in a year. The SA started collecting such data on SW generated and recycled since 2016 as part of SDG monitoring. Percentage recycled out of solid waste generated.",
+            "Source": "SA 2015-21 ",
+            "Link": "ЦУР (stat.uz)",
+            "Link2": "",
+            "Link3": ""
+           }
+    ]
+}

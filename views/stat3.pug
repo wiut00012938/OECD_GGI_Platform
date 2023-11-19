@@ -19,7 +19,7 @@ html(lang='en')
     .main-part
       .navigation
         h2 Navigation
-        a.active_navigation(href='/stat_all')
+        a(href='/stat_all')
           i.fa-solid.fa-file-circle-check
           h3 All indicators
         a(href='/stat-group1')
@@ -28,7 +28,7 @@ html(lang='en')
         a(href='/stat-group2')
           i.fa-solid.fa-seedling
           h3 Group 2
-        a(href='/stat-group3')
+        a.active_navigation(href='/stat-group3')
           i.fa-brands.fa-envira
           h3 Group 3
         a(href='/stat-group4')
@@ -141,7 +141,7 @@ html(lang='en')
           h3 Database documentation
           p
             | The following table presents the existing data relevant to the report indicators. This data serves as the foundation for the analysis and insights outlined in the subsequent sections of the report. Detailed Clarifiction of Definition as long as data source is provided.
-        each item in jsonData.data
+        each item in jsonData3.data
           .group-info(data-group= item.Id)
             h3= item.Name
             h4 Definition:
@@ -155,4 +155,4 @@ html(lang='en')
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='https://code.jquery.com/jquery-3.7.0.js')
     script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')
-    script(src='/static/javascripts/stat.js')
+    script(src='/static/javascripts/stat3.js')
