@@ -131,11 +131,7 @@ a.home_page_link{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    /*border-radius: 5px;
-    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;*/
+    justify-content: space-between;
     border-right: 1px solid rgb(59,140,233);
     padding: 0 1rem;
 }
@@ -143,14 +139,16 @@ a.home_page_link{
     font-size: 2rem;
     color: #28666e;
     padding-right: 3rem;
+    height: auto;
 }
 .navigation a{
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     text-decoration: none;
     border-radius: 5px;
     margin-bottom: 0.5rem;
+
 }
 .navigation a i{
     font-size: 2rem;
@@ -238,8 +236,11 @@ a.active_navigation h3, a.active_navigation i{
     align-items: center;
 }
 .container{
-    flex: 0.96;
     height: 95%;
+    flex: 0.97;
+}
+.dataTables_wrapper .dataTables_filter input{
+    margin-right: 1rem;
 }
 table {
     width: 100%;
@@ -258,8 +259,11 @@ td div:hover button{
 td div:hover{
     cursor:pointer;
 }
-td,th,td div span, label{
-    font-size: 1.5rem;
+th,td div span, label{
+    font-size: 1.4rem;
+}
+td{
+    font-size: 1.4rem;
 }
 tr td div button{
     background-color: #28666e;
@@ -286,7 +290,7 @@ input, select{
     background-color: #fff !important;
 }
 #example{
-    table-layout: fixed;
+    table-layout: auto;
 }
 .export{
     display: flex;
@@ -317,7 +321,7 @@ input, select{
     width: fit-content;
     transition: 0.4s;
     margin-right: 2rem;
-    padding: 0px 0.5rem; /* Green border */
+    padding: 0 0.5rem; /* Green border */
     background-color: #28666e; /* Light gray background */
     border-radius: 10px; /* Rounded corners */
 }
@@ -364,9 +368,6 @@ input, select{
         flex-wrap: wrap;
         height: 20%;
     }
-    .main-part{
-        height: 79%;
-    }
     .head-part h1.desktop-version{
         display: none;
     }
@@ -376,13 +377,15 @@ input, select{
     .main-part{
         flex-direction: column;
         width: auto;
+        height: 89%;
     }
     .main-part .container-main{
         width: 100%;
-        height: 65%;
+        height: 70%;
     }
     .main-part .navigation{
-        width: 100%;
+        width: 90%;
+        margin: auto;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -390,13 +393,14 @@ input, select{
         height: 15%;
         overflow-y: hidden;
         margin-top: 1rem;
+        border-right: none;
     }
     .main-part .navigation h2{
         display: none;
     }
     .main-part .information{
         width: 100%;
-        height: 20%;
+        height: 15%;
     }
     .container-main .arrow, .container-main .arrow-information{
         display: none;
@@ -417,5 +421,32 @@ input, select{
     }
     h1.mobile{
         display: none;
+    }
+}
+@media(max-height:750px){
+    .navigation a i{
+        font-size: 1.5rem;
+    }
+    .navigation a h3{
+        font-size: 1.5rem;
+    }
+    .head-part h1{
+        font-size: 3rem;
+    }
+    .head-part a.home_page_link{
+        height: 6rem;
+    }
+}
+@media(max-height:900px){
+    .head-part h1{
+        font-size: 3rem;
+    }
+    .head-part a.home_page_link{
+        background-size:cover;
+        height: 5rem;
+        width: 5rem;
+    }
+    .head-part div a{
+        font-size: 2rem;
     }
 }

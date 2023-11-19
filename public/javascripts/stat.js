@@ -1,5 +1,14 @@
 var groupColumn = 0; // Assuming "Group" is the first column
 var subgroupColumn = 1; // Assuming "Subgroup" is the second column
+if($(window).height() < 700){
+    var tableHeight = 0.4*($(window).height() - $('#example').offset().top);
+}
+else if($(window).height() < 900){
+    var tableHeight = 0.5*($(window).height() - $('#example').offset().top);
+}
+else{
+    var tableHeight = 0.7*($(window).height() - $('#example').offset().top);
+}
     var xmlhttp = new XMLHttpRequest();
     var url = "/static/data/sample1.json";
     xmlhttp.open("GET",url,true);
@@ -55,8 +64,8 @@ var subgroupColumn = 1; // Assuming "Subgroup" is the second column
         { "data": "2022" }
             ],
             "scrollX": true,
+            "scrollY": tableHeight + "px",
     scrollCollapse: true,
-    scrollY: '50vh',
     columnDefs: [
         { visible: false, targets: [groupColumn, subgroupColumn] }
     ],
