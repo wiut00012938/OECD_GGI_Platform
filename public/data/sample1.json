@@ -3,7 +3,7 @@
         {
             "id": "1",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "Production based CO2 emissions",
             "Unit": "Tonnes, Millions",
             "1990": "117.77",
@@ -43,7 +43,7 @@
         {
             "id": "2",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "Production based CO2 productivity, GDP per unit of CO2 emissions",
             "Unit": "USD per kilogram, 2015",
             "1990": "0.66",
@@ -83,7 +83,7 @@
         {
             "id": "3",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "    Total primary energy supply",
             "Unit": "Tonnes of oil equivalent (toe), Millions",
             "1990": "47.39",
@@ -123,7 +123,7 @@
         {
             "id": "4",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "Energy Productivity, GDP per unit of TPES",
             "Unit": "USD, 2015",
             "1990": "1643.44",
@@ -163,7 +163,7 @@
         {
             "id": "5",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "Energy intensity of GDP, TPES per GDP",
             "Unit": "koe/USD(2015)",
             "1990": "...",
@@ -203,7 +203,7 @@
         {
             "id": "6",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "Renewable energy supply, % total energy supply",
             "Unit": "Percentage",
             "1990": "1.21",
@@ -243,7 +243,7 @@
         {
             "id": "7",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "    Renewable electricity, % total electricity generation",
             "Unit": "Percentage",
             "1990": "11.8",
@@ -283,7 +283,7 @@
         {
             "id": "8",
             "Group": "Environmental and Resource Productivity of the Economy",
-            "Subgroup": "  CO2 and energy productivity of the economy",
+            "Subgroup": "CO₂ and energy productivity of the economy",
             "Definition": "    Energy consumption in agriculture, % total energy consumption",
             "Unit": "Percentage",
             "1990": "4",
@@ -323,7 +323,7 @@
       {
         "id": "9",
        "Group": "Environmental and Resource Productivity of the Economy",
-       "Subgroup": "  CO2 and energy productivity of the economy",
+       "Subgroup": "CO₂ and energy productivity of the economy",
        "Definition": "    Energy consumption in services, % total energy consumption",
        "Unit": "Percentage",
        "1990": "0.35",
@@ -363,7 +363,7 @@
       {
         "id": "10",
        "Group": "Environmental and Resource Productivity of the Economy",
-       "Subgroup": "  CO2 and energy productivity of the economy",
+       "Subgroup": "CO₂ and energy productivity of the economy",
        "Definition": "    Energy consumption in industry, % total energy consumption",
        "Unit": "Percentage",
        "1990": "6.91",
@@ -403,7 +403,7 @@
       {
         "id": "11",
        "Group": "Environmental and Resource Productivity of the Economy",
-       "Subgroup": "  CO2 and energy productivity of the economy",
+       "Subgroup": "CO₂ and energy productivity of the economy",
        "Definition": "    Energy consumption in transport, % total energy consumption",
        "Unit": "Percentage",
        "1990": "7.7",
@@ -443,7 +443,7 @@
       {
         "id": "12",
        "Group": "Environmental and Resource Productivity of the Economy",
-       "Subgroup": "  CO2 and energy productivity of the economy",
+       "Subgroup": "CO₂ and energy productivity of the economy",
        "Definition": "    Energy consumption in other sectors(buildings), % total energy consumption",
        "Unit": "Percentage",
        "1990": "81.04",
@@ -483,7 +483,7 @@
       {
         "id": "13",
        "Group": "Environmental and Resource Productivity of the Economy",
-       "Subgroup": "  CO2 and energy productivity of the economy",
+       "Subgroup": "CO₂ and energy productivity of the economy",
        "Definition": "Renewable energy supply (excluding solid biofuels), % total energy supply",
        "Unit": "percentage",
        "1990": "1.21",

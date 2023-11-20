@@ -67,9 +67,11 @@ else{
             "scrollY": tableHeight + "px",
     scrollCollapse: true,
     columnDefs: [
-        { visible: false, targets: [groupColumn, subgroupColumn] }
+        { visible: false, targets: [groupColumn, subgroupColumn] },
+            {"orderData": [groupColumn, subgroupColumn]},
+            {"orderSequence": ["asc"]}
     ],
-    order: [[groupColumn, 'asc'], [subgroupColumn, 'asc']],
+    order: [],
     displayLength: 25,
     drawCallback: function (settings) {
         var api = this.api();
@@ -82,7 +84,7 @@ else{
 
             if (lastGroup !== group || lastSubgroup !== subgroup) {
                 $(rows).eq(i).before(
-                    '<tr class="group"><td colspan="5">' + group + ' - ' + subgroup + '</td></tr>'
+                    '<tr class="group"><td colspan="10">' + group + '  |  ' + subgroup + '</td></tr>'
                 );
 
                 lastGroup = group;
@@ -93,11 +95,16 @@ else{
 });
 $('#example tbody').on('click', 'tr.group', function () {
     var currentOrder = table.order()[0];
+    var columnIndex = groupColumn; // Default to groupColumn if currentOrder is undefined
 
-    if (currentOrder[0] === groupColumn && currentOrder[1] === 'asc') {
-        table.order([groupColumn, 'desc'], [subgroupColumn, 'desc']).draw();
+    if (currentOrder && currentOrder.length > 0) {
+        columnIndex = currentOrder[0]; // Get the index of the column used for ordering
+    }
+
+    if (currentOrder && currentOrder.length === 2 && currentOrder[1] === 'asc') {
+        table.order([columnIndex, 'desc']).draw();
     } else {
-        table.order([groupColumn, 'asc'], [subgroupColumn, 'asc']).draw();
+        table.order([columnIndex, 'asc']).draw();
     }
 });
   }
