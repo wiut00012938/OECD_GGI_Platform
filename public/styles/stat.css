@@ -140,6 +140,7 @@ a.home_page_link{
     color: #28666e;
     padding-right: 3rem;
     height: auto;
+    overflow-y: hidden;
 }
 .navigation a{
     padding: 1rem;
@@ -149,6 +150,7 @@ a.home_page_link{
     border-radius: 5px;
     margin-bottom: 0.5rem;
     flex-wrap: nowrap;
+    overflow-y: hidden;
 
 }
 .navigation a i{
@@ -199,6 +201,7 @@ a.active_navigation h3, a.active_navigation i{
     font-style: normal;
     color: #28666e;
     margin-bottom: 2rem;
+    text-align: center;
 }
 .information .group-info h4{
     font-size: 2rem;

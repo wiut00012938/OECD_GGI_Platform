@@ -1,5 +1,14 @@
 var groupColumn = 0; // Assuming "Group" is the first column
 var subgroupColumn = 1; // Assuming "Subgroup" is the second column
+if($(window).height() < 700){
+    var tableHeight = 0.4*($(window).height() - $('#example').offset().top);
+}
+else if($(window).height() < 900){
+    var tableHeight = 0.5*($(window).height() - $('#example').offset().top);
+}
+else{
+    var tableHeight = 0.7*($(window).height() - $('#example').offset().top);
+}
     var xmlhttp = new XMLHttpRequest();
     var url = "/static/data/stat1ru.json";
     xmlhttp.open("GET",url,true);
@@ -55,12 +64,14 @@ var subgroupColumn = 1; // Assuming "Subgroup" is the second column
         { "data": "2022" }
             ],
             "scrollX": true,
+            "scrollY": tableHeight + "px",
     scrollCollapse: true,
-    scrollY: '50vh',
     columnDefs: [
-        { visible: false, targets: [groupColumn, subgroupColumn] }
+        { visible: false, targets: [groupColumn, subgroupColumn] },
+            {"orderData": [groupColumn, subgroupColumn]},
+            {"orderSequence": ["asc"]}
     ],
-    order: [[groupColumn, 'asc'], [subgroupColumn, 'asc']],
+    order: [],
     displayLength: 25,
     drawCallback: function (settings) {
         var api = this.api();
@@ -73,7 +84,7 @@ var subgroupColumn = 1; // Assuming "Subgroup" is the second column
 
             if (lastGroup !== group || lastSubgroup !== subgroup) {
                 $(rows).eq(i).before(
-                    '<tr class="group"><td colspan="5">' + group + ' - ' + subgroup + '</td></tr>'
+                    '<tr class="group"><td colspan="10">' + subgroup + '</td></tr>'
                 );
 
                 lastGroup = group;
@@ -84,11 +95,16 @@ var subgroupColumn = 1; // Assuming "Subgroup" is the second column
 });
 $('#example tbody').on('click', 'tr.group', function () {
     var currentOrder = table.order()[0];
+    var columnIndex = groupColumn; // Default to groupColumn if currentOrder is undefined
 
-    if (currentOrder[0] === groupColumn && currentOrder[1] === 'asc') {
-        table.order([groupColumn, 'desc'], [subgroupColumn, 'desc']).draw();
+    if (currentOrder && currentOrder.length > 0) {
+        columnIndex = currentOrder[0]; // Get the index of the column used for ordering
+    }
+
+    if (currentOrder && currentOrder.length === 2 && currentOrder[1] === 'asc') {
+        table.order([columnIndex, 'desc']).draw();
     } else {
-        table.order([groupColumn, 'asc'], [subgroupColumn, 'asc']).draw();
+        table.order([columnIndex, 'asc']).draw();
     }
 });
   }

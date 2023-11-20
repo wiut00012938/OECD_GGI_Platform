@@ -12,7 +12,7 @@
        {
         "Id": 2,
         "Name": "Iqtisodiyotning uglerod unumdorligi",
-        "Definition": "ishlab chiqarish hajmi (mamlakat ishlab chiqarish jarayonida chiqariladigan CO2 birligiga ishlab chiqarilgan YaIMda). USD/kg CO2 emissiyasi. Ko‘rsatkich O‘zbekiston ishlab chiqarishdan chiqadigan uglerod chiqindilarini kamaytirish borasida qanday yutuqlarga erishayotgani haqida umumiy ma’lumot beradi va u kam uglerodli iqtisodiyotga o‘tish tendensiyalarini aks ettiradi. Ushbu ko'rsatkich bo'yicha mualliflar uchun milliy ma'lumotlar mavjud emas edi; hisobot OECD ma'lumotlar to'plamidan foydalanadi.",
+        "Definition": "ishlab chiqarish hajmi (mamlakat ishlab chiqarish jarayonida chiqariladigan CO₂ birligiga ishlab chiqarilgan YaIMda). USD/kg CO₂ emissiyasi. Ko‘rsatkich O‘zbekiston ishlab chiqarishdan chiqadigan uglerod chiqindilarini kamaytirish borasida qanday yutuqlarga erishayotgani haqida umumiy ma’lumot beradi va u kam uglerodli iqtisodiyotga o‘tish tendensiyalarini aks ettiradi. Ushbu ko'rsatkich bo'yicha mualliflar uchun milliy ma'lumotlar mavjud emas edi; hisobot OECD ma'lumotlar to'plamidan foydalanadi.",
         "Source": "OECD 1990-2020",
         "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH ",
         "Link2": "",
@@ -219,7 +219,7 @@
        {
         "Id": 25,
         "Name": "O'rmon zaxirasi",
-        "Definition": "kub metr (FAO) bilan o'lchangan ko'krak balandligida ma'lum diametrli o'rmon maydonlarida tik turgan daraxtlar zaxirasi. Bu ko'krak balandligida kamida 10 sm diametrli barcha tirik daraxtlarning qobig'i ustidagi hajm, shu jumladan er sathidan yuqori diametri 0 sm gacha (novdalar bundan mustasno) (OECD). Ko'rsatkich millionlab kub metr (m3) bilan o'lchanadigan yog'och resurslari haqida ma'lumot beradi. Shuningdek, u o'rmon tarkibidagi CO2 miqdorini hisoblash uchun asos bo'lib xizmat qiladi.",
+        "Definition": "kub metr (FAO) bilan o'lchangan ko'krak balandligida ma'lum diametrli o'rmon maydonlarida tik turgan daraxtlar zaxirasi. Bu ko'krak balandligida kamida 10 sm diametrli barcha tirik daraxtlarning qobig'i ustidagi hajm, shu jumladan er sathidan yuqori diametri 0 sm gacha (novdalar bundan mustasno) (OECD). Ko'rsatkich millionlab kub metr (m3) bilan o'lchanadigan yog'och resurslari haqida ma'lumot beradi. Shuningdek, u o'rmon tarkibidagi CO₂ miqdorini hisoblash uchun asos bo'lib xizmat qiladi.",
         "Source": "SA 2010-22",
         "Link": "https://nsdg.stat.uz/en/goal/17",
         "Link2": "",

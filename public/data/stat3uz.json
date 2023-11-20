@@ -2,7 +2,7 @@
     "data":[
         {
             "id": "18",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "chuchuk suv qaytish",
             "Unit": "kubometr, milliardlab",
@@ -42,7 +42,7 @@
           },
           {
             "id": "19",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "suv stressi",
             "Unit": "Foiz",
@@ -82,7 +82,7 @@
           },
           {
             "id": "20",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "chuchuk suvdan foydalanish, qishloq xo'jaligi, umumiy suvdan foydalanish%",
             "Unit": "Foiz",
@@ -122,7 +122,7 @@
           },
           {
             "id": "21",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "chuchuk suvdan foydalanish, maishiy, umumiy suvdan foydalanish%",
             "Unit": "Foiz",
@@ -162,7 +162,7 @@
           },
           {
             "id": "22",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "chuchuk suvdan foydalanish, sanoat, umumiy suvdan foydalanish%",
             "Unit": "Foiz",
@@ -202,7 +202,7 @@
           },
           {
             "id": "23",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "o'rmon maydoni",
             "Unit": "Gektarlar, Millionlar" ,
@@ -242,7 +242,7 @@
           },
           {
             "id": "24",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "o'rmon qamrovi, umumiy erning%",
             "Unit": "Foiz",
@@ -282,7 +282,7 @@
           },
           {
             "id": "25",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanadigan tabiiy resurslar",
             "Definition": "o'rmon resurslari zaxiralari",
             "Unit":"kubometr, millionlab",
@@ -322,7 +322,7 @@
           },
           {
             "id": "26",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
             "Definition": "er maydoni",
             "Unit": "ming kvadrat km",
@@ -362,7 +362,7 @@
           },
           {
             "id": "27",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
             "Definition": "qishloq xo'jaligi erlari",
             "Unit": "ming kvadrat km",
@@ -402,7 +402,7 @@
           },
           {
             "id": "28",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
             "Definition": "qishloq xo'jaligi er(foiz)",
             "Unit": "foiz",
@@ -442,7 +442,7 @@
           },
           {
             "id": "29",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
             "Definition": "ekin maydonlari",
             "Unit": "ming kvadrat km",
@@ -482,7 +482,7 @@
           },
           {
             "id": "30",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
             "Definition": "tabiiy gaz ishlab chiqarish",
             "Unit": "kubometr, milliardlab",
@@ -522,7 +522,7 @@
           },
           {
             "id": "31",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
             "Definition": "tabiiy gaz iste'moli",
             "Unit": "kubometr, milliardlab",
@@ -562,7 +562,7 @@
           },
           {
             "id": "32",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "Bioxilma-Xillik",
             "Definition": "qo'riqlanadigan tabiiy hududlar",
             "Unit": "Gektarlar, Millionlar" ,
@@ -602,7 +602,7 @@
           },
           {
             "id": "33",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "Bioxilma-Xillik",
             "Definition": "Tahdid Qilingan Turlar,O'simliklar",
             "Unit": "Raqam",
@@ -642,7 +642,7 @@
           },
           {
             "id": "34",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "Bioxilma-Xillik",
             "Definition": "Tahdid Qilingan Turlar, Hayvonlar" ,
             "Unit": "Raqam",
@@ -682,7 +682,7 @@
           },
           {
             "id": "35",
-            "Group": "tabiiy aktivlar bazasi",
+            "Group": "tabiiy aktivlar asoslari",
             "Subgroup": "Bioxilma-Xillik",
             "Definition": "yillik o'rtacha harorat",
             "Unit":"Selsiy darajasi",

@@ -12,7 +12,7 @@
        {
         "Id": 2,
         "Name": "Carbon productivity of the economy",
-        "Definition": "amount of output (in GDP produced per unit of CO2 emitted in the production process of the country). USD/kg of CO2 emissions. The indicator provides an overview of how Uzbekistan is progressing in reducing carbon emissions from production, and it reflects the trends in the transition to a low-carbon economy. National data were not available to the authors on this indicator; the report uses OECD datasets. ",
+        "Definition": "amount of output (in GDP produced per unit of CO₂ emitted in the production process of the country). USD/kg of CO₂ emissions. The indicator provides an overview of how Uzbekistan is progressing in reducing carbon emissions from production, and it reflects the trends in the transition to a low-carbon economy. National data were not available to the authors on this indicator; the report uses OECD datasets. ",
         "Source": "OECD 1990-2020",
         "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH ",
         "Link2": "",
@@ -219,7 +219,7 @@
        {
         "Id": 25,
         "Name": "Forest stock",
-        "Definition": "a stock of standing trees in forest areas with a certain diameter at breast height, measured in cubic metres (FAO). It is the volume over the bark of all living trees with a minimum diameter of 10 cm at breast height, including the stem from ground level up to a top diameter of 0 cm (excluding branches) (OECD). The indicator provides information about wood resources measured in millions of cubic metres (m3). It also provides the basis for estimating the amount of CO2 the forest contains.",
+        "Definition": "a stock of standing trees in forest areas with a certain diameter at breast height, measured in cubic metres (FAO). It is the volume over the bark of all living trees with a minimum diameter of 10 cm at breast height, including the stem from ground level up to a top diameter of 0 cm (excluding branches) (OECD). The indicator provides information about wood resources measured in millions of cubic metres (m3). It also provides the basis for estimating the amount of CO₂ the forest contains.",
         "Source": "SA 2010-22",
         "Link": "https://nsdg.stat.uz/en/goal/17",
         "Link2": "",

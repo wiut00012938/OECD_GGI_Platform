@@ -22,21 +22,21 @@ html(lang='en')
         a(href='stat_ru')
           i.fa-solid.fa-file-circle-check
           h3 Все показатели
-        a(href='/stat-group1_ru')
-          i.fa-solid.fa-arrow-up-right-dots
-          h3 Группа 1
         a.active_navigation(href='/stat-group2_ru')
           i.fa-solid.fa-seedling
-          h3 Группа 2
+          h3 Экологическая и ресурсная продуктивность экономики
         a(href='/stat-group3_ru')
           i.fa-brands.fa-envira
-          h3 Группа 3
+          h3 База природных активов
         a(href='/stat-group4_ru')
           i.fa-solid.fa-building-columns
-          h3 Группа 4
+          h3 Экологический аспект качества жизни
         a(href='/stat-group5_ru')
           i.fa-solid.fa-users-gear
-          h3 Группа 5
+          h3 Экономические возможности и меры политики
+        a(href='/stat-group1_ru')
+          i.fa-solid.fa-arrow-up-right-dots
+          h3 Социально-экономический контекст
       .container-main
         .arrow#arrow
             i.fa-solid.fa-arrow-right
@@ -59,7 +59,7 @@ html(lang='en')
                   tr
                     th Группа 
                     th Подгруппа
-                    th Определение
+                    th Индикатор
                     th Единица измерения
                     th 1990
                     th 1991
@@ -99,7 +99,7 @@ html(lang='en')
                   tr
                     th Группа 
                     th Подгруппа
-                    th Определение
+                    th Индикатор
                     th Единица измерения
                     th 1990
                     th 1991
@@ -144,7 +144,7 @@ html(lang='en')
         each item in jsonDataRu2.data
           .group-info(data-group= item.Id)
             h3= item.Name
-            h4 Definition:
+            h4 Определение:
             p= item.Definition
             h4 Источник:
             p= item.Source

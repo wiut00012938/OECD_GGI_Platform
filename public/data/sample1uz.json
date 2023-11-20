@@ -3,8 +3,8 @@
         {
             "id": "1",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
-            "Definition": "ishlab chiqarishga asoslangan CO2 chiqindilari",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
+            "Definition": "ishlab chiqarishga asoslangan CO₂ chiqindilari",
             "Unit": "Tonna, Mln",
             "1990": "117.77",
             "1991": "118.58",
@@ -43,8 +43,8 @@
         {
             "id": "2",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
-            "Definition": "ishlab chiqarishga asoslangan CO2 unumdorligi, CO2 emissiyasi birligiga YAIM",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
+            "Definition": "ishlab chiqarishga asoslangan CO₂ unumdorligi, CO₂ emissiyasi birligiga YAIM",
             "Unit":"kilogramm boshiga USD, 2015",
             "1990": "0.66",
             "1991": "0.65",
@@ -83,7 +83,7 @@
         {
             "id": "3",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
             "Definition": "umumiy birlamchi energiya ta'minoti",
             "Unit": "tonna neft ekvivalenti( toe), millionlab",
             "1990": "47.39",
@@ -123,7 +123,7 @@
         {
             "id": "4",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
             "Definition": "energiya unumdorligi, turlar birligiga YAIM",
             "Unit": "USD, 2015",
             "1990": "1643.44",
@@ -163,7 +163,7 @@
         {
             "id": "5",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
             "Definition": "YaIMning energiya intensivligi, YaIMga to'g'ri keladigan TPES",
             "Unit": "koe / USD(2015)",
             "1990": "...",
@@ -203,7 +203,7 @@
         {
             "id": "6",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
             "Definition": "qayta tiklanadigan energiya ta'minoti , % umumiy energiya ta'minoti",
             "Unit": "Foiz",
             "1990": "1.21",
@@ -243,7 +243,7 @@
         {
             "id": "7",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
             "Definition": "qayta tiklanadigan elektr, % umumiy elektr avlod",
             "Unit": "Foiz",
             "1990": "11.8",
@@ -283,7 +283,7 @@
         {
             "id": "8",
             "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-            "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+            "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
             "Definition": "qishloq xo'jaligida energiya iste'moli , % umumiy energiya iste'moli",
             "Unit": "Foiz",
             "1990": "4",
@@ -323,7 +323,7 @@
       {
         "id": "9",
         "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-        "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+        "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
         "Definition": "xizmatlarda energiya iste'moli , % umumiy energiya iste'moli",
         "Unit": "Foiz",
        "1990": "0.35",
@@ -363,7 +363,7 @@
       {
         "id": "10",
         "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-        "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+        "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
         "Definition": "sanoatda energiya iste'moli , % umumiy energiya iste'moli",
         "Unit": "Foiz",
        "1990": "6.91",
@@ -403,7 +403,7 @@
       {
         "id": "11",
        "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-       "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+       "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
        "Definition": "Transportda energiya sarfi , % umumiy energiya sarfi",
        "Unit": "Foiz",
        "1990": "7.7",
@@ -443,7 +443,7 @@
       {
         "id": "12",
         "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-        "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+        "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
         "Definition": "boshqa sohalarda(binolarda) energiya iste'moli, % umumiy energiya iste'moli",
         "Unit": "Foiz",
        "1990": "81.04",
@@ -483,7 +483,7 @@
       {
         "id": "13",
         "Group": "iqtisodiyotning ekologik va resurs unumdorligi",
-        "Subgroup": "CO2 va iqtisodiyotning energiya unumdorligi",
+        "Subgroup": "CO₂ va iqtisodiyotning energiya unumdorligi",
         "Definition":"qayta tiklanadigan energiya ta'minoti (qattiq bioyoqilg'i bundan mustasno), % umumiy energiya ta'minoti",
         "Unit": "foiz",
        "1990": "1.21",
@@ -682,7 +682,7 @@
       },
       {
         "id": "18",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "chuchuk suv qaytish",
         "Unit": "kubometr, milliardlab",
@@ -722,7 +722,7 @@
       },
       {
         "id": "19",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "suv stressi",
         "Unit": "Foiz",
@@ -762,7 +762,7 @@
       },
       {
         "id": "20",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "chuchuk suvdan foydalanish, qishloq xo'jaligi, umumiy suvdan foydalanish%",
         "Unit": "Foiz",
@@ -802,7 +802,7 @@
       },
       {
         "id": "21",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "chuchuk suvdan foydalanish, maishiy, umumiy suvdan foydalanish%",
         "Unit": "Foiz",
@@ -842,7 +842,7 @@
       },
       {
         "id": "22",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "chuchuk suvdan foydalanish, sanoat, umumiy suvdan foydalanish%",
         "Unit": "Foiz",
@@ -882,7 +882,7 @@
       },
       {
         "id": "23",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "o'rmon maydoni",
         "Unit": "Gektarlar, Millionlar" ,
@@ -922,7 +922,7 @@
       },
       {
         "id": "24",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "o'rmon qamrovi, umumiy erning%",
         "Unit": "Foiz",
@@ -962,7 +962,7 @@
       },
       {
         "id": "25",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanadigan tabiiy resurslar",
         "Definition": "o'rmon resurslari zaxiralari",
         "Unit":"kubometr, millionlab",
@@ -1002,7 +1002,7 @@
       },
       {
         "id": "26",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
         "Definition": "er maydoni",
         "Unit": "ming kvadrat km",
@@ -1042,7 +1042,7 @@
       },
       {
         "id": "27",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
         "Definition": "qishloq xo'jaligi erlari",
         "Unit": "ming kvadrat km",
@@ -1082,7 +1082,7 @@
       },
       {
         "id": "28",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
         "Definition": "qishloq xo'jaligi er(foiz)",
         "Unit": "foiz",
@@ -1122,7 +1122,7 @@
       },
       {
         "id": "29",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
         "Definition": "ekin maydonlari",
         "Unit": "ming kvadrat km",
@@ -1162,7 +1162,7 @@
       },
       {
         "id": "30",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
         "Definition": "tabiiy gaz ishlab chiqarish",
         "Unit": "kubometr, milliardlab",
@@ -1202,7 +1202,7 @@
       },
       {
         "id": "31",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "qayta tiklanmaydigan tabiiy resurslar",
         "Definition": "tabiiy gaz iste'moli",
         "Unit": "kubometr, milliardlab",
@@ -1242,7 +1242,7 @@
       },
       {
         "id": "32",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "Bioxilma-Xillik",
         "Definition": "qo'riqlanadigan tabiiy hududlar",
         "Unit": "Gektarlar, Millionlar" ,
@@ -1282,7 +1282,7 @@
       },
       {
         "id": "33",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "Bioxilma-Xillik",
         "Definition": "Tahdid Qilingan Turlar,O'simliklar",
         "Unit": "Soni",
@@ -1322,7 +1322,7 @@
       },
       {
         "id": "34",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "Bioxilma-Xillik",
         "Definition": "Tahdid Qilingan Turlar, Hayvonlar" ,
         "Unit": "Soni",
@@ -1362,7 +1362,7 @@
       },
       {
         "id": "35",
-        "Group": "tabiiy aktivlar bazasi",
+        "Group": "tabiiy aktivlar asoslari",
         "Subgroup": "Bioxilma-Xillik",
         "Definition": "yillik o'rtacha harorat",
         "Unit":"Selsiy darajasi",
