@@ -3,155 +3,146 @@
         {
             "Id": 1,
             "Name": "Ishlab chiqarishga asoslangan uglerod chiqindilari",
-            "Definition": "iqtisodiyotdagi ishlab chiqarish jarayoni bilan bog'liq emissiyalar. Bu ko'mir va neft kabi qazib olinadigan yoqilg'ilarni yoqish natijasida chiqariladigan uglerod va energiya ishlab chiqarish va materiallarni sanoat ishlab chiqarish uchun gaz (masalan, tsement, po'lat va mamlakatdagi boshqa sanoat jarayonlari).",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "iqtisodiyotdagi ishlab chiqarish jarayoni bilan bog'liq emissiyalar. Bu ko'mir va neft kabi qazib olinadigan yoqilg'ilarni yoqish natijasida chiqariladigan uglerod va energiya ishlab chiqarish va sanoat materiallarini (masalan, O'zbekistonda sement, po'lat va boshqa sanoat jarayonlari) ishlab chiqarish uchun gazdir.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 2,
             "Name": "Iqtisodiyotning uglerod unumdorligi",
-            "Definition": "ishlab chiqarish hajmi (mamlakat ishlab chiqarish jarayonida chiqariladigan CO₂ birligiga ishlab chiqarilgan YaIMda). USD/kg CO₂ emissiyasi. Ko‘rsatkich O‘zbekiston ishlab chiqarishdan chiqadigan uglerod chiqindilarini kamaytirish borasida qanday yutuqlarga erishayotgani haqida umumiy ma’lumot beradi va u kam uglerodli iqtisodiyotga o‘tish tendensiyalarini aks ettiradi. Ushbu ko'rsatkich bo'yicha mualliflar uchun milliy ma'lumotlar mavjud emas edi; hisobot OECD ma'lumotlar to'plamidan foydalanadi.",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "ishlab chiqarish hajmi (mamlakat ishlab chiqarish jarayonida chiqariladigan CO₂ birligiga ishlab chiqarilgan YaIMda). USD/kg CO₂ emissiyasi. Ko‘rsatkich O‘zbekiston ishlab chiqarishdan chiqadigan uglerod chiqindilarini kamaytirish borasida qanday yutuqlarga erishayotgani haqida umumiy ma’lumot beradi va u kam uglerodli iqtisodiyotga o‘tish tendensiyalarini aks ettiradi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 3,
             "Name": "TPES",
-            "Definition": "yakuniy foydalanish uchun energiyaning yakuniy shakllariga (masalan, transport uchun elektr yoki benzin) aylantirilgunga qadar tabiatda topilgan energiya. U qayta tiklanmaydigan (ko'mir, neft, tabiiy gaz), minerallar va qayta tiklanadigan manbalarni (OWD, 2023) o'z ichiga oladi. Mamlakatda etkazib beriladigan energiya miqdori tonna neft ekvivalentida (toe).",
-            "Source": "SA 2018-21",
-            "Link": "https://stat.uz/en/official-statistics/industry",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "elektr energiyasi yoki transport uchun benzin kabi yakuniy foydalanish uchun energiyaning yakuniy shakllariga aylantirilgunga qadar tabiatda topilgan energiya. U qayta tiklanmaydigan (ko'mir, neft, tabiiy gaz), minerallar va qayta tiklanadigan manbalarni o'z ichiga oladi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2018-21",
+            "Link1": "https://stat.uz/en/official-statistics/industry",
+            "Link2": ""
            },
            {
             "Id": 4,
             "Name": "Energiya samaradorligi",
-            "Definition": "Ishlab chiqarish jarayonida TPES birligiga to'g'ri keladigan daromad (YaIMda). YaIM (2015 yil AQSH dollarida). Ko'rsatkich birlamchi energiya birligidan foydalanishning iqtisodiy foydasini o'lchaydi. Bu O'zbekiston energiya tejamkorligi va energiya iste'moli birligidan ko'proq mahsulot ishlab chiqarayotganligini ko'rsatadi.",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Ishlab chiqarish jarayonida TPES birligiga to'g'ri keladigan daromad (YaIMda). YaIM (2015 yil AQSH dollarida). Ko'rsatkich birlamchi energiya birligidan foydalanishning iqtisodiy foydasini o'lchaydi. Bu O‘zbekiston energiya tejamkor bo‘lib, energiya birligidan ko‘proq mahsulot ishlab chiqarayotganligini ko‘rsatadi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 5,
             "Name": "Energiya intensivligi",
             "Definition": "doimiy AQSh dollarida o'lchanadigan asosiy energiya iste'molining YaIMga nisbati. Energiya intensivligi mamlakatning ma'lum miqdordagi iqtisodiy foyda olish uchun energiyadan qanchalik samarali foydalanishini aniqlash uchun YaIM birligiga sarflangan energiya miqdorini o'lchaydi. YaIM birligiga sarflangan jami energiya. Bu energiya unumdorligining teskari ko'rsatkichidir va energiyadan samarali foydalanish tezligini ko'rsatadi.",
-            "Source": "SA 2020-22",
-            "Link": "https://stat.uz/en/official-statistics/industry",
-            "Link2": "",
-            "Link3": ""
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-2022",
+            "Link1": "https://stat.uz/en/official-statistics/industry",
+            "Link2": ""
            },
            {
             "Id": 6,
             "Name": "Qayta tiklanadigan energiya ta'minoti ulushi",
-            "Definition": "gidroenergetika, quyosh, shamol, biomassa, chiqindilar, geotermal, to'lqin va suv toshqini manbalaridan hosil bo'ladigan birlamchi energiya ulushi. Ushbu ko'rsatkich qayta tiklanadigan energiya texnologiyalari, ularning energiya ta'minotidagi ulushi va nisbati qanchalik tez o'zgarishi haqidagi ma'lumotlarni ko'rib chiqadi. TPES umumiy birlamchi energiyaning qayta tiklanadigan energiya ulushi (oyoq barmoqlarida), mln. Koʻrsatkich Oʻzbekistonda yetkazib beriladigan/isteʼmol qilinadigan umumiy energiya majmuasida kam uglerodli qayta tiklanadigan energiya manbalarining ulushini oʻlchashga yordam beradi.",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "gidroenergetika, quyosh, shamol, biomassa, chiqindilar, geotermal, to'lqin va suv toshqini manbalaridan hosil bo'lgan birlamchi energiya ulushi.. Ta'minlangan umumiy birlamchi energiyaning qayta tiklanadigan energiya ulushi TPES (oyoq barmog'i), mln. Koʻrsatkich Oʻzbekistonda yetkazib beriladigan/isteʼmol qilinadigan umumiy energiya majmuasida kam uglerodli qayta tiklanadigan energiya manbalarining ulushini oʻlchashga yordam beradi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 7,
             "Name": "Elektr energiyasi ishlab chiqarishda qayta tiklanadigan manbalarning ulushi",
             "Definition": "qayta tiklanadigan energiya manbalaridan, jumladan, gidroenergetika, quyosh, shamol, biomassa va geotermal manbalardan ishlab chiqarilgan elektr energiyasi ulushi. Qayta tiklanadigan manbalarning umumiy elektr energiyasi ishlab chiqarishdagi ulushi. Bu O‘zbekiston kam uglerodli elektr tizimiga o‘tayotganini ko‘rsatishga yordam beradi.",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2013-2022",
+            "Link1": "https://stat.uz/en/official-statistics/industry",
+            "Link2": ""
            },
            {
             "Id": 8,
             "Name": "Tarmoqlar bo'yicha energiya iste'moli",
-            "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
-            "Source": "OECD, 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Qishloq xo'jaligi sektori tomonidan iste'mol qilingan TPESning foiz ulushi. Ushbu ko'rsatkich energiya ta'minotidan qaysi sektor ko'proq foydalanishini aniqlash tendentsiyalarini ko'rsatadi",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 9,
             "Name": "Tarmoqlar bo'yicha energiya iste'moli",
-            "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
-            "Source": "OECD, 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Xizmat ko'rsatish sohasi tomonidan iste'mol qilingan TPES ulushi. Ushbu ko'rsatkich energiya ta'minotidan qaysi sektor ko'proq foydalanishini aniqlash tendentsiyalarini ko'rsatadi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 10,
             "Name": "Tarmoqlar bo'yicha energiya iste'moli",
-            "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
-            "Source": "OECD, 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Sanoat sektori tomonidan iste'mol qilingan TPESning foiz ulushi. Ushbu ko'rsatkich energiya ta'minotidan qaysi sektor ko'proq foydalanishini aniqlash tendentsiyalarini ko'rsatadi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 11,
             "Name": "Tarmoqlar bo'yicha energiya iste'moli",
-            "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
-            "Source": "OECD, 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Transport sektori tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich energiya ta'minotidan qaysi sektor ko'proq foydalanishini aniqlash tendentsiyalarini ko'rsatadi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 12,
             "Name": "Tarmoqlar bo'yicha energiya iste'moli",
-            "Definition": "tarmoqlar (qishloq xo'jaligi xizmatlari, transport, sanoat) tomonidan foydalaniladigan umumiy energiyaning foizi. Iqtisodiyotning asosiy tarmoqlari tomonidan iste'mol qilinadigan TPESning foiz ulushi. Ushbu ko'rsatkich iqtisodiyot tarmoqlari bo'yicha jami energiyadan foydalanish tendentsiyalarini ko'rsatadi, qaysi sektor energiya ta'minotidan ko'proq foydalanayotganini aniqlaydi.",
-            "Source": "OECD, 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
-           },
-           {
-            "Id": 13,
-            "Name": "Qayta tiklanadigan energiya ta'minoti ulushi",
-            "Definition": "gidroenergetika, quyosh, shamol, biomassa, chiqindilar, geotermal, to'lqin va suv toshqini manbalaridan hosil bo'ladigan birlamchi energiya ulushi. Ushbu ko'rsatkich qayta tiklanadigan energiya texnologiyalari, ularning energiya ta'minotidagi ulushi va nisbati qanchalik tez o'zgarishi haqidagi ma'lumotlarni ko'rib chiqadi. TPES umumiy birlamchi energiyaning qayta tiklanadigan energiya ulushi (oyoq barmoqlarida), mln. Koʻrsatkich Oʻzbekistonda yetkazib beriladigan/isteʼmol qilinadigan umumiy energiya majmuasida kam uglerodli qayta tiklanadigan energiya manbalarining ulushini oʻlchashga yordam beradi.",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Binolar sektori tomonidan iste'mol qilinadigan TPES ulushi. Ushbu ko'rsatkich energiya ta'minotidan qaysi sektor ko'proq foydalanishini aniqlash tendentsiyalarini ko'rsatadi.",
+            "Source": "IHTT",
+            "DataRange": "1990-2020",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 14,
             "Name": "Mahalliy materiallar iste'moli (DMC) unumdorligi",
-            "Definition": "Iqtisodiyotda moddiy materiallarning biomassa, metall bo'lmagan va metall moddiy resurslari (og'irligi bo'yicha) birligidan foydalanish natijasida iqtisodiyotda ishlab chiqarilgan mahsulot (ya'ni, mamlakatda qazib olinadigan yoki yig'ilgan materiallar, shuningdek, import qilinadigan materiallar va mahsulotlar, minus materiallar) va eksport qilinadigan mahsulotlar (OECD 2017). Bu iqtisodiyotda ishlatiladigan material miqdorini o'lchaydi.. DMC birligi uchun YaIM. Ko'rsatkich DMC (biomasa, metall va metall bo'lmagan materiallar) birligiga qancha daromad keltirilishini o'lchaydi. O'zbekistonda bu ko'rsatkich bo'yicha ma'lumotlar jamlanmagan.",
-            "Source": "OECD 1990-2020",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Iqtisodiyotda moddiy materiallarning biomassa, metall bo'lmagan va metall moddiy resurslari (og'irligi bo'yicha) birligidan foydalanish natijasida iqtisodiyotda ishlab chiqarilgan mahsulot (ya'ni, mamlakatda qazib olinadigan yoki yig'ilgan materiallar, shuningdek, import qilinadigan materiallar va mahsulotlar, minus materiallar) va mahsulotlar eksport qilinadi",
+            "Source": "IHTT",
+            "DataRange": "1992-2019",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 15,
             "Name": "Suv unumdorligi",
-            "Definition": "olinadigan chuchuk suv birligiga pul ko'rinishida qancha mahsulot ishlab chiqarilganligini o'lchaydi. Qabul qilingan suvning bir kubometri uchun YaIMdagi qo'shilgan qiymat (2015 yil AQSH dollari). Bu mamlakat suv resurslaridan unumli foydalanayaptimi yoki yo‘qligini ko‘rsatadi.",
-            "Source": "Jahon banki 1994-2019 yillar",
-            "Link": "https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Qabul qilingan suvning bir kubometri uchun YaIMdagi qo'shilgan qiymat (2015 yil AQSH dollari). Bu O‘zbekiston suv resurslaridan unumli foydalanayaptimi yoki yo‘qligini ko‘rsatadi.",
+            "Source": "Jahon banki",
+            "DataRange": "1994-2020",
+            "Link1": "https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 16,
             "Name": "O'g'itlardan foydalanish",
-            "Definition": "ekin maydonlari birligiga sarflanadigan o'simlik ozuqa moddalarining miqdori. O'g'it mahsulotlari azotli, kaliyli va fosforli o'g'itlarni o'z ichiga oladi. Bir ga qishloq xo'jaligi eriga qo'llaniladigan o'g'it miqdori (kg/ga). Ushbu GGI fermer xo'jaliklarida qo'llaniladigan ikkita asosiy o'g'it - azot (N) va fosfor (P) uchun qishloq xo'jaligidagi ozuqa moddalarining muvozanatini o'lchaydi. Biroq, qiymatni hisoblash uchun ma'lumotlar yo'qligi sababli O'zbekiston uchun yillik ozuqa balansini xaritalash mumkin emas. Ushbu hisobot navbatma-navbat O‘zbekistonda o‘g‘itlardan foydalanishning umumiy hajmini jahon o‘rtacha ko‘rsatkichiga nisbatan ko‘rsatadi. Bundan tashqari, \"ortiqcha azot\" - atrof-muhitga yo'qolgan azotni ham ko'rsatadi.",
-            "Source": "Jahon banki 1992-2020 yillar",
-            "Link": "https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "ekin maydonlari birligiga sarflanadigan o'simlik ozuqa moddalarining miqdori. O'g'it mahsulotlari azotli, kaliyli va fosforli o'g'itlarni o'z ichiga oladi.",
+            "Source": "Jahon banki",
+            "DataRange": "1992-2020",
+            "Link1": " https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS",
+            "Link2": ""
            },
            {
             "Id": 17,
             "Name": "Qattiq maishiy chiqindilar",
-            "Definition": "uy xo'jaliklaridan kelib chiqadigan va munitsipalitetlar tomonidan to'plangan chiqindilar. Bir yilda uy xo'jaliklarida hosil bo'lgan jami qattiq chiqindilar. SA 2016 yildan boshlab SDG monitoringi doirasida yaratilgan va qayta ishlangan SW bo'yicha bunday ma'lumotlarni to'plashni boshladi. Qattiq maishiy chiqindilardan qayta ishlangan foiz.",
-            "Source": "SA 2015-21",
-            "Link": "ЦУР (stat.uz)",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Bir yilda uy xo'jaliklarida hosil bo'lgan jami qattiq chiqindilar. SA 2016 yildan boshlab SDG monitoringi doirasida yaratilgan va qayta ishlangan SW bo'yicha bunday ma'lumotlarni to'plashni boshladi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2015-21",
+            "Link1": "ЦУР (stat.uz)",
+            "Link2": ""
            }
     ]
 }

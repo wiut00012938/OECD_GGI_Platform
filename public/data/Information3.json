@@ -3,164 +3,164 @@
         {
             "Id": 18,
             "Name": "Renewable freshwater resources flow",
-            "Definition": "internal river flows and surface water from rainfall in the country. This flow is both permanent and seasonal surface water, including inflows from neighboring countries. The amount of freshwater in billion m3 that Uzbekistan withdraws annually for different purposes.",
+            "Definition": "The amount of freshwater in billion m3 that Uzbekistan withdraws annually for different purposes. ",
             "Source": "World Bank",
-            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "DataRange": "1994-2019",
+            "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 19,
             "Name": "Water stress",
-            "Definition": "water withdrawal intensity. The level of water stress can show the degree to which the country exploits its water resources to meet water demand. This measures water withdrawal as a percentage of available water resources.  The SA also reports on this indicator as part of the clean water goal.",
-            "Source": "SA and World Bank, 1994-2019 ",
-            "Link": "https://nsdg.stat.uz/en/goal/9\\.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "This measures water withdrawal intensity- water withdrawal as a percentage of available water resources.  The level of water stress can show the degree to which the country exploits its water resources to meet water demand. The SA also reports on this indicator as part of the clean water goal.",
+            "Source": "World Bank",
+            "DataRange": "1994-2019",
+            "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 20,
             "Name": "Water consumption",
-            "Definition": "the level of freshwater withdrawal by all major sectors (agriculture, domestic use, and industry) as a proportion of available freshwater resources. This measures the percentage of total freshwater withdrawal by main sectors. The indicator shows which sectors of the economy consume most of the freshwater.",
-            "Source": "World Bank, 1994-2019",
-            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the level of freshwater withdrawal by agriculture sector, as a proportion of available freshwater resources. ",
+            "Source": "World Bank",
+            "DataRange": "1994-2019",
+            "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 21,
             "Name": "Water consumption",
-            "Definition": "the level of freshwater withdrawal by all major sectors (agriculture, domestic use, and industry) as a proportion of available freshwater resources. This measures the percentage of total freshwater withdrawal by main sectors. The indicator shows which sectors of the economy consume most of the freshwater.",
-            "Source": "World Bank, 1994-2019",
-            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the level of freshwater withdrawal by domestic sector, as a proportion of available freshwater resources. ",
+            "Source": "World Bank",
+            "DataRange": "1994-2019",
+            "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 22,
             "Name": "Water consumption",
-            "Definition": "the level of freshwater withdrawal by all major sectors (agriculture, domestic use, and industry) as a proportion of available freshwater resources. This measures the percentage of total freshwater withdrawal by main sectors. The indicator shows which sectors of the economy consume most of the freshwater.",
-            "Source": "World Bank, 1994-2019",
-            "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the level of freshwater withdrawal by industry sector, as a proportion of available freshwater resources. ",
+            "Source": "World Bank",
+            "DataRange": "1994-2019",
+            "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 23,
             "Name": "Forest area",
-            "Definition": "the share of the total land area covered by forest. Forest resources are essential in regulating climate, protecting biodiversity and providing ecosystem services. Forest area (million hectares) percentage forest area as a share of total land area. The  indicator shows if Uzbekistan has experienced afforestation or massive deforestation over the years.",
-            "Source": "Statistics Agency (SA).2014-20",
-            "Link": "https://stat.uz/en/official-statistics/environment",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Forest area in million hectares",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2014-20",
+            "Link1": "https://stat.uz/en/official-statistics/environment",
+            "Link2": ""
            },
            {
             "Id": 24,
             "Name": "Forest area",
-            "Definition": "the share of the total land area covered by forest. Forest resources are essential in regulating climate, protecting biodiversity and providing ecosystem services. Forest area (million hectares) percentage forest area as a share of total land area. The  indicator shows if Uzbekistan has experienced afforestation or massive deforestation over the years.",
-            "Source": "Statistics Agency (SA).2014-20",
-            "Link": "https://stat.uz/en/official-statistics/environment",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the share % of the total land area covered by forest. The  indicator shows if Uzbekistan has experienced afforestation or massive deforestation over the years. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2014-20",
+            "Link1": "https://stat.uz/en/official-statistics/environment",
+            "Link2": ""
            },
            {
             "Id": 25,
             "Name": "Forest stock",
-            "Definition": "a stock of standing trees in forest areas with a certain diameter at breast height, measured in cubic metres (FAO). It is the volume over the bark of all living trees with a minimum diameter of 10 cm at breast height, including the stem from ground level up to a top diameter of 0 cm (excluding branches) (OECD). The indicator provides information about wood resources measured in millions of cubic metres (m3). It also provides the basis for estimating the amount of CO2 the forest contains.",
-            "Source": "SA 2010-22",
-            "Link": "https://nsdg.stat.uz/en/goal/17",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "It is the volume over the bark of all living trees with a minimum diameter of 10 cm at breast height, including the stem from ground level up to a top diameter of 0 cm (excluding branches) (OECD). The indicator provides information about wood resources measured in millions of cubic metres (m3). It also provides the basis for estimating the amount of CO₂ the forest contains.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2010-22",
+            "Link1": "https://nsdg.stat.uz/en/goal/17",
+            "Link2": ""
            },
            {
             "Id": 26,
             "Name": "Land area",
-            "Definition": "the FAO and World Bank databases define a land area as a country’s area, excluding area under inland water bodies (rivers and lakes). Uzbekistan follows a similar definition. Land resources are critical for food production, biodiversity conservation and carbon sequestration. Land includes natural and semi-natural vegetated land, bare land, cropland and artificial (built-up) surfaces. The indicator measures the inhabitable area of the country (km2), including the agriculture and forest area.",
-            "Source": "SA, 1991-2019 ",
-            "Link": "https://stat.uz/uz/rasmiy-statistika/demography-2.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Uzbekistans surface area in thousand Km2, excluding area under inland water bodies (rivers and lakes).",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "1991-2020",
+            "Link1": "https://stat.uz/uz/rasmiy-statistika/demography-2",
+            "Link2": ""
            },
            {
             "Id": 27,
             "Name": "Agriculture land",
-            "Definition": "the share of land area that is arable (temporary crops), under permanent crops and permanent pastures (World Bank). This measures the percentage of land area available for agriculture (crops, orchards and pasture) in km2.",
-            "Source": "World Bank & FAO, 1990-2020",
-            "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the land area  in thousand Km2 that is arable (temporary crops), under permanent crops and permanent pastures",
+            "Source": "World Bank",
+            "DataRange": "1990-2020",
+            "Link1": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 28,
             "Name": "Agriculture land",
-            "Definition": "the share of land area that is arable (temporary crops), under permanent crops and permanent pastures (World Bank). This measures the percentage of land area available for agriculture (crops, orchards and pasture) in km2.",
-            "Source": "World Bank & FAO, 1990-2020",
-            "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the share % of land area that is arable (temporary crops), under permanent crops and permanent pastures",
+            "Source": "World Bank",
+            "DataRange": "1990-2021",
+            "Link1": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 29,
             "Name": "Cultivated (arable) land",
-            "Definition": "part of the agricultural land that is cultivated annually (arable land) for growing food and feed. Percentage of agriculture land cultivated for annual crops. ",
-            "Source": "SA, 2000-20",
-            "Link": "https://stat.uz/uz/rasmiy-statistika/agriculture-2",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "part of the agricultural land that is cultivated annually (arable land) for growing food and feed. ",
+            "Source": "World Bank",
+            "DataRange": "1990-2020",
+            "Link1": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 30,
             "Name": "Natural gas production and consumption",
-            "Definition": "Volume (billion m3) of natural gas produced and consumed annually. ",
-            "Source": "SA, 2000-20 ",
-            "Link": "https://stat.uz/en/official-statistics/industry",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Volume (billion m3) of natural gas produced annually in uzbekistan",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/industry",
+            "Link2": ""
            },
            {
             "Id": 31,
             "Name": "Natural gas production and consumption",
-            "Definition": "Volume (billion m3) of natural gas produced and consumed annually. ",
-            "Source": "SA, 2000-20 ",
-            "Link": "https://stat.uz/en/official-statistics/industry",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Volume (billion m3) of natural gas consumed annually in Uzbekustan",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/industry",
+            "Link2": ""
            },
            {
             "Id": 32,
             "Name": "Protected areas",
-            "Definition": "national parks, nature reserves and wildlife sanctuaries designated by national authorities as scientific reserves with limited public access. Area (ha) and percentage of land area protected from open access to human activities.",
-            "Source": "SA 2011-21 ",
-            "Link": "https://stat.uz/en/official-statistics/ecology",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "national parks, nature reserves and wildlife sanctuaries designated by national authorities as scientific reserves with limited public access",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/ecology",
+            "Link2": ""
            },
            {
             "Id": 33,
             "Name": "Threatened species",
-            "Definition": "critically endangered and vulnerable species i.e., those plants and animals in danger of extinction or soon likely to be. Number of species (animal and plant) threatened by extinction among species assessed or known. The Ministry of Ecology, Environment Protection and Climate Change takes inventory periodically and publishes in the “Red Book”. The 5th edition was published in 2019.",
-            "Source": "Red Book of Uzbekistan,2019",
-            "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "critically endangered and vulnerable  plant species i.e., those plants in danger of extinction or soon likely to be. ",
+            "Source": "Red-book- Uzbekistan",
+            "DataRange": "2009, 2019",
+            "Link1": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan",
+            "Link2": "https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book"
            },
            {
             "Id": 34,
             "Name": "Threatened species",
-            "Definition": "critically endangered and vulnerable species i.e., those plants and animals in danger of extinction or soon likely to be. Number of species (animal and plant) threatened by extinction among species assessed or known. The Ministry of Ecology, Environment Protection and Climate Change takes inventory periodically and publishes in the “Red Book”. The 5th edition was published in 2019.",
-            "Source": "Red Book of Uzbekistan,2019",
-            "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "critically endangered and vulnerable  animal species i.e., those animals in danger of extinction or soon likely to be. Number of species  threatened by extinction among species assessed or known. ",
+            "Source": "Red-book- Uzbekistan",
+            "DataRange": "2009, 2019",
+            "Link1": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan",
+            "Link2": "https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book"
            },
            {
             "Id": 35,
             "Name": "Annual mean temperature",
-            "Definition": "annual mean surface temperature expressed in degree Celsius (°C).",
-            "Source": "OECD 1901-2021",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "annual mean surface temperature expressed in degree Celsius (°C). ",
+            "Source": "OECD",
+            "DataRange": "1990-2021",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            }
     ]
 }

@@ -2,219 +2,219 @@
     "data":[
         {
             "Id": 64,
-            "Name": "Реальный ВВП",
-            "Definition": "валовой внутренний продукт Узбекистана, рассчитанный в постоянных ценах",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Haqiqiy YaIM",
+            "Definition": "O'zbekiston yalpi ichki mahsuloti o'tgan yilgi bahoga asoslanib ishlab chiqarish usuli bilan solishtirma narxlarda hisoblangan milliy valyuta birligida.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2011-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 65,
-            "Name": "ВВП на душу населения",
-            "Definition": "среднегодовой доход населения Узбекистана (годовой реальный ВВП, деленный на годовую численность населения). Реальный ВВП на душу населения в сумах – это отношение реального ВВП к годовой численности постоянного населения, сум/чел. Расчеты авторов с использованием данных SA 2011-22.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Aholi jon boshiga YaIM",
+            "Definition": "Oʻzbekistonda aholining oʻrtacha yillik daromadi (yillik real YaIMni soʻmdagi aholining yillik soniga boʻlingan. Bu real YaIMning yillik doimiy aholi soniga nisbati.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2011-22",
+            "Link1": "Authors’ calculation using SA data 2011-22.",
+            "Link2": ""
            },
            {
             "Id": 66,
-            "Name": "Реальный ВВП",
-            "Definition": "валовой внутренний продукт Узбекистана, рассчитанный в постоянных ценах",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Haqiqiy YaIM",
+            "Definition": "real YaIM qiymatlarining yillik foiz o'zgarishi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2011-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 67,
-            "Name": "Структура ВВП",
-            "Definition": "процентные доли добавленной стоимости в ВВП по категориям основных секторов экономики Узбекистана: сельское хозяйство, промышленность и услуги",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Name": "YaIM tarkibi",
+            "Definition": "O‘zbekistonda qishloq xo‘jaligi sektori tomonidan YaIMdagi qo‘shilgan qiymatning foiz ulushi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 68,
-            "Name": "Структура ВВП",
-            "Definition": "процентные доли добавленной стоимости в ВВП по категориям основных секторов экономики Узбекистана: сельское хозяйство, промышленность и услуги",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Name": "YaIM tarkibi",
+            "Definition": "O‘zbekistonda sanoat sektori tomonidan yalpi ichki mahsulotdagi qo‘shilgan qiymatning foiz ulushi",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 69,
-            "Name": "Структура ВВП",
-            "Definition": "процентные доли добавленной стоимости в ВВП по категориям основных секторов экономики Узбекистана: сельское хозяйство, промышленность и услуги",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Name": "YaIM tarkibi",
+            "Definition": "O‘zbekistonda xizmat ko‘rsatish sohasi tomonidan YaIMdagi qo‘shilgan qiymatning foiz ulushi",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 70,
-            "Name": "ИПЦ",
-            "Definition": "показатель, показывающий изменение цен на товары и услуги с течением времени, потребляемые населением Узбекистана. Он показывает изменение величины инфляции в экономике для фиксированного набора потребительских товаров и услуг. Это годовое процентное изменение цены корзины товаров, основанное на расчете SA данных о ценах на потребительском рынке. В этом отчете используется процентное изменение по состоянию на декабрь предыдущего года.",
-            "Source": "Statistical Agency",
-            "Link": "https://stat.uz/en/official-statistics/prices-and-indexes.",
-            "Link2": "",
-            "Link3": ""
+            "Name": "CPI",
+            "Definition": "iste'mol bozoridagi narx ma'lumotlarining SA hisob-kitobi asosida tovar savati narxining yillik foiz o'zgarishi. U Oʻzbekistonda aholi tomonidan isteʼmol qilinadigan isteʼmol tovarlari va xizmatlarining qatʼiy belgilangan toʻplami boʻyicha iqtisodiyotdagi inflyatsiya qiymatining oʻzgarishini koʻrsatadi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/prices-and-indexes",
+            "Link2": ""
            },
            {
             "Id": 71,
-            "Name": "Стоимость экспорта и импорта товаров и услуг в миллионах долларов США. Экспорт:",
-            "Definition": "сделка товаров и услуг из Узбекистана в иностранное государство в денежном выражении.",
-            "Source": "SA 2000-22 ",
-            "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Tovar va xizmatlarning eksport va import qiymati million AQSh dollarida. Eksport:",
+            "Definition": "O‘zbekistondan xorijiy davlatga tovar va xizmatlarning pul qiymatida, million AQSh dollarida muomalasi",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/merchandise-trade",
+            "Link2": ""
            },
            {
             "Id": 72,
-            "Name": "Стоимость экспорта и импорта товаров и услуг в миллионах долларов США. Импорт:",
-            "Definition": "сделка товаров и услуг из иностранного государства в Узбекистан в денежном выражении.",
-            "Source": "SA 2000-22 ",
-            "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Tovar va xizmatlarning eksport va import qiymati million AQSh dollarida. Import:",
+            "Definition": "xorijiy davlatdan O‘zbekistonga tovar va xizmatlarning pul qiymatida, million AQSh dollarida muomalasi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/merchandise-trade",
+            "Link2": ""
            },
            {
             "Id": 73,
-            "Name": "Доля малообеспеченного населения",
-            "Definition": "доля населения с доходом ниже оценки 2 100 килокалорий в день, рекомендованной Всемирным банком. Он показывает процент населения с доходом меньше заданной суммы. АС собирает данные по этому показателю посредством обследований домохозяйств. Однако он рассчитывает уровень бедности по состоянию на 2021 год, используя разные методы измерения.",
-            "Source": "Statistical Agency",
-            "Link": "https://stat.uz/en/official-statistics/living-standards",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Kam ta'minlangan aholi ulushi",
+            "Definition": "Jahon banki tavsiyasiga ko'ra, daromaddan past bo'lgan aholi ulushi kuniga 2 100 kilokaloriya hisoblanadi. U ma'lum miqdordan kam daromadli aholining foizini ko'rsatadi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2001-20",
+            "Link1": "https://stat.uz/en/official-statistics/living-standards",
+            "Link2": ""
            },
            {
             "Id": 74,
-            "Name": "Коэффициент Джини",
-            "Definition": "индекс от 0 до 1, основанный на сравнении совокупной доли населения с совокупной долей доходов, которые оно получает. Индекс. Коэффициент колеблется от 0 в случае совершенного равенства доходов до 1 в случае совершенного неравенства доходов.",
-            "Source": "SA 2017-20 xxxx",
-            "Link": "",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Jini koeffitsienti",
+            "Definition": "daromadlarning mukammal tengligi holatida 0 va mukammal daromad tengsizligi holatida aholining jami nisbatlarini ular oladigan daromadlarning umumiy nisbatlari bilan solishtirishga asoslangan indeks raqami.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2017-22",
+            "Link1": "https://stat.uz/en/official-statistics/living-standards",
+            "Link2": ""
            },
            {
             "Id": 75,
-            "Name": "Рабочая сила",
-            "Definition": "доля населения в возрасте 15 лет и старше, экономически активного в течение определенного периода.",
-            "Source": "SA 2010-21 ",
-            "Link": "https://stat.uz/en/official-statistics/labor-market",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Ishchi kuchi",
+            "Definition": "15 va undan katta yoshdagi aholining ma'lum bir davrda iqtisodiy faol bo'lgan ulushi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2010-21",
+            "Link1": "https://stat.uz/en/official-statistics/labor-market",
+            "Link2": ""
            },
            {
             "Id": 76,
-            "Name": "Работа",
-            "Definition": "лица трудоспособного возраста, занимающиеся какой-либо деятельностью по производству товаров или оказанию услуг за вознаграждение или прибыль, независимо от того, находятся ли они на работе в течение учетного периода или не на работе из-за временного отсутствия на работе или режима рабочего времени. Уровень занятости здесь в отчете представляет собой долю (процент) от занятой рабочей силы.",
-            "Source": "SA 2010-21 ",
-            "Link": "https://stat.uz/en/official-statistics/labor-market",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Bandlik",
+            "Definition": "mehnatga layoqatli yoshdagi shaxslar, ish vaqtida yoki ish vaqtida vaqtincha yo'qligi sababli ish joyida bo'lishidan qat'i nazar, to'lov yoki foyda olish uchun mahsulot ishlab chiqarish yoki xizmatlar ko'rsatish bo'yicha har qanday faoliyat bilan shug'ullanadigan shaxslar. Hisobotda bu erda bandlik darajasi band bo'lgan ishchi kuchining nisbati (foiz) hisoblanadi",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2010-22",
+            "Link1": "https://stat.uz/en/official-statistics/labor-market",
+            "Link2": ""
            },
            {
             "Id": 77,
-            "Name": "Занятость по секторам",
-            "Definition": "Процент общей занятости по основным секторам экономики.",
-            "Source": "World Bank 1991-2021",
-            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Tarmoqlar bo'yicha bandlik",
+            "Definition": "iqtisodiyotning qishloq xo'jaligi sektori bo'yicha jami bandlik ulushi",
+            "Source": "Jahon banki",
+            "DataRange": "1991-21",
+            "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 78,
-            "Name": "Занятость по секторам",
-            "Definition": "Процент общей занятости по основным секторам экономики.",
-            "Source": "World Bank 1991-2021",
-            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Tarmoqlar bo'yicha bandlik",
+            "Definition": "iqtisodiyotning sanoat tarmoqlari bo'yicha jami bandlikning ulushi",
+            "Source": "Jahon banki",
+            "DataRange": "1991-21",
+            "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 79,
-            "Name": "Занятость по секторам",
-            "Definition": "Процент общей занятости по основным секторам экономики.",
-            "Source": "World Bank 1991-2021",
-            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Tarmoqlar bo'yicha bandlik",
+            "Definition": "iqtisodiyotning xizmat ko'rsatish sohasi bo'yicha jami bandlik ulushi",
+            "Source": "Jahon banki",
+            "DataRange": "1991-21",
+            "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 80,
-            "Name": "Общий коэффициент охвата школьным образованием",
-            "Definition": "отношение общего числа учащихся, независимо от возраста, к населению той возрастной группы, которая официально соответствует указанному уровню образования. Процент от общего числа кандидатов, зачисленных в школы начального среднего и высшего образования.",
-            "Source": "World Bank 2005-21 ",
-            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+            "Definition": "yoshidan qat'i nazar, umumiy qabulning boshlang'ich bosqichda ko'rsatilgan ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholi soniga nisbati.",
+            "Source": "Jahon banki",
+            "DataRange": "2005-21",
+            "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 81,
-            "Name": "Общий коэффициент охвата школьным образованием",
-            "Definition": "отношение общего числа учащихся, независимо от возраста, к населению той возрастной группы, которая официально соответствует указанному уровню образования. Процент от общего числа кандидатов, зачисленных в школы начального среднего и высшего образования.",
-            "Source": "World Bank 2005-21 ",
-            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+            "Definition": "yoshidan qat'i nazar, umumiy qabul qilishning o'rta ta'lim darajasidagi ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholi soniga nisbati.",
+            "Source": "Jahon banki",
+            "DataRange": "2005-21",
+            "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 82,
-            "Name": "Общий коэффициент охвата школьным образованием",
-            "Definition": "отношение общего числа учащихся, независимо от возраста, к населению той возрастной группы, которая официально соответствует указанному уровню образования. Процент от общего числа кандидатов, зачисленных в школы начального среднего и высшего образования.",
-            "Source": "World Bank 2005-21 ",
-            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Maktabga yalpi qabul qilish koeffitsienti",
+            "Definition": "yoshidan qat'i nazar, umumiy qabulning oliy ta'lim darajasidagi ta'lim darajasiga rasman mos keladigan yosh guruhidagi aholi soniga nisbati.",
+            "Source": "Jahon banki",
+            "DataRange": "2005-21",
+            "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 83,
-            "Name": "Общая численность населения",
-            "Definition": "количество людей, постоянно проживающих в стране на начало года, независимо от правового статуса и гражданства. Численность населения, постоянно проживающего в Узбекистане на начало года.",
-            "Source": "SA 1991-2022 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Jami aholi",
+            "Definition": "Yil boshiga O‘zbekistonda doimiy yashovchi aholi soni.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "1991-2022",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 84,
-            "Name": "Ожидаемая продолжительность жизни",
-            "Definition": "Среднее количество лет прожил бы новорожденный, если бы преобладающие модели смертности на момент его рождения оставались неизменными на протяжении всей его жизни. Среднее количество лет, показывающее преждевременную смерть.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Name": "O'rtacha umr ko'rish",
+            "Definition": "O'zbekistonda yangi tug'ilgan chaqaloqning o'rtacha yillar soni, agar u tug'ilish paytidagi o'lim ko'rsatkichlari butun umri davomida bir xil bo'lsa.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 85,
-            "Name": "Ожидаемая продолжительность жизни",
-            "Definition": "Среднее количество лет прожил бы новорожденный, если бы преобладающие модели смертности на момент его рождения оставались неизменными на протяжении всей его жизни. Среднее количество лет, показывающее преждевременную смерть.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Name": "O'rtacha umr ko'rish",
+            "Definition": "O'zbekistonda yangi tug'ilgan chaqaloq o'rtacha necha yil yashaydi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 86,
-            "Name": "Ожидаемая продолжительность жизни",
-            "Definition": "Среднее количество лет прожил бы новорожденный, если бы преобладающие модели смертности на момент его рождения оставались неизменными на протяжении всей его жизни. Среднее количество лет, показывающее преждевременную смерть.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Name": "O'rtacha umr ko'rish",
+            "Definition": "O'zbekistonda yangi tug'ilgan chaqaloq o'rtacha necha yil yashaydi.",
+            "Source": "O’zbekiston Respublikasi Prezidenti huzuridagi O’zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 87,
-            "Name": "Чистая внешняя миграция",
-            "Definition": "чистая общая численность мигрантов за период (т.е. число иммигрантов минус число эмигрантов, включая граждан и неграждан). Чистая миграция представляет собой чистое общее количество мигрантов за период, то есть количество иммигрантов минус число эмигрантов, включая как граждан, так и неграждан.",
-            "Source": "World Bank",
-            "Link": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Name": "Sof tashqi migratsiya",
+            "Definition": "davr mobaynida migrantlarning sof jami (ya'ni, immigrantlar soni minus emigrantlar soni, shu jumladan fuqarolar va fuqaroligi bo'lmaganlar)",
+            "Source": "Jahon banki",
+            "DataRange": "1990-2022",
+            "Link1": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
+            "Link2": ""
            }
     ]
 }

@@ -3,785 +3,774 @@
       {
         "Id": 1,
         "Name": "Production-based carbon emissions",
-        "Definition": "emissions related to the production process in the economy. This is carbon emitted from the burning of fossil fuels like coal and oil, and gas for energy production and industrial production of materials (such as cement, steel and other industrial processes in the country).",
-        "Source": "OECD 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "emissions related to the production process in the economy. This is carbon emitted from the burning of fossil fuels like coal and oil, and gas for energy production and industrial production of materials (such as cement, steel and other industrial processes in Uzbekistan.",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 2,
         "Name": "Carbon productivity of the economy",
-        "Definition": "amount of output (in GDP produced per unit of CO₂ emitted in the production process of the country). USD/kg of CO₂ emissions. The indicator provides an overview of how Uzbekistan is progressing in reducing carbon emissions from production, and it reflects the trends in the transition to a low-carbon economy. National data were not available to the authors on this indicator; the report uses OECD datasets. ",
-        "Source": "OECD 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "amount of output (in GDP produced per unit of CO₂ emitted in the production process of the country). USD/kg of CO₂ emissions. The indicator provides an overview of how Uzbekistan is progressing in reducing carbon emissions from production, and it reflects the trends in the transition to a low-carbon economy.",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 3,
         "Name": "TPES",
-        "Definition": "energy input found in nature before transformation to final forms of energy for end-use (such as electricity or petrol for transport). It   includes non-renewables (coal, oil, natural gas), minerals and renewables (OWD, 2023).\nAmount of energy supplied in the country in tonnes of oil equivalent (toe).",
-        "Source": " SA 2018-21",
-        "Link": "https://stat.uz/en/official-statistics/industry",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "energy input found in nature before transformation to final forms of energy for end-use such as electricity or petrol for transport. It   includes non-renewables (coal, oil, natural gas), minerals and renewables. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2018-21",
+        "Link1": "https://stat.uz/en/official-statistics/industry",
+        "Link2": ""
        },
        {
         "Id": 4,
         "Name": "Energy productivity",
-        "Definition": "Income (in GDP) generated per unit of TPES in the process of production. GDP (in USD 2015) per toe energy use. The indicator measures the economic benefit of using a unit of primary energy. It indicates whether Uzbekistan is becoming more energy efficient and generating more output from a unit of energy consumption.",
-        "Source": "OECD 1990-2020 ",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Income (in GDP) generated per unit of TPES in the process of production. GDP (in USD 2015) per toe energy use. The indicator measures the economic benefit of using a unit of primary energy. It indicates whether Uzbekistan is becoming more energy efficient,  generating more output from a unit of energy. ",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 5,
         "Name": "Energy intensity",
         "Definition": "the ratio of primary energy consumption over GDP measured in constant US dollars. Energy intensity measures the amount of energy consumed per unit of GDP to identify how efficiently a country uses energy to produce a given amount of economic benefit. Total energy consumed per unit of GDP. This is the inverse of energy productivity and shows the rate of efficient energy use. ",
-        "Source": "SA 2020-22 ",
-        "Link": "https://stat.uz/en/official-statistics/industry",
-        "Link2": "",
-        "Link3": ""
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-2022",
+        "Link1": "https://stat.uz/en/official-statistics/industry",
+        "Link2": ""
        },
        {
         "Id": 6,
         "Name": "Share of renewable energy supply",
-        "Definition": "the proportion of primary energy generated from hydropower, solar, wind, biomass, waste, geothermal, wave and tidal sources. This indicator looks at the data on renewable energy technologies, their share of energy supply and how quickly the proportion changes. Percentage of renewable energy of total primary energy supplied TPES (in toe), million. The indicator helps measure the share of low-carbon   renewable energy sources in the total energy mix supplied/consumed in Uzbekistan.",
-        "Source": "OECD 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the proportion of primary energy generated from hydropower, solar, wind, biomass, waste, geothermal, wave and tidal sources.. Percentage of renewable energy of total primary energy supplied TPES (in toe), million. The indicator helps measure the share of low-carbon   renewable energy sources in the total energy mix supplied/consumed in Uzbekistan ",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 7,
         "Name": "Share of renewables in electricity generation",
-        "Definition": "the share of electricity generated from renewable sources of energy, including hydropower, solar, wind, biomass and geothermal sources. Percentage of renewable sources in total electricity generation. It helps show if Uzbekistan is progressing towards a low-carbon electric system.",
-        "Source": "OECD 1990-2020 ",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the share of electricity generated from renewable sources of energy, including hydropower, solar, wind, biomass and geothermal sources. Percentage of renewable sources in total electricity generation. It helps show if Uzbekistan is progressing towards a low-carbon electric system. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2013-2022",
+        "Link1": "https://stat.uz/en/official-statistics/industry",
+        "Link2": ""
        },
        {
         "Id": 8,
         "Name": "Energy consumption by sector",
-        "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
-        "Source": "OECD, 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of TPES consumed by the agriculture sector. This indicator shows the trends for identifying which sector uses most of the energy supply",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 9,
         "Name": "Energy consumption by sector",
-        "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
-        "Source": "OECD, 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of TPES consumed by the service sector. This indicator shows the trends for identifying which sector uses most of the energy supply.",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 10,
         "Name": "Energy consumption by sector",
-        "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
-        "Source": "OECD, 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of TPES consumed by the industry sector. This indicator shows the trends for identifying which sector uses most of the energy supply.",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 11,
         "Name": "Energy consumption by sector",
-        "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
-        "Source": "OECD, 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of TPES consumed by the transport  sector. This indicator shows the trends for identifying which sector uses most of the energy supply.",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 12,
         "Name": "Energy consumption by sector",
-        "Definition": "percentage of the total energy used by sectors (agricultural services, transport, industry). Percentage share of TPES consumed by the main sectors of the   economy. This indicator shows the trends in total energy use by sectors of the economy, identifying which sector uses most of the energy supply.",
-        "Source": "OECD, 1990-2020",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
-       },
-       {
-        "Id": 13,
-        "Name": "Share of renewable energy supply",
-        "Definition": "the proportion of primary energy generated from hydropower, solar, wind, biomass, waste, geothermal, wave and tidal sources. This indicator looks at the data on renewable energy technologies, their share of energy supply and how quickly the proportion changes. Percentage of renewable energy of total primary energy supplied TPES (in toe), million. The indicator helps measure the share of low-carbon   renewable energy sources in the total energy mix supplied/consumed in Uzbekistan.",
-        "Source": "OECD 1990-2020 ",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of TPES consumed by the buildings sector. This indicator shows the trends for identifying which sector uses most of the energy supply.",
+        "Source": "OECD",
+        "DataRange": "1990-2020",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 14,
         "Name": "Domestic Material Consumption (DMC) productivity",
-        "Definition": "output in the economy generated from using a unit of material materials biomass, non-metal and metal material resources (in terms of weight) used in an economy (i.e., materials extracted or harvested in the country, plus materials and products imported, minus material and products exported (OECD 2017). It measures the amount of material used in an economy.. GDP per unit of DMC. The indicator measures how much income is generated per unit of DMC (biomass, metal and non-metal materials) in the economy. Uzbekistan does not consolidate data on this indicator. ",
-        "Source": "OECD 1990-2020 ",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "output in the economy generated from using a unit of material materials biomass, non-metal and metal material resources (in terms of weight) used in an economy (i.e., materials extracted or harvested in the country, plus materials and products imported, minus material and products exported ",
+        "Source": "OECD",
+        "DataRange": "1992-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 15,
         "Name": "Water productivity",
-        "Definition": "measures how much output is produced in monetary terms per unit of freshwater withdrawn. Value-added in GDP (2015 USD) per cubic metre of abstracted water. It shows whether the country is using its water resources efficiently.",
-        "Source": "World Bank 1994-2019",
-        "Link": "https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": " Value-added in GDP (2015 USD) per cubic metre of abstracted water. It shows whether Uzbekistan is using its water resources efficiently. ",
+        "Source": "World Bank",
+        "DataRange": "1994-2020",
+        "Link1": "https://data.worldbank.org/indicator/ER.GDP.FWTL.M3.KD?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 16,
         "Name": "Fertiliser use",
-        "Definition": "the quantity of plant nutrients used per unit of arable land. Fertiliser products cover nitrogenous, potash and phosphate fertilisers. Amount of fertiliser applied per ha of agricultural land (kg/ha). This GGI measures the nutrient balances in agriculture for the two main fertilisers applied on farms – nitrogen (N) and phosphorus (P). However, mapping the annual nutrient balance for Uzbekistan is not possible due   to the absence of data to calculate the value. This report alternately shows the total fertiliser use in Uzbekistan compared to the world average. It also shows “excess nitrogen” – nitrogen lost to the environment.",
-        "Source": "World Bank \n1992-2020",
-        "Link": "https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the quantity of plant nutrients used per unit of arable land. Fertiliser products cover nitrogenous, potash and phosphate fertilisers. ",
+        "Source": "World Bank",
+        "DataRange": "1992-2020",
+        "Link1": " https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS",
+        "Link2": ""
        },
        {
         "Id": 17,
         "Name": "Household solid waste",
-        "Definition": "waste originating from households and collected by municipalities. Total solid waste generated by households in a year. The SA started collecting such data on SW generated and recycled since 2016 as part of SDG monitoring. Percentage recycled out of solid waste generated.",
-        "Source": "SA 2015-21 ",
-        "Link": "ЦУР (stat.uz)",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Total solid waste generated by households in a year. The SA started collecting such data on SW generated and recycled since 2016 as part of SDG monitoring",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2015-21",
+        "Link1": "ЦУР (stat.uz)",
+        "Link2": ""
        },
        {
         "Id": 18,
         "Name": "Renewable freshwater resources flow",
-        "Definition": "internal river flows and surface water from rainfall in the country. This flow is both permanent and seasonal surface water, including inflows from neighboring countries. The amount of freshwater in billion m3 that Uzbekistan withdraws annually for different purposes.",
+        "Definition": "The amount of freshwater in billion m3 that Uzbekistan withdraws annually for different purposes. ",
         "Source": "World Bank",
-        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "DataRange": "1994-2019",
+        "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 19,
         "Name": "Water stress",
-        "Definition": "water withdrawal intensity. The level of water stress can show the degree to which the country exploits its water resources to meet water demand. This measures water withdrawal as a percentage of available water resources.  The SA also reports on this indicator as part of the clean water goal.",
-        "Source": "SA and World Bank, 1994-2019 ",
-        "Link": "https://nsdg.stat.uz/en/goal/9\\.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "This measures water withdrawal intensity- water withdrawal as a percentage of available water resources.  The level of water stress can show the degree to which the country exploits its water resources to meet water demand. The SA also reports on this indicator as part of the clean water goal.",
+        "Source": "World Bank",
+        "DataRange": "1994-2019",
+        "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 20,
         "Name": "Water consumption",
-        "Definition": "the level of freshwater withdrawal by all major sectors (agriculture, domestic use, and industry) as a proportion of available freshwater resources. This measures the percentage of total freshwater withdrawal by main sectors. The indicator shows which sectors of the economy consume most of the freshwater.",
-        "Source": "World Bank, 1994-2019",
-        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the level of freshwater withdrawal by agriculture sector, as a proportion of available freshwater resources. ",
+        "Source": "World Bank",
+        "DataRange": "1994-2019",
+        "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 21,
         "Name": "Water consumption",
-        "Definition": "the level of freshwater withdrawal by all major sectors (agriculture, domestic use, and industry) as a proportion of available freshwater resources. This measures the percentage of total freshwater withdrawal by main sectors. The indicator shows which sectors of the economy consume most of the freshwater.",
-        "Source": "World Bank, 1994-2019",
-        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the level of freshwater withdrawal by domestic sector, as a proportion of available freshwater resources. ",
+        "Source": "World Bank",
+        "DataRange": "1994-2019",
+        "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 22,
         "Name": "Water consumption",
-        "Definition": "the level of freshwater withdrawal by all major sectors (agriculture, domestic use, and industry) as a proportion of available freshwater resources. This measures the percentage of total freshwater withdrawal by main sectors. The indicator shows which sectors of the economy consume most of the freshwater.",
-        "Source": "World Bank, 1994-2019",
-        "Link": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the level of freshwater withdrawal by industry sector, as a proportion of available freshwater resources. ",
+        "Source": "World Bank",
+        "DataRange": "1994-2019",
+        "Link1": "https://data.worldbank.org/indicator/ER.H2O.FWAG.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 23,
         "Name": "Forest area",
-        "Definition": "the share of the total land area covered by forest. Forest resources are essential in regulating climate, protecting biodiversity and providing ecosystem services. Forest area (million hectares) percentage forest area as a share of total land area. The  indicator shows if Uzbekistan has experienced afforestation or massive deforestation over the years.",
-        "Source": "Statistics Agency (SA).2014-20",
-        "Link": "https://stat.uz/en/official-statistics/environment",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Forest area in million hectares",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2014-20",
+        "Link1": "https://stat.uz/en/official-statistics/environment",
+        "Link2": ""
        },
        {
         "Id": 24,
         "Name": "Forest area",
-        "Definition": "the share of the total land area covered by forest. Forest resources are essential in regulating climate, protecting biodiversity and providing ecosystem services. Forest area (million hectares) percentage forest area as a share of total land area. The  indicator shows if Uzbekistan has experienced afforestation or massive deforestation over the years.",
-        "Source": "Statistics Agency (SA).2014-20",
-        "Link": "https://stat.uz/en/official-statistics/environment",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the share % of the total land area covered by forest. The  indicator shows if Uzbekistan has experienced afforestation or massive deforestation over the years. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2014-20",
+        "Link1": "https://stat.uz/en/official-statistics/environment",
+        "Link2": ""
        },
        {
         "Id": 25,
         "Name": "Forest stock",
-        "Definition": "a stock of standing trees in forest areas with a certain diameter at breast height, measured in cubic metres (FAO). It is the volume over the bark of all living trees with a minimum diameter of 10 cm at breast height, including the stem from ground level up to a top diameter of 0 cm (excluding branches) (OECD). The indicator provides information about wood resources measured in millions of cubic metres (m3). It also provides the basis for estimating the amount of CO₂ the forest contains.",
-        "Source": "SA 2010-22",
-        "Link": "https://nsdg.stat.uz/en/goal/17",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "It is the volume over the bark of all living trees with a minimum diameter of 10 cm at breast height, including the stem from ground level up to a top diameter of 0 cm (excluding branches) (OECD). The indicator provides information about wood resources measured in millions of cubic metres (m3). It also provides the basis for estimating the amount of CO₂ the forest contains.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2010-22",
+        "Link1": "https://nsdg.stat.uz/en/goal/17",
+        "Link2": ""
        },
        {
         "Id": 26,
         "Name": "Land area",
-        "Definition": "the FAO and World Bank databases define a land area as a country’s area, excluding area under inland water bodies (rivers and lakes). Uzbekistan follows a similar definition. Land resources are critical for food production, biodiversity conservation and carbon sequestration. Land includes natural and semi-natural vegetated land, bare land, cropland and artificial (built-up) surfaces. The indicator measures the inhabitable area of the country (km2), including the agriculture and forest area.",
-        "Source": "SA, 1991-2019 ",
-        "Link": "https://stat.uz/uz/rasmiy-statistika/demography-2.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Uzbekistans surface area in thousand Km2, excluding area under inland water bodies (rivers and lakes).",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "1991-2020",
+        "Link1": "https://stat.uz/uz/rasmiy-statistika/demography-2",
+        "Link2": ""
        },
        {
         "Id": 27,
         "Name": "Agriculture land",
-        "Definition": "the share of land area that is arable (temporary crops), under permanent crops and permanent pastures (World Bank). This measures the percentage of land area available for agriculture (crops, orchards and pasture) in km2.",
-        "Source": "World Bank & FAO, 1990-2020",
-        "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the land area  in thousand Km2 that is arable (temporary crops), under permanent crops and permanent pastures",
+        "Source": "World Bank",
+        "DataRange": "1990-2020",
+        "Link1": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 28,
         "Name": "Agriculture land",
-        "Definition": "the share of land area that is arable (temporary crops), under permanent crops and permanent pastures (World Bank). This measures the percentage of land area available for agriculture (crops, orchards and pasture) in km2.",
-        "Source": "World Bank & FAO, 1990-2020",
-        "Link": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the share % of land area that is arable (temporary crops), under permanent crops and permanent pastures",
+        "Source": "World Bank",
+        "DataRange": "1990-2021",
+        "Link1": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 29,
         "Name": "Cultivated (arable) land",
-        "Definition": "part of the agricultural land that is cultivated annually (arable land) for growing food and feed. Percentage of agriculture land cultivated for annual crops. ",
-        "Source": "SA, 2000-20",
-        "Link": "https://stat.uz/uz/rasmiy-statistika/agriculture-2",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "part of the agricultural land that is cultivated annually (arable land) for growing food and feed. ",
+        "Source": "World Bank",
+        "DataRange": "1990-2020",
+        "Link1": "https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 30,
         "Name": "Natural gas production and consumption",
-        "Definition": "Volume (billion m3) of natural gas produced and consumed annually. ",
-        "Source": "SA, 2000-20 ",
-        "Link": "https://stat.uz/en/official-statistics/industry",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Volume (billion m3) of natural gas produced annually in uzbekistan",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/industry",
+        "Link2": ""
        },
        {
         "Id": 31,
         "Name": "Natural gas production and consumption",
-        "Definition": "Volume (billion m3) of natural gas produced and consumed annually. ",
-        "Source": "SA, 2000-20 ",
-        "Link": "https://stat.uz/en/official-statistics/industry",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Volume (billion m3) of natural gas consumed annually in Uzbekustan",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/industry",
+        "Link2": ""
        },
        {
         "Id": 32,
         "Name": "Protected areas",
-        "Definition": "national parks, nature reserves and wildlife sanctuaries designated by national authorities as scientific reserves with limited public access. Area (ha) and percentage of land area protected from open access to human activities.",
-        "Source": "SA 2011-21 ",
-        "Link": "https://stat.uz/en/official-statistics/ecology",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "national parks, nature reserves and wildlife sanctuaries designated by national authorities as scientific reserves with limited public access",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/ecology",
+        "Link2": ""
        },
        {
         "Id": 33,
         "Name": "Threatened species",
-        "Definition": "critically endangered and vulnerable species i.e., those plants and animals in danger of extinction or soon likely to be. Number of species (animal and plant) threatened by extinction among species assessed or known. The Ministry of Ecology, Environment Protection and Climate Change takes inventory periodically and publishes in the “Red Book”. The 5th edition was published in 2019.",
-        "Source": "Red Book of Uzbekistan,2019",
-        "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "critically endangered and vulnerable  plant species i.e., those plants in danger of extinction or soon likely to be. ",
+        "Source": "Red-book- Uzbekistan",
+        "DataRange": "2009, 2019",
+        "Link1": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan",
+        "Link2": "https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book"
        },
        {
         "Id": 34,
         "Name": "Threatened species",
-        "Definition": "critically endangered and vulnerable species i.e., those plants and animals in danger of extinction or soon likely to be. Number of species (animal and plant) threatened by extinction among species assessed or known. The Ministry of Ecology, Environment Protection and Climate Change takes inventory periodically and publishes in the “Red Book”. The 5th edition was published in 2019.",
-        "Source": "Red Book of Uzbekistan,2019",
-        "Link": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan or https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "critically endangered and vulnerable  animal species i.e., those animals in danger of extinction or soon likely to be. Number of species  threatened by extinction among species assessed or known. ",
+        "Source": "Red-book- Uzbekistan",
+        "DataRange": "2009, 2019",
+        "Link1": "www.researchgate.net/publication/334913462_Red_Book_Uzbekistan",
+        "Link2": "https://kun.uz/en/news/2019/12/10/uzbekistan-publishes-a-new-edition-of-the-red-book"
        },
        {
         "Id": 35,
         "Name": "Annual mean temperature",
-        "Definition": "annual mean surface temperature expressed in degree Celsius (°C).",
-        "Source": "OECD 1901-2021",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "annual mean surface temperature expressed in degree Celsius (°C). ",
+        "Source": "OECD",
+        "DataRange": "1990-2021",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 36,
         "Name": "Air pollution ",
-        "Definition": "The Statistics Agency (SA) provides the amount of pollutants emitted into the atmosphere in thousand tonnes of pollutants per year. ",
-        "Source": "SA 2010-21  ",
-        "Link": "https://stat.uz/en/official-statistics/ecology",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the amount of pollutants emitted into the atmosphere in thousand tonnes of pollutants per year.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2010-2021",
+        "Link1": "https ://stat.uz/en/official-statistics/ecology",
+        "Link2": ""
        },
        {
         "Id": 37,
         "Name": "Population exposure to air pollution by PM: ",
-        "Definition": "the proportion of the population exposed to outdoor air pollution concentration of average PM2.5 to which a typical resident is exposed throughout a year (derived from satellite observation or ground monitoring and measured in μg/m³). This report shows the proportion of the population living in areas with annual concentrations exceeding the value of 35μg/m³. Percentage of the population exposed to air pollution    above the average concentration of 35µg/m3 of air pollution. ",
-        "Source": "OECD, 2010-19",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "The standard measure of air pollution computes the mean annual concentration of fine suspended particles of less than 2.5 microns in diameter (PM2.5). The concentration of pollutants is expressed in micrograms per cubic metre of air (µg per m3) – a unit of air pollution measurement. The public health unhealthy level of average concentration is more than 35µg/m3  ",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 38,
         "Name": "Population exposure to air pollution by PM",
-        "Definition": "the proportion of the population exposed to outdoor air pollution concentration of average PM2.5 to which a typical resident is exposed throughout a year (derived from satellite observation or ground monitoring and measured in μg/m³). This report shows the proportion of the population living in areas with annual concentrations exceeding the value of 35μg/m³. Percentage of the population exposed to air pollution    above the average concentration of 35µg/m3 of air pollution.",
-        "Source": "OECD, 2010-19",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage of the population exposed to air pollution    above the average concentration of 35µg/m3 of air pollution. the proportion of the population exposed to outdoor air pollution concentration of average PM2.5 to which a typical resident is exposed throughout a year (derived from satellite observation or ground monitoring and measured in μg/m³).",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 39,
         "Name": "Death due to respiratory disease",
-        "Definition": "Mortality from exposure to PM2.5 in deaths per million inhabitants. ",
-        "Source": "OECD, 1990-2019",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Mortality from exposure to PM2.5 in deaths per million inhabitants",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 40,
         "Name": "Death due to respiratory disease",
-        "Definition": "The indicator monitors the mortality induced by exposure to ozone gas pollution, which causes lung problems and premature death. Outdoor workers in areas with high ozone levels are at the most risk. ",
-        "Source": "OECD 1990-2019",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Welfare costs from exposure to PM2.5 expressed in GDP equivalent (PPP) percentage points",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 41,
         "Name": "Death due to respiratory disease",
-        "Definition": "Welfare costs due to exposure to ozone in  GDP equivalent percentage points.",
-        "Source": "OECD 1990-2019 ",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "mortality induced by exposure to ozone gas pollution, which causes lung problems and premature death",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 42,
         "Name": "Death due to respiratory disease",
-        "Definition": "Welfare costs due to exposure to ozone in  GDP equivalent percentage points.",
-        "Source": "OECD 1990-2019",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Welfare costs due to exposure to ozone in  GDP equivalent percentage points",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 43,
         "Name": "Death due to respiratory disease",
-        "Definition": "Welfare costs from mortality due to exposure to lead in GDP equivalent percentage points.",
-        "Source": "OECD 1990-2019",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Mortality from exposure to lead in deaths per million inhabitants. Humans may be exposed to lead by eating food and drinking water contaminated with lead, which mostly occurs in industry sectors. ",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 44,
         "Name": "Death due to respiratory disease",
-        "Definition": "The indicator monitors the mortality induced by exposure to ozone gas pollution, which causes lung problems and premature death. Outdoor workers in areas with high ozone levels are at the most risk. ",
-        "Source": "OECD 1990-2019",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Welfare costs from mortality due to exposure to lead in GDP equivalent percentage points.",
+        "Source": "OECD",
+        "DataRange": "1990-2019",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 45,
         "Name": "Death due to respiratory disease",
-        "Definition": "In percentage of all deaths. The SA has published this indicator since 2017. ",
-        "Source": "OECD 1990-2019",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Death due to respiratory disease: In percentage of all deaths.",
+        "Source": "Statistaical Agency",
+        "DataRange": "2017-2022",
+        "Link1": "https ://stat.uz/en/official-statistics/demography.",
+        "Link2": ""
        },
        {
         "Id": 46,
         "Name": "Share of households with access to safe drinking water",
-        "Definition": "households using improved drinking water sources, which include piped water into dwellings, yards or plots, public taps or standpipes, boreholes, or tube wells, protected dug wells, protected springs, packaged water, delivered water and rainwater. Improved water sources should be located on the premises, available when needed and contamination-free. The indicator constitutes a key component in measuring the environmental quality of life (OECD, 2017). It measures the proportion (percentage) of households with access to safe drinking water sources not shared with other houses. The SA collects data on percentage of houses with access to safe drinking water as part of SDG-6 monitoring.",
-        "Source": "SA, 2010-22",
-        "Link": "Environment (stat.uz)",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "households using improved drinking water sources, which include piped water into dwellings, yards or plots, public taps or standpipes, boreholes, or tube wells, protected dug wells, protected springs, packaged water, delivered water and rainwater. Improved water sources should be located on the premises, available when needed and contamination-free. The indicator constitutes a key component in measuring the environmental quality of life (OECD, 2017). It measures the proportion (percentage) of households with access to safe drinking water sources not shared with other houses.",
+        "Source": "Statistaical Agency",
+        "DataRange": "2010-22",
+        "Link1": "https://stat.uz/en/official-statistics/environment",
+        "Link2": ""
        },
        {
         "Id": 47,
         "Name": "Share of households with access to sewerage treatment",
-        "Definition": "Percentage of households connected to public sewerage treatment.  Households connected to an urban wastewater collecting system through public sewerage network. Individual private treatment facilities such as septic tanks are not covered. The SA collects data on this indicator. ",
-        "Source": "SA, 2010-22. ",
-        "Link": "https://w3.unece.org/SDG/en/Indicator?id=52. & https://stat.uz/en/official-statistics/environment.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage of households connected to public sewerage treatment.  Households connected to an urban wastewater collecting system through public sewerage network. Individual private treatment facilities such as septic tanks are not covered.",
+        "Source": "Statistaical Agency",
+        "DataRange": "2010-22",
+        "Link1": "https://stat.uz/en/official-statistics/environment",
+        "Link2": ""
        },
        {
         "Id": 48,
         "Name": "Population using improved sanitation",
-        "Definition": "Percentage of the population using improved sanitation facilities with basic handwashing facilities and toilets, including flush or pour-flush toilets to sewerage systems, septic tanks, or pit latrines, ventilated improved pit latrines, pit latrines with a slab and composting toilets. This indicator measures the proportion of the population with access to basic sanitation services (e.g., hand washing).",
-        "Source": "World Bank, 2000-20 ",
-        "Link": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage of the population using improved sanitation facilities with basic handwashing facilities and toilets, including flush or pour-flush toilets to sewerage systems, septic tanks, or pit latrines, ventilated improved pit latrines, pit latrines with a slab and composting toilets. This indicator measures the proportion of the population with access to basic sanitation services (e.g., hand washing).  ",
+        "Source": "World Bank",
+        "DataRange": "2000-20",
+        "Link1": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 49,
         "Name": "Environment-related innovations",
-        "Definition": "environment-related inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies. Percentage share of environment-related inventions of all domestic technologies. The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT) (OECD, 2017:153). ",
-        "Source": "OECD,1992-2018 ",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of environment-related inventions of all domestic technologies. Inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies.The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT). ",
+        "Source": "OECD",
+        "DataRange": "1993-2018",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 50,
         "Name": "Environment-related innovations",
-        "Definition": "environment-related inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies. Percentage share of environment-related inventions of all domestic technologies. The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT) (OECD, 2017:153). ",
-        "Source": "OECD,1992-2018",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage share of environment-related inventions of all world technologies. Inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies.The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT). ",
+        "Source": "OECD",
+        "DataRange": "1993-2018",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 51,
         "Name": "Environment-related innovations: ",
-        "Definition": "environment-related inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies. Percentage share of environment-related inventions of all domestic technologies. The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT) (OECD, 2017:153). ",
-        "Source": "OECD,1992-2018",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Number of environment-related inventions per person in Uzbekistan. Inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies.The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT). ",
+        "Source": "OECD",
+        "DataRange": "1993-2018",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 52,
         "Name": "Public expenditures in environmental protection",
-        "Definition": "public budget for environmental protection. E.g., environmental research and development in renewable energy sources. Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives. Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh, 2012-19 Ministry of Economy and Finance ",
-        "Source": "MoEF (SDG 13) 2019-22.",
-        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Share of public budget for environmental protection. E.g., environmental research and development in renewable energy sources. ",
+        "Source": "Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh",
+        "DataRange": "2012-19",
+        "Link2": ""
        },
        {
         "Id": 53,
         "Name": "Public expenditures in environmental protection",
-        "Definition": "public budget for environmental protection. E.g., environmental research and development in renewable energy sources. Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives. Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh, 2012-19 Ministry of Economy and Finance ",
-        "Source": "MoEF (SDG 13) 2019-22.",
-        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives",
+        "Source": "MoEEPCC",
+        "DataRange": "2012-19",
+        "Link2": ""
        },
        {
         "Id": 54,
         "Name": "Public expenditures in environmental protection",
-        "Definition": "public budget for environmental protection. E.g., environmental research and development in renewable energy sources. Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives. Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh, 2012-19 Ministry of Economy and Finance ",
-        "Source": "MoEF (SDG 13) 2019-22.",
-        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Share of public budget for SDG-13.",
+        "Source": "Ministry of Economy and Finance",
+        "DataRange": "2019-22",
+        "Link1": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf",
+        "Link2": ""
        },
        {
         "Id": 55,
         "Name": "Environment-related tax revenues",
-        "Definition": "income collected by the government through environment-related taxes. Taxes can include (i) energy products for transport purposes (petrol and diesel); (ii) motor vehicles and transport (one-off import or sales taxes, recurrent taxes on registration or road use and other transport taxes); (iii) waste management); (iv) emissions of pollutants and (v) other. In this report, only pollution tax and waste management are tracked. Percentage of total tax revenue. The indicator measures a payment based on the quantity of pollutants discharged into the environment e.g. energy-related or transport-related. ",
-        "Source": "Ministry for Ecology, Environmental Protection and Climate Change (new name) MEEPCCh, 2015-18 ",
-        "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Share of income collected by the government through environment-related taxes of all revenues. ",
+        "Source": "Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh",
+        "DataRange": "2015-19",
+        "Link1":"",
+        "Link2": ""
        },
        {
         "Id": 56,
         "Name": "Environment-related subsidies",
-        "Definition": "government support to assist the energy sector to keep prices low. For example, coal, gas and electricity. It measures how much the government subsidises fossil fuels and the extent of support for renewable energy. Percentage of total subsidies (for coal, gas, electric). The indicator measures benefits and privileges provided to energy production sectors. IEA, 2010-20",
-        "Source": "IEA, 2010-20",
-        "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf. ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "government support to assist the energy sector to keep prices low.  The indicator measures benefits and privileges provided to the oil energy sectors.",
+        "Source": "International Energy Agency",
+        "DataRange": "2010-20",
+        "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+        "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
        },
        {
         "Id": 57,
         "Name": "Environment-related subsidies",
-        "Definition": "government support to assist the energy sector to keep prices low. For example, coal, gas and electricity. It measures how much the government subsidises fossil fuels and the extent of support for renewable energy. Percentage of total subsidies (for coal, gas, electric). The indicator measures benefits and privileges provided to energy production sectors. IEA, 2010-20",
-        "Source": "IEA, 2010-20",
-        "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "government support to assist the electric energy sector to keep prices low.  The indicator measures benefits and privileges provided to the energy sectors.",
+        "Source": "International Energy Agency",
+        "DataRange": "2010-20",
+        "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+        "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
        },
        {
         "Id": 58,
         "Name": "Environment-related subsidies",
-        "Definition": "government support to assist the energy sector to keep prices low. For example, coal, gas and electricity. It measures how much the government subsidises fossil fuels and the extent of support for renewable energy. Percentage of total subsidies (for coal, gas, electric). The indicator measures benefits and privileges provided to energy production sectors.",
-        "Source": "IEA, 2010-20",
-        "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "government support to assist the natural gas energy sector to keep prices low.  The indicator measures benefits and privileges provided to the oil energy sectors.",
+        "Source": "International Energy Agency",
+        "DataRange": "2010-20",
+        "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+        "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
        },
        {
         "Id": 59,
         "Name": "Price of fuel",
-        "Definition": "Real price per litre for diesel and petrol (in USD 2015) using purchasing power parity (PPP) OECD, 2012-21",
-        "Source": "OECD 2008-21",
-        "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Real price per litre for diesel and petrol (in USD 2015) using purchasing power parity (PPP) ",
+        "Source": "OECD",
+        "DataRange": "2008-21",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 60,
         "Name": "Price of fuel",
-        "Definition": "Nominal price of petrol in USD using exchange rate of the Commercial bank of Uzbekistan.",
-        "Source": "Golden pages 2009- 2022",
-        "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Real price per litre for diesel and petrol (in USD 2015) using purchasing power parity (PPP) ",
+        "Source": "OECD",
+        "DataRange": "2008-21",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 61,
         "Name": "Price of fuel",
-        "Definition": "Nominal price of petrol in USD using exchange rate of the Commercial bank of Uzbekistan.",
-        "Source": "Golden pages 2009- 2022",
-        "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Average nominal retail price of petrol per litter (authors calculation",
+        "Source": "Golder pages- Uzbekistan",
+        "DataRange": "2009-22",
+        "Link1": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/",
+        "Link2": ""
        },
        {
         "Id": 62,
         "Name": "Price per kWh of electricity ",
-        "Definition": "The indicator measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources. ",
-        "Source": "Golden pages 2009- 2022",
-        "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-        "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
-        "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+        "Definition": "measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources",
+        "Source": "OECD",
+        "DataRange": "2012-21",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 63,
         "Name": "Price per kWh of electricity ",
-        "Definition": "The indicator measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources. ",
-        "Source": "Golden pages 2009- 2022",
-        "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-        "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
-        "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+        "Definition": "measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources",
+        "Source": "OECD",
+        "DataRange": "2012-21",
+        "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+        "Link2": ""
        },
        {
         "Id": 64,
         "Name": "Real GDP",
-        "Definition": "gross domestic product of Uzbekistan calculated at constant prices ",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/national-accounts",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "gross domestic product of Uzbekistan in local currency unit calculated at constant prices by the production method with reference to previous year's price. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2011-22",
+        "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": ""
        },
        {
         "Id": 65,
         "Name": "GDP per capita",
-        "Definition": "average annual income of the people in Uzbekistan (annual real GDP     divided by the annual population number). Real GDP per population in UZS is the ratio of real GDP to the annual permanent population, UZS/person. Authors’ calculation using SA data 2011-22.",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/national-accounts",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "average annual income of the people in Uzbekistan (annual real GDP     divided by the annual population number in UZS. It is the ratio of real GDP to the annual permanent population. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2011-22",
+        "Link1": "Authors’ calculation using SA data 2011-22",
+        "Link2": ""
        },
        {
         "Id": 66,
         "Name": "Real GDP",
-        "Definition": "gross domestic product of Uzbekistan calculated at constant prices",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/national-accounts",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "annual percentage change in real GDP values.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2011-22",
+        "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": ""
        },
        {
         "Id": 67,
         "Name": "GDP structure",
-        "Definition": "percentage shares of value added in GDP by categories of main economic sectors in Uzbekistan: agriculture, industry and services",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/national-accounts",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "percentage share of value added in GDP by the agriculture sector in Uzbekistan. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-22",
+        "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": ""
        },
        {
         "Id": 68,
         "Name": "GDP structure",
-        "Definition": "percentage shares of value added in GDP by categories of main economic sectors in Uzbekistan: agriculture, industry and services",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/national-accounts",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "percentage share of value added in GDP by the industry sector in Uzbekistan ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-22",
+        "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": ""
        },
        {
         "Id": 69,
         "Name": "GDP structure",
-        "Definition": "percentage shares of value added in GDP by categories of main economic sectors in Uzbekistan: agriculture, industry and services",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/national-accounts",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "percentage share of value added in GDP by the service sector in Uzbekistan  ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-22",
+        "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+        "Link2": ""
        },
        {
         "Id": 70,
         "Name": "CPI",
-        "Definition": "an indicator that shows changes in prices of goods and services over time consumed by the population in Uzbekistan. It shows the changes in the value of inflation in the economy for a fixed set of consumer goods and services.  It is annual percentage change in the price of a basket of commodities based on SA calculation of price data in the consumer market. This report uses the percentage change as of December of the previous year.",
-        "Source": "Statistical Agency",
-        "Link": "https://stat.uz/en/official-statistics/prices-and-indexes.",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "annual percentage change in the price of a basket of commodities based on SA calculation of price data in the consumer market. It shows the changes in the value of inflation in the economy for a fixed set of consumer goods and services consumed by the population in Uzbekistan.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-22",
+        "Link1": "https://stat.uz/en/official-statistics/prices-and-indexes",
+        "Link2": ""
        },
        {
         "Id": 71,
         "Name": "Export and import values of goods and services in million USD. Export:",
-        "Definition": "transaction of goods and services from Uzbekistan to a foreign state in monetary value.",
-        "Source": "SA 2000-22 ",
-        "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "transaction of goods and services from Uzbekistan to a foreign state in monetary value, in million USD",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/merchandise-trade",
+        "Link2": ""
        },
        {
         "Id": 72,
         "Name": "Export and import values of goods and services in million USD. Import:",
-        "Definition": "transaction of goods and services from a foreign state to Uzbekistan in monetary value.",
-        "Source": "SA 2000-22 ",
-        "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "transaction of goods and services from a foreign state to Uzbekistan in monetary value, in million USD.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/merchandise-trade",
+        "Link2": ""
        },
        {
         "Id": 73,
         "Name": "Share of low-income population",
-        "Definition": "the share of the population below income estimates of 2 100 kilocalories per day, as recommended by the World Bank. It shows the percentage of the population with income less than a given amount. The SA collects data on the indicator through household surveys. However, it calculates the poverty rate as of 2021 using different measurement methods",
-        "Source": "Statistical Agency",
-        "Link": "https://stat.uz/en/official-statistics/living-standards",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the share of the population below income estimates of  2 100 kilocalories per day, as recommended by the World Bank. It shows the percentage of the population with income less than a given amount.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2001-20",
+        "Link1": "https://stat.uz/en/official-statistics/living-standards",
+        "Link2": ""
        },
        {
         "Id": 74,
         "Name": "Gini coefficient",
-        "Definition": "an index between 0 and 1 based on the comparison of cumulative proportions of the population against cumulative proportions of income they receive. Index number. The coefficient ranges between 0 in the case of perfect income equality and 1 in the case of perfect   income inequality.",
-        "Source": "SA 2017-20 xxxx",
-        "Link": "https://stat.uz/en/official-statistics/living-standards",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "an index number between 0 in the case of perfect income equality and 1 in the case of perfect   income inequality based on the comparison of cumulative proportions of the population against cumulative proportions of income they receive.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2017-22",
+        "Link1": "https://stat.uz/en/official-statistics/living-standards",
+        "Link2": ""
        },
        {
         "Id": 75,
         "Name": "Labor force",
-        "Definition": "the proportion of the population aged 15 and older that is economically active during a specified period.",
-        "Source": "SA 2010-21 ",
-        "Link": "https://stat.uz/en/official-statistics/labor-market",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the proportion of the population aged 15 and older that is economically active during a specified period. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2010-21",
+        "Link1": "https://stat.uz/en/official-statistics/labor-market",
+        "Link2": ""
        },
        {
         "Id": 76,
         "Name": "Employment",
-        "Definition": "persons of working age engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job or working-time arrangement. The employment rate here in the report is a proportion (percentage) of the labour force employed.",
-        "Source": "SA 2010-21 ",
-        "Link": "https://stat.uz/en/official-statistics/labor-market",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "persons of working age engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job or working-time arrangement. The employment rate here in the report is a proportion (percentage) of the labour force employed",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2010-22",
+        "Link1": "https://stat.uz/en/official-statistics/labor-market",
+        "Link2": ""
        },
        {
         "Id": 77,
         "Name": "Employment by sector",
-        "Definition": "Percentage of total employment by main sectors of the economy.",
-        "Source": "World Bank 1991-2021",
-        "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "percentage of total employment by agriculture sector of the economy",
+        "Source": "World Bank",
+        "DataRange": "1991-21",
+        "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 78,
         "Name": "Employment by sector",
-        "Definition": "Percentage of total employment by main sectors of the economy.",
-        "Source": "World Bank 1991-2021",
-        "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "percentage of total employment by industry sector of the economy",
+        "Source": "World Bank",
+        "DataRange": "1991-21",
+        "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 79,
         "Name": "Employment by sector",
-        "Definition": "Percentage of total employment by main sectors of the economy.",
-        "Source": "World Bank 1991-2021",
-        "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "percentage of total employment by service sector of the economy",
+        "Source": "World Bank",
+        "DataRange": "1991-21",
+        "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 80,
         "Name": "School gross enrolment ratio",
-        "Definition": "the ratio of total enrolment, regardless of age, to the population     of the age group that officially corresponds to the level of education shown. Percentage of total candidates enrolled in schools at primary secondary and tertiary levels.",
-        "Source": "World Bank 2005-21 ",
-        "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the ratio of total enrolment, regardless of age, to the population of the age group that officially corresponds to the level of education shown-at primary levels. ",
+        "Source": "World Bank",
+        "DataRange": "2005-21",
+        "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 81,
         "Name": "School gross enrolment ratio",
-        "Definition": "the ratio of total enrolment, regardless of age, to the population     of the age group that officially corresponds to the level of education shown. Percentage of total candidates enrolled in schools at primary secondary and tertiary levels.",
-        "Source": "World Bank 2005-21 ",
-        "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the ratio of total enrolment, regardless of age, to the population of the age group that officially corresponds to the level of education at secondary level. ",
+        "Source": "World Bank",
+        "DataRange": "2005-21",
+        "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 82,
         "Name": "School gross enrolment ratio",
-        "Definition": "the ratio of total enrolment, regardless of age, to the population     of the age group that officially corresponds to the level of education shown. Percentage of total candidates enrolled in schools at primary secondary and tertiary levels.",
-        "Source": "World Bank 2005-21 ",
-        "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "the ratio of total enrolment, regardless of age, to the population of the age group that officially corresponds to the level of education at tertiary level. ",
+        "Source": "World Bank",
+        "DataRange": "2005-21",
+        "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+        "Link2": ""
        },
        {
         "Id": 83,
         "Name": "Total population",
-        "Definition": "number of people permanently living in the country at the beginning of the year, regardless of legal status or citizenship. Number of people permanently living in Uzbekistan at the beginning of the year.",
-        "Source": "SA 1991-2022 ",
-        "Link": "https://stat.uz/en/official-statistics/demography",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "Number of people permanently living in Uzbekistan at the beginning of the year.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "1991-2022",
+        "Link1": "https://stat.uz/en/official-statistics/demography",
+        "Link2": ""
        },
        {
         "Id": 84,
         "Name": "Life expectancy",
-        "Definition": "average number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. Average number of years, showing premature death.",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/demography",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "average number of years a newborn infant in Uzbekistan would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/demography",
+        "Link2": ""
        },
        {
         "Id": 85,
         "Name": "Life expectancy",
-        "Definition": "average number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. Average number of years, showing premature death.",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/demography",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "average number of years a newborn infant male in Uzbekistan would live. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/demography",
+        "Link2": ""
        },
        {
         "Id": 86,
         "Name": "Life expectancy",
-        "Definition": "average number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. Average number of years, showing premature death.",
-        "Source": "SA 2000-21 ",
-        "Link": "https://stat.uz/en/official-statistics/demography",
-        "Link2": "",
-        "Link3": ""
+        "Definition": "average number of years a newborn infant  female in Uzbekistan would live. ",
+        "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+        "DataRange": "2000-21",
+        "Link1": "https://stat.uz/en/official-statistics/demography",
+        "Link2": ""
        },
        {
         "Id": 87,
         "Name": "Net external migration",
-        "Definition": "the net total of migrants during the period (i.e. the number of immigrants minus the number of emigrants, including citizens and noncitizens). Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.",
+        "Definition": "the net total of migrants during the period (i.e. the number of immigrants minus the number of emigrants, including citizens and noncitizens)",
         "Source": "World Bank",
-        "Link": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
-        "Link2": "",
-        "Link3": ""
+        "DataRange": "1990-2022",
+        "Link1": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
+        "Link2": ""
        }
     ]
   }

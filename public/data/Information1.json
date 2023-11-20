@@ -3,218 +3,218 @@
         {
             "Id": 64,
             "Name": "Real GDP",
-            "Definition": "gross domestic product of Uzbekistan calculated at constant prices ",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "gross domestic product of Uzbekistan in local currency unit calculated at constant prices by the production method with reference to previous year's price. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2011-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 65,
             "Name": "GDP per capita",
-            "Definition": "average annual income of the people in Uzbekistan (annual real GDP     divided by the annual population number). Real GDP per population in UZS is the ratio of real GDP to the annual permanent population, UZS/person. Authors’ calculation using SA data 2011-22.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "average annual income of the people in Uzbekistan (annual real GDP     divided by the annual population number in UZS. It is the ratio of real GDP to the annual permanent population. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2011-22",
+            "Link1": "Authors’ calculation using SA data 2011-22",
+            "Link2": ""
            },
            {
             "Id": 66,
             "Name": "Real GDP",
-            "Definition": "gross domestic product of Uzbekistan calculated at constant prices",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "annual percentage change in real GDP values.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2011-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 67,
             "Name": "GDP structure",
-            "Definition": "percentage shares of value added in GDP by categories of main economic sectors in Uzbekistan: agriculture, industry and services",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "percentage share of value added in GDP by the agriculture sector in Uzbekistan. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 68,
             "Name": "GDP structure",
-            "Definition": "percentage shares of value added in GDP by categories of main economic sectors in Uzbekistan: agriculture, industry and services",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "percentage share of value added in GDP by the industry sector in Uzbekistan ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 69,
             "Name": "GDP structure",
-            "Definition": "percentage shares of value added in GDP by categories of main economic sectors in Uzbekistan: agriculture, industry and services",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/national-accounts",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "percentage share of value added in GDP by the service sector in Uzbekistan  ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/national-accounts",
+            "Link2": ""
            },
            {
             "Id": 70,
             "Name": "CPI",
-            "Definition": "an indicator that shows changes in prices of goods and services over time consumed by the population in Uzbekistan. It shows the changes in the value of inflation in the economy for a fixed set of consumer goods and services.  It is annual percentage change in the price of a basket of commodities based on SA calculation of price data in the consumer market. This report uses the percentage change as of December of the previous year.",
-            "Source": "Statistical Agency",
-            "Link": "https://stat.uz/en/official-statistics/prices-and-indexes.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "annual percentage change in the price of a basket of commodities based on SA calculation of price data in the consumer market. It shows the changes in the value of inflation in the economy for a fixed set of consumer goods and services consumed by the population in Uzbekistan.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-22",
+            "Link1": "https://stat.uz/en/official-statistics/prices-and-indexes",
+            "Link2": ""
            },
            {
             "Id": 71,
             "Name": "Export and import values of goods and services in million USD. Export:",
-            "Definition": "transaction of goods and services from Uzbekistan to a foreign state in monetary value.",
-            "Source": "SA 2000-22 ",
-            "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "transaction of goods and services from Uzbekistan to a foreign state in monetary value, in million USD",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/merchandise-trade",
+            "Link2": ""
            },
            {
             "Id": 72,
             "Name": "Export and import values of goods and services in million USD. Import:",
-            "Definition": "transaction of goods and services from a foreign state to Uzbekistan in monetary value.",
-            "Source": "SA 2000-22 ",
-            "Link": "https://stat.uz/en/official-statistics/merchandise-trade",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "transaction of goods and services from a foreign state to Uzbekistan in monetary value, in million USD.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/merchandise-trade",
+            "Link2": ""
            },
            {
             "Id": 73,
             "Name": "Share of low-income population",
-            "Definition": "the share of the population below income estimates of 2 100 kilocalories per day, as recommended by the World Bank. It shows the percentage of the population with income less than a given amount. The SA collects data on the indicator through household surveys. However, it calculates the poverty rate as of 2021 using different measurement methods",
-            "Source": "Statistical Agency",
-            "Link": "https://stat.uz/en/official-statistics/living-standards",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the share of the population below income estimates of  2 100 kilocalories per day, as recommended by the World Bank. It shows the percentage of the population with income less than a given amount.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2001-20",
+            "Link1": "https://stat.uz/en/official-statistics/living-standards",
+            "Link2": ""
            },
            {
             "Id": 74,
             "Name": "Gini coefficient",
-            "Definition": "an index between 0 and 1 based on the comparison of cumulative proportions of the population against cumulative proportions of income they receive. Index number. The coefficient ranges between 0 in the case of perfect income equality and 1 in the case of perfect   income inequality.",
-            "Source": "SA 2017-20 xxxx",
-            "Link": "https://stat.uz/en/official-statistics/living-standards",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "an index number between 0 in the case of perfect income equality and 1 in the case of perfect   income inequality based on the comparison of cumulative proportions of the population against cumulative proportions of income they receive.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2017-22",
+            "Link1": "https://stat.uz/en/official-statistics/living-standards",
+            "Link2": ""
            },
            {
             "Id": 75,
             "Name": "Labor force",
-            "Definition": "the proportion of the population aged 15 and older that is economically active during a specified period.",
-            "Source": "SA 2010-21 ",
-            "Link": "https://stat.uz/en/official-statistics/labor-market",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the proportion of the population aged 15 and older that is economically active during a specified period. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2010-21",
+            "Link1": "https://stat.uz/en/official-statistics/labor-market",
+            "Link2": ""
            },
            {
             "Id": 76,
             "Name": "Employment",
-            "Definition": "persons of working age engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job or working-time arrangement. The employment rate here in the report is a proportion (percentage) of the labour force employed.",
-            "Source": "SA 2010-21 ",
-            "Link": "https://stat.uz/en/official-statistics/labor-market",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "persons of working age engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job or working-time arrangement. The employment rate here in the report is a proportion (percentage) of the labour force employed",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2010-22",
+            "Link1": "https://stat.uz/en/official-statistics/labor-market",
+            "Link2": ""
            },
            {
             "Id": 77,
             "Name": "Employment by sector",
-            "Definition": "Percentage of total employment by main sectors of the economy.",
-            "Source": "World Bank 1991-2021",
-            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "percentage of total employment by agriculture sector of the economy",
+            "Source": "World Bank",
+            "DataRange": "1991-21",
+            "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 78,
             "Name": "Employment by sector",
-            "Definition": "Percentage of total employment by main sectors of the economy.",
-            "Source": "World Bank 1991-2021",
-            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "percentage of total employment by industry sector of the economy",
+            "Source": "World Bank",
+            "DataRange": "1991-21",
+            "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 79,
             "Name": "Employment by sector",
-            "Definition": "Percentage of total employment by main sectors of the economy.",
-            "Source": "World Bank 1991-2021",
-            "Link": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "percentage of total employment by service sector of the economy",
+            "Source": "World Bank",
+            "DataRange": "1991-21",
+            "Link1": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 80,
             "Name": "School gross enrolment ratio",
-            "Definition": "the ratio of total enrolment, regardless of age, to the population     of the age group that officially corresponds to the level of education shown. Percentage of total candidates enrolled in schools at primary secondary and tertiary levels.",
-            "Source": "World Bank 2005-21 ",
-            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the ratio of total enrolment, regardless of age, to the population of the age group that officially corresponds to the level of education shown-at primary levels. ",
+            "Source": "World Bank",
+            "DataRange": "2005-21",
+            "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 81,
             "Name": "School gross enrolment ratio",
-            "Definition": "the ratio of total enrolment, regardless of age, to the population     of the age group that officially corresponds to the level of education shown. Percentage of total candidates enrolled in schools at primary secondary and tertiary levels.",
-            "Source": "World Bank 2005-21 ",
-            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the ratio of total enrolment, regardless of age, to the population of the age group that officially corresponds to the level of education at secondary level. ",
+            "Source": "World Bank",
+            "DataRange": "2005-21",
+            "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 82,
             "Name": "School gross enrolment ratio",
-            "Definition": "the ratio of total enrolment, regardless of age, to the population     of the age group that officially corresponds to the level of education shown. Percentage of total candidates enrolled in schools at primary secondary and tertiary levels.",
-            "Source": "World Bank 2005-21 ",
-            "Link": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "the ratio of total enrolment, regardless of age, to the population of the age group that officially corresponds to the level of education at tertiary level. ",
+            "Source": "World Bank",
+            "DataRange": "2005-21",
+            "Link1": "https://data.worldbank.org/indicator/SE.SEC.ENRR?locations=UZ",
+            "Link2": ""
            },
            {
             "Id": 83,
             "Name": "Total population",
-            "Definition": "number of people permanently living in the country at the beginning of the year, regardless of legal status or citizenship. Number of people permanently living in Uzbekistan at the beginning of the year.",
-            "Source": "SA 1991-2022 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Number of people permanently living in Uzbekistan at the beginning of the year.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "1991-2022",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 84,
             "Name": "Life expectancy",
-            "Definition": "average number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. Average number of years, showing premature death.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "average number of years a newborn infant in Uzbekistan would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 85,
             "Name": "Life expectancy",
-            "Definition": "average number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. Average number of years, showing premature death.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "average number of years a newborn infant male in Uzbekistan would live. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 86,
             "Name": "Life expectancy",
-            "Definition": "average number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life. Average number of years, showing premature death.",
-            "Source": "SA 2000-21 ",
-            "Link": "https://stat.uz/en/official-statistics/demography",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "average number of years a newborn infant  female in Uzbekistan would live. ",
+            "Source": "Statistics Agency under the President of the Republic of Uzbekistan",
+            "DataRange": "2000-21",
+            "Link1": "https://stat.uz/en/official-statistics/demography",
+            "Link2": ""
            },
            {
             "Id": 87,
             "Name": "Net external migration",
-            "Definition": "the net total of migrants during the period (i.e. the number of immigrants minus the number of emigrants, including citizens and noncitizens). Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.",
+            "Definition": "the net total of migrants during the period (i.e. the number of immigrants minus the number of emigrants, including citizens and noncitizens)",
             "Source": "World Bank",
-            "Link": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
-            "Link2": "",
-            "Link3": ""
+            "DataRange": "1990-2022",
+            "Link1": "https://data.worldbank.org/indicator/SM.POP.NETM?locations=UZ",
+            "Link2": ""
            }
     ]
 }

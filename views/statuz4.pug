@@ -144,14 +144,15 @@ html(lang='en')
         each item in jsonDataUz4.data
           .group-info(data-group= item.Id)
             h3= item.Name
-            h4 Ta'rifi:
+            h4 Ta'rif:
             p= item.Definition
             h4 Manba:
             p= item.Source
+            h4 Ma'lumotlar diapazoni:
+            p= item.DataRange
             h4 Havola:
-            a(href=item.Link)= item.Link
+            a(href=item.Link)= item.Link1
             a(href=item.Link2)= item.Link2
-            a(href=item.Link3)= item.Link3
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='https://code.jquery.com/jquery-3.7.0.js')
     script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')

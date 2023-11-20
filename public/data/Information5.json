@@ -3,137 +3,135 @@
         {
             "Id": 49,
             "Name": "Environment-related innovations",
-            "Definition": "environment-related inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies. Percentage share of environment-related inventions of all domestic technologies. The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT) (OECD, 2017:153). ",
-            "Source": "OECD,1992-2018 ",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Percentage share of environment-related inventions of all domestic technologies. Inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies.The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT). ",
+            "Source": "OECD",
+            "DataRange": "1993-2018",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 50,
             "Name": "Environment-related innovations",
-            "Definition": "environment-related inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies. Percentage share of environment-related inventions of all domestic technologies. The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT) (OECD, 2017:153). ",
-            "Source": "OECD,1992-2018",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Percentage share of environment-related inventions of all world technologies. Inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies.The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT). ",
+            "Source": "OECD",
+            "DataRange": "1993-2018",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 51,
             "Name": "Environment-related innovations: ",
-            "Definition": "environment-related inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies. Percentage share of environment-related inventions of all domestic technologies. The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT) (OECD, 2017:153). ",
-            "Source": "OECD,1992-2018",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Number of environment-related inventions per person in Uzbekistan. Inventions to ensure the protection and recovery of the environment. These are inventions for various environment-related technologies, including environmental management, water-related adaptation and climate change mitigation technologies.The indicator measures the number of new products and technologies developed domestically based on patent data extracted from worldwide patent statistical database (PATSTAT). ",
+            "Source": "OECD",
+            "DataRange": "1993-2018",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 52,
             "Name": "Public expenditures in environmental protection",
-            "Definition": "public budget for environmental protection. E.g., environmental research and development in renewable energy sources. Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives. Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh, 2012-19 Ministry of Economy and Finance ",
-            "Source": "MoEF (SDG 13) 2019-22.",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Share of public budget for environmental protection. E.g., environmental research and development in renewable energy sources. ",
+            "Source": "Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh",
+            "DataRange": "2012-19",
+            "Link2": ""
            },
            {
             "Id": 53,
             "Name": "Public expenditures in environmental protection",
-            "Definition": "public budget for environmental protection. E.g., environmental research and development in renewable energy sources. Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives. Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh, 2012-19 Ministry of Economy and Finance ",
-            "Source": "MoEF (SDG 13) 2019-22.",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives",
+            "Source": "MoEEPCC",
+            "DataRange": "2012-19",
+            "Link2": ""
            },
            {
             "Id": 54,
             "Name": "Public expenditures in environmental protection",
-            "Definition": "public budget for environmental protection. E.g., environmental research and development in renewable energy sources. Percentage of total GDP, government expenditure on green growth (GG). This measures how much the government invests in green initiatives. Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh, 2012-19 Ministry of Economy and Finance ",
-            "Source": "MoEF (SDG 13) 2019-22.",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Share of public budget for SDG-13.",
+            "Source": "Ministry of Economy and Finance",
+            "DataRange": "2019-22",
+            "Link1": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf",
+            "Link2": ""
            },
            {
             "Id": 55,
             "Name": "Environment-related tax revenues",
-            "Definition": "income collected by the government through environment-related taxes. Taxes can include (i) energy products for transport purposes (petrol and diesel); (ii) motor vehicles and transport (one-off import or sales taxes, recurrent taxes on registration or road use and other transport taxes); (iii) waste management); (iv) emissions of pollutants and (v) other. In this report, only pollution tax and waste management are tracked. Percentage of total tax revenue. The indicator measures a payment based on the quantity of pollutants discharged into the environment e.g. energy-related or transport-related. ",
-            "Source": "Ministry for Ecology, Environmental Protection and Climate Change (new name) MEEPCCh, 2015-18 ",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Share of income collected by the government through environment-related taxes of all revenues. ",
+            "Source": "Ministry for Ecology, Environmental Protection and Climate Change MEEPCCh",
+            "DataRange": "2015-19",
+            "Link1":"",
+            "Link2": ""
            },
            {
             "Id": 56,
             "Name": "Environment-related subsidies",
-            "Definition": "government support to assist the energy sector to keep prices low. For example, coal, gas and electricity. It measures how much the government subsidises fossil fuels and the extent of support for renewable energy. Percentage of total subsidies (for coal, gas, electric). The indicator measures benefits and privileges provided to energy production sectors. IEA, 2010-20",
-            "Source": "IEA, 2010-20",
-            "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf. ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "government support to assist the energy sector to keep prices low.  The indicator measures benefits and privileges provided to the oil energy sectors.",
+            "Source": "International Energy Agency",
+            "DataRange": "2010-20",
+            "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+            "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
            },
            {
             "Id": 57,
             "Name": "Environment-related subsidies",
-            "Definition": "government support to assist the energy sector to keep prices low. For example, coal, gas and electricity. It measures how much the government subsidises fossil fuels and the extent of support for renewable energy. Percentage of total subsidies (for coal, gas, electric). The indicator measures benefits and privileges provided to energy production sectors. IEA, 2010-20",
-            "Source": "IEA, 2010-20",
-            "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "government support to assist the electric energy sector to keep prices low.  The indicator measures benefits and privileges provided to the energy sectors.",
+            "Source": "International Energy Agency",
+            "DataRange": "2010-20",
+            "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+            "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
            },
            {
             "Id": 58,
             "Name": "Environment-related subsidies",
-            "Definition": "government support to assist the energy sector to keep prices low. For example, coal, gas and electricity. It measures how much the government subsidises fossil fuels and the extent of support for renewable energy. Percentage of total subsidies (for coal, gas, electric). The indicator measures benefits and privileges provided to energy production sectors.",
-            "Source": "IEA, 2010-20",
-            "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "government support to assist the natural gas energy sector to keep prices low.  The indicator measures benefits and privileges provided to the oil energy sectors.",
+            "Source": "International Energy Agency",
+            "DataRange": "2010-20",
+            "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+            "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
            },
            {
             "Id": 59,
             "Name": "Price of fuel",
-            "Definition": "Real price per litre for diesel and petrol (in USD 2015) using purchasing power parity (PPP) OECD, 2012-21",
-            "Source": "OECD 2008-21",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Real price per litre for diesel and petrol (in USD 2015) using purchasing power parity (PPP) ",
+            "Source": "OECD",
+            "DataRange": "2008-21",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 60,
             "Name": "Price of fuel",
-            "Definition": "Nominal price of petrol in USD using exchange rate of the Commercial bank of Uzbekistan.",
-            "Source": "Golden pages 2009- 2022",
-            "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Real price per litre for diesel and petrol (in USD 2015) using purchasing power parity (PPP) ",
+            "Source": "OECD",
+            "DataRange": "2008-21",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 61,
             "Name": "Price of fuel",
-            "Definition": "Nominal price of petrol in USD using exchange rate of the Commercial bank of Uzbekistan.",
-            "Source": "Golden pages 2009- 2022",
-            "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Average nominal retail price of petrol per litter (authors calculation",
+            "Source": "Golder pages- Uzbekistan",
+            "DataRange": "2009-22",
+            "Link1": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
+            "Link2": ""
            },
            {
             "Id": 62,
             "Name": "Price per kWh of electricity ",
-            "Definition": "The indicator measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources. ",
-            "Source": "Golden pages 2009- 2022",
-            "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-            "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
-            "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+            "Definition": "measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources",
+            "Source": "OECD",
+            "DataRange": "2012-21",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 63,
             "Name": "Price per kWh of electricity ",
-            "Definition": "The indicator measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources. ",
-            "Source": "Golden pages 2009- 2022",
-            "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-            "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
-            "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+            "Definition": "measures changes in the end-user price for electricity (residential and industry use), using 2015 price as base year. The dynamics in the energy tariffs over time show policy reforms for valuing energy sources",
+            "Source": "OECD",
+            "DataRange": "2012-21",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            }
     ]
 }

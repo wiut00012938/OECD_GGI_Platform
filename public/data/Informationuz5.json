@@ -3,137 +3,135 @@
         {
             "Id": 49,
             "Name": "Atrof-muhit bilan bog'liq innovatsiyalar",
-            "Definition": "atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun atrof-muhit bilan bog'liq ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulotlar va texnologiyalar sonini o'lchaydi (OECD, 2017: 153).",
-            "Source": "OECD, 1992-2018",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulot va texnologiyalar sonini o'lchaydi.",
+            "Source": "IHTT",
+            "DataRange": "1993-2018",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 50,
             "Name": "Atrof-muhit bilan bog'liq innovatsiyalar",
-            "Definition": "atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun atrof-muhit bilan bog'liq ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulotlar va texnologiyalar sonini o'lchaydi (OECD, 2017: 153).",
-            "Source": "OECD, 1992-2018",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Barcha jahon texnologiyalarining atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulot va texnologiyalar sonini o'lchaydi.",
+            "Source": "IHTT",
+            "DataRange": "1993-2018",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 51,
             "Name": "Atrof-muhit bilan bog'liq innovatsiyalar:",
-            "Definition": "atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun atrof-muhit bilan bog'liq ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Barcha mahalliy texnologiyalarning atrof-muhit bilan bog'liq ixtirolarining foiz ulushi. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulotlar va texnologiyalar sonini o'lchaydi (OECD, 2017: 153).",
-            "Source": "OECD, 1992-2018",
-            "Link": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "O‘zbekistonda bir kishiga to‘g‘ri keladigan atrof-muhit bilan bog‘liq ixtirolar soni. Atrof-muhitni muhofaza qilish va qayta tiklashni ta'minlash uchun ixtirolar. Bular atrof-muhit bilan bog'liq turli texnologiyalar, jumladan, atrof-muhitni boshqarish, suv bilan bog'liq moslashish va iqlim o'zgarishini yumshatish texnologiyalari uchun ixtirolardir. Ko'rsatkich butun dunyo bo'ylab patent statistik ma'lumotlar bazasidan (PATSTAT) olingan patent ma'lumotlari asosida mahalliy ishlab chiqilgan yangi mahsulot va texnologiyalar sonini o'lchaydi.",
+            "Source": "IHTT",
+            "DataRange": "1993-2018",
+            "Link1": "https://stats.oecd.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 52,
             "Name": "Atrof-muhitni muhofaza qilishga davlat xarajatlari",
-            "Definition": "atrof-muhitni muhofaza qilish uchun davlat byudjeti. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar. Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh, 2012-19 Iqtisodiyot va moliya vazirligi",
-            "Source": "MoEF (SDG 13) 2019-22.",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Atrof-muhitni muhofaza qilish uchun davlat byudjetining ulushi. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar.",
+            "Source": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh",
+            "DataRange": "2012-19",
+            "Link2": ""
            },
            {
             "Id": 53,
             "Name": "Atrof-muhitni muhofaza qilishga davlat xarajatlari",
-            "Definition": "atrof-muhitni muhofaza qilish uchun davlat byudjeti. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar. Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh, 2012-19 Iqtisodiyot va moliya vazirligi",
-            "Source": "MoEF (SDG 13) 2019-22.",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi",
+            "Source": "MoEEPCC",
+            "DataRange": "2012-19",
+            "Link2": ""
            },
            {
             "Id": 54,
             "Name": "Atrof-muhitni muhofaza qilishga davlat xarajatlari",
-            "Definition": "atrof-muhitni muhofaza qilish uchun davlat byudjeti. Masalan, qayta tiklanadigan energiya manbalarida ekologik tadqiqotlar va ishlanmalar. Yalpi ichki mahsulotning ulushi, yashil rivojlanishga davlat xarajatlari (GG). Bu hukumat yashil tashabbuslarga qancha sarmoya kiritishini o'lchaydi. Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh, 2012-19 Iqtisodiyot va moliya vazirligi",
-            "Source": "MoEF (SDG 13) 2019-22.",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "SDG-13 uchun davlat byudjetining ulushi.",
+            "Source": "Iqtisodiyot va moliya vazirligi",
+            "DataRange": "2019-22",
+            "Link1": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf",
+            "Link2": ""
            },
            {
             "Id": 55,
             "Name": "Atrof-muhit bilan bog'liq soliq tushumlari",
-            "Definition": "atrof-muhit bilan bog'liq soliqlar orqali hukumat tomonidan yig'iladigan daromad. Soliqlar quyidagilarni o'z ichiga olishi mumkin: (i) transport maqsadlarida ishlatiladigan energiya mahsulotlari (benzin va dizel); (ii) avtomototransport vositalari va transport (bir martalik import yoki sotish soliqlari, ro'yxatga olish yoki yo'ldan foydalanish uchun takroriy soliqlar va boshqa transport soliqlari); (iii) chiqindilarni boshqarish); (iv) ifloslantiruvchi moddalar emissiyasi va (v) boshqa. Ushbu hisobotda faqat ifloslanish solig'i va chiqindilarni boshqarish kuzatiladi. Jami soliq tushumlarining ulushi. Ko'rsatkich atrof-muhitga, masalan, energiya yoki transport bilan bog'liq bo'lgan ifloslantiruvchi moddalar miqdoriga asoslangan to'lovni o'lchaydi.",
-            "Source": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi (yangi nom) MEEPCCh, 2015-18",
-            "Link": "https://admin.openbudget.uz/media/post_attachments/budjet_dlya_grajdan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Hukumat tomonidan atrof-muhit bilan bog'liq soliqlar orqali yig'iladigan barcha daromadlarning ulushi.",
+            "Source": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi MEEPCCh",
+            "DataRange": "2015-19",
+            "Link1":"",
+            "Link2": ""
            },
            {
             "Id": 56,
             "Name": "Atrof-muhit bilan bog'liq subsidiyalar",
-            "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Masalan, ko'mir, gaz va elektr energiyasi. Bu hukumat qazib olinadigan yoqilg'ilarni qanchalik subsidiyalashini va qayta tiklanadigan energiyani qo'llab-quvvatlash darajasini o'lchaydi. Jami subsidiyalar foizi (ko'mir, gaz, elektr uchun). Ko'rsatkich energiya ishlab chiqarish tarmoqlariga berilgan imtiyoz va imtiyozlarni o'lchaydi. IEA, 2010-20",
-            "Source": "IEA, 2010-20",
-            "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf. ",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Ko'rsatkich neft-energetika sohalariga taqdim etilgan imtiyoz va imtiyozlarni o'lchaydi.",
+            "Source": "Xalqaro energiya agentligi",
+            "DataRange": "2010-20",
+            "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+            "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
            },
            {
             "Id": 57,
             "Name": "Atrof-muhit bilan bog'liq subsidiyalar",
-            "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Masalan, ko'mir, gaz va elektr energiyasi. Bu hukumat qazib olinadigan yoqilg'ilarni qanchalik subsidiyalashini va qayta tiklanadigan energiyani qo'llab-quvvatlash darajasini o'lchaydi. Jami subsidiyalar foizi (ko'mir, gaz, elektr uchun). Ko'rsatkich energiya ishlab chiqarish tarmoqlariga berilgan imtiyoz va imtiyozlarni o'lchaydi. IEA, 2010-20",
-            "Source": "IEA, 2010-20",
-            "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "narxlarni past darajada ushlab turish uchun elektr energiyasi sektoriga yordam berish uchun davlat tomonidan qo'llab-quvvatlash. Ko‘rsatkich energetika sohalariga berilgan imtiyoz va imtiyozlarni o‘lchaydi.",
+            "Source": "Xalqaro energiya agentligi",
+            "DataRange": "2010-20",
+            "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+            "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
            },
            {
             "Id": 58,
             "Name": "Atrof-muhit bilan bog'liq subsidiyalar",
-            "Definition": "narxlarni past darajada ushlab turish uchun energiya sektoriga yordam berish uchun davlat yordami. Masalan, ko'mir, gaz va elektr energiyasi. Bu hukumat qazib olinadigan yoqilg'ilarni qanchalik subsidiyalashini va qayta tiklanadigan energiyani qo'llab-quvvatlash darajasini o'lchaydi. Jami subsidiyalar foizi (ko'mir, gaz, elektr uchun). Ko'rsatkich energiya ishlab chiqarish tarmoqlariga berilgan imtiyoz va imtiyozlarni o'lchaydi.",
-            "Source": "IEA, 2010-20",
-            "Link": "www.iea.org/reports/uzbekistan-energy-profile. https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf.",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "narxlarni past darajada ushlab turish uchun tabiiy gaz energetika sektoriga yordam berish uchun davlat tomonidan qo'llab-quvvatlanadi. Ko'rsatkich neft-energetika sohalariga taqdim etilgan imtiyoz va imtiyozlarni o'lchaydi.",
+            "Source": "Xalqaro energiya agentligi",
+            "DataRange": "2010-20",
+            "Link1": "www.iea.org/reports/uzbekistan-energy-profile",
+            "Link2": "https://iea.blob.core.windows.net/assets/0d00581c-dc3c-466f-b0c8-97d25112a6e0/Uzbekistan2022.pdf"
            },
            {
             "Id": 59,
             "Name": "Yoqilg'i narxi",
-            "Definition": "Dizel va benzinning litriga real narx (2015-yilda AQSh dollarida) xarid qobiliyati pariteti (PPP) OECD, 2012-21",
-            "Source": "2008-21",
-            "Link": "",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Sotib olish qobiliyati paritetidan (PPP) foydalangan holda dizel va benzinning litriga real narx (2015 yil AQSh dollarida)",
+            "Source": "IHTT",
+            "DataRange": "2008-21",
+            "Link1": "https://stats.IHTT.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 60,
             "Name": "Yoqilg'i narxi",
-            "Definition": "O'zbekiston tijorat bankining kursidan foydalangan holda benzinning AQSh dollaridagi nominal narxi.",
-            "Source": "Oltin sahifalar 2009-2022",
-            "Link": "",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Sotib olish qobiliyati paritetidan (PPP) foydalangan holda dizel va benzinning litriga real narx (2015 yil AQSh dollarida)",
+            "Source": "IHTT",
+            "DataRange": "2008-21",
+            "Link1": "https://stats.IHTT.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 61,
             "Name": "Yoqilg'i narxi",
-            "Definition": "O'zbekiston tijorat bankining kursidan foydalangan holda benzinning AQSh dollaridagi nominal narxi.",
-            "Source": "Oltin sahifalar 2009-2022",
-            "Link": "",
-            "Link2": "",
-            "Link3": ""
+            "Definition": "Bir litr uchun benzinning o'rtacha nominal chakana narxi (mualliflar hisobi",
+            "Source": "Oltin sahifalar - O'zbekiston",
+            "DataRange": "2009-22",
+            "Link1": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
+            "Link2": ""
            },
            {
             "Id": 62,
             "Name": "KVt/soat elektr energiyasi narxi",
-            "Definition": "Ko'rsatkich elektr energiyasi (turar-joy va sanoatda foydalanish) uchun oxirgi foydalanuvchi narxining o'zgarishini o'lchaydi, bunda 2015 yil narxi bazaviy yil sifatida. Vaqt o'tishi bilan energiya tariflarining dinamikasi energiya manbalarini baholash bo'yicha siyosat islohotlarini ko'rsatadi.",
-            "Source": "Oltin sahifalar 2009-2022",
-            "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-            "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
-            "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+            "Definition": "2015 yil narxini bazaviy yil sifatida ishlatgan holda, elektr energiyasi (turar-joy va sanoat foydalanish) uchun oxirgi foydalanuvchi narxidagi o'zgarishlarni o'lchaydi. Vaqt o'tishi bilan energiya tariflarining dinamikasi energiya manbalarini baholash bo'yicha siyosat islohotlarini ko'rsatadi",
+            "Source": "IHTT",
+            "DataRange": "2012-21",
+            "Link1": "https://stats.IHTT.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            },
            {
             "Id": 63,
             "Name": "KVt/soat elektr energiyasi narxi",
-            "Definition": "Ko'rsatkich elektr energiyasi (turar-joy va sanoatda foydalanish) uchun oxirgi foydalanuvchi narxining o'zgarishini o'lchaydi, bunda 2015 yil narxi bazaviy yil sifatida. Vaqt o'tishi bilan energiya tariflarining dinamikasi energiya manbalarini baholash bo'yicha siyosat islohotlarini ko'rsatadi.",
-            "Source": "Oltin sahifalar 2009-2022",
-            "Link": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2022/ ",
-            "Link2": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2021/ ",
-            "Link3": "https://www.goldenpages.uz/benzin-cena/archiv-benzin/2020/"
+            "Definition": "2015 yil narxini bazaviy yil sifatida ishlatgan holda, elektr energiyasi (turar-joy va sanoat foydalanish) uchun oxirgi foydalanuvchi narxidagi o'zgarishlarni o'lchaydi. Vaqt o'tishi bilan energiya tariflarining dinamikasi energiya manbalarini baholash bo'yicha siyosat islohotlarini ko'rsatadi",
+            "Source": "IHTT",
+            "DataRange": "2012-21",
+            "Link1": "https://stats.IHTT.org/Index.aspx?DataSetCode=GREEN_GROWTH",
+            "Link2": ""
            }
     ]
 }

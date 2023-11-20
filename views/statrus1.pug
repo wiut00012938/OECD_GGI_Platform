@@ -148,10 +148,11 @@ html(lang='en')
             p= item.Definition
             h4 Источник:
             p= item.Source
+            h4 Диапазон данных:
+            p= item.DataRange
             h4 Ссылка:
-            a(href=item.Link)= item.Link
+            a(href=item.Link)= item.Link1
             a(href=item.Link2)= item.Link2
-            a(href=item.Link3)= item.Link3
     script(src='https://kit.fontawesome.com/d638520dfa.js', crossorigin='anonymous')
     script(src='https://code.jquery.com/jquery-3.7.0.js')
     script(src='https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js')
