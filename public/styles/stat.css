@@ -362,7 +362,6 @@ input, select{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0%;
     }
     .navigation h2{
         font-size: 1rem;
@@ -471,12 +470,12 @@ input, select{
         font-size: 2rem;
     }
     .navigation h2{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .navigation a i{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .navigation a h3{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }
