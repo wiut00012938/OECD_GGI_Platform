@@ -85,6 +85,9 @@ a.home_page_link:hover{
 .navigation div a i{
     font-size: 8rem;
 }
+i{
+    overflow: hidden;
+}
 .navigation div:hover a{
     color: rgb(59, 140, 233);
     transition: 0.4s;
